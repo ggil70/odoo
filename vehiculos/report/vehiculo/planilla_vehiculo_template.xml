@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<odoo>
+	<data>
+		<template id="planilla_vehiculo_template" name="Reporte Ficha del Bien">
+			<t t-call="web.html_container">
+				<t t-foreach="docs" t-as="o">
+                    
+                            
+					
+						<div class="page">
+                            <div class="header" style="font-size:18px">
+  
+                                                       <b>FICHA PARQUE AUTOMOTOR</b>
+                     </div> 
+                            <t t-call="web.external_layout">
+							<br/>
+							<br/>
+							<br/><br/><br/><br/><br/>
+						    <p style="text-align: center; font-size:20px">
+						        <b>FICHA PARQUE AUTOMOTOR</b>
+						    </p>				
+						    			
+							<table  width="100%" style="border: 1px solid black; border-collapse:collapse;">
+								
+							<tr>
+							    <td colspan="2" style="background:#D7D7D7;text-align: center; border: 1px solid black;">
+									 <p style="margin-top:1px; margin-bottom:1px;"><small> 1. DEPENDENCIA DE ADSCRIPCION DEL VEHICULO</small></p> 
+							    </td>
+							
+							</tr>								
+						    <tr>
+						        <td width="70%" height="5px" style="border: 1px solid black; border-collapse:collapse; 
+						                               border-bottom:0">
+						            <p>&amp;nbsp;<small><b>DEPENDENCIA DE ADSCRIPCION:</b></small></p>
+						        </td>
+						        <td height="5px" style="border: 1px solid black; border-bottom:0">
+						            &amp;nbsp;<small><b>REGION:</b></small>
+						        </td>
+						    </tr>
+						    <tr>
+						        <td width="10%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<span t-field="o.bienes_oficinas_id"/>
+						        </td>
+						        <td  style="border: 1px solid black; border-top:0">
+						            &amp;nbsp;<span t-field="o.bienes_sedes_id"/>
+						        </td>
+						    </tr>	
+							<tr>
+							    <td colspan="2" style="background:#D7D7D7;text-align: center; border: 1px solid black;">
+									 <p style="margin-top:1px; margin-bottom:1px;"><small> 2. CARACTERISTICAS DEL BIEN NACIONAL:</small></p> 
+							    </td>
+							
+							</tr>
+						    </table>   
+						    
+							<table  width="100%" style="border: 1px solid black; border-collapse:collapse;">
+							<tr>
+						        <td width="25%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>NRO. BIEN:</small>
+						        </td>
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            &amp;nbsp;<span t-field="o.bienes_numbien"/>
+						        </td>
+						        <td width="50%" rowspan="13" style="border: 1px solid black; border-top:0 bottom:0">
+
+						            &amp;nbsp;<img t-attf-src="data:image/*;base64,{{o.image}}"/>
+
+
+						            <!-- <scan t-field="o.image" t-field-options="{'widget':'image'}"/> -->
+						        </td>						        
+						    </tr>
+							<tr>
+						        <td width="25%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>ESTADO DEL VEHICULO:</small>
+						        </td>
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            &amp;nbsp;<span t-field="o.estado_bien_id"/>
+						        </td>
+						        <td width="50%"  style="border: 1px solid black; border-top:0 bottom:0">
+									
+						        </td>						        
+						    </tr>
+							<tr>
+						        <td width="25%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>N° CERTIFICADO O TITULO:</small>
+						        </td>
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            &amp;nbsp;<span t-field="o.titulo_prop"/>
+						        </td>
+						        <td width="50%"  style="border: 1px solid black; border-top:0 bottom:0">
+									
+						        </td>						        
+						    </tr>						    
+							<tr>
+						        <td width="25%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>PLACA:</small>
+						        </td>
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            &amp;nbsp;<span t-field="o.placas"/>
+						        </td>
+						        <td width="50%"  style="border: 1px solid black; border-top:0 bottom:0">
+						            
+						        </td>						        
+						    </tr>						    
+							<tr>
+						        <td width="25%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>MARCA:</small>
+						        </td>
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            &amp;nbsp;<span t-field="o.marcas_id"/>
+						        </td>
+						        <td width="50%"  style="border: 1px solid black; border-top:0 bottom:0">
+						            
+						        </td>						        
+						    </tr>	
+						    <tr>
+						        <td width="25%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>MODELO:</small>
+						        </td>
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            &amp;nbsp;<span t-field="o.modelo_fab_id"/>
+						        </td>
+						        <td width="50%"  style="border: 1px solid black; border-top:0 bottom:0">
+						            
+						        </td>						        
+						    </tr>
+						    <tr>
+						        <td width="25%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>AÑO:</small>
+						        </td>
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            &amp;nbsp;<span t-field="o.ano_fab"/>
+						        </td>
+						        <td width="50%"  style="border: 1px solid black; border-top:0 bottom:0">
+						            
+						        </td>						        
+						    </tr>
+						    <tr>
+						        <td width="25%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>COLOR ORIGINAL:</small>
+						        </td>
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            &amp;nbsp;<span t-field="o.color_sudebi_id"/>
+						        </td>
+						        <td width="50%" style="border: 1px solid black; border-top:0 bottom:0">
+						            
+						        </td>						        
+						    </tr>
+						    <tr>
+						        <td width="25%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>COLOR ACTUAL:</small>
+						        </td>
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            
+						        </td>
+						        <td width="50%" style="border: 1px solid black; border-top:0 bottom:0">
+						            
+						        </td>						        
+						    </tr>	
+
+						    
+						    <tr>
+						        <td width="25%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>SERIAL DE CARROCERÍA:</small>
+						        </td>
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            &amp;nbsp;<span t-field="o.serial_carro"/>
+						        </td>
+						        <td width="50%" style="border: 1px solid black; border-top:0 bottom:0">
+						            
+						        </td>						        
+						    </tr>							    					    
+						    <tr>
+						        <td width="25%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>SERIAL DE MOTOR:</small>
+						        </td>
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            &amp;nbsp;<span t-field="o.serial_motor"/>
+						        </td>
+						        <td width="50%" style="border: 1px solid black; border-top:0 bottom:0">
+						            
+						        </td>						        
+						    </tr>
+						    <tr>
+						        <td width="25%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>CLASE:</small>
+						        </td>
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            &amp;nbsp;<span t-field="o.clase_sudebi_id"/>
+						        </td>
+						        <td width="50%" style="border: 1px solid black; border-top:0 bottom:0">
+						            
+						        </td>						        
+						    </tr>	
+						    					    						    <tr>
+						        <td width="25%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>TIPO:</small>
+						        </td>
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            &amp;nbsp;<span t-field="o.tipo_vehiculo"/>
+						        </td>
+						        <td width="50%" style="border: 1px solid black; border-top:0 bottom:0">
+						            
+						        </td>						        
+						    </tr>
+						    					    
+							</table>    
+						    
+						    
+						      						
+                        </div>
+                    </t>        
+				</t> 	
+			</t>		
+		</template>
+	</data>
+</odoo>

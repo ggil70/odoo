@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="tipo_paredes_1" model="tipo_paredes">
+			<field name="tipo_paredes_codigo">1</field>
+			<field name="tipo_paredes_nombre">BLOQUES DE ARCILLA</field>
+		</record>
+		<record id="tipo_paredes_2" model="tipo_paredes">
+			<field name="tipo_paredes_codigo">2</field>
+			<field name="tipo_paredes_nombre">LADRILLOS</field>
+		</record>
+		<record id="tipo_paredes_3" model="tipo_paredes">
+			<field name="tipo_paredes_codigo">3</field>
+			<field name="tipo_paredes_nombre">MADERA</field>
+		</record>
+		<record id="tipo_paredes_4" model="tipo_paredes">
+			<field name="tipo_paredes_codigo">4</field>
+			<field name="tipo_paredes_nombre">BLOQUES DE CONCRETO</field>
+		</record>
+		<record id="tipo_paredes_5" model="tipo_paredes">
+			<field name="tipo_paredes_codigo">5</field>
+			<field name="tipo_paredes_nombre">METÁLICAS</field>
+		</record>
+		
+		<record id="tipo_paredes_6" model="tipo_paredes">
+			<field name="tipo_paredes_codigo">6</field>
+			<field name="tipo_paredes_nombre">OTRAS</field>
+		</record>
+		
+	</data>
+</odoo>
+
+
+
+

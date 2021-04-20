@@ -1,0 +1,704 @@
+<?xml version="1.0"?>
+<odoo>
+	<data>
+		<template id="planilla_evaluo_vehiculo_template" name="Reporte de Color del Bien">
+			<t t-call="web.html_container">
+				<t t-foreach="docs" t-as="o">
+					<t t-call="web.external_layout">
+						<div class="page">
+							<br/>
+							<br/>
+							<br/><br/><br/><br/><br/>
+						    <p style="text-align: center; font-size:20px">
+						        <b>FICHA EVALÚO AUTOMOTOR</b>
+						    </p>				
+						    			
+							<table  width="100%" style="border: 1px solid black; border-collapse:collapse;">
+								
+							<tr>
+							    <td colspan="2" style="background:#D7D7D7;text-align: center; border: 1px solid black;">
+									 <p style="margin-top:1px; margin-bottom:1px;"><small> <b>1. DEPENDENCIA DE ADSCRIPCIÓN DEL VEHICULO</b></small></p> 
+							    </td>
+							
+							</tr>								
+						    <tr>
+						        <td width="70%" height="5px" style="border: 1px solid black; border-collapse:collapse; 
+						                               border-bottom:0">
+						            <p>&amp;nbsp;<small><b>DEPENDENCIA DE ADSCRIPCION:</b></small></p>
+						        </td>
+						        <td height="5px" style="border: 1px solid black; border-bottom:0">
+						            &amp;nbsp;<small><b>REGION:</b></small>
+						        </td>
+						    </tr>
+						    <tr>
+						        <td width="10%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<span t-esc="o['vehiculo_id']['oficinas_id'][0][0]"/>
+						        </td>
+						        <td  style="border: 1px solid black; border-top:0">
+						        </td>
+						    </tr>	
+							<tr>
+							    <td colspan="2" style="background:#D7D7D7;text-align: center; border: 1px solid black;">
+									 <p style="margin-top:1px; margin-bottom:1px;"><small> <b>2. IDENTIFICACIÓN DEL VEHICULO:</b></small></p> 
+							    </td>
+							</tr>
+						    </table>
+							<table  width="100%" style="border: 1px solid black; border-collapse:collapse;">
+							<tr>	
+								<td width="20%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+									&amp;nbsp;<b>NRO. BIEN:</b>&amp;nbsp;&amp;nbsp;<span t-field="o.vehiculo_id"/> 
+								</td>
+								<td colspan="2" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+									&amp;nbsp;<b>DESCRIPCIÓN:</b> &amp;nbsp;<span t-field="o.vehiculo_nombre"/>
+								</td>								
+							</tr>
+							<tr>	
+								<td width="20%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+									&amp;nbsp;<b>PLACA:</b>&amp;nbsp;&amp;nbsp;<span t-field="o.vehiculo_id.placas"/> 
+								</td>
+								<td width="40%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+									&amp;nbsp;<b>SERIAL CARROCERIA:</b>&amp;nbsp;<span t-field="o.vehiculo_id.serial_carro"/> 
+								</td>
+								<td width="40%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+									&amp;nbsp;<b>SERIAL MOTOR:</b>&amp;nbsp;<span t-field="o.vehiculo_id.serial_motor"/>
+								</td>
+							</tr>							
+							</table>						    
+						       
+							<table  width="100%" style="border: 1px solid black; border-collapse:collapse;">
+							<tr>
+							    <td width="50%" style="background:#D7D7D7;text-align: center; border: 1px solid black;">
+									 <p style="margin-top:1px; margin-bottom:1px;"><small> <b>3. EVALUO INTERNO</b></small></p> 
+							    </td>
+							    <td width="50%" style="background:#D7D7D7;text-align: center; border: 1px solid black;">
+									 <p style="margin-top:1px; margin-bottom:1px;"><small> <b>4. COMPONENTE DEL VEHICULO</b></small></p> 
+							    </td>							    
+							
+							</tr>
+							
+							<tr>
+						        <td colspan="2" height="5px" style="border: 1px solid black; border-collapse:collapse; border-top:0 buttom:0;">
+						            <small><b>
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            B = BUENO
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            R = REGULAR
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            M = MALO
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            F = FALSO
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            D = DAÑADO
+						            </b></small>
+						        </td>							
+							
+							</tr>							
+							</table>
+							
+							<table  width="100%" style="border: 1px solid black; border-collapse:collapse;">
+							<tr>
+						        <td width="35%" height="2px">
+						            &amp;nbsp;<small><b>1. MOTOR CONJUNTO:</b></small>
+						        </td>
+						        <td width="10%">
+						            
+						        </td>	
+						        <td width="5%"></td>						        							
+						        <td width="35%">
+						            &amp;nbsp;<small><b>10. AIRE ACONDICIONADO:</b></small>
+						        </td>
+						        
+						        <td width="10%" style="border: 1px solid black; border-top:0">
+						            &amp;nbsp;<span t-field="o.aire_acondicionado"/>
+						        </td>
+						        <td width="5%"></td>	
+						        
+						        							        
+						    </tr>
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>CAMARA:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.motor_camara"/>
+						        </td>	
+						        <td width="5%"></td>							
+						        <td width="35%">
+						            &amp;nbsp;<small><b>11. VIDRIOS PUERTAS:</b></small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black; border-top:0">
+						            &amp;nbsp;<span t-field="o.vidrios_puertas"/>
+						        </td>				
+						        <td width="5%"></td>			        
+						    </tr>
+						    
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>BLOQUE:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black; border-top:0">
+						            &amp;nbsp;<span t-field="o.motor_bloque"/>
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;<small><b>12. PARABRISAS:</b></small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black; border-top:0">
+						            &amp;nbsp;<span t-field="o.parabrisas"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>CARTER:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black; border-top:0">
+						            &amp;nbsp;<span t-field="o.motor_carter"/>
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;<small><b>13. SISTEMA DIRECCIÓN:</b></small>
+						        </td>
+						        <td width="10%">
+						            
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>						    						    
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;<small><b>2. SISTEMA ALINEACIÓN</b></small>
+						        </td>
+						        <td width="10%">
+						            
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            <small>VOLANTE:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.volante"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>SISTEMA DE INYECCIÓN:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.inyeccion"/>
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>CAJETIN:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.cajetin"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>						    
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>TANQUE DE COMBUSTIBLE:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;border-top:0">
+						            &amp;nbsp;<span t-field="o.tanque_combustible"/>
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>BOMBA HIDRÁULICA:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;border-top:0">
+						            &amp;nbsp;<span t-field="o.bomba_hidraulica"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>						    
+							<tr>
+						        <td width="35%" height="2px">
+						            &amp;nbsp;<small><b>3. SISTEMA ENFRIAMIENTO:</b></small>
+						        </td>
+						        <td width="10%">
+						            
+						        </td>	
+						        <td width="5%"></td>						        							
+						        <td width="35%">
+						            &amp;nbsp;<small><b>14. SISTEMADE FRENOS</b></small>
+						        </td>
+						        
+						        <td width="10%">
+						            
+						        </td>
+						        <td width="5%"></td>	
+						        
+						        							        
+						    </tr>						    
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>RADIADOR:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.radiador"/>
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>CILINDROS:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.cilindros"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>	
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>BOMBA DE AGUA:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;border-top:0">
+						            &amp;nbsp;<span t-field="o.bomba_agua"/>
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>HIDROVAC:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;border-top:0">
+						            &amp;nbsp;<span t-field="o.hidrovac"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>						    
+							<tr>
+	        				    <td width="35%">
+						            &amp;nbsp;<small><b>4. SISTEMA DE LUCES</b></small>
+						        </td>
+						        
+						        <td width="10%">
+						            
+						        </td>
+						        <td width="5%"></td>	
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>BANDAS Y PASTILLAS:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;border-top:0">
+						            &amp;nbsp;<span t-field="o.bandas_pastillas"/>
+						        </td>							        
+						        <td width="5%"></td>						        
+						    </tr>						    					    
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>STOP:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.luces_stop"/>
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>TAMBORES Y DISCOS:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;border-top:0">
+						            &amp;nbsp;<span t-field="o.tambores_disco"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>LUCES DELANTERAS::</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;border-top:0">
+						            &amp;nbsp;<span t-field="o.luces_delanteras"/>
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>COMPRESOR DE AIRE:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;border-top:0">
+						            &amp;nbsp;<span t-field="o.compresor_aire"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>
+							<tr>
+						        <td width="35%" height="2px">
+						            &amp;nbsp;<small><b>5. SISTEMA DE CAJA:</b></small>
+						        </td>
+						        <td width="10%">
+						            
+						        </td>	
+						        <td width="5%"></td>						        							
+						        <td width="35%">
+						            &amp;nbsp;<small><b>15. SISTEMA ELÉTRICO:</b></small>
+						        </td>
+						        
+						        <td width="10%">
+						            
+						        </td>
+						        <td width="5%"></td>	
+						        
+						        							        
+						    </tr>						    
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>SINCRONICA O AUTOMATICA:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.sistema_cambios"/>
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>CABLE BORNES Y TERMINAL:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.cables_terminales"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>	
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;<small><b>6 SISTEMA DE ESCAPE:</b></small>
+						        </td>
+						        <td width="10%">
+						            
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            <small>MOTOR DE ARRANQUE:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.motor_arranque"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>						    
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>MÚLTIPLE:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.multiple"/>
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>CABLE BORNES Y TERMINAL:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.cables_terminales"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>						    
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>SILENCIADOR:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.silenciador"/>
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>MOTOR DE ARRANQUE:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.motor_arranque"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>						    
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>BAJANTE:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.bajante"/>
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>CABLEADO ELÉCTRICO:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.cableado_electrico"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>						    
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;<small><b>7. SISTEMA DE TRANSMISIÓN:</b></small>
+						        </td>
+						        <td width="10%">
+						            
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            <small>DISTRIBUIDOR:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.distribuidor"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>						    
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>GRUPO DIFERENCIAL:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.grupo_diferencial"/>
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>16. OTROS:</small>
+						        </td>
+						        <td width="10%">
+						            
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>	
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>CUPLO:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.cuplo"/>
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>LUCES DE CRUCES:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.luces_decruces"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>						    
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>CARDAN:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.cardan"/>
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>CHASIS:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.chasis"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>							    
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>CRUCETAS:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.crucetas"/>
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>RINES:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.rines"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>
+						    <tr>
+						        <td width="35%">
+						            &amp;nbsp;<small><b>8. ACCESORIOS:</b></small>
+						        </td>
+						        <td width="10%">
+						            
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            <small>PUERTAS:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.puertas"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>RADIO:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.radio"/>
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>VIDRIOS:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.vidrios"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>						    
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>ANTENAS:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.antena"/>
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>TAPICERIA:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.tapiceria"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>						    
+						    <tr>
+						        <td width="35%">
+						            &amp;nbsp;<small><b>9. SISTEMA DE SUSPENSIÓN:</b></small>
+						        </td>
+						        <td width="10%">
+						            
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            <small>PINTURA:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.pintura"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>						    
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>TREN DELANTERO:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.tren_delantero"/>
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>INSTRUMENTOS:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.instrumentos"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>						    
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>BUJES:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.bujes"/>
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>CAUCHOS DELANTEROS:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.cauchos_delanteros"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>							    
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>BALLESTA:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.ballestas"/>
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>CAUCHOS TRASEROS:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.cauchos_traseros"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>	
+
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>ESPIRALES:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.espirales"/>
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>MANILLAS:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.manillas"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>
+
+							<tr>
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>MUÑONES TERMINALES:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.munones_terminales"/>
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>CARROCERÍA:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.carroceria"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>
+							<tr>
+						        <td width="35%">
+						            
+						        </td>
+						        <td width="10%" >
+						            
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<small>PARACHOQUES:</small>
+						        </td>
+						        <td width="10%" style="border: 1px solid black;">
+						            &amp;nbsp;<span t-field="o.parachoques"/>
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>
+							<tr>
+						        <td width="35%">
+						            <br/>
+						        </td>
+						        <td width="10%" >
+						            
+						        </td>
+						        <td width="5%"></td>								
+						        <td width="35%">
+						            
+						        </td>
+						        <td width="10%">
+						            
+						        </td>							        
+						        <td width="5%"></td>
+						    </tr>						
+
+						    </table>
+						    
+						    
+						    
+						      						
+                        </div>
+                    </t>        
+				</t> 	
+			</t>		
+		</template>
+	</data>
+</odoo>

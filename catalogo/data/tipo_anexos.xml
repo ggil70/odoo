@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="tipo_anexos_1" model="tipo_anexos">
+			<field name="tipo_anexos_codigo">1</field>
+			<field name="tipo_anexos_nombre">ESTACIONAMIENTOS</field>
+		</record>
+		<record id="tipo_anexos_2" model="tipo_anexos">
+			<field name="tipo_anexos_codigo">2</field>
+			<field name="tipo_anexos_nombre">JARDINES</field>
+		</record>
+		<record id="tipo_anexos_3" model="tipo_anexos">
+			<field name="tipo_anexos_codigo">3</field>
+			<field name="tipo_anexos_nombre">PATIOS</field>
+		</record>
+		<record id="tipo_anexos_4" model="tipo_anexos">
+			<field name="tipo_anexos_codigo">4</field>
+			<field name="tipo_anexos_nombre">OTROS</field>
+		</record>
+	
+		
+	
+	</data>
+</odoo>
+
+
+
+

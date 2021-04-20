@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data noupdate="1">
+      <record id="segu_1" model="aseguradoras">
+         <field name="aseguradoras_codigo">1</field>
+         <field name="aseguradoras_nombre">C.A. de Seguros Avila</field>
+      </record>
+      <record id="segu_2" model="aseguradoras">
+         <field name="aseguradoras_codigo">2</field>
+         <field name="aseguradoras_nombre">C.N.A. de Seguros La Previsora</field>
+      </record>
+      <record id="segu_3" model="aseguradoras">
+         <field name="aseguradoras_codigo">3</field>
+         <field name="aseguradoras_nombre">Mapfre La Seguridad C.A. de Seguros.</field>
+      </record>
+      <record id="segu_4" model="aseguradoras">
+         <field name="aseguradoras_codigo">4</field>
+         <field name="aseguradoras_nombre">Seguros Caracas de Liberty Mutual, C.A.</field>
+      </record>
+      <record id="segu_5" model="aseguradoras">
+         <field name="aseguradoras_codigo">5</field>
+         <field name="aseguradoras_nombre">Estar Seguros, S.A. (Antes Royal &amp; Sun Alliance Seguros (Venezuela) S.A.)</field>
+      </record>
+      <record id="segu_6" model="aseguradoras">
+         <field name="aseguradoras_codigo">6</field>
+         <field name="aseguradoras_nombre">Seguros Venezuela C.A.</field>
+      </record>
+      <record id="segu_7" model="aseguradoras">
+         <field name="aseguradoras_codigo">7</field>
+         <field name="aseguradoras_nombre">Seguros Provincial C.A.</field>
+      </record>
+      <record id="segu_8" model="aseguradoras">
+         <field name="aseguradoras_codigo">8</field>
+         <field name="aseguradoras_nombre">Adriática de Seguros, C.A</field>
+      </record>
+      <record id="segu_9" model="aseguradoras">
+         <field name="aseguradoras_codigo">9</field>
+         <field name="aseguradoras_nombre">Seguros Carabobo, C.A.</field>
+      </record>
+      <record id="segu_10" model="aseguradoras">
+         <field name="aseguradoras_codigo">10</field>
+         <field name="aseguradoras_nombre">La Venezolana de Seguros y de Vida, C.A.</field>
+      </record>
+      <record id="segu_11" model="aseguradoras">
+         <field name="aseguradoras_codigo">11</field>
+         <field name="aseguradoras_nombre">Seguros Los Andes, C.A.</field>
+      </record>
+      <record id="segu_12" model="aseguradoras">
+         <field name="aseguradoras_codigo">12</field>
+         <field name="aseguradoras_nombre">Seguros Nuevo Mundo S.A.</field>
+      </record>
+      <record id="segu_13" model="aseguradoras">
+         <field name="aseguradoras_codigo">13</field>
+         <field name="aseguradoras_nombre">Seguros Horizonte, C.A.</field>
+      </record>
+      <record id="segu_14" model="aseguradoras">
+         <field name="aseguradoras_codigo">14</field>
+         <field name="aseguradoras_nombre">C.A. de Seguros La Occidental</field>
+      </record>
+      <record id="segu_15" model="aseguradoras">
+         <field name="aseguradoras_codigo">15</field>
+         <field name="aseguradoras_nombre">C.A. Seguros Catatumbo</field>
+      </record>
+      <record id="segu_16" model="aseguradoras">
+         <field name="aseguradoras_codigo">16</field>
+         <field name="aseguradoras_nombre">Seguros La Fe C.A.</field>
+      </record>
+      <record id="segu_17" model="aseguradoras">
+         <field name="aseguradoras_codigo">17</field>
+         <field name="aseguradoras_nombre">C.A. de Seguros American International</field>
+      </record>
+      <record id="segu_18" model="aseguradoras">
+         <field name="aseguradoras_codigo">18</field>
+         <field name="aseguradoras_nombre">Seguros Virgen del Valle, C.A.</field>
+      </record>
+      <record id="segu_19" model="aseguradoras">
+         <field name="aseguradoras_codigo">19</field>
+         <field name="aseguradoras_nombre">Seguros Federal, C.A. (Antes Seguros Federación C.A.).</field>
+      </record>
+      <record id="segu_20" model="aseguradoras">
+         <field name="aseguradoras_codigo">20</field>
+         <field name="aseguradoras_nombre">La Mundial C.A. Venezolana de Seguros de Crédito</field>
+      </record>
+      <record id="segu_21" model="aseguradoras">
+         <field name="aseguradoras_codigo">21</field>
+         <field name="aseguradoras_nombre">Mercantil Seguros , C.A.</field>
+      </record>
+      <record id="segu_22" model="aseguradoras">
+         <field name="aseguradoras_codigo">22</field>
+         <field name="aseguradoras_nombre">C.A. Seguros Guayana</field>
+      </record>
+      <record id="segu_23" model="aseguradoras">
+         <field name="aseguradoras_codigo">23</field>
+         <field name="aseguradoras_nombre">La Oriental de Seguros C.A.</field>
+      </record>
+      <record id="segu_24" model="aseguradoras">
+         <field name="aseguradoras_codigo">24</field>
+         <field name="aseguradoras_nombre">Seguros Pirámide C.A.</field>
+      </record>
+      <record id="segu_25" model="aseguradoras">
+         <field name="aseguradoras_codigo">25</field>
+         <field name="aseguradoras_nombre">Seguros Universitas, C.A. (Antes Universitas de Seguros C.A.)</field>
+      </record>
+      <record id="segu_26" model="aseguradoras">
+         <field name="aseguradoras_codigo">26</field>
+         <field name="aseguradoras_nombre">Interbank Seguros S.A.</field>
+      </record>
+      <record id="segu_27" model="aseguradoras">
+         <field name="aseguradoras_codigo">27</field>
+         <field name="aseguradoras_nombre">La Regional C.A. de Seguros</field>
+      </record>
+      <record id="segu_28" model="aseguradoras">
+         <field name="aseguradoras_codigo">28</field>
+         <field name="aseguradoras_nombre">Multinacional de Seguros C.A.</field>
+      </record>
+      <record id="segu_29" model="aseguradoras">
+         <field name="aseguradoras_codigo">29</field>
+         <field name="aseguradoras_nombre">Zuma Seguros, C.A. (Antes Seguros Bancentro S.A.)</field>
+      </record>
+      <record id="segu_30" model="aseguradoras">
+         <field name="aseguradoras_codigo">30</field>
+         <field name="aseguradoras_nombre">Seguros Constitución C.A. (Antes Seguros Sofitasa)</field>
+      </record>
+      <record id="segu_31" model="aseguradoras">
+         <field name="aseguradoras_codigo">31</field>
+         <field name="aseguradoras_nombre">Seguros Comerciales Bolívar S.A.</field>
+      </record>
+      <record id="segu_32" model="aseguradoras">
+         <field name="aseguradoras_codigo">32</field>
+         <field name="aseguradoras_nombre">C.A. de Seguros La Internacional</field>
+      </record>
+      <record id="segu_33" model="aseguradoras">
+         <field name="aseguradoras_codigo">33</field>
+         <field name="aseguradoras_nombre">Seguros Premier, C.A (antes Chubb de Venezuela). 1/ </field>
+      </record>
+      <record id="segu_36" model="aseguradoras">
+         <field name="aseguradoras_codigo">37</field>
+         <field name="aseguradoras_nombre">Seguros Corporativos C.A.</field>
+      </record>
+      <record id="segu_37" model="aseguradoras">
+         <field name="aseguradoras_codigo">38</field>
+         <field name="aseguradoras_nombre">Seguros Banvalor C.A</field>
+      </record>
+      <record id="segu_38" model="aseguradoras">
+         <field name="aseguradoras_codigo">39</field>
+         <field name="aseguradoras_nombre">Proseguros, S.A. (antes Rescarven)</field>
+      </record>
+      <record id="segu_39" model="aseguradoras">
+         <field name="aseguradoras_codigo">40</field>
+         <field name="aseguradoras_nombre">Seguros Altamira C.A</field>
+      </record>
+      <record id="segu_40" model="aseguradoras">
+         <field name="aseguradoras_codigo">41</field>
+         <field name="aseguradoras_nombre">Seguros Canarias de Venezuela C.A.</field>
+      </record>
+      <record id="segu_41" model="aseguradoras">
+         <field name="aseguradoras_codigo">42</field>
+         <field name="aseguradoras_nombre">Banesco Seguros C.A.</field>
+      </record>
+      <record id="segu_42" model="aseguradoras">
+         <field name="aseguradoras_codigo">43</field>
+         <field name="aseguradoras_nombre">Seguros Caroní C.A.</field>
+      </record>
+      <record id="segu_43" model="aseguradoras">
+         <field name="aseguradoras_codigo">44</field>
+         <field name="aseguradoras_nombre">Universal de Seguros C.A.</field>
+      </record>
+      <record id="segu_44" model="aseguradoras">
+         <field name="aseguradoras_codigo">45</field>
+         <field name="aseguradoras_nombre">Aseguradora Nacional Unida Uniseguros, S.A.</field>
+      </record>
+      <record id="segu_45" model="aseguradoras">
+         <field name="aseguradoras_codigo">46</field>
+         <field name="aseguradoras_nombre">Hispana de Seguros C.A.</field>
+      </record>
+      <record id="segu_46" model="aseguradoras">
+         <field name="aseguradoras_codigo">47</field>
+         <field name="aseguradoras_nombre">Primus Seguros, C.A.</field>
+      </record>
+      <record id="segu_47" model="aseguradoras">
+         <field name="aseguradoras_codigo">48</field>
+         <field name="aseguradoras_nombre">Oceánica de Seguros, C.A (Antes Grupo Asegurador Previsional (Grasp), C.A.)</field>
+      </record>
+      <record id="segu_48" model="aseguradoras">
+         <field name="aseguradoras_codigo">49</field>
+         <field name="aseguradoras_nombre">Seguros Qualitas C.A.</field>
+      </record>
+      <record id="segu_49" model="aseguradoras">
+         <field name="aseguradoras_codigo">50</field>
+         <field name="aseguradoras_nombre">Seguros La Vitalicia, C.A. </field>
+      </record>
+      <record id="segu_50" model="aseguradoras">
+         <field name="aseguradoras_codigo">51</field>
+         <field name="aseguradoras_nombre">Iberoamericana de Seguros, C.A.</field>
+      </record>
+      <record id="segu_51" model="aseguradoras">
+         <field name="aseguradoras_codigo">52</field>
+         <field name="aseguradoras_nombre">ZURICH SEGUROS S.A.</field>
+      </record>
+      <record id="segu_53" model="aseguradoras">
+         <field name="aseguradoras_codigo">54</field>
+         <field name="aseguradoras_nombre">Otra Compañía de Seguro</field>
+      </record>
+	</data>
+</odoo>
+
+

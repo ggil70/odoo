@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<odoo>
+	<data>
+		
+		<template id="planilla_vehiculo_csv_template" name="Reporte de Vehiculo CSV">
+		  <t t-call="report.html_container">
+	
+			<t t-foreach="docs" t-as="o"> 
+				 <t t-call="report.internal_layout">
+					<t t-set= "sw_encabezado" t-value="0" > </t>
+			       <t t-set= "id_repetidos" t-value="0" > </t>
+				    <t t-if="sw_encabezado== 0">
+				    	<t t-set= "mes" t-value="datetime.datetime.strptime(o.bienes_ministerio.fecha_remision, '%Y-%m-%d').strftime('%m')" > </t>
+						<t t-set= "dia" t-value="datetime.datetime.strptime(o.bienes_ministerio.fecha_remision, '%Y-%m-%d').strftime('%d')" > </t>
+						<t t-set= "anio" t-value="datetime.datetime.strptime(o.bienes_ministerio.fecha_remision, '%Y-%m-%d').strftime('%Y')" > </t>
+				    	 <t t-raw="o.bienes_ministerio.rif +';'+o.bienes_ministerio.nsudebip+';'+dia+mes+anio+'\n'"></t>
+						 <t t-set= "sw_encabezado" t-value="1"></t>
+				     </t>
+				      	<t t-raw="o.id"/>;<t t-raw="o.marcas_id.marcas_nombre"/>
+					 	 	<t t-set= "id_repetidos" t-value="o.marcas_id.id" >  </t>
+			</t>	     
+		</t>
+	</t>
+				<!--<t t-foreach="docs" t-as="o"> 
+				       	 <t t-if="id_repetidos!= o.marcas_id.id"> 
+						 	<t t-esc="o.id"/>;<t t-esc="o.marcas_id.marcas_nombre"/>
+					 	 	<t t-set= "id_repetidos" t-value="o.marcas_id.id" >  </t>
+				    	 </t> 
+				  	
+			</t>-->	
+				 
+		</template>
+	</data>
+</odoo>
+		
+		

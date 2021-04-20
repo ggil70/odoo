@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+
+	
+    <record model="ir.ui.view" id="view_modelo_fab_form">
+        <field name="name">modelo_fab.form</field>
+        <field name="model">modelo_fab</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="modelo_fab">
+			  <sheet>
+				<notebook>
+				  <page string="Modelo de Fabrica del Bien">	    
+					<group col="4" colspan="2">
+
+						<field name="marcas_id" select="0"/>
+						<field name="marcas_codigo" readonly="True" force_save="1"/>
+						<field name="modelo_fab_nombre" select="2"/>
+						<field name="modelo_fab_codigo" select="1"/>
+   					</group>			
+				  </page>
+		       </notebook>
+		      </sheet>	
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_modelo_fab_tree">
+        <field name="name">modelo_fab.tree</field>
+        <field name="model">modelo_fab</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="modelo_fab">
+
+               <field name="marcas_id" select="0"/>
+				<field name="marcas_codigo" />
+				<field name="modelo_fab_nombre" select="2"/>
+				<field name="modelo_fab_codigo" select="1"/>
+            </tree>
+        </field>
+    </record>
+
+     <record model="ir.actions.act_window" id="action_modelo_fab">
+        <field name="name">Modelo de Fabrica del Bien</field>
+        <field name="res_model">modelo_fab</field>
+    
+        <field name="view_mode">tree,form</field>
+    </record>
+	
+
+	<menuitem name="Modelo de Fabrica del Bien" id="menu_modelo_fab"  parent="menu_cat_in"
+	 action="action_modelo_fab" sequence="100"/>
+</data>
+</odoo>
+
+

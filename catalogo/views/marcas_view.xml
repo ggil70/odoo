@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+
+	<record model="ir.ui.view" id="view_marcas_form">
+        <field name="name">marcas.form</field>
+        <field name="model">marcas</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="marcas_bien">
+			  <sheet>
+				<notebook>
+				  <page string="Marcas de Bienes">	    
+					<group col="4" colspan="2">
+						<field name="marcas_codigo" readonly="True" force_save="1"/>
+						<field name="marcas_nombre" select="2"/>
+                        <field name="marcas_fabricante" select="2"/>
+   					</group>			
+				  </page>
+		       </notebook>
+		      </sheet>	
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_marcas_tree">
+        <field name="name">marcas.tree</field>
+        <field name="model">marcas</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="marcas">
+
+                <field name="marcas_codigo"/>
+				<field name="marcas_nombre"/>
+                <field name="marcas_fabricante"/>
+               
+            </tree>
+        </field>
+    </record>
+
+     <record model="ir.actions.act_window" id="action_marcas">
+        <field name="name">Marcas del Bien</field>
+        <field name="res_model">marcas</field>
+    
+        <field name="view_mode">tree,form</field>
+    </record>
+	
+
+	<menuitem name="Marcas de Bienes" id="menu_marcas"  parent="menu_cat_in"
+	 action="action_marcas" sequence="90" />
+</data>
+</odoo>
+
+

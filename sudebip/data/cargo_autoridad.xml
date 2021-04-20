@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="autoridad_1" model="cargo_autoridad">
+			<field name="cargo_autoridad_codigo">0</field>
+			<field name="cargo_autoridad_nombre">Presidente de la República</field>
+		</record>
+        <record id="cargo_autoridad_2" model="cargo_autoridad">
+			<field name="cargo_autoridad_codigo">1</field>
+			<field name="cargo_autoridad_nombre">Gobernador (a) del Estado</field>
+		</record>		
+        <record id="cargo_autoridad_3" model="cargo_autoridad">
+			<field name="cargo_autoridad_codigo">2</field>
+			<field name="cargo_autoridad_nombre">Alcalde (sa) de Municipio</field>
+		</record>
+		
+	</data>
+</odoo>
+
+
+
+

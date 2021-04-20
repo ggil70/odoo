@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="uso_inmueble_1" model="uso_inmueble">
+			<field name="uso_inmueble_codigo">1</field>
+			<field name="uso_inmueble_nombre">Residencial</field>
+		</record>
+		<record id="uso_inmueble_2" model="uso_inmueble">
+			<field name="uso_inmueble_codigo">2</field>
+			<field name="uso_inmueble_nombre">Agricola</field>
+		</record>
+		<record id="uso_inmueble_3" model="uso_inmueble">
+			<field name="uso_inmueble_codigo">3</field>
+			<field name="uso_inmueble_nombre">Turístico</field>
+		</record>
+		<record id="uso_inmueble_4" model="uso_inmueble">
+			<field name="uso_inmueble_codigo">4</field>
+			<field name="uso_inmueble_nombre">Comercial</field>
+		</record>
+		<record id="uso_inmueble_5" model="uso_inmueble">
+			<field name="uso_inmueble_codigo">5</field>
+			<field name="uso_inmueble_nombre">Educativo</field>
+		</record>
+		<record id="uso_inmueble_6" model="uso_inmueble">
+			<field name="uso_inmueble_codigo">6</field>
+			<field name="uso_inmueble_nombre">Asistencial</field>
+		</record>
+		<record id="uso_inmueble_7" model="uso_inmueble">
+			<field name="uso_inmueble_codigo">7</field>
+			<field name="uso_inmueble_nombre">De Oficina</field>
+		</record>
+		<record id="uso_inmueble_8" model="uso_inmueble">
+			<field name="uso_inmueble_codigo">8</field>
+			<field name="uso_inmueble_nombre">Industrial</field>
+		</record>
+		<record id="uso_inmueble_9" model="uso_inmueble">
+			<field name="uso_inmueble_codigo">9</field>
+			<field name="uso_inmueble_nombre">Otro Uso</field>
+		</record>
+		
+	</data>
+</odoo>
+
+
+
+

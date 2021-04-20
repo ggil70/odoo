@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<!--
+                       Catalogo Interno de Bienes
+-->
+	<record model="ir.ui.view" id="grupo_bien.list">
+		<field name="name">grupo_bien list</field>
+		<field name="model">grupo_bien</field>
+		
+		<field name="arch" type="xml">
+			<form string="grupo_bien">
+				<sheet>
+					<notebook>
+						<page string="Grupos de Bienes">	    
+							<group col="4" colspan="2">
+
+								<field name="grupo_bien_codigo" select="1"/>
+								<field name="grupo_bien_nombre" select="2"/>
+								<field name="grupo_bien_partidapre" select="0"/>
+							</group>
+						</page>
+					</notebook>
+				</sheet>
+			</form>
+		</field>
+	</record>
+    
+    <record model="ir.ui.view" id="view_grupo_bien_tree">
+        <field name="name">grupo_bien.tree</field>
+        <field name="model">grupo_bien</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="grupo_bien">
+<!--
+                <field name="grupo_bien_codigo"/>
+-->
+                <field name="grupo_bien_nombre"/>
+                <field name="grupo_bien_partidapre"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_grupo_bien">
+        <field name="name">Grupo de Bienes</field>
+        <field name="res_model">grupo_bien</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+   
+
+
+    <record model="ir.ui.view" id="view_clasificador_bien_form">
+        <field name="name">clasificador_bien.form</field>
+        <field name="model">clasificador_bien</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="clasificador_bien">
+				<sheet>
+					<notebook>
+						<page string="Clasificador de Bienes">	    
+							<group col="4" colspan="2">
+<!--
+								<field name="clasificador_codigo" select="1"/>
+-->                             <field name="grupo_bien_id" select="0"/>
+								<field name="clasificador_nombre" select="2"/>
+			
+							</group>
+						</page>
+					</notebook>
+				</sheet>
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_clasificador_bien_tree">
+        <field name="name">clasificador_bien.tree</field>
+        <field name="model">clasificador_bien</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="clasificador_bien">
+<!--
+                <field name="clasificador_codigo"/>
+-->
+                <field name="grupo_bien_id"/>
+                <field name="clasificador_nombre"/>
+               
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_clasificador_search">
+        <field name="name">clasificador_search</field>
+        <field name="model">clasificador_bien</field>
+        <field name="type">search</field>
+        <field name="arch" type="xml">
+            <search string="Busquedas de Clasficador">
+                <field name="grupo_bien_id" select="0"/>
+                <field name="clasificador_nombre" select="2"/>
+               
+             </search>
+         
+        </field>
+    </record>        
+
+
+
+
+
+
+
+
+    <record model="ir.actions.act_window" id="action_clasificador_bien">
+        <field name="name">Clasificador de Bienes</field>
+        <field name="res_model">clasificador_bien</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+         
+   
+    <record model="ir.ui.view" id="view_modelo_bien_form">
+        <field name="name">modelo_bien.form</field>
+        <field name="model">modelo_bien</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="modelo_bien">
+			  <sheet>
+				<notebook>
+				  <page string="Modelos de Bienes">	    
+					<group col="4" colspan="2">
+<!--
+						<field name="modelo_codigo" select="1"/>
+                    -->
+                        <field name="grupo_bien_id"/>
+						<field name="clasificador_id" select="0"/>
+                        <field name="modelo_nombre" select="2"/>
+						
+					</group>
+				  </page>
+			    </notebook>
+			</sheet>
+          </form>
+       </field>
+    </record>
+    <record model="ir.ui.view" id="view_modelo_bien_tree">
+        <field name="name">modelo_bien.tree</field>
+        <field name="model">modelo_bien</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="modelo_bien">
+<!--
+                <field name="modelo_codigo"/>
+-->
+                <field name="grupo_bien_id"/>
+                <field name="clasificador_id"/>
+                <field name="modelo_nombre"/>
+               
+            </tree>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_modelo_bien_search">
+        <field name="name">modelo_bien_search</field>
+        <field name="model">modelo_bien</field>
+        <field name="type">search</field>
+        <field name="arch" type="xml">
+            <search string="Busquedas de Modelo del Bien">
+                <field name="grupo_bien_id"/>
+                <field name="clasificador_id"/>
+                <field name="modelo_nombre"/> 
+               
+             </search>
+         
+        </field>
+    </record>        
+
+    <record model="ir.actions.act_window" id="action_modelo_bien">
+        <field name="name">Modelo de Bienes</field>
+        <field name="res_model">modelo_bien</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+ 
+    <record model="ir.ui.view" id="view_detalle_modelo_bien_form">
+        <field name="name">detalle_modelo_bien.form</field>
+        <field name="model">detalle_modelo_bien</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="detalle_modelo_bien">
+			  <sheet>
+				<notebook>
+				  <page string="Detalle del Modelo de Bienes">	    
+					<group col="4" colspan="2">
+<!--
+				       <field name="detalle_modelo_codigo" select="1"/>
+-->    
+                       <field name="grupo_bien_id"/>
+                       <field name="clasificador_id" select="0"/>
+                       <field name="modelo_id" select="0"/>
+				       <field name="detalle_modelo_nombre" select="2"/>
+				
+					</group>			
+				 </page>
+			   </notebook>
+			  </sheet>	
+			</form>
+		</field>
+    </record>
+    <record model="ir.ui.view" id="view_detalle_modelo_bien_tree">
+        <field name="name">detalle_modelo_bien.tree</field>
+        <field name="model">detalle_modelo_bien</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="detalle_modelo_bien">
+<!--
+                <field name="detalle_modelo_codigo"/>
+-->             
+                <field name="grupo_bien_id"/>
+                <field name="clasificador_id" select="0"/>
+                <field name="modelo_id"/>
+                <field name="detalle_modelo_nombre"/>
+            
+
+            </tree>
+        </field>
+    </record>
+    
+    <record model="ir.ui.view" id="view_detalle_modelo_bien_search">
+        <field name="name">detalle_modelo_bien_search</field>
+        <field name="model">detalle_modelo_bien</field>
+        <field name="type">search</field>
+        <field name="arch" type="xml">
+            <search string="Busquedas de Modelo del Bien">
+                <field name="grupo_bien_id" />
+                <field name="clasificador_id"/>
+                <field name="modelo_id"/> 
+                <field name="detalle_modelo_nombre"/>
+               
+             </search>
+         
+        </field>
+    </record>    
+
+    <record model="ir.actions.act_window" id="action_detalle_modelo_bien">
+        <field name="name">Detalle del Modelo de Bienes</field>
+        <field name="res_model">detalle_modelo_bien</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+  
+    <record model="ir.ui.view" id="view_color_form">
+        <field name="name">color.form</field>
+        <field name="model">color</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="color">
+			  <sheet>
+				<notebook>
+				  <page string="Color del Bien">	    
+					<group col="4" colspan="2">
+<!--
+						<field name="codigo_color" select="1"/>
+-->
+						<field name="color_nombre" select="2"/>
+   					</group>			
+				 </page>
+			   </notebook>
+			  </sheet>	
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_color_tree">
+        <field name="name">color.tree</field>
+        <field name="model">color</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="color">
+<!--
+                <field name="codigo_color"/>
+-->
+                <field name="color_nombre"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_color">
+        <field name="name">Color de los Bienes </field>
+        <field name="res_model">color</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+  
+  
+   <record model="ir.ui.view" id="view_marcas_form">
+        <field name="name">marcas.form</field>
+        <field name="model">marcas</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="marcas">
+			  <sheet>
+				<notebook>
+				  <page string="Marcas del Bien">	    
+					<group col="4" colspan="2">
+<!--
+						<field name="marcas_codigo" select="1"/>
+-->
+						<field name="marcas_nombre" select="2"/>
+                        <field name="marcas_fabricante" select="2"/>
+   					</group>			
+				 </page>
+		       </notebook>
+		      </sheet>	
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_marcas_tree">
+        <field name="name">marcas.tree</field>
+        <field name="model">marcas</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="marcas">
+<!--
+                <field name="marcas_codigo"/>
+-->
+                <field name="marcas_nombre"/>
+                 <field name="marcas_fabricante"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_marcas">
+        <field name="name">Marcas del Bien</field>
+        <field name="res_model">marcas</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+   
+ 
+  
+    <record model="ir.ui.view" id="view_modelo_fab_form">
+        <field name="name">modelo_fab.form</field>
+        <field name="model">modelo_fab</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="modelo_fab">
+				<sheet>
+			       <notebook>
+				     <page string="Modelo de Fabrica del Bien">	    
+					    <group col="4" colspan="2">
+<!--
+							<field name="modelo_fab_codigo" select="1"/>
+-->
+							<field name="modelo_fab_nombre" select="2"/>
+							<field name="marcas_id" select="0"/>
+						</group>			
+				    </page>
+		         </notebook>
+		       </sheet>	
+          </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_modelo_fab_tree">
+        <field name="name">modelo_fab.tree</field>
+        <field name="model">modelo_fab</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="modelo_fab">
+<!--
+                <field name="modelo_fab_codigo"/>
+-->
+                <field name="modelo_fab_nombre"/>
+                <field name="marcas_id"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_modelo_fab">
+        <field name="name">Modelo de Fabrica del Bien</field>
+        <field name="res_model">modelo_fab</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+
+        
+    <record model="ir.ui.view" id="view_material_form">
+        <field name="name">material.form</field>
+        <field name="model">material</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="material">
+				<sheet>
+			       <notebook>
+				     <page string="Material del Bien">	    
+					    <group col="4" colspan="2">
+<!--
+							<field name="material_codigo" select="1"/>
+-->
+							<field name="material_nombre" select="2"/>
+						</group>			
+				    </page>
+		         </notebook>
+		       </sheet>			
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_material_tree">
+        <field name="name">material.tree</field>
+        <field name="model">material</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="material">
+<!--
+                <field name="material_codigo"/>
+-->
+                <field name="material_nombre"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_material">
+        <field name="name">Material del Bien</field>
+        <field name="res_model">material</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+     
+  
+
+<!--
+****************Ubicacion Fisica**************************
+-->
+<record model="ir.ui.view" id="view_ubicacion_fisica_form">
+        <field name="name">ubicacion_fisica.form</field>
+        <field name="model">ubicacion_fisica</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="ubicacion_fisica">
+                <sheet>
+                   <notebook>
+                     <page string="Ubicación Fisica del Bien">      
+                        <group col="2" colspan="2">
+                            <field name="ubicacion_fisica_nombre" select="1"/>
+                        </group>    
+                     </page>
+                   </notebook>
+                </sheet>     
+            </form>
+        </field>
+</record>
+
+<record model="ir.ui.view" id="view_ubicacion_fisica_tree">
+        <field name="name">ubicacion_fisica.tree</field>
+        <field name="model">ubicacion_fisica</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="ubicacion_fisica">
+               <field name="ubicacion_fisica_nombre"/>
+
+            </tree>
+        </field>
+</record>
+
+<record model="ir.actions.act_window" id="action_ubicacion_fisica">
+        <field name="name">Ubicación Fisica del Bien</field>
+        <field name="res_model">ubicacion_fisica</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+</record>
+<!--
+****************Fin Ubicacion Fisica**************************
+-->
+
+
+
+
+
+
+
+<!--
+****************Tipos de Estatus de Inventario*******************
+-->
+    <record model="ir.ui.view" id="view_tipo_estatus_inventario_form">
+        <field name="name">tipo_estatus_inventario.form</field>
+        <field name="model">tipo_estatus_inventario</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Tipo de Estatus de Inventario">
+                <sheet>
+                    <notebook>
+                        <page string="Tipos de Estatus">       
+                            <group col="4" colspan="2">                
+                 
+                                <field name="nom_estatus" select="2"/>
+                                <field name="cod_estatus" select="2"/>
+            
+                            </group>
+                         </page>
+                     </notebook>       
+                 </sheet>    
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_tipo_estatus_inventario_tree">
+        <field name="name">tipo_estatus_inventario.tree</field>
+        <field name="model">tipo_estatus_inventario</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Tipo de Estatus de Inventario">
+                 <field name="nom_estatus" select="2"/>
+                 <field name="cod_estatus" select="2"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_tipo_estatus_inventario">
+        <field name="name">Tipos de Estatus de Inventario</field>
+        <field name="res_model">tipo_estatus_inventario</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+
+
+
+
+
+
+
+
+<!--
+				Fin del Catalogo Interno de Bienes
+-->
+  
+             
+<!--
+****************movimientos**************************
+-->            
+      
+
+
+
+<!--
+****************Tipos de Movimientos*******************
+-->
+    <record model="ir.ui.view" id="view_tipo_movimiento_form">
+        <field name="name">tipo_movimiento.form</field>
+        <field name="model">tipo_movimiento</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Tipo de Movimientos">
+                <sheet>
+                    <notebook>
+                        <page string="Tipos de Movimientos">       
+                            <group col="4" colspan="2">                
+                 
+                                <field name="nom_mov" select="2"/>
+                                <field name="cod_mov" select="2"/>
+            
+                            </group>
+                         </page>
+                     </notebook>       
+                 </sheet>    
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_tipo_movimiento_tree">
+        <field name="name">tipo_movimiento.tree</field>
+        <field name="model">tipo_movimiento</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Tipos de Movimientos">
+                <field name="nom_mov"/>
+                <field name="cod_mov"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_tipo_movimiento">
+        <field name="name">Movimiento</field>
+        <field name="res_model">tipo_movimiento</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+
+<!--
+****************Ente Externo*******************
+-->
+    <record model="ir.ui.view" id="view_ente_externo_form">
+        <field name="name">ente_externo.form</field>
+        <field name="model">ente_externo</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="ente_externo">
+            <group col="4" colspan="2">
+                <field name= "ente_externo_rif" select="2"/>
+                <field name= "ente_externo_nombre" select="2"/>
+                <field name= "ente_externo_cedula" select="2"/>
+                <field name= "ente_externo_funcionario" select="2"/>
+                <field name= "ente_externo_telf" select="2"/>
+                <field name= "ente_externo_correo" select="2"/>
+            </group>
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_ente_externo_tree">
+        <field name="name">ente_externo.tree</field>
+        <field name="model">ente_externo</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="ente_externo">
+                <field name= "ente_externo_rif"/>
+                <field name= "ente_externo_nombre"/>
+                <field name= "ente_externo_cedula"/>
+                <field name= "ente_externo_funcionario"/>
+                <field name= "ente_externo_telf"/>
+                <field name= "ente_externo_correo"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_ente_externo">
+        <field name="name">Ente Externo</field>
+        <field name="res_model">ente_externo</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+
+
+
+
+
+
+
+
+
+
+
+            
+<!--
+****************inmuebles**************************
+-->            
+            
+    
+
+<!--
+                       estructura_inmueble
+-->
+    <record model="ir.ui.view" id="view_estructura_inmueble_form">
+        <field name="name">estructura_inmueble.form</field>
+        <field name="model">estructura_inmueble</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Estructura del Inmueble">
+                <sheet>
+                    <notebook>
+                        <page string="Estructura del Inmueble">        
+                            <group col="4" colspan="2">
+
+                                <field name="estructura_codigo" select="1"/>
+                                <field name="estructura_nombre" select="2"/>
+
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    
+    <record model="ir.ui.view" id="view_estructura_inmueble_tree">
+        <field name="name">estructura_inmueble.tree</field>
+        <field name="model">estructura_inmueble</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Estructura del Inmueble">
+                <field name="estructura_codigo"/>
+                <field name="estructura_nombre"/>
+
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_estructura_inmueble">
+
+        <field name="name">estructura_inmueble</field>
+        <field name="res_model">estructura_inmueble</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+   
+
+    
+   <!-- 
+                       tipo_piso_inmueble
+-->
+    <record model="ir.ui.view" id="view_tipo_piso_form">
+        <field name="name">tipo_piso.form</field>
+        <field name="model">tipo_piso</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Tipo de Pisos">
+                <sheet>
+                    <notebook>
+                        <page string="Tipo de Pisos">        
+                            <group col="4" colspan="2">
+
+                                <field name="tipo_piso_codigo" select="1"/>
+                                <field name="tipo_piso_nombre" select="2"/>
+
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    
+    <record model="ir.ui.view" id="view_tipo_piso_tree">
+        <field name="name">tipo_piso.tree</field>
+        <field name="model">tipo_piso</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Tipo de Pisos">
+                <field name="tipo_piso_codigo"/>
+                <field name="tipo_piso_nombre"/>
+
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_tipo_piso">
+
+        <field name="name">tipo_piso</field>
+        <field name="res_model">tipo_piso</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+   
+
+    
+
+    
+   <!-- 
+                       tipo_paredes_inmueble
+-->
+    <record model="ir.ui.view" id="view_tipo_paredes_form">
+        <field name="name">tipo_paredes.form</field>
+        <field name="model">tipo_paredes</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Tipo de Paredes">
+                <sheet>
+                    <notebook>
+                        <page string="Tipo de Paredes">        
+                            <group col="4" colspan="2">
+
+                                <field name="tipo_paredes_codigo" select="1"/>
+                                <field name="tipo_paredes_nombre" select="2"/>
+
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    
+    <record model="ir.ui.view" id="view_tipo_paredes_tree">
+        <field name="name">tipo_paredes.tree</field>
+        <field name="model">tipo_paredes</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Tipo de Paredes">
+                <field name="tipo_paredes_codigo"/>
+                <field name="tipo_paredes_nombre"/>
+
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_tipo_paredes">
+
+        <field name="name">tipo_paredes</field>
+        <field name="res_model">tipo_paredes</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+   
+
+
+  
+   <!-- 
+                       tipo_techo_inmueble
+-->
+    <record model="ir.ui.view" id="view_tipo_techo_form">
+        <field name="name">tipo_techo.form</field>
+        <field name="model">tipo_techo</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Tipo de Techo">
+                <sheet>
+                    <notebook>
+                        <page string="Tipo de Techo">        
+                            <group col="4" colspan="2">
+
+                                <field name="tipo_techo_codigo" select="1"/>
+                                <field name="tipo_techo_nombre" select="2"/>
+
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    
+    <record model="ir.ui.view" id="view_tipo_techo_tree">
+        <field name="name">tipo_techo.tree</field>
+        <field name="model">tipo_techo</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Tipo de Techo">
+                <field name="tipo_techo_codigo"/>
+                <field name="tipo_techo_nombre"/>
+
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_tipo_techo">
+
+        <field name="name">tipo_techo</field>
+        <field name="res_model">tipo_techo</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+   
+
+  
+
+
+
+   <!-- 
+                       tipo_puertas_inmueble
+-->
+    <record model="ir.ui.view" id="view_tipo_puertas_form">
+        <field name="name">tipo_puertas.form</field>
+        <field name="model">tipo_puertas</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Tipo de Puertas">
+                <sheet>
+                    <notebook>
+                        <page string="Tipo de Puertas">        
+                            <group col="4" colspan="2">
+
+                                <field name="tipo_puertas_codigo" select="1"/>
+                                <field name="tipo_puertas_nombre" select="2"/>
+
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    
+    <record model="ir.ui.view" id="view_tipo_puertas_tree">
+        <field name="name">tipo_puertas.tree</field>
+        <field name="model">tipo_puertas</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Tipo de Puertas">
+                <field name="tipo_puertas_codigo"/>
+                <field name="tipo_puertas_nombre"/>
+
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_tipo_puertas">
+
+        <field name="name">tipo_puertas</field>
+        <field name="res_model">tipo_puertas</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+   
+
+ <!-- 
+                       tipo_servicios_inmueble
+-->
+    <record model="ir.ui.view" id="view_tipo_servicios_form">
+        <field name="name">tipo_servicios.form</field>
+        <field name="model">tipo_servicios</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Tipo de Servicios">
+                <sheet>
+                    <notebook>
+                        <page string="Tipo de Servicios">        
+                            <group col="4" colspan="2">
+
+                                <field name="tipo_servicios_codigo" select="1"/>
+                                <field name="tipo_servicios_nombre" select="2"/>
+
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    
+    <record model="ir.ui.view" id="view_tipo_servicios_tree">
+        <field name="name">tipo_servicios.tree</field>
+        <field name="model">tipo_servicios</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Tipo de Servicios">
+                <field name="tipo_servicios_codigo"/>
+                <field name="tipo_servicios_nombre"/>
+
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_tipo_servicios">
+
+        <field name="name">tipo_servicios</field>
+        <field name="res_model">tipo_servicios</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+   
+
+
+
+ <!-- 
+                       tipo_anexos_inmueble
+-->
+    <record model="ir.ui.view" id="view_tipo_anexos_form">
+        <field name="name">tipo_anexos.form</field>
+        <field name="model">tipo_anexos</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Tipo de Anexos">
+                <sheet>
+                    <notebook>
+                        <page string="Tipo de Anexos">        
+                            <group col="4" colspan="2">
+
+                                <field name="tipo_anexos_codigo" select="1"/>
+                                <field name="tipo_anexos_nombre" select="2"/>
+
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    
+    <record model="ir.ui.view" id="view_tipo_anexos_tree">
+        <field name="name">tipo_anexos.tree</field>
+        <field name="model">tipo_anexos</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Tipo de Anexos">
+                <field name="tipo_anexos_codigo"/>
+                <field name="tipo_anexos_nombre"/>
+
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_tipo_anexos">
+
+        <field name="name">tipo_anexos</field>
+        <field name="res_model">tipo_anexos</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+
+<!--
+**************** fin inmuebles**************************
+-->            
+     
+
+
+
+
+
+
+
+
+  
+
+  
+         
+    <menuitem name="Catalogo Interno de Bienes" id="menu_c" web_icon="catalogo,static/description/catalogo.jpeg"/>
+
+        
+	
+
+
+
+     	<menuitem
+            id = "menu_cat_in"
+            parent="menu_c"
+            name=" Catalogo Interno de Bienes"/>
+
+
+     				<menuitem name="Grupo de Bienes" id="menu_grupo_bien" parent="menu_cat_in" action="action_grupo_bien"/>
+					<menuitem name="Clasificador de Bienes" id="menu_clasificador_bien"  parent="menu_cat_in" action="action_clasificador_bien"/>
+					<menuitem name="Modelo de Bienes" id="menu_modelo_bien"  parent="menu_cat_in" action="action_modelo_bien"/>
+					<menuitem name="Detalle del Modelo de Bienes" id="menu_detalle_modelo_bien"  parent="menu_cat_in" action="action_detalle_modelo_bien"/>
+					<menuitem name="Material del Bien" id="menu_material"  parent="menu_cat_in" action="action_material"/>
+					<menuitem name="Color de los Bienes " id="menu_color"  parent="menu_cat_in"  action="action_color"/>
+					<menuitem name="Marcas del Bien" id="menu_marcas"  parent="menu_cat_in" action="action_marcas"/>
+					<menuitem name="Modelo de Fabrica del Bien" id="menu_modelo_fab"  parent="menu_cat_in" action="action_modelo_fab"/>
+                    <menuitem name="Ubicacion Fisica" id="menu_ubicafi" parent="menu_cat_in" action="action_ubicacion_fisica" />
+                    <menuitem name="Tipo de Estatus de Inventario" id="menu_estasu_inventa"  parent="menu_cat_in" action="action_tipo_estatus_inventario"/>
+                 
+
+
+
+
+
+
+
+
+        <menuitem
+            id = "menu_cat_inmu"
+            parent="menu_c"
+            name="Constitucion de Bienes Inmuebles"/>
+         
+
+                    <menuitem name="Estructura del Inmueble" id="menu_estrutura_inmuebles" 
+                        parent="menu_cat_inmu" 
+                        action="action_estructura_inmueble"
+                        sequence="20"/>
+                    
+                    <menuitem name="Tipo de Piso del Inmueble" id="menu_tipo_piso" 
+                        parent="menu_cat_inmu" 
+                        action="action_tipo_piso"
+                        sequence="22"/>    
+
+
+                      <menuitem name="Tipo de Paredes del Inmueble" id="menu_tipo_paredes" 
+                        parent="menu_cat_inmu" 
+                        action="action_tipo_paredes"
+                        sequence="24"/>        
+
+                      <menuitem name="Tipo de Techo del Inmueble" id="menu_tipo_techo" 
+                        parent="menu_cat_inmu" 
+                        action="action_tipo_techo"
+                        sequence="26"/>           
+
+                        <menuitem name="Tipo de Puertas del Inmueble" id="menu_tipo_puertas" 
+                        parent="menu_cat_inmu" 
+                        action="action_tipo_puertas"
+                        sequence="30"/>           
+
+                       
+                        <menuitem name="Tipo de Anexos del Inmueble" id="menu_tipo_anexos" 
+                        parent="menu_cat_inmu" 
+                        action="action_tipo_anexos"
+                        sequence="35"/>  
+
+       <menuitem
+            id = "menu_tipos_mov"
+            parent="menu_c"
+            name="Tipos de Movimientos de Bienes Publicos"/>               
+            
+
+                    <menuitem name="Tipo de Movimientos" 
+                         id="menu_movimiento"
+                         parent="menu_tipos_mov"
+                         action="action_tipo_movimiento"/>  
+
+                    <menuitem name="Entes Externos" 
+                        id="menu_ente_externo" 
+                        parent="menu_tipos_mov" 
+                        action="action_ente_externo"/>
+
+
+
+
+     	
+		
+</data>
+</odoo>

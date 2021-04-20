@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<odoo>
+	<data>
+        <report 
+            id = "accion_reporte_clasificador_bien"
+            string = "Listado Clase Del Bien."
+            model = "clasificador_bien"
+            report_type = "qweb-html"
+            name = "catalogo.clase_bien_template"
+            menu =" True" 
+        />
+
+		<template id="clase_bien_template" name="Listado Clase Del Bien">
+			<t t-call="web.html_container">
+                <t t-call="web.external_layout"> 
+					
+
+                <t t-set='linea' t-value='0'/>
+                <t t-set='swPagina' t-value='0'/>
+				<t t-foreach="docs" t-as="o">
+                        <div class="page"> 
+                        <t t-set='linea' t-value='linea+1'/>
+                        <t t-if='swPagina==0'>
+                            <t t-set='swPagina' t-value='1'/>
+                                    <p style="font-size=14px; font-weight:700; text-align:center">Listado Clasificación Del Bien</p> 
+    						    <table  width="100%" style="border-collapse:collapse;">
+    							    <tr>
+    							        <td style="width:8%; background:#D7D7D7;text-align: center; border: 1px solid black;">
+    							    		 <p style="margin-top:1px; margin-bottom:1px; font-weight:700">Código</p> 
+    							        </td>
+    							        <td style="width:32%; background:#D7D7D7;text-align: center; border: 1px solid black;">
+    							    		 <p style="margin-top:1px; margin-bottom:1px;font-weight:700">Clase del Bien</p> 
+    							        </td>
+    							        <td style="width:60%;background:#D7D7D7;text-align: center; border: 1px solid black;">
+    							    		 <p style="margin-top:1px; margin-bottom:1px;font-weight:700">Grupo Bien</p> 
+    							        </td>
+    							    </tr>
+                                </table>
+    						    
+                        </t>
+    						    <table width="100%" style="border-collapse:collapse;">
+    							    <tr>
+    							        <td style="width:8; text-align:center; border: 1px solid black;">
+    							    		&amp;nbsp;<span t-field='o.clasificador_codigo' style="font-size:12px"/>
+    							        </td >
+                                        <td style="width:32%; border: 1px solid black;">
+    							    		 &amp;nbsp;<span t-field="o.clasificador_nombre" style="font-size:12px"/>
+    							        </td>
+    							        <td style="width:60%; border: 1px solid black;">
+    							    		 &amp;nbsp;<span t-field="o.grupo_bien_id.grupo_bien_nombre" style="font-size:12px"/>
+    							        </td>
+
+
+
+    							    </tr>
+                                </table>
+
+
+                        
+						            
+
+
+                        <t t-if='linea==30'>
+                            <div style='page-break-after: always;'></div>                                       
+                            <t t-set='swPagina' t-value='0'/>
+                            <t t-set='linea' t-value='0'/>      
+                        </t>         
+
+    
+</div>                    
+                </t>  
+      
+				</t> 	
+			</t>		
+		</template>
+	</data>
+</odoo>

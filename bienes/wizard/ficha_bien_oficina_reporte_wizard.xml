@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     
+
+<record model="ir.ui.view" id="bienes_ficha_bien_reporte_wizard_form">
+        <field name="name">bienes_ficha_bien_reporte_wizard_form</field>
+        <field name="model">bienes.ficha.oficina.bien.reporte.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Listado De Bienes Por Oficina">
+                <sheet>
+                    <group>
+                      <field name="bienes_sedes_id"/>
+                      <field name="bienes_oficinas_id"/>
+                    </group> 
+
+                </sheet>
+            
+                <footer>
+                    <button name="action_report_bienes" type="object" 
+                            string="Generar Listado" class="oe_highlight"/>
+
+                    <span class="or_cancel"> or
+                        <button special="cancel" type="object" 
+                            string="Cancelar" class="oe_link oe_inline"/>
+                    </span>        
+                </footer>
+            </form>
+        </field>
+</record>
+    
+    
+<!-- Acciones -->
+<record model="ir.actions.act_window" id="action_bienes_ficha_bien_reporte_wizard">
+        <field name="name">Listado De Bienes Por Oficina</field>
+        <field name="res_model">bienes.ficha.oficina.bien.reporte.wizard</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name='view_mode'>form</field>
+        <field name='view_id' ref="bienes_ficha_bien_reporte_wizard_form"/>
+        <field name='target'>new</field>
+</record>
+
+
+
+<menuitem name="Reportes" id="reporte_bien" parent="menu_p" />
+
+<menuitem name="Listado De Bienes Por Oficina" 
+          id="menu_bienes_ficha_bien_reporte_wizard"
+          action="action_bienes_ficha_bien_reporte_wizard"
+          parent="reporte_bien"/>
+
+      
+
+</odoo>

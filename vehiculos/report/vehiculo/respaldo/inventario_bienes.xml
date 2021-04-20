@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <report 
+            id = "accion_inventario_bienes"
+            string = "Inventario de Bienes."
+            model = "bienes"
+            report_type = "qweb-pdf"
+            name = "bienes.inventario_bienes_template"
+            file = "bienes.inventario_bienes_template"
+            menu =" True" 
+        />   
+</odoo>

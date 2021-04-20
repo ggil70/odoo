@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="forma_adquisicion_1" model="forma_adquisicion">
+			<field name="forma_adquisicion_codigo">1</field>
+			<field name="forma_adquisicion_nombre">Compra (A-)</field>
+			<field name="forma_adquisicion_codigo_origen">A-</field>
+		</record>
+		<record id="forma_adquisicion_2" model="forma_adquisicion">
+			<field name="forma_adquisicion_codigo">2</field>
+			<field name="forma_adquisicion_nombre">Permuta (B-)</field>
+			<field name="forma_adquisicion_codigo_origen">B-</field>
+		</record>
+		<record id="forma_adquisicion_3" model="forma_adquisicion">
+			<field name="forma_adquisicion_codigo">3</field>
+			<field name="forma_adquisicion_nombre">Dación en Pago (D-)</field>
+			<field name="forma_adquisicion_codigo_origen">D-</field>
+		</record>
+		<record id="forma_adquisicion_4" model="forma_adquisicion">
+			<field name="forma_adquisicion_codigo">4</field>
+			<field name="forma_adquisicion_nombre">Donación (C-)</field>
+			<field name="forma_adquisicion_codigo_origen">C-</field>
+		</record>
+		<record id="forma_adquisicion_5" model="forma_adquisicion">
+			<field name="forma_adquisicion_codigo">5</field>
+			<field name="forma_adquisicion_nombre">Transferencia (F-)</field>
+			<field name="forma_adquisicion_codigo_origen">F-</field>
+		</record>
+		<record id="forma_adquisicion_6" model="forma_adquisicion">
+			<field name="forma_adquisicion_codigo">6</field>
+			<field name="forma_adquisicion_nombre">Expropiación (E-)</field>
+			<field name="forma_adquisicion_codigo_origen">E-</field>
+		</record>
+		<record id="forma_adquisicion_7" model="forma_adquisicion">
+			<field name="forma_adquisicion_codigo">7</field>
+			<field name="forma_adquisicion_nombre">Confiscación (G-)</field>
+			<field name="forma_adquisicion_codigo_origen">G-</field>
+		</record>
+		<record id="forma_adquisicion_8" model="forma_adquisicion">
+			<field name="forma_adquisicion_codigo">8</field>
+			<field name="forma_adquisicion_nombre">Aporte a Capital Social (H-)</field>
+			<field name="forma_adquisicion_codigo_origen">H-</field>
+		</record>
+		<record id="forma_adquisicion_9" model="forma_adquisicion">
+			<field name="forma_adquisicion_codigo">9</field>
+			<field name="forma_adquisicion_nombre">Comiso (I-)</field>
+			<field name="forma_adquisicion_codigo_origen">I-</field>
+		</record>
+		<record id="forma_adquisicion_10" model="forma_adquisicion">
+			<field name="forma_adquisicion_codigo">10</field>
+			<field name="forma_adquisicion_nombre">Embargo (J-)</field>
+			<field name="forma_adquisicion_codigo_origen">J-</field>
+		</record>
+		<record id="forma_adquisicion_11" model="forma_adquisicion">
+			<field name="forma_adquisicion_codigo">11</field>
+			<field name="forma_adquisicion_nombre">Nacionalizacion (K-)</field>
+   			<field name="forma_adquisicion_codigo_origen">K-</field>
+		</record>
+
+		<record id="forma_adquisicion_12" model="forma_adquisicion">
+			<field name="forma_adquisicion_codigo">12</field>
+			<field name="forma_adquisicion_nombre">Fusión por Incorporación y/o Absorción (L-)</field>
+   			<field name="forma_adquisicion_codigo_origen">L-</field>
+		</record>
+
+
+	</data>
+</odoo>
+
+
+
+

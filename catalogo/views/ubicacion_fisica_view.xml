@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+
+	
+    <record model="ir.ui.view" id="view_ubicacion_fisica_form">
+        <field name="name">ubicacion_fisica.form</field>
+        <field name="model">ubicacion_fisica</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Ubicación Fisica del Bien">
+			  <sheet>
+				<notebook>
+				  <page string="Ubicación Física del Bien">	    
+					<group col="4" colspan="2">
+
+						<field name="ubicacion_fisica_codigo" readonly="True" force_save="1"/>
+						<field name="ubicacion_fisica_nombre" select="2"/>
+						
+   					</group>			
+				  </page>
+		       </notebook>
+		      </sheet>	
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_ubicacion_fisica_tree">
+        <field name="name">ubicacion_fisica.tree</field>
+        <field name="model">ubicacion_fisica</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Ubicación Física">
+
+               <field name="ubicacion_fisica_codigo"/>
+			 <field name="ubicacion_fisica_nombre" select="2"/>
+			
+            </tree>
+        </field>
+    </record>
+
+     <record model="ir.actions.act_window" id="action_ubicacion_fisica">
+        <field name="name">Ubicación Física del Bien</field>
+        <field name="res_model">ubicacion_fisica</field>
+    
+        <field name="view_mode">tree,form</field>
+    </record>
+	
+
+
+    <record model="ir.ui.view" id="view_tipo_estatus_inventario_form">
+        <field name="name">tipo_estatus_inventario.form</field>
+        <field name="model">tipo_estatus_inventario</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Tipo de Estatus de Inventario del Bien">
+              <sheet>
+                <notebook>
+                  <page string="Estatus de Inventario del Bien">     
+                    <group col="4" colspan="2">
+
+                        <field name="cod_estatus" />
+                        <field name="nom_estatus" select="2"/>
+                        
+                    </group>            
+                  </page>
+               </notebook>
+              </sheet>  
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_tipo_estatus_inventario_tree">
+        <field name="name">tipo_estatus_inventario.tree</field>
+        <field name="model">tipo_estatus_inventario</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Estatus de Inventario del Bien">
+
+              <field name="cod_estatus" />
+              <field name="nom_estatus" select="2"/>
+            
+            </tree>
+        </field>
+    </record>
+
+     <record model="ir.actions.act_window" id="action_tipo_estatus_inventario">
+        <field name="name">Estatus de Inventario del Bien</field>
+        <field name="res_model">tipo_estatus_inventario</field>
+    
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+
+
+
+
+	<menuitem name="Ubicación Física del Bien" id="menu_ubicacion_fisica"  parent="menu_cat_in"
+	 action="action_ubicacion_fisica" sequence="1000" />
+
+     <menuitem name="Tipos de Estatus de Inventario del Bien" id="menu_tipo_estatus_inventario"  parent="menu_cat_in"
+     action="action_tipo_estatus_inventario" />
+
+
+
+</data>
+</odoo>
+
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<!--
+                       Catalogo Interno de Bienes
+-->
+
+
+  
+         
+    <menuitem name="Catalogo Interno de Bienes" id="menu_c" web_icon="catalogo,static/description/catalogo.jpeg"/>
+
+        
+	
+
+
+
+     	<menuitem
+            id = "menu_cat_in"
+            parent="menu_c"
+            name=" Catalogo Interno de Bienes"/>
+
+
+     				<menuitem name="Grupo de Bienes" id="menu_grupo_bien" parent="menu_cat_in" action="action_grupo_bien" sequence="20" />
+				
+		
+</data>
+</odoo>

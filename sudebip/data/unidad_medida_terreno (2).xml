@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="uni_med_1" model="unidad_medida_terreno">
+			<field name="unidad_medida_terreno_codigo">1</field>
+			<field name="unidad_medida_terreno_nombre">Hectárea</field>
+			<field name="unidad_medida_terreno_simbolo">Ha</field>
+			
+		</record>
+		<record id="unidad_medida_terreno_2" model="unidad_medida_terreno">
+			<field name="unidad_medida_terreno_codigo">2</field>
+			<field name="unidad_medida_terreno_nombre">Kilómetro Cuadrado</field>
+			<field name="unidad_medida_terreno_simbolo">km2</field>
+		
+		</record>
+		<record id="unidad_medida_terreno_3" model="unidad_medida_terreno">
+			<field name="unidad_medida_terreno_codigo">3</field>
+			<field name="unidad_medida_terreno_nombre">Metro Cuadrado</field>
+			<field name="unidad_medida_terreno_simbolo">m2</field>
+			
+		</record>
+
+		<record id="unidad_medida_terreno_4" model="unidad_medida_terreno">
+			<field name="unidad_medida_terreno_codigo">4</field>
+			<field name="unidad_medida_terreno_nombre">Centímetro Cuadrado</field>
+			<field name="unidad_medida_terreno_simbolo">cm2</field>
+		
+		</record>
+		<record id="unidad_medida_terreno_5" model="unidad_medida_terreno">
+			<field name="unidad_medida_terreno_codigo">5</field>
+			<field name="unidad_medida_terreno_nombre">Milímetro Cuadrado</field>
+			<field name="unidad_medida_terreno_simbolo">mm2</field>
+			
+		</record>
+
+
+	</data>
+</odoo>
+
+
+
+

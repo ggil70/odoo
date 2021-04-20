@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="tipo_servicios_1" model="tipo_servicios">
+			<field name="tipo_servicios_codigo">1</field>
+			<field name="tipo_servicios_nombre">SANITARIOS</field>
+		</record>
+		<record id="tipo_servicios_2" model="tipo_servicios">
+			<field name="tipo_servicios_codigo">2</field>
+			<field name="tipo_servicios_nombre">COCINAS</field>
+		</record>
+		<record id="tipo_servicios_3" model="tipo_servicios">
+			<field name="tipo_servicios_codigo">3</field>
+			<field name="tipo_servicios_nombre">AGUA CORRIENTE</field>
+		</record>
+		<record id="tipo_servicios_4" model="tipo_servicios">
+			<field name="tipo_servicios_codigo">4</field>
+			<field name="tipo_servicios_nombre">ELECTRICIDAD</field>
+		</record>
+		<record id="tipo_servicios_5" model="tipo_servicios">
+			<field name="tipo_servicios_codigo">5</field>
+			<field name="tipo_servicios_nombre">TELÉFONOS</field>
+		</record>
+		
+
+		<record id="tipo_servicios_6" model="tipo_servicios">
+			<field name="tipo_servicios_codigo">6</field>
+			<field name="tipo_servicios_nombre">AIRE ACONDICIONADO</field>
+		</record>
+
+		<record id="tipo_servicios_7" model="tipo_servicios">
+			<field name="tipo_servicios_codigo">7</field>
+			<field name="tipo_servicios_nombre">ASCENSORES</field>
+		</record>
+
+
+		<record id="tipo_servicios_8" model="tipo_servicios">
+			<field name="tipo_servicios_codigo">8</field>
+			<field name="tipo_servicios_nombre">OTROS</field>
+		</record>
+		
+	</data>
+</odoo>
+
+
+
+

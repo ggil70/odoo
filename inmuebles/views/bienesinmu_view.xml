@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+
+    <record model="ir.ui.view" id="view_bienes_inmubles_form">
+        <field name="name">bienes_inmuebles_form</field>
+        <field name="model">bienes_inmuebles</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Bienes Inmuebles">
+                <sheet>
+                     <group col="12">  
+                         <group col="4" colspan="2">
+                             <div class="ue_title">
+                                 <label for="bienes_numbien" style="color:#6610f2; font-size:16px; font-weight:700"/>
+                                 <h3><field name="bienes_numbien" style="width:100px" attrs="{'required': True}" select="1"/></h3>
+                             </div>    
+                         </group>       
+                         <group col="6" colspan="6">
+                             <div class="ue_title">
+                                 <label for="bienes_nombre" style="color:#6610f2; font-size:16px; font-weight:700"/>
+                                 <b><field name="bienes_nombre"  readonly="1" force_save="1"/></b>
+                             </div>    
+                         </group>
+                     </group>
+
+
+
+                    <notebook>
+                        <page string="Datos Basicos">
+                              <separator colspan="4" string="Identificación del Bien" style="font-size:14px;"/>
+                              <sheet>
+                                 <group col="4" colspan="2"> 
+                                      <field name="grupo_bien_id" />
+                                      <field name="clasificador_bien_id" />
+                                      <field name="modelo_bien_id" />   
+                                      <field name="detalle_modelo_id"/>
+                                 </group>
+                              </sheet>
+
+                              <hr style="width:100%; border-color:  #cadff6  ;"></hr>
+                              <separator colspan="4" string="Ubicación del Bien" style="font-size:14px;"/>
+                              <sheet>
+                                 <group col="4" colspan="2"> 
+                                     <field name="bienes_regiones_id" select="0"/>    
+                                     <field name="bienes_sedes_id" select="0"/>
+                                     <field name="bienes_oficinas_id"  attrs="{'required': True}" select="0"/>
+                                     <field name="bienes_piso"      style="width:15%" select="0"/>
+                                     <field name="es_sede"  style="width:15%"/>
+                                 </group> 
+                              </sheet>
+
+                             <hr style="width:100%; border-color:  #cadff6  ;"> </hr>  
+                                
+                             <separator colspan="4" string="Información Administrativa" style="font-size:14px;"/>
+                             <sheet>
+                                 <group col="4" colspan="2">
+                                     <field name="resp_uso_id" select="0"/>  
+                                     <field name="fech_inventario" style="width:50%" />
+                                 </group>
+                             </sheet>   
+
+                        </page>
+
+
+                        <page string="Descripción del Inmueble">
+                            <separator colspan="4" string="Funcionabilidad de la Construcción" 
+                                       style="font-size:14px;"/>
+                            <sheet>
+                                 <group col="4" colspan="2">
+                                    <field name="funcionabilidad" select="0"/>   
+                                    <field name="ano_construc" select="0"/> 
+                                    <field name="edad_construc" select="0"/>
+                                    <field name="estudio_legal" select="0"/>
+                                    <field name="observacion" select="0"/>                                     
+                                 </group> 
+                            </sheet>     
+                            <hr style="width:100%; border-color:  #cadff6  ;"> </hr>
+                              
+                            <separator colspan="4" string="Medidas de la construcción" style="font-size:14px;"/>    
+                            <sheet>      
+                                <group col="4" colspan="2">
+                                  <field name="area_terreno"  style="width:60%" select="0"/> 
+                                  <field name="unidad_medida_terreno_id" style="width:60%" select="0"/>
+                                  <field name="area_construccion" style="width:60%" select="0"/> 
+                                  <field name="area_total_construccion" style="width:60%" select="0"/> 
+                                  <field name="area_anexos"  style="width:60%" select="0"/>   
+                                </group>
+                            </sheet>    
+                        </page>
+
+
+                        <page string="Descripción del Terreno">
+                            <separator colspan="4" string="Descripción" style="font-size:14px;"/>    
+                                <group  col="4" colspan="2"> 
+                                   <field name="clase_funcional_terr_ids" select="0"/>
+                                   <field name="hectareas"  style="width:50%"  select="0"/>
+                                   <field name="metros_cuadrados" style="width:50%" select="0"/>
+                                   <field name="vias_interiores" select="0"/>
+                                   <field name="otras_bienhechurias" select="0"/>
+                                </group>    
+                        </page>     
+                        
+
+                        <page string="Servicios del Inmueble "   
+                              attrs="{'invisible': [('estatus_uso_codigo','not in', ('1','4'))]}">  
+                            <separator colspan="4" string="Descripción" style="font-size:14px;"/>
+
+                            <group col="4" colspan="2">  
+                               <field name="agua_potable" select="0"/>
+                               <field name="electricidad" select="0"/>
+                               <field name="agua_servida" select="0"/>
+                               <field name="telefono" select="0"/>
+                               <field name="internet" select="0"/>
+                               <field name="poso_aguas_profundas" select="0"/>
+                               <field name="poso_séptico" select="0"/>
+                               <field name="planta_electrica" select="0"/>
+                               <field name="capacidad_planta_electrica" select="0"/>
+                            </group>    
+                        </page>      
+
+
+                        <page string="Datos Requeridos por la SUDEBIP">         
+                          
+                            <group col="4" colspan="2">     
+                                <field name="detalle_adquisi_id" select="0"/>
+                                <field name="costo" select="0"/>
+                                <field name="estatus_uso_id" select="0"/>
+                                <field name="estado_bien_id" select="0"/>
+                                <field name="estado_ocupacion_inmueble_id" select="0"/>
+                                <field name="uso_inmueble_id" select="0"/>
+                                <field name="uso_comforme" select="0"/>
+                                <field name="otro_uso" select="0"/>
+
+                                <field name="poliza_id" select="0"/>
+                            </group>
+                             <group col="4" colspan="2">  
+                                <field name="catalogo_sudebi_id" select="0"/>
+                                <field name="catalogo_sudebi_sub_id" select="0"/>
+                                <field name="catalogo_sudebi_esp_id" select="0"/>
+                            </group>            
+                        </page> 
+
+                        <page string="Datos Requeridos por la SUDEBIP (Medidas, Ubicacion)">
+                               <group col="4" colspan="4">  
+                                <field name="unidad_medida_construccion_id" style="width:60%" select="0"/> 
+                                <field name="urbanizacion" style="width:50%" select="0"/>
+                                <field name="calle"  style="width:50%" select="0"/>
+                                <field name="casa_edificio"  style="width:50%" select="0"/>
+                                <field name="paises_id"  domain="[('selepa','=',True)]" style="width:50%" 
+                                       select="0"/> 
+                                <field name="otro_pais"  style="width:50%" select="0"/>
+                                <field name="estados_id"  style="width:50%" select="0"/>
+                                <field name="municipios_id"  style="width:50%" select="0"/>
+                                <field name="parroquias_id"  style="width:50%" select="0"/>
+                                <field name="ciudad_id"  style="width:50%" select="0"/>
+                                <field name="otra_ciudad"  style="width:50%" select="0"/>
+                                <field name="direccion"    style="width:200px; height:100px " select="0"/>
+                                <field name="localizacion"  style="width:50%" select="0"/>
+                                <field name="linderos_norte"  style="width:50%" select="0"/>
+                                <field name="linderos_sur"  style="width:50%" select="0"/>
+                                <field name="linderos_este"  style="width:50%" select="0"/>
+                                <field name="linderos_oeste"  style="width:50%" select="0"/>
+                                <field name="coordenadas"  style="width:50%" select="0"/>
+                             </group>   
+                        </page>     
+                            
+
+               <!-- codigos ocultos -->
+                   <!--  Identificacion bien -->  
+                       <field name="tipo_bien_codigo" attrs="{'invisible': True}"/>
+                       <field name="tipo_bien_id" attrs="{'invisible': True}"/>
+
+
+                   <!-- Información administrativa del bien -->  
+                       <field name="cedu_resp_uso" attrs="{'invisible': True}"/>
+
+                   <!-- Sudebip -->        
+                        <field name="detalle_adquisi_codigo"  attrs="{'invisible':True}"/>
+
+
+                        <field name="estatus_uso_codigo" attrs="{'invisible':True}"/>
+                        <field name="estado_bien_codigo" attrs="{'invisible':True}"/>
+                        <!--<field name="estado_ocupacion_inmueble_codigo" attrs="{'invisible':True}"/>-->
+                        <field name="uso_inmueble_codigo" attrs="{'invisible':True}"/>
+                        <field name="unidad_medida_terreno_codigo" attrs="{'invisible':True}"/>
+                        
+
+
+                        <field name="catalogo_sudebi_codigo" attrs="{'invisible':True}"/>
+                        <field name="catalogo_sudebi_sub_codigo" attrs="{'invisible':True}"/>
+                        <field name="catalogo_sudebi_esp_codigo" attrs="{'invisible':True}"/>  
+
+                        <field name="grupo_bien_codigo" attrs="{'invisible':True}"/>  
+                        <field name="clasificador_codigo" attrs="{'invisible':True}"/>
+                        <field name="modelo_codigo" attrs="{'invisible':True}"/>
+
+                        <field name="bienes_oficinas_codigo" attrs="{'invisible':True}"/>
+
+                        
+
+                        <field name="bienes_sedes_codigo" attrs="{'invisible':True}"/>
+
+
+                        
+                        
+                                              
+
+
+
+
+
+                    </notebook>
+               </sheet>
+
+               
+
+
+
+            </form>
+        </field>
+    </record>
+    
+        
+ 
+    
+    
+    <record model="ir.ui.view" id="view_bienes_inmuebles_tree">
+      <field name="name">bienes_inmuebles_tree</field>
+        <field name="model">bienes_inmuebles</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+           <tree string="bienes_inmuebles">
+               <field name="bienes_numbien"/>
+               <field name="bienes_nombre"/>
+               <field name="bienes_piso"/>
+               <field name="fech_inventario"/>
+               <field name="clasificador_bien_id"/>
+               <field name="modelo_bien_id"/>
+               <field name="detalle_modelo_id"/>
+              <!--  <field name="material_id"/> -->
+               <field name="funcionabilidad"/>
+               <field name="direccion"/>
+               <field name="area_terreno"/>
+               <field name="area_construccion"/>
+               <field name="area_total_construccion"/>
+               <field name="area_anexos"/>
+              <!-- <field name="estructura_ids">
+                <field name="tipo_piso_id">
+               <field name="tipo_paredes_id">
+               <field name="linderos">
+               <field name="estudio_legal"> -->                          
+            </tree>
+         </field>   
+    </record>
+    
+    <record model="ir.ui.view" id="view_>bienes_inmubles_search">
+        <field name="name">bienes_inmuebles_search</field>
+        <field name="model">bienes_inmuebles</field>
+        <field name="type">search</field>
+        <field name="arch" type="xml">
+            <search string="Busquedas de Bienes Inmuebles">
+                <field name="bienes_numbien"/>
+                <field name="bienes_nombre"/>
+                <field name="bienes_regiones_id"/>
+                <field name="bienes_sedes_id" />
+                <field name="bienes_oficinas_id"/>
+                <field name="resp_uso_id"/>
+                <group expand="1" string="Agrupado por...">
+                    <filter string="Regiones" name="group_by_bienes_regiones_id" domain="[]" context="{'group_by':'bienes_regiones_id'}"/>
+                   
+                    <filter string="Sedes" name="group_by_bienes_sedes_id" domain="[]" context="{'group_by':'bienes_sedes_id'}"/>
+
+                    <filter string="Oficinas" name="group_by_bienes_oficinas_id" domain="[]" context="{'group_by':'bienes_oficinas_id'}"/>
+                   
+                </group>
+
+
+
+
+            </search>
+         
+        </field>
+    </record>        
+
+
+    <record model="ir.actions.act_window" id="action_bienes_inmuebles">
+        <field name="name">Bienes Inmuebles</field>
+        <field name="res_model">bienes_inmuebles</field>
+         <field name = "context">
+           {'readonly_by_pass': ['bienes_nombre',]}
+         </field>
+        
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+            
+<!--
+****************inmuebles**************************
+-->            
+            
+    
+
+
+
+
+
+
+<!-- 
+                       remodelaciones del inmueble
+
+    <record model="ir.ui.view" id="view_remodelaciones_form">
+        <field name="name">remodelaciones.form</field>
+        <field name="model">remodelaciones</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Remodelaciones del Inmueble">
+                <sheet>
+                    <notebook>
+                        <page string="Remodelaciones">        
+                            <group col="4" colspan="2">
+                                <field name="bienes_inmuebles_id" select="2"/>
+                                <field name="remodelaciones_nombre" select="2"/>
+                                <field name="remodelaciones_fecha" select="1"/>
+                                <field name="remodelaciones_costo" select="1"/>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    
+    <record model="ir.ui.view" id="view_remodelaciones_tree">
+        <field name="name">remodelaciones.tree</field>
+        <field name="model">remodelaciones</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Remodelaciones">
+                <field name="bienes_inmuebles_id" select="2"/>
+                <field name="remodelaciones_nombre" select="2"/>
+                <field name="remodelaciones_fecha" select="1"/>
+                <field name="remodelaciones_costo" select="1"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_remodelaciones">
+
+        <field name="name">remodelaciones</field>
+        <field name="res_model">remodelaciones</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+   -->
+
+
+
+    <record model="ir.ui.view" id="view_estado_ocupacion_inmueble_form">
+        <field name="name">estado_ocupacion_inmueble_form</field>
+        <field name="model">estado_ocupacion_inmueble</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+
+            <form string="Estado de Ocupacion del Inmueble">
+                 <sheet>
+                    <notebook>
+                        <page string="Estado de Ocupacion del Inmuebles">        
+                            <group col="4" colspan="2">
+                                <!--<field name="estado_ocupacion_inmueble_codigo_id" select="2"/>-->
+                                <field name="estado_ocupacion_inmueble_nombre" select="2"/>
+                                
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+
+
+   <record model="ir.ui.view" id="view_estado_ocupacion_inmueble_tree">
+        <field name="name">estado_ocupacion_inmueble_tree</field>
+        <field name="model">estado_ocupacion_inmueble</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+           <tree string="Estado de Ocupacion del Inmueble">
+                <field name="estado_ocupacion_inmueble_codigo"/>
+                <field name="estado_ocupacion_inmueble_nombre"/>
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_estado_ocupacion_inmueble">
+
+        <field name="name">estado_ocupacion_inmueble</field>
+        <field name="res_model">estado_ocupacion_inmueble</field>
+        
+
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+
+
+    <record model="ir.ui.view" id="view_unidad_medida_construccion_inmueble_form">
+        <field name="name">unidad_medida_construccion_inmueble_form</field>
+        <field name="model">unidad_medida_construccion</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+
+            <form string="Unidad de Medida de Construccion del Inmueble">
+                 <sheet>
+                    <notebook>
+                        <page string="Unidad de Medida de Construccion del Inmueble">        
+                            <group col="4" colspan="2">
+                                 <field name="unidad_medida_construccion_codigo"/>
+                                 <field name="unidad_medida_construccion_nombre"/>
+                                 <field name="unidad_medida_construccion_simbolo"/> 
+                                 <field name="unidad_medida_construccion_tipo"/>
+ 
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+
+
+
+
+
+
+
+<record model="ir.ui.view" id="view_unidad_medida_construccion_inmueble_tree">
+        <field name="name">unidad_medida_construccion_inmueble_tree</field>
+        <field name="model">unidad_medida_construccion</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+           <tree string="Unidad de Medida de Construccion del Inmueble">
+                <field name="unidad_medida_construccion_codigo"/>
+                <field name="unidad_medida_construccion_nombre"/>
+                <field name="unidad_medida_construccion_simbolo"/> 
+                <field name="unidad_medida_construccion_tipo"/>
+ 
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_unidad_medida_construccion_inmueble">
+
+        <field name="name">unidad_medida_construccion_inmueble</field>
+        <field name="res_model">unidad_medida_construccion</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+
+<record model="ir.ui.view" id="view_unidad_medida_terreno_form">
+        <field name="name">unidad_medida_terreno_form</field>
+        <field name="model">unidad_medida_terreno</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+
+            <form string="Unidad de Medida de Terreno del Inmueble">
+                 <sheet>
+                    <notebook>
+                        <page string="Unidad de Medida de Terreno del Inmueble">        
+                            <group col="4" colspan="2">
+                                 <field name="unidad_medida_terreno_codigo"/>
+                                 <field name="unidad_medida_terreno_nombre"/>
+                                 <field name="unidad_medida_terreno_simbolo"/>    
+                                 <field name="unidad_medida_terreno_tipo"/>
+ 
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+
+
+
+
+
+
+
+<record model="ir.ui.view" id="view_unidad_medida_terreno_tree">
+        <field name="name">unidad_medida_terreno_tree</field>
+        <field name="model">unidad_medida_terreno</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+           <tree string="Unidad de Medida de Terreno del Inmueble">
+                <field name="unidad_medida_terreno_codigo"/>
+                <field name="unidad_medida_terreno_nombre"/>
+                <field name="unidad_medida_terreno_simbolo"/>    
+                <field name="unidad_medida_terreno_tipo"/>
+ 
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_unidad_medida_terreno">
+
+        <field name="name">unidad_medida_terreno</field>
+        <field name="res_model">unidad_medida_terreno</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+
+
+
+<record model="ir.ui.view" id="view_clase_funcional_terr_form">
+        <field name="name">clase_funcional_terr_form</field>
+        <field name="model">clase_funcional_terr</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+
+            <form string="Clase funcional del Terreno del Inmueble">
+                 <sheet>
+                    <notebook>
+                        <page string="Unidad de Medida de Terreno del Inmueble">        
+                            <group col="4" colspan="2">
+                                 <field name="clase_funcional_terr_codigo"/>
+                                 <field name="clase_funcional_terr_nombre"/>
+                              
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+
+
+
+
+
+
+
+<record model="ir.ui.view" id="view_clase_funcional_terr_tree">
+        <field name="name">clase_funcional_terr_tree</field>
+        <field name="model">clase_funcional_terr</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+           <tree string="Clase funcional del Terreno del Inmueble">
+                <field name="clase_funcional_terr_codigo"/>
+                <field name="clase_funcional_terr_nombre"/>
+                
+ 
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_clase_funcional_terr">
+
+        <field name="name">clase_funcional_terr</field>
+        <field name="res_model">clase_funcional_terr</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+
+
+
+
+
+
+
+ <menuitem name="Bienes Publicos (Inmuebles)" id="menu_i" web_icon="inmuebles,static/description/bienes-inmuebles-1.png" />
+       <!--  <menuitem name="Registro de Bienes" id="menu_registro" parent="menu_p"/> -->
+        
+    
+        <menuitem name=" Bienes Inmuebles" id="menu_bienes_in" parent="menu_i" />
+
+                  
+                    <menuitem name="Registro de Bienes Inmuebles" id="menu_bienes_inmuebles" 
+                        parent="menu_bienes_in"
+                       action="action_bienes_inmuebles"
+                       sequence="10"/>
+
+
+                    <menuitem name="Estado de Ocupación del Inmueble" id="menu_estado_ocupacion_inmuebles" 
+                        parent="sudebip.menu_registro_estatus"
+                        action="action_estado_ocupacion_inmueble"
+                        sequence="10"/>
+
+                    <menuitem name="Unidad de medida area de construcción del Inmueble" id="menu_unidad_medida_construccion_inmueble" 
+                        parent="sudebip.menu_registro_estatus"
+                        action="action_unidad_medida_construccion_inmueble"
+                        sequence="10"/>
+                    <menuitem name="Unidad de medida area de terreno del Inmueble" id="menu_unidad_medida_tereno_inmueble" 
+                        parent="sudebip.menu_registro_estatus"
+                        action="action_unidad_medida_terreno"
+                        sequence="10"/>
+                    <menuitem name="Clase funcional del Terreno del Inmueble" id="menu_unidad_clase_funcional_tereno_inmueble" 
+                        parent="sudebip.menu_registro_estatus"
+                        action="action_unidad_medida_terreno"
+                        sequence="10"/>
+                  
+
+
+                  <!--     <menuitem name="Remodelaciones del Inmueble" id="menu_remodelaciones" 
+                        parent="menu_bienes_in" 
+                        action="action_remodelaciones"
+                        sequence="40"/>   -->
+
+
+
+      
+</data>
+</odoo>

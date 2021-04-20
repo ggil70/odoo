@@ -1,0 +1,3357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data noupdate="0">
+		<record id="demod_1" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">1</field>
+			<field name="detalle_modelo_nombre">DE 3 VELOCIDADES</field>
+			<field name="modelo_id" ref="mod_9"/>
+			<field name="modelo_codigo">15</field>
+			<field name="clasificador_codigo">7</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_84"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>    
+		<record id="demod_2" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">6</field>
+			<field name="detalle_modelo_nombre">REDONDA</field>
+			<field name="modelo_id" ref="mod_3"/>
+			<field name="modelo_codigo">8</field>
+			<field name="clasificador_codigo">4</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_83"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_3" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">7</field>
+			<field name="detalle_modelo_nombre">SIDE BY SIDE, SIN ESCARCHA</field>
+			<field name="modelo_id" ref="mod_5"/>
+			<field name="modelo_codigo">10</field>
+			<field name="clasificador_codigo">7</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_84"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>    
+		
+		<record id="demod_4" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">9</field>
+			<field name="detalle_modelo_nombre">MÓVIL</field>
+			<field name="modelo_id" ref="mod_2"/>
+			<field name="modelo_codigo">7</field>
+			<field name="clasificador_codigo">1</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_82"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_7" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">14</field>
+			<field name="detalle_modelo_nombre">CAPACIDAD 10 TAZAS</field>
+			<field name="modelo_id" ref="mod_10"/>
+			<field name="modelo_codigo">17</field>
+			<field name="clasificador_codigo">7</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_84"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>    
+		
+		<record id="demod_8" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">15</field>
+			<field name="detalle_modelo_nombre">CAPACIDAD 1.0</field>
+			<field name="modelo_id" ref="mod_11"/>
+			<field name="modelo_codigo">18</field>
+			<field name="clasificador_codigo">7</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_84"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>    
+		
+		<record id="demod_9" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">16</field>
+			<field name="detalle_modelo_nombre">DE 2 PUERTAS, CORREDIZAS</field>
+			<field name="modelo_id" ref="mod_12"/>
+			<field name="modelo_codigo">19</field>
+			<field name="clasificador_codigo">12</field>
+			<field name="grupo_bien_codigo">1</field>	
+			<field name="clasificador_id" ref="clas_87"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+	
+		<record id="demod_10" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">17</field>
+			<field name="detalle_modelo_nombre">MOVIL, CON BASE GIRATORIA Y APOYA CABEZA</field>
+			<field name="modelo_id" ref="mod_1"/>
+			<field name="modelo_codigo">1</field>
+			<field name="clasificador_codigo">1</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_82"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+	
+		<record id="demod_11" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">18</field>
+			<field name="detalle_modelo_nombre">CON ALA SIN GAVETAS</field>
+			<field name="modelo_id" ref="mod_14"/>
+			<field name="modelo_codigo">21</field>
+			<field name="clasificador_codigo">14</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_89"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+	
+		<record id="demod_12" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">21</field>
+			<field name="detalle_modelo_nombre">CON LATERAL IZQUIERDO, DE 7 GAVETAS</field>
+			<field name="modelo_id" ref="mod_13"/>
+			<field name="modelo_codigo">20</field>
+			<field name="clasificador_codigo">13</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_88"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		
+	   <record id="demod_13" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">22</field>
+			<field name="detalle_modelo_nombre">MÓVIL, CON BASE GIRATORIA</field>
+			<field name="modelo_id" ref="mod_15"/>
+			<field name="modelo_codigo">24</field>
+			<field name="clasificador_codigo">1</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_82"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		
+		
+		<record id="demod_14" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">25</field>
+			<field name="detalle_modelo_nombre">DE 8 GAVETAS</field>
+			<field name="modelo_id" ref="mod_13"/>
+			<field name="modelo_codigo">20</field>
+			<field name="clasificador_codigo">13</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_88"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		
+		<record id="demod_15" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">26</field>
+			<field name="detalle_modelo_nombre">MÓVIL</field>
+			<field name="modelo_id" ref="mod_16"/>
+			<field name="modelo_codigo">27</field>
+			<field name="clasificador_codigo">17</field>
+			<field name="grupo_bien_codigo">8</field>
+			<field name="clasificador_id" ref="clas_91"/>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+
+		</record>
+		
+		<record id="demod_16" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">27</field>
+			<field name="detalle_modelo_nombre">PORTÁTIL</field>
+			<field name="modelo_id" ref="mod_17"/>
+			<field name="modelo_codigo">29</field>
+			<field name="clasificador_codigo">18</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_92"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		
+		
+		<record id="demod_17" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">28</field>
+			<field name="detalle_modelo_nombre">DE 4 NIVELES</field>
+			<field name="modelo_id" ref="mod_18"/>
+			<field name="modelo_codigo">30</field>
+			<field name="clasificador_codigo">19</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_93"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+
+		</record>
+		
+		
+		<record id="demod_18" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">31</field>
+			<field name="detalle_modelo_nombre">CON ALA DE 3 GAVETAS</field>
+			<field name="modelo_id" ref="mod_13"/>
+			<field name="modelo_codigo">20</field>
+			<field name="clasificador_codigo">13</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_88"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		
+		<record id="demod_21" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">35</field>
+			<field name="detalle_modelo_nombre">MEDIANA</field>
+			<field name="modelo_id" ref="mod_21"/>
+			<field name="modelo_codigo">35</field>
+			<field name="clasificador_codigo">21</field>
+			<field name="grupo_bien_codigo">2</field>
+			<field name="clasificador_id" ref="clas_94"/>
+			<field name="grupo_bien_id" ref="grupo_12"/>
+		</record>
+		
+		
+		<record id="demod_22" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">36</field>
+			<field name="detalle_modelo_nombre">ESTÁNDAR</field>
+			<field name="modelo_id" ref="mod_22"/>
+			<field name="modelo_codigo">37</field>
+			<field name="clasificador_codigo">22</field>
+			<field name="grupo_bien_codigo">8</field>
+			<field name="clasificador_id" ref="clas_95"/>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+
+		</record>
+		
+		
+		<record id="demod_23" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">37</field>
+			<field name="detalle_modelo_nombre">DE 1 PUESTO</field>
+			<field name="modelo_id" ref="mod_23"/>
+			<field name="modelo_codigo">38</field>
+			<field name="clasificador_codigo">24</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_96"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		
+		<record id="demod_24" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">39</field>
+			<field name="detalle_modelo_nombre">FIJA, CON BASE GIRATORIA</field>
+			<field name="modelo_id" ref="mod_24"/>
+			<field name="modelo_codigo">39</field>
+			<field name="clasificador_codigo">1</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_82"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		
+			
+		<record id="demod_25" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">40</field>
+			<field name="detalle_modelo_nombre">CON BORDE DE METAL</field>
+			<field name="modelo_id" ref="mod_25"/>
+			<field name="modelo_codigo">40</field>
+			<field name="clasificador_codigo">26</field>
+			<field name="grupo_bien_codigo">2</field>
+			<field name="clasificador_id" ref="clas_97"/>
+			<field name="grupo_bien_id" ref="grupo_12"/>
+
+		</record>
+		
+		<record id="demod_26" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">42</field>
+			<field name="detalle_modelo_nombre">DE 27 PULGADAS</field>
+			<field name="modelo_id" ref="mod_26"/>
+			<field name="modelo_codigo">41</field>
+			<field name="clasificador_codigo">7</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_84"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>    
+		
+		<record id="demod_27" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">43</field>
+			<field name="detalle_modelo_nombre">DE 3 CDS DE 5 CORNETAS</field>
+			<field name="modelo_id" ref="mod_27"/>
+			<field name="modelo_codigo">42</field>
+			<field name="clasificador_codigo">7</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_84"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>    
+		
+		<record id="demod_28" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">47</field>
+			<field name="detalle_modelo_nombre">DE 2 PUERTAS, CORREDIZAS DE VIDRIO</field>
+			<field name="modelo_id" ref="mod_12"/>
+			<field name="modelo_codigo">19</field>
+			<field name="clasificador_codigo">12</field>
+			<field name="grupo_bien_codigo">1</field>	
+			<field name="clasificador_id" ref="clas_87"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		
+		<record id="demod_29" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">48</field>
+			<field name="detalle_modelo_nombre">CON BASE GIRATORIA</field>
+			<field name="modelo_id" ref="mod_6"/>
+			<field name="modelo_codigo">11</field>
+			<field name="clasificador_codigo">1</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_82"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		
+		<record id="demod_30" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">50</field>
+			<field name="detalle_modelo_nombre">MOVIL, CON BASE GIRATORIA</field>
+			<field name="modelo_id" ref="mod_19"/>
+			<field name="modelo_codigo">32</field>
+			<field name="clasificador_codigo">1</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_82"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		
+		<record id="demod_31" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">51</field>
+			<field name="detalle_modelo_nombre">REDONDA</field>
+			<field name="modelo_id" ref="mod_4"/>
+			<field name="modelo_codigo">9</field>
+			<field name="clasificador_codigo">4</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_83"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+			
+		<record id="demod_32" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">53</field>
+			<field name="detalle_modelo_nombre">2 BOMBILLOS</field>
+			<field name="modelo_id" ref="mod_28"/>
+			<field name="modelo_codigo">46</field>
+			<field name="clasificador_codigo">29</field>
+			<field name="grupo_bien_codigo">8</field>
+			<field name="clasificador_id" ref="clas_98"/>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+
+		</record>
+		
+		
+		<record id="demod_33" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">54</field>
+			<field name="detalle_modelo_nombre">DE 6 NIVELES</field>
+			<field name="modelo_id" ref="mod_29"/>
+			<field name="modelo_codigo">50</field>
+			<field name="clasificador_codigo">30</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_99"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		
+		<record id="demod_34" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">56</field>
+			<field name="detalle_modelo_nombre">MODULAR</field>
+			<field name="modelo_id" ref="mod_30"/>
+			<field name="modelo_codigo">51</field>
+			<field name="clasificador_codigo">4</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_83"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		
+		
+		<record id="demod_35" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">57</field>
+			<field name="detalle_modelo_nombre">RECTANGULAR</field>
+			<field name="modelo_id" ref="mod_3"/>
+			<field name="modelo_codigo">8</field>
+			<field name="clasificador_codigo">4</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_83"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+
+		</record>
+		
+		
+		<record id="demod_36" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">59</field>
+			<field name="detalle_modelo_nombre">CON REJAS METÁLICAS Y ASPA</field>
+			<field name="modelo_id" ref="mod_31"/>
+			<field name="modelo_codigo">53</field>
+			<field name="clasificador_codigo">31</field>
+			<field name="grupo_bien_codigo">8</field>
+			<field name="clasificador_id" ref="clas_100"/>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		
+		<record id="demod_37" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">60</field>
+			<field name="detalle_modelo_nombre">MANUAL</field>
+			<field name="modelo_id" ref="mod_32"/>
+			<field name="modelo_codigo">55</field>
+			<field name="clasificador_codigo">32</field>
+			<field name="grupo_bien_codigo">2</field>
+			<field name="clasificador_id" ref="clas_101"/>
+			<field name="grupo_bien_id" ref="grupo_12"/>
+		</record>
+	
+		<record id="demod_38" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">61</field>
+			<field name="detalle_modelo_nombre">SEMI-INDUSTRIAL</field>
+			<field name="modelo_id" ref="mod_33"/>
+			<field name="modelo_codigo">56</field>
+			<field name="clasificador_codigo">32</field>
+			<field name="grupo_bien_codigo">2</field>
+			<field name="clasificador_id" ref="clas_101"/>
+			<field name="grupo_bien_id" ref="grupo_12"/>
+		</record>
+
+		
+		<record id="demod_39" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">62</field>
+			<field name="detalle_modelo_nombre">MANUAL</field>
+			<field name="modelo_id" ref="mod_34"/>
+			<field name="modelo_codigo">57</field>
+			<field name="clasificador_codigo">32</field>
+			<field name="grupo_bien_codigo">2</field>
+			<field name="clasificador_id" ref="clas_101"/>
+			<field name="grupo_bien_id" ref="grupo_12"/>
+		</record>
+	
+		<record id="demod_40" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">64</field>
+			<field name="detalle_modelo_nombre">PEQUEÑA</field>
+			<field name="modelo_id" ref="mod_35"/>
+			<field name="modelo_codigo">59</field>
+			<field name="clasificador_codigo">32</field>
+			<field name="grupo_bien_codigo">2</field>
+			<field name="clasificador_id" ref="clas_101"/>
+			<field name="grupo_bien_id" ref="grupo_12"/>
+		</record>
+	
+		<record id="demod_41" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">65</field>
+			<field name="detalle_modelo_nombre">PARA ENCUADERNACIÓN DE ENGOMADO</field>
+			<field name="modelo_id" ref="mod_36"/>
+			<field name="modelo_codigo">60</field>
+			<field name="clasificador_codigo">32</field>
+			<field name="grupo_bien_codigo">2</field>
+			<field name="clasificador_id" ref="clas_101"/>
+			<field name="grupo_bien_id" ref="grupo_12"/>
+		</record>
+		<record id="demod_42" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">66</field>
+			<field name="detalle_modelo_nombre">ELÉCTRICA</field>
+			<field name="modelo_id" ref="mod_37"/>
+			<field name="modelo_codigo">61</field>
+			<field name="clasificador_codigo">32</field>
+			<field name="grupo_bien_codigo">2</field>
+			<field name="clasificador_id" ref="clas_101"/>
+			<field name="grupo_bien_id" ref="grupo_12"/>
+		</record>
+	
+		<record id="demod_43" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">67</field>
+			<field name="detalle_modelo_nombre">MANUAL</field>
+			<field name="modelo_id" ref="mod_38"/>
+			<field name="modelo_codigo">62</field>
+			<field name="clasificador_codigo">32</field>
+			<field name="grupo_bien_codigo">2</field>
+			<field name="clasificador_id" ref="clas_101"/>
+			<field name="grupo_bien_id" ref="grupo_12"/>
+		</record>
+		<record id="demod_44" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">68</field>
+			<field name="detalle_modelo_nombre">BLANCO Y NEGRO</field>
+			<field name="modelo_id" ref="mod_39"/>
+			<field name="modelo_codigo">63</field>
+			<field name="clasificador_codigo">32</field>
+			<field name="grupo_bien_codigo">2</field>
+			<field name="clasificador_id" ref="clas_101"/>
+			<field name="grupo_bien_id" ref="grupo_12"/>
+		</record>
+	
+		<record id="demod_45" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">69</field>
+			<field name="detalle_modelo_nombre">SIN MENÚ</field>
+			<field name="modelo_id" ref="mod_40"/>
+			<field name="modelo_codigo">64</field>
+			<field name="clasificador_codigo">35</field>
+			<field name="grupo_bien_codigo">9</field>
+			<field name="clasificador_id" ref="clas_102"/>
+			<field name="grupo_bien_id" ref="grupo_16"/>
+		</record>
+		<record id="demod_46" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">70</field>
+			<field name="detalle_modelo_nombre">PARA TELEVISOR</field>
+			<field name="modelo_id" ref="mod_41"/>
+			<field name="modelo_codigo">65</field>
+			<field name="clasificador_codigo">7</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_84"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>    
+		
+	
+		<record id="demod_47" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">71</field>
+			<field name="detalle_modelo_nombre">PARA VIDEO</field>
+			<field name="modelo_id" ref="mod_42"/>
+			<field name="modelo_codigo">66</field>
+			<field name="clasificador_codigo">78</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_131"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+	
+		<record id="demod_48" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">72</field>
+			<field name="detalle_modelo_nombre">PARA EQUIPO DE SONIDO</field>
+			<field name="modelo_id" ref="mod_41"/>
+			<field name="modelo_codigo">65</field>
+			<field name="clasificador_codigo">7</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_84"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>    
+		
+	
+		<record id="demod_49" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">80</field>
+			<field name="detalle_modelo_nombre">CON IMPRESIÓN DE TINTA</field>
+			<field name="modelo_id" ref="mod_43"/>
+			<field name="modelo_codigo">67</field>
+			<field name="clasificador_codigo">37</field>
+			<field name="grupo_bien_codigo">9</field>
+			<field name="clasificador_id" ref="clas_103"/>
+			<field name="grupo_bien_id" ref="grupo_16"/>
+		</record>
+		
+				
+		<record id="demod_50" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">81</field>
+			<field name="detalle_modelo_nombre">DE 5 NIVELES</field>
+			<field name="modelo_id" ref="mod_29"/>
+			<field name="modelo_codigo">50</field>
+			<field name="clasificador_codigo">30</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_99"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		
+		<record id="demod_51" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">82</field>
+			<field name="detalle_modelo_nombre">MOVIL, CON BASE GIRATORIA SIN APOYA CABEZA</field>
+			<field name="modelo_id" ref="mod_1"/>
+			<field name="modelo_codigo">1</field>
+			<field name="clasificador_codigo">1</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_82"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_52" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">83</field>
+			<field name="detalle_modelo_nombre">DE 3 GAVETAS</field>
+			<field name="modelo_id" ref="mod_44"/>
+			<field name="modelo_codigo">68</field>
+			<field name="clasificador_codigo">13</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_88"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		
+		<record id="demod_53" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">84</field>
+			<field name="detalle_modelo_nombre">DE 2 GAVETAS</field>
+			<field name="modelo_id" ref="mod_45"/>
+			<field name="modelo_codigo">69</field>
+			<field name="clasificador_codigo">13</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_88"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		
+		<record id="demod_54" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">88</field>
+			<field name="detalle_modelo_nombre">DE 5 NIVELES, CON 2 PUERTAS</field>
+			<field name="modelo_id" ref="mod_18"/>
+			<field name="modelo_codigo">30</field>
+			<field name="clasificador_codigo">19</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_93"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		
+			
+		<record id="demod_55" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">89</field>
+			<field name="detalle_modelo_nombre">DE 2 PUERTAS CORREDIZAS, CON 4 GAVETAS</field>
+			<field name="modelo_id" ref="mod_12"/>
+			<field name="modelo_codigo">19</field>
+			<field name="clasificador_codigo">12</field>
+			<field name="grupo_bien_codigo">1</field>	
+			<field name="clasificador_id" ref="clas_87"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		
+		<record id="demod_56" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">90</field>
+			<field name="detalle_modelo_nombre">DE 5 GAVETAS</field>
+			<field name="modelo_id" ref="mod_13"/>
+			<field name="modelo_codigo">20</field>
+			<field name="clasificador_codigo">13</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_88"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		
+			
+		<record id="demod_57" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">91</field>
+			<field name="detalle_modelo_nombre">DE 2 NIVELES CON 2 PUERTAS</field>
+			<field name="modelo_id" ref="mod_18"/>
+			<field name="modelo_codigo">30</field>
+			<field name="clasificador_codigo">19</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_93"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		
+		<record id="demod_58" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">92</field>
+			<field name="detalle_modelo_nombre">CON MENU Y SIN PANTALLA</field>
+			<field name="modelo_id" ref="mod_46"/>
+			<field name="modelo_codigo">73</field>
+			<field name="clasificador_codigo">35</field>
+			<field name="grupo_bien_codigo">9</field>
+			<field name="clasificador_id" ref="clas_102"/>
+			<field name="grupo_bien_id" ref="grupo_16"/>
+		</record>
+		
+		
+		<record id="demod_59" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">93</field>
+			<field name="detalle_modelo_nombre">CON MENU Y CON PANTALLA</field>
+			<field name="modelo_id" ref="mod_46"/>
+			<field name="modelo_codigo">73</field>
+			<field name="clasificador_codigo">35</field>
+			<field name="grupo_bien_codigo">9</field>
+			<field name="clasificador_id" ref="clas_102"/>
+			<field name="grupo_bien_id" ref="grupo_16"/>
+		</record>
+		
+		<record id="demod_60" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">94</field>
+			<field name="detalle_modelo_nombre">CON MARCO DE ALUMINIO</field>
+			<field name="modelo_id" ref="mod_47"/>
+			<field name="modelo_codigo">75</field>
+			<field name="clasificador_codigo">16</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_90"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		
+					
+		<record id="demod_61" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">95</field>
+			<field name="detalle_modelo_nombre">EJECUTIVA</field>
+			<field name="modelo_id" ref="mod_5"/>
+			<field name="modelo_codigo">10</field>
+			<field name="clasificador_codigo">7</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_84"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>    
+		
+		
+		<record id="demod_62" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">98</field>
+			<field name="detalle_modelo_nombre">CON REJAS METÁLICAS Y ASPA</field>
+			<field name="modelo_id" ref="mod_48"/>
+			<field name="modelo_codigo">76</field>
+			<field name="clasificador_codigo">31</field>
+			<field name="grupo_bien_codigo">8</field>		
+			<field name="clasificador_id" ref="clas_100"/>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		
+		
+		
+		<record id="demod_63" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">99</field>
+			<field name="detalle_modelo_nombre">PINTURA</field>
+			<field name="modelo_id" ref="mod_49"/>
+			<field name="modelo_codigo">77</field>
+			<field name="clasificador_codigo">38</field>
+			<field name="grupo_bien_codigo">10</field>
+			<field name="clasificador_id" ref="clas_104"/>
+			<field name="grupo_bien_id" ref="grupo_17"/>
+		</record>
+		<record id="demod_64" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">100</field>
+			<field name="detalle_modelo_nombre">CON MENU Y CON PANTALLA</field>
+			<field name="modelo_id" ref="mod_50"/>
+			<field name="modelo_codigo">79</field>
+			<field name="clasificador_codigo">40</field>
+			<field name="grupo_bien_codigo">9</field>
+			<field name="clasificador_id" ref="clas_105"/>
+			<field name="grupo_bien_id" ref="grupo_16"/>
+
+		</record>
+		
+		<record id="demod_65" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">101</field>
+			<field name="detalle_modelo_nombre">SISTEMA MANUAL</field>
+			<field name="modelo_id" ref="mod_51"/>
+			<field name="modelo_codigo">80</field>
+			<field name="clasificador_codigo">9</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_86"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+	
+		<record id="demod_66" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">102</field>
+			<field name="detalle_modelo_nombre">DE 2 PUERTAS, CON 4 NIVELES</field>
+			<field name="modelo_id" ref="mod_58"/>
+			<field name="modelo_codigo">89</field>
+			<field name="clasificador_codigo">9</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_86"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_67" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">103</field>
+			<field name="detalle_modelo_nombre">DE 5 NIVELES</field>
+			<field name="modelo_id" ref="mod_18"/>
+			<field name="modelo_codigo">30</field>
+			<field name="clasificador_codigo">19</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_93"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="demod_68" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">104</field>
+			<field name="detalle_modelo_nombre">DE 3 NIVELES</field>
+			<field name="modelo_id" ref="mod_18"/>
+			<field name="modelo_codigo">30</field>
+			<field name="clasificador_codigo">19</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_93"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="demod_69" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">105</field>
+			<field name="detalle_modelo_nombre">DE 7 NIVELES, CON 2 PUERTAS</field>
+			<field name="modelo_id" ref="mod_18"/>
+			<field name="modelo_codigo">30</field>
+			<field name="clasificador_codigo">19</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_93"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="demod_70" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">106</field>
+			<field name="detalle_modelo_nombre">CON PANEL DE CONTROL Y FUNCIONES</field>
+			<field name="modelo_id" ref="mod_52"/>
+			<field name="modelo_codigo">82</field>
+			<field name="clasificador_codigo">42</field>
+			<field name="grupo_bien_codigo">8</field>
+			<field name="clasificador_id" ref="clas_106"/>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="demod_71" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">107</field>
+			<field name="detalle_modelo_nombre">DE 2 NIVELES</field>
+			<field name="modelo_id" ref="mod_29"/>
+			<field name="modelo_codigo">50</field>
+			<field name="clasificador_codigo">30</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_99"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_72" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">108</field>
+			<field name="detalle_modelo_nombre">DE 4 NIVELES</field>
+			<field name="modelo_id" ref="mod_29"/>
+			<field name="modelo_codigo">50</field>
+			<field name="clasificador_codigo">30</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_99"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_73" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">109</field>
+			<field name="detalle_modelo_nombre">DE 34 PULGADAS</field>
+			<field name="modelo_id" ref="mod_26"/>
+			<field name="modelo_codigo">41</field>
+			<field name="clasificador_codigo">7</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_84"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>    
+		
+		<record id="demod_74" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">111</field>
+			<field name="detalle_modelo_nombre">DE 2 PUESTOS</field>
+			<field name="modelo_id" ref="mod_23"/>
+			<field name="modelo_codigo">38</field>
+			<field name="clasificador_codigo">24</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_96"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_75" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">112</field>
+			<field name="detalle_modelo_nombre">DE 29 PULGADAS</field>
+			<field name="modelo_id" ref="mod_26"/>
+			<field name="modelo_codigo">41</field>
+			<field name="clasificador_codigo">7</field>
+			<field name="grupo_bien_codigo">6</field>
+		    <field name="clasificador_id" ref="clas_84"/>
+		    <field name="grupo_bien_id" ref="grupo_14"/>
+		</record>    
+
+		
+		<record id="demod_76" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">113</field>
+			<field name="detalle_modelo_nombre">SÍMBOLOS PATRIOS</field>
+			<field name="modelo_id" ref="mod_53"/>
+			<field name="modelo_codigo">83</field>
+			<field name="clasificador_codigo">38</field>
+			<field name="grupo_bien_codigo">10</field>
+			<field name="modelo_codigo">83</field>
+			<field name="clasificador_id" ref="clas_104"/>
+			<field name="grupo_bien_id" ref="grupo_17"/>
+		</record>
+		<record id="demod_77" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">115</field>
+			<field name="detalle_modelo_nombre">SIMÓN BOLÍVAR EL LIBERTADOR</field>
+			<field name="modelo_id" ref="mod_54"/>
+			<field name="modelo_codigo">84</field>
+			<field name="clasificador_codigo">38</field>
+			<field name="grupo_bien_codigo">10</field>
+			<field name="clasificador_id" ref="clas_104"/>
+			<field name="grupo_bien_id" ref="grupo_17"/>
+		</record>
+		<record id="demod_78" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">116</field>
+			<field name="detalle_modelo_nombre">DE 3 GAVETAS</field>
+			<field name="modelo_id" ref="mod_55"/>
+			<field name="modelo_codigo">85</field>
+			<field name="clasificador_codigo">44</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_107"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_79" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">117</field>
+			<field name="detalle_modelo_nombre">SIN GAVETAS</field>
+			<field name="modelo_id" ref="mod_13"/>
+			<field name="modelo_codigo">20</field>
+			<field name="clasificador_codigo">13</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_88"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_80" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">118</field>
+			<field name="detalle_modelo_nombre">DE 3 NIVELES Y 4 GAVETAS</field>
+			<field name="modelo_id" ref="mod_18"/>
+			<field name="modelo_codigo">30</field>
+			<field name="clasificador_codigo">19</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_93"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="demod_81" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">119</field>
+			<field name="detalle_modelo_nombre">DE 6 GAVETAS</field>
+			<field name="modelo_id" ref="mod_13"/>
+			<field name="modelo_codigo">20</field>
+			<field name="clasificador_codigo">13</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_88"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_83" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">121</field>
+			<field name="detalle_modelo_nombre">CUADRADA</field>
+			<field name="modelo_id" ref="mod_4"/>
+			<field name="modelo_codigo">9</field>
+			<field name="clasificador_codigo">4</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_83"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_84" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">122</field>
+			<field name="detalle_modelo_nombre">DE VENEZUELA</field>
+			<field name="modelo_id" ref="mod_57"/>
+			<field name="modelo_codigo">88</field>
+			<field name="clasificador_codigo">38</field>
+			<field name="grupo_bien_codigo">10</field>
+			<field name="clasificador_id" ref="clas_104"/>
+			<field name="grupo_bien_id" ref="grupo_17"/>
+		</record>
+		<record id="demod_85" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">123</field>
+			<field name="detalle_modelo_nombre">CON PUERTA, DE 2 NIVELES</field>
+			<field name="modelo_id" ref="mod_59"/>
+			<field name="modelo_codigo">91</field>
+			<field name="clasificador_codigo">46</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_108"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_86" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">124</field>
+			<field name="detalle_modelo_nombre">MANUAL</field>
+			<field name="modelo_id" ref="mod_60"/>
+			<field name="modelo_codigo">92</field>
+			<field name="clasificador_codigo">48</field>
+			<field name="grupo_bien_codigo">12</field>
+			<field name="clasificador_id" ref="clas_109"/>
+			<field name="grupo_bien_id" ref="grupo_18"/>
+		</record>
+		<record id="demod_87" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">125</field>
+			<field name="detalle_modelo_nombre">PORTÁTIL</field>
+			<field name="modelo_id" ref="mod_61"/>
+			<field name="modelo_codigo">93</field>
+			<field name="clasificador_codigo">49</field>
+			<field name="grupo_bien_codigo">12</field>
+			<field name="clasificador_id" ref="clas_110"/>
+			<field name="grupo_bien_id" ref="grupo_18"/>
+		</record>
+		<record id="demod_88" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">126</field>
+			<field name="detalle_modelo_nombre">EQUIPO DE 13 PIEZAS</field>
+			<field name="modelo_id" ref="mod_62"/>
+			<field name="modelo_codigo">94</field>
+			<field name="clasificador_codigo">49</field>
+			<field name="grupo_bien_codigo">12</field>
+			<field name="clasificador_id" ref="clas_110"/>
+			<field name="grupo_bien_id" ref="grupo_18"/>
+		</record>
+		<record id="demod_89" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">127</field>
+			<field name="detalle_modelo_nombre">EQUIPO DE 12 PIEZAS</field>
+			<field name="modelo_id" ref="mod_63"/>
+			<field name="modelo_codigo">95</field>
+			<field name="clasificador_codigo">49</field>
+			<field name="grupo_bien_codigo">12</field>
+			<field name="clasificador_id" ref="clas_110"/>
+			<field name="grupo_bien_id" ref="grupo_18"/>
+		</record>
+		<record id="demod_90" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">128</field>
+			<field name="detalle_modelo_nombre">FIJO</field>
+			<field name="modelo_id" ref="mod_64"/>
+			<field name="modelo_codigo">96</field>
+			<field name="clasificador_codigo">50</field>
+			<field name="grupo_bien_codigo">12</field>
+			<field name="clasificador_id" ref="clas_111"/>
+			<field name="grupo_bien_id" ref="grupo_18"/>
+		</record>
+		<record id="demod_91" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">129</field>
+			<field name="detalle_modelo_nombre">FIJA</field>
+			<field name="modelo_id" ref="mod_65"/>
+			<field name="modelo_codigo">97</field>
+			<field name="clasificador_codigo">51</field>
+			<field name="grupo_bien_codigo">12</field>
+			<field name="clasificador_id" ref="clas_112"/>
+			<field name="grupo_bien_id" ref="grupo_18"/>
+		</record>
+		<record id="demod_92" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">130</field>
+			<field name="detalle_modelo_nombre">DE UNA HOJA</field>
+			<field name="modelo_id" ref="mod_66"/>
+			<field name="modelo_codigo">98</field>
+			<field name="clasificador_codigo">52</field>
+			<field name="grupo_bien_codigo">12</field>
+			<field name="clasificador_id" ref="clas_113"/>
+			<field name="grupo_bien_id" ref="grupo_18"/>
+		</record>
+		<record id="demod_93" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">131</field>
+			<field name="detalle_modelo_nombre">DE 2 NIVELES</field>
+			<field name="modelo_id" ref="mod_67"/>
+			<field name="modelo_codigo">100</field>
+			<field name="clasificador_codigo">53</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_114"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="demod_94" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">133</field>
+			<field name="detalle_modelo_nombre">CON 2 RUEDAS</field>
+			<field name="modelo_id" ref="mod_68"/>
+			<field name="modelo_codigo">102</field>
+			<field name="clasificador_codigo">56</field>
+			<field name="grupo_bien_codigo">14</field>
+			<field name="clasificador_id" ref="clas_115"/>
+			<field name="grupo_bien_id" ref="grupo_19"/>
+		</record>
+		<record id="demod_95" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">135</field>
+			<field name="detalle_modelo_nombre">REFRIGERACION COMPACTA</field>
+			<field name="modelo_id" ref="mod_69"/>
+			<field name="modelo_codigo">103</field>
+			<field name="clasificador_codigo">57</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_116"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="demod_96" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">136</field>
+			<field name="detalle_modelo_nombre">Y MANIJA DE BLOQUEO</field>
+			<field name="modelo_id" ref="mod_70"/>
+			<field name="modelo_codigo">104</field>
+			<field name="clasificador_codigo">58</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_117"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_97" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">138</field>
+			<field name="detalle_modelo_nombre">MANUAL</field>
+			<field name="modelo_id" ref="mod_71"/>
+			<field name="modelo_codigo">105</field>
+			<field name="clasificador_codigo">59</field>
+			<field name="grupo_bien_codigo">14</field>
+			<field name="clasificador_id" ref="clas_118"/>
+			<field name="grupo_bien_id" ref="grupo_19"/>
+		</record>
+		<record id="demod_98" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">139</field>
+			<field name="detalle_modelo_nombre">TECNOLOGÍA X-PAND TM</field>
+			<field name="modelo_id" ref="mod_72"/>
+			<field name="modelo_codigo">106</field>
+			<field name="clasificador_codigo">60</field>
+			<field name="grupo_bien_codigo">9</field>
+			<field name="clasificador_id" ref="clas_119"/>
+			<field name="grupo_bien_id" ref="grupo_16"/>
+
+		</record>
+		<record id="demod_99" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">143</field>
+			<field name="detalle_modelo_nombre">PARA HACER LLAVES</field>
+			<field name="modelo_id" ref="mod_74"/>
+			<field name="modelo_codigo">111</field>
+			<field name="clasificador_codigo">65</field>
+			<field name="grupo_bien_codigo">14</field>
+			<field name="clasificador_id" ref="clas_120"/>
+			<field name="grupo_bien_id" ref="grupo_19"/>
+		</record>
+		<record id="demod_100" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">144</field>
+			<field name="detalle_modelo_nombre">CON DOBLE AISLAMIENTO</field>
+			<field name="modelo_id" ref="mod_75"/>
+			<field name="modelo_codigo">112</field>
+			<field name="clasificador_codigo">66</field>
+			<field name="grupo_bien_codigo">14</field>
+			<field name="clasificador_id" ref="clas_121"/>
+			<field name="grupo_bien_id" ref="grupo_19"/>
+		</record>
+		<record id="demod_101" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">145</field>
+			<field name="detalle_modelo_nombre">PERCUSOR REVERSIBLE</field>
+			<field name="modelo_id" ref="mod_76"/>
+			<field name="modelo_codigo">113</field>
+			<field name="clasificador_codigo">67</field>
+			<field name="grupo_bien_codigo">14</field>
+			<field name="clasificador_id" ref="clas_122"/>
+			<field name="grupo_bien_id" ref="grupo_19"/>
+		</record>
+		
+		<record id="demod_103" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">147</field>
+			<field name="detalle_modelo_nombre">DE DRENAJE</field>
+			<field name="modelo_id" ref="mod_79"/>
+			<field name="modelo_codigo">116</field>
+			<field name="clasificador_codigo">70</field>
+			<field name="grupo_bien_codigo">14</field>
+			<field name="clasificador_id" ref="clas_125"/>
+			<field name="grupo_bien_id" ref="grupo_19"/>
+		</record>
+		<record id="demod_104" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">148</field>
+			<field name="detalle_modelo_nombre">MINITOWER</field>
+			<field name="modelo_id" ref="mod_80"/>
+			<field name="modelo_codigo">117</field>
+			<field name="clasificador_codigo">72</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_126"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_105" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">149</field>
+			<field name="detalle_modelo_nombre">TOWER</field>
+			<field name="modelo_id" ref="mod_80"/>
+			<field name="modelo_codigo">117</field>
+			<field name="clasificador_codigo">72</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_126"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_106" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">150</field>
+			<field name="detalle_modelo_nombre">DESKTOP</field>
+			<field name="modelo_id" ref="mod_80"/>
+			<field name="modelo_codigo">117</field>
+			<field name="clasificador_codigo">72</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_126"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_107" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">159</field>
+			<field name="detalle_modelo_nombre">ESTANDAR</field>
+			<field name="modelo_id" ref="mod_83"/>
+			<field name="modelo_codigo">121</field>
+			<field name="clasificador_codigo">75</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_128"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_108" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">166</field>
+			<field name="detalle_modelo_nombre">CRT</field>
+			<field name="modelo_id" ref="mod_84"/>
+			<field name="modelo_codigo">125</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_109" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">167</field>
+			<field name="detalle_modelo_nombre">TTF (PLANO)</field>
+			<field name="modelo_id" ref="mod_84"/>
+			<field name="modelo_codigo">125</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_110" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">168</field>
+			<field name="detalle_modelo_nombre">EN INGLES</field>
+			<field name="modelo_id" ref="mod_85"/>
+			<field name="modelo_codigo">127</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_111" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">169</field>
+			<field name="detalle_modelo_nombre">EN ESPANOL</field>
+			<field name="modelo_id" ref="mod_85"/>
+			<field name="modelo_codigo">127</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_112" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">171</field>
+			<field name="detalle_modelo_nombre">CON 2 BOTONES</field>
+			<field name="modelo_id" ref="mod_86"/>
+			<field name="modelo_codigo">128</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_113" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">172</field>
+			<field name="detalle_modelo_nombre">CON 3 BOTONES</field>
+			<field name="modelo_id" ref="mod_86"/>
+			<field name="modelo_codigo">128</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_114" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">173</field>
+			<field name="detalle_modelo_nombre">CON 2 BOTONES Y SCROLL</field>
+			<field name="modelo_id" ref="mod_86"/>
+			<field name="modelo_codigo">128</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_115" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">174</field>
+			<field name="detalle_modelo_nombre">CON 3 BOTONES Y SCROLL</field>
+			<field name="modelo_id" ref="mod_86"/>
+			<field name="modelo_codigo">128</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_116" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">176</field>
+			<field name="detalle_modelo_nombre">DE GRAN FORMATO</field>
+			<field name="modelo_id" ref="mod_87"/>
+			<field name="modelo_codigo">129</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_117" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">177</field>
+			<field name="detalle_modelo_nombre">DE FORMATO ESTANDAR</field>
+			<field name="modelo_id" ref="mod_87"/>
+			<field name="modelo_codigo">129</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_118" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">179</field>
+			<field name="detalle_modelo_nombre">DE 2 TOMAS</field>
+			<field name="modelo_id" ref="mod_88"/>
+			<field name="modelo_codigo">130</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_119" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">180</field>
+			<field name="detalle_modelo_nombre">DE 4 TOMAS</field>
+			<field name="modelo_id" ref="mod_88"/>
+			<field name="modelo_codigo">130</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_120" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">181</field>
+			<field name="detalle_modelo_nombre">DE 6 TOMAS</field>
+			<field name="modelo_id" ref="mod_88"/>
+			<field name="modelo_codigo">130</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+
+		<record id="demod_121" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">182</field>
+			<field name="detalle_modelo_nombre">DE RACK</field>
+			<field name="modelo_id" ref="mod_88"/>
+			<field name="modelo_codigo">130</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_122" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">183</field>
+			<field name="detalle_modelo_nombre">DE 2 TOMAS</field>
+			<field name="modelo_id" ref="mod_89"/>
+			<field name="modelo_codigo">132</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_123" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">184</field>
+			<field name="detalle_modelo_nombre">DE 4 TOMAS</field>
+			<field name="modelo_id" ref="mod_89"/>
+			<field name="modelo_codigo">132</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_124" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">185</field>
+			<field name="detalle_modelo_nombre">DE 6 TOMAS</field>
+			<field name="modelo_id" ref="mod_89"/>
+			<field name="modelo_codigo">132</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_125" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">186</field>
+			<field name="detalle_modelo_nombre">DE RACK DE 4 TOMAS</field>
+			<field name="modelo_id" ref="mod_89"/>
+			<field name="modelo_codigo">132</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_126" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">187</field>
+			<field name="detalle_modelo_nombre">CON BASE</field>
+			<field name="modelo_id" ref="mod_90"/>
+			<field name="modelo_codigo">133</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_127" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">188</field>
+			<field name="detalle_modelo_nombre">SIN BASE</field>
+			<field name="modelo_id" ref="mod_90"/>
+			<field name="modelo_codigo">133</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_128" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">189</field>
+			<field name="detalle_modelo_nombre">PORTATIL</field>
+			<field name="modelo_id" ref="mod_91"/>
+			<field name="modelo_codigo">134</field>
+			<field name="clasificador_codigo">78</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_131"/>
+     		<field name="grupo_bien_id" ref="grupo_20"/>
+
+		</record>
+		<record id="demod_129" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">191</field>
+			<field name="detalle_modelo_nombre">PARA MONTAJE</field>
+			<field name="modelo_id" ref="mod_91"/>
+			<field name="modelo_codigo">134</field>
+			<field name="clasificador_codigo">78</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_131"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_130" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">192</field>
+			<field name="detalle_modelo_nombre">PORTATIL</field>
+			<field name="modelo_id" ref="mod_92"/>
+			<field name="modelo_codigo">135</field>
+			<field name="clasificador_codigo">78</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_131"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_131" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">193</field>
+			<field name="detalle_modelo_nombre">PARA MONTAJE</field>
+			<field name="modelo_id" ref="mod_92"/>
+			<field name="modelo_codigo">135</field>
+			<field name="clasificador_codigo">78</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_131"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_132" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">194</field>
+			<field name="detalle_modelo_nombre">A COLOR</field>
+			<field name="modelo_id" ref="mod_93"/>
+			<field name="modelo_codigo">136</field>
+			<field name="clasificador_codigo">80</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_132"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_133" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">195</field>
+			<field name="detalle_modelo_nombre">BLANCO Y NEGRO</field>
+			<field name="modelo_id" ref="mod_93"/>
+			<field name="modelo_codigo">136</field>
+			<field name="clasificador_codigo">80</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_132"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_134" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">196</field>
+			<field name="detalle_modelo_nombre">CON CARRO ANGOSTO</field>
+			<field name="modelo_id" ref="mod_94"/>
+			<field name="modelo_codigo">137</field>
+			<field name="clasificador_codigo">80</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_132"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_135" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">197</field>
+			<field name="detalle_modelo_nombre">CON CARRO ANCHO</field>
+			<field name="modelo_id" ref="mod_94"/>
+			<field name="modelo_codigo">137</field>
+			<field name="clasificador_codigo">80</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_132"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_136" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">199</field>
+			<field name="detalle_modelo_nombre">CON CARRO ANGOSTO</field>
+			<field name="modelo_id" ref="mod_95"/>
+			<field name="modelo_codigo">138</field>
+			<field name="clasificador_codigo">80</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_132"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_137" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">200</field>
+			<field name="detalle_modelo_nombre">CON CARRO ANCHO</field>
+			<field name="modelo_id" ref="mod_95"/>
+			<field name="modelo_codigo">138</field>
+			<field name="clasificador_codigo">80</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_132"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_138" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">201</field>
+			<field name="detalle_modelo_nombre">PORTABLE</field>
+			<field name="modelo_id" ref="mod_96"/>
+			<field name="modelo_codigo">139</field>
+			<field name="clasificador_codigo">80</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_132"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_139" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">202</field>
+			<field name="detalle_modelo_nombre">DE 36 PULGADAS</field>
+			<field name="modelo_id" ref="mod_97"/>
+			<field name="modelo_codigo">140</field>
+			<field name="clasificador_codigo">80</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_132"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_140" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">203</field>
+			<field name="detalle_modelo_nombre">PARA PC</field>
+			<field name="modelo_id" ref="mod_98"/>
+			<field name="modelo_codigo">141</field>
+			<field name="clasificador_codigo">81</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_133"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_141" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">205</field>
+			<field name="detalle_modelo_nombre">DIGITAL</field>
+			<field name="modelo_id" ref="mod_99"/>
+			<field name="modelo_codigo">143</field>
+			<field name="clasificador_codigo">81</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_133"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_142" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">206</field>
+			<field name="detalle_modelo_nombre">DVD</field>
+			<field name="modelo_id" ref="mod_73"/>
+			<field name="modelo_codigo">107</field>
+			<field name="clasificador_codigo">7</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_84"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="demod_143" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">207</field>
+			<field name="detalle_modelo_nombre">ELECTRICA</field>
+			<field name="modelo_id" ref="mod_101"/>
+			<field name="modelo_codigo">145</field>
+			<field name="clasificador_codigo">7</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_84"/>
+		    <field name="grupo_bien_id" ref="grupo_14"/>	
+		</record>
+		<record id="demod_144" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">208</field>
+			<field name="detalle_modelo_nombre">VOLUMEN ALTO</field>
+			<field name="modelo_id" ref="mod_102"/>
+			<field name="modelo_codigo">146</field>
+			<field name="clasificador_codigo">7</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_132"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_145" model="detalle_modelo_bien">
+		    <field name="detalle_modelo_codigo">209</field>
+		    <field name="detalle_modelo_nombre">EN CINTA PARA RACK</field>
+		    <field name="modelo_id" ref="mod_103"/>
+		    <field name="modelo_codigo">147</field>
+		    <field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+		    <field name="clasificador_id" ref="clas_130"/>
+		    <field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_146" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">211</field>
+			<field name="detalle_modelo_nombre">ZIP EXTERNO</field>
+			<field name="modelo_id" ref="mod_103"/>
+			 <field name="modelo_codigo">147</field>
+		    <field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_147" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">213</field>
+			<field name="detalle_modelo_nombre">6 HEAD</field>
+			<field name="modelo_id" ref="mod_105"/>
+			<field name="modelo_codigo">149</field>
+			<field name="clasificador_codigo">7</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_84"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="demod_148" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">215</field>
+			<field name="detalle_modelo_nombre">DE PLANOS</field>
+			<field name="modelo_id" ref="mod_106"/>
+			<field name="modelo_codigo">150</field>
+			<field name="clasificador_codigo">82</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_134"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_149" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">216</field>
+			<field name="detalle_modelo_nombre">GIRATORIO</field>
+			<field name="modelo_id" ref="mod_58"/>
+			<field name="modelo_codigo">89</field>
+			<field name="clasificador_codigo">9</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_86"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_150" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">218</field>
+			<field name="detalle_modelo_nombre">DIGITAL</field>
+			<field name="modelo_id" ref="mod_100"/>
+			<field name="modelo_codigo">144</field>
+			<field name="clasificador_codigo">81</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_133"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+	
+		<record id="demod_152" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">227</field>
+			<field name="detalle_modelo_nombre">DE RACK</field>
+			<field name="modelo_id" ref="mod_81"/>
+			<field name="modelo_codigo">118</field>
+			<field name="clasificador_codigo">74</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_127"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_153" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">228</field>
+			<field name="detalle_modelo_nombre">DE TORRE</field>
+			<field name="modelo_id" ref="mod_81"/>
+			<field name="modelo_codigo">118</field>
+			<field name="clasificador_codigo">74</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_127"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_154" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">229</field>
+			<field name="detalle_modelo_nombre">DE DESKTOP</field>
+			<field name="modelo_id" ref="mod_81"/>
+			<field name="modelo_codigo">118</field>
+			<field name="clasificador_codigo">74</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_127"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_155" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">230</field>
+			<field name="detalle_modelo_nombre">DE 10 GAVETAS</field>
+			<field name="modelo_id" ref="mod_13"/>
+			<field name="modelo_codigo">20</field>
+			<field name="clasificador_codigo">13</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_88"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_156" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">232</field>
+			<field name="detalle_modelo_nombre">DE 9 GAVETAS</field>
+			<field name="modelo_id" ref="mod_13"/>
+			<field name="modelo_codigo">20</field>
+			<field name="clasificador_codigo">13</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_88"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_157" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">233</field>
+			<field name="detalle_modelo_nombre">CON LATERAL DERECHO, DE 7 GAVETAS</field>
+			<field name="modelo_id" ref="mod_13"/>
+			<field name="modelo_codigo">20</field>
+			<field name="clasificador_codigo">13</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_88"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_158" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">234</field>
+			<field name="detalle_modelo_nombre">SIN ALA</field>
+			<field name="modelo_id" ref="mod_14"/>
+			<field name="modelo_codigo">21</field>
+			<field name="clasificador_codigo">14</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_89"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+
+		<record id="demod_160" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">236</field>
+			<field name="detalle_modelo_nombre">DE 2 PUERTAS CORREDIZAS, CON 3 GAVETAS</field>
+			<field name="modelo_id" ref="mod_12"/>
+			<field name="modelo_codigo">19</field>
+			<field name="clasificador_codigo">12</field>
+			<field name="grupo_bien_codigo">1</field>	
+			<field name="clasificador_id" ref="clas_87"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_161" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">237</field>
+			<field name="detalle_modelo_nombre">DE 4 PUERTAS CORREDIZAS, CON 8 GAVETAS</field>
+			<field name="modelo_id" ref="mod_12"/>
+			<field name="modelo_codigo">19</field>
+			<field name="clasificador_codigo">12</field>
+			<field name="grupo_bien_codigo">1</field>	
+			<field name="clasificador_id" ref="clas_87"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_162" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">239</field>
+			<field name="detalle_modelo_nombre">DE PLASMA</field>
+			<field name="modelo_id" ref="mod_26"/>
+			<field name="modelo_codigo">41</field>
+			<field name="clasificador_codigo">7</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_84"/>
+		  	<field name="grupo_bien_id" ref="grupo_14"/>	
+		</record>
+		<record id="demod_163" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">241</field>
+			<field name="detalle_modelo_nombre">DE 32 PULGADAS</field>
+			<field name="modelo_id" ref="mod_26"/>
+			<field name="modelo_codigo">41</field>
+			<field name="clasificador_codigo">7</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_84"/>
+		  	<field name="grupo_bien_id" ref="grupo_14"/>	
+		</record>
+		<record id="demod_164" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">242</field>
+			<field name="detalle_modelo_nombre">DE 20 PULGADAS</field>
+			<field name="modelo_id" ref="mod_26"/>
+			<field name="modelo_codigo">41</field>
+			<field name="clasificador_codigo">7</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_84"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="demod_165" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">243</field>
+			<field name="detalle_modelo_nombre">DE 42 PULGADAS</field>
+			<field name="modelo_id" ref="mod_26"/>
+			<field name="modelo_codigo">41</field>
+			<field name="clasificador_codigo">7</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_84"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		
+		<record id="demod_175" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">255</field>
+			<field name="detalle_modelo_nombre">ESTÁNDAR</field>
+			<field name="modelo_id" ref="mod_82"/>
+			<field name="modelo_codigo">119</field>
+			<field name="clasificador_codigo">75</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_128"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_176" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">257</field>
+			<field name="detalle_modelo_nombre">DE RACK DE 6 TOMAS</field>
+			<field name="modelo_id" ref="mod_89"/>
+			<field name="modelo_codigo">132</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_177" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">258</field>
+			<field name="detalle_modelo_nombre">DE RACK DE 2 TOMAS</field>
+			<field name="modelo_id" ref="mod_89"/>
+			<field name="modelo_codigo">132</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		
+		<record id="demod_193" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">276</field>
+			<field name="detalle_modelo_nombre">MINITOWER</field>
+			<field name="modelo_id" ref="mod_122"/>
+			<field name="modelo_codigo">191</field>
+			<field name="clasificador_codigo">72</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_126"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_194" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">277</field>
+			<field name="detalle_modelo_nombre">TOWER</field>
+			<field name="modelo_id" ref="mod_122"/>
+			<field name="modelo_codigo">191</field>
+			<field name="clasificador_codigo">72</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_126"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_195" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">278</field>
+			<field name="detalle_modelo_nombre">DESKTOP</field>
+			<field name="modelo_id" ref="mod_122"/>
+			<field name="modelo_codigo">191</field>
+			<field name="clasificador_codigo">72</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_126"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_196" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">280</field>
+			<field name="detalle_modelo_nombre">PALM</field>
+			<field name="modelo_id" ref="mod_123"/>
+			<field name="modelo_codigo">192</field>
+			<field name="clasificador_codigo">75</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_128"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_197" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">281</field>
+			<field name="detalle_modelo_nombre">PDA</field>
+			<field name="modelo_id" ref="mod_123"/>
+			<field name="modelo_codigo">192</field>
+			<field name="clasificador_codigo">75</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_128"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_198" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">282</field>
+			<field name="detalle_modelo_nombre">EXTERNO</field>
+			<field name="modelo_id" ref="mod_124"/>
+			<field name="modelo_codigo">193</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_199" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">284</field>
+			<field name="detalle_modelo_nombre">INTERNO</field>
+			<field name="modelo_id" ref="mod_125"/>
+			<field name="modelo_codigo">194</field>
+			<field name="clasificador_codigo">76</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_129"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_200" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">285</field>
+			<field name="detalle_modelo_nombre">USB</field>
+			<field name="modelo_id" ref="mod_125"/>
+			<field name="modelo_codigo">194</field>
+			<field name="clasificador_codigo">76</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_129"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_201" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">287</field>
+			<field name="detalle_modelo_nombre">CDROM</field>
+			<field name="modelo_id" ref="mod_126"/>
+			<field name="modelo_codigo">195</field>
+			<field name="clasificador_codigo">76</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_129"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_202" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">288</field>
+			<field name="detalle_modelo_nombre">CDRW (LEE Y QUEMA CD)</field>
+			<field name="modelo_id" ref="mod_126"/>
+			<field name="modelo_codigo">195</field>
+			<field name="clasificador_codigo">76</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_129"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_203" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">289</field>
+			<field name="detalle_modelo_nombre">DVDROM</field>
+			<field name="modelo_id" ref="mod_126"/>
+			<field name="modelo_codigo">195</field>
+			<field name="clasificador_codigo">76</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_129"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_204" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">290</field>
+			<field name="detalle_modelo_nombre">DVDRW</field>
+			<field name="modelo_id" ref="mod_126"/>
+			<field name="modelo_codigo">195</field>
+			<field name="clasificador_codigo">76</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_129"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_205" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">291</field>
+			<field name="detalle_modelo_nombre">MINITOWER</field>
+			<field name="modelo_id" ref="mod_127"/>
+			<field name="modelo_codigo">196</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		
+		<record id="demod_206" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">292</field>
+			<field name="detalle_modelo_nombre">TOWER</field>
+			<field name="modelo_id" ref="mod_127"/>
+			<field name="modelo_codigo">196</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		
+		<record id="demod_207" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">293</field>
+			<field name="detalle_modelo_nombre">DESKTOP</field>
+			<field name="modelo_id" ref="mod_127"/>
+			<field name="modelo_codigo">196</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		
+		<record id="demod_208" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">297</field>
+			<field name="detalle_modelo_nombre">CDROM</field>
+			<field name="modelo_id" ref="mod_128"/>
+			<field name="modelo_codigo">201</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		
+		<record id="demod_209" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">298</field>
+			<field name="detalle_modelo_nombre">CDRW (LEE Y QUEMA CD)</field>
+			<field name="modelo_id" ref="mod_128"/>
+			<field name="modelo_codigo">201</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		
+		<record id="demod_210" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">299</field>
+			<field name="detalle_modelo_nombre">DVDROM</field>
+			<field name="modelo_id" ref="mod_128"/>
+			<field name="modelo_codigo">201</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		
+		<record id="demod_211" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">300</field>
+			<field name="detalle_modelo_nombre">DVDRW</field>
+			<field name="modelo_id" ref="mod_128"/>
+			<field name="modelo_codigo">201</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		
+		<record id="demod_212" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">301</field>
+			<field name="detalle_modelo_nombre">2 INPUT 1 OUTPUT</field>
+			<field name="modelo_id" ref="mod_129"/>
+			<field name="modelo_codigo">202</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_213" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">302</field>
+			<field name="detalle_modelo_nombre">3 INPUT 1 OUTPUT</field>
+			<field name="modelo_id" ref="mod_129"/>
+			<field name="modelo_codigo">202</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_214" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">303</field>
+			<field name="detalle_modelo_nombre">DE 42 PULGADAS</field>
+			<field name="modelo_id" ref="mod_97"/>
+			<field name="modelo_codigo">140</field>
+			<field name="clasificador_codigo">80</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_132"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_215" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">304</field>
+			<field name="detalle_modelo_nombre">VOLUMEN MEDIO</field>
+			<field name="modelo_id" ref="mod_102"/>
+			<field name="modelo_codigo">146</field>
+			<field name="clasificador_codigo">7</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_132"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_216" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">305</field>
+			<field name="detalle_modelo_nombre">VOLUMEN BAJO</field>
+			<field name="modelo_id" ref="mod_102"/>
+			<field name="modelo_codigo">146</field>
+			<field name="clasificador_codigo">7</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_132"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_217" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">306</field>
+			<field name="detalle_modelo_nombre">11 MEGABYTES SGDO</field>
+			<field name="modelo_id" ref="mod_130"/>
+			<field name="modelo_codigo">203</field>
+			<field name="clasificador_codigo">101</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_141"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_218" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">307</field>
+			<field name="detalle_modelo_nombre">54 MEGABYTES SGDO</field>
+			<field name="modelo_id" ref="mod_130"/>
+			<field name="modelo_codigo">203</field>
+			<field name="clasificador_codigo">101</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_141"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_219" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">308</field>
+			<field name="detalle_modelo_nombre">PARA RACK</field>
+			<field name="modelo_id" ref="mod_228"/>
+			<field name="modelo_codigo">204</field>
+			<field name="clasificador_codigo">101</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_141"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_220" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">309</field>
+			<field name="detalle_modelo_nombre">PORTABLES</field>
+			<field name="modelo_id" ref="mod_228"/>
+			<field name="modelo_codigo">204</field>
+			<field name="clasificador_codigo">101</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_141"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_221" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">310</field>
+			<field name="detalle_modelo_nombre">PARA RACK</field>
+			<field name="modelo_id" ref="mod_132"/>
+			<field name="modelo_codigo">205</field>
+			<field name="clasificador_codigo">101</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_141"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_222" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">311</field>
+			<field name="detalle_modelo_nombre">PORTABLES</field>
+			<field name="modelo_id" ref="mod_132"/>
+			<field name="modelo_codigo">205</field>
+			<field name="clasificador_codigo">101</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_141"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_223" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">312</field>
+			<field name="detalle_modelo_nombre">PARA RACK</field>
+			<field name="modelo_id" ref="mod_133"/>
+			<field name="modelo_codigo">206</field>
+			<field name="clasificador_codigo">101</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_141"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_224" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">314</field>
+			<field name="detalle_modelo_nombre">PORTABLES</field>
+			<field name="modelo_id" ref="mod_134"/>
+			<field name="modelo_codigo">207</field>
+			<field name="clasificador_codigo">101</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_141"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_225" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">315</field>
+			<field name="detalle_modelo_nombre">PARA RACK</field>
+			<field name="modelo_id" ref="mod_134"/>
+			<field name="modelo_codigo">207</field>
+			<field name="clasificador_codigo">101</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_141"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		
+		<record id="demod_227" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">317</field>
+			<field name="detalle_modelo_nombre">MANUAL</field>
+			<field name="modelo_id" ref="mod_56"/>
+			<field name="modelo_codigo">87</field>
+			<field name="clasificador_codigo">32</field>
+			<field name="grupo_bien_codigo">2</field>
+			<field name="clasificador_id" ref="clas_101"/>
+			<field name="grupo_bien_id" ref="grupo_12"/>
+		</record>
+		<record id="demod_228" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">318</field>
+			<field name="detalle_modelo_nombre">1000 MEGABYTES SGDO</field>
+			<field name="modelo_id" ref="mod_135"/>
+			<field name="modelo_codigo">208</field>
+			<field name="clasificador_codigo">101</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_141"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+
+		<record id="demod_230" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">320</field>
+			<field name="detalle_modelo_nombre">100 MEGABYTES SGDO</field>
+			<field name="modelo_id" ref="mod_136"/>
+			<field name="modelo_codigo">209</field>
+			<field name="clasificador_codigo">101</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_141"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_231" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">322</field>
+			<field name="detalle_modelo_nombre">CON VIDEO BEAM</field>
+			<field name="modelo_id" ref="mod_137"/>
+			<field name="modelo_codigo">210</field>
+			<field name="clasificador_codigo">102</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_142"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_232" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">323</field>
+			<field name="detalle_modelo_nombre">SIN VIDEO BEAM</field>
+			<field name="modelo_id" ref="mod_137"/>
+			<field name="modelo_codigo">210</field>
+			<field name="clasificador_codigo">102</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_142"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_233" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">324</field>
+			<field name="detalle_modelo_nombre">CON PORTATIL</field>
+			<field name="modelo_id" ref="mod_138"/>
+			<field name="modelo_codigo">211</field>
+			<field name="clasificador_codigo">102</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_142"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_234" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">325</field>
+			<field name="detalle_modelo_nombre">SIN PORTATIL</field>
+			<field name="modelo_id" ref="mod_138"/>
+			<field name="modelo_codigo">211</field>
+			<field name="clasificador_codigo">102</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_142"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_235" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">327</field>
+			<field name="detalle_modelo_nombre">CD-RW / DVD-RW DE 8 UNIDADES</field>
+			<field name="modelo_id" ref="mod_128"/>
+			<field name="modelo_codigo">201</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_236" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">328</field>
+			<field name="detalle_modelo_nombre">EN DISCO OPTICO PARA RACK</field>
+			<field name="modelo_id" ref="mod_103"/>
+			<field name="modelo_codigo">147</field>
+		    <field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_237" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">329</field>
+			<field name="detalle_modelo_nombre">JAZ INTERNO</field>
+			<field name="modelo_id" ref="mod_104"/>
+			<field name="modelo_codigo">148</field>
+			<field name="clasificador_codigo">76</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_129"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_238" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">330</field>
+			<field name="detalle_modelo_nombre">ZIP INTERNO</field>
+			<field name="modelo_id" ref="mod_104"/>
+			<field name="modelo_codigo">148</field>
+			<field name="clasificador_codigo">76</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_129"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_239" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">331</field>
+			<field name="detalle_modelo_nombre">UNIDAD DE CINTA DL TAPE</field>
+			<field name="modelo_id" ref="mod_104"/>
+			<field name="modelo_codigo">148</field>
+			<field name="clasificador_codigo">76</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_129"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+
+		<record id="demod_241" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">333</field>
+			<field name="detalle_modelo_nombre">SIN GAVETAS Y CON 2 PUERTAS</field>
+			<field name="modelo_id" ref="mod_13"/>
+			<field name="modelo_codigo">20</field>
+			<field name="clasificador_codigo">13</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_88"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_242" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">334</field>
+			<field name="detalle_modelo_nombre">DE 2 PUERTAS CON 2 NIVELES</field>
+			<field name="modelo_id" ref="mod_58"/>
+			<field name="modelo_codigo">89</field>
+			<field name="clasificador_codigo">9</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_86"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_243" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">335</field>
+			<field name="detalle_modelo_nombre">DE 4 PUERTAS BATIENTES</field>
+			<field name="modelo_id" ref="mod_12"/>
+			<field name="modelo_codigo">19</field>
+			<field name="clasificador_codigo">12</field>
+			<field name="grupo_bien_codigo">1</field>	
+			<field name="clasificador_id" ref="clas_87"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_244" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">336</field>
+			<field name="detalle_modelo_nombre">DE 5 GAVETAS</field>
+			<field name="modelo_id" ref="mod_14"/>
+			<field name="modelo_codigo">21</field>
+			<field name="clasificador_codigo">14</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_89"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_245" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">337</field>
+			<field name="detalle_modelo_nombre">BÁSICA</field>
+			<field name="modelo_id" ref="mod_143"/>
+			<field name="modelo_codigo">217</field>
+			<field name="clasificador_codigo">4</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_83"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_246" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">338</field>
+			<field name="detalle_modelo_nombre">DE 2 PUERTAS, CON 3 NIVELES</field>
+			<field name="modelo_id" ref="mod_58"/>
+			<field name="modelo_codigo">89</field>
+			<field name="clasificador_codigo">9</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_86"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_248" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">342</field>
+			<field name="detalle_modelo_nombre">MÓVIL, CON BASE GIRATORIA</field>
+			<field name="modelo_id" ref="mod_24"/>
+			<field name="modelo_codigo">39</field>
+			<field name="clasificador_codigo">1</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_82"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_249" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">344</field>
+			<field name="detalle_modelo_nombre">CON BASE FIJA</field>
+			<field name="modelo_id" ref="mod_6"/>
+			<field name="modelo_codigo">11</field>
+			<field name="clasificador_codigo">1</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_82"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_250" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">345</field>
+			<field name="detalle_modelo_nombre">DE 2 PUERTAS CON 5 GAVETAS</field>
+			<field name="modelo_id" ref="mod_14"/>
+			<field name="modelo_codigo">21</field>
+			<field name="clasificador_codigo">14</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_89"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_251" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">346</field>
+			<field name="detalle_modelo_nombre">DE 12 PUERTAS</field>
+			<field name="modelo_id" ref="mod_18"/>
+			<field name="modelo_codigo">30</field>
+			<field name="clasificador_codigo">19</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_93"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="demod_252" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">347</field>
+			<field name="detalle_modelo_nombre">DE 5 GAVETAS</field>
+			<field name="modelo_id" ref="mod_12"/>
+			<field name="modelo_codigo">19</field>
+			<field name="clasificador_codigo">12</field>
+			<field name="grupo_bien_codigo">1</field>	
+			<field name="clasificador_id" ref="clas_87"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_253" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">348</field>
+			<field name="detalle_modelo_nombre">DE 4 GAVETAS CON 2 PUERTAS</field>
+			<field name="modelo_id" ref="mod_12"/>
+			<field name="modelo_codigo">19</field>
+			<field name="clasificador_codigo">12</field>
+			<field name="grupo_bien_codigo">1</field>	
+			<field name="clasificador_id" ref="clas_87"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_254" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">349</field>
+			<field name="detalle_modelo_nombre">DE 10 PUERTAS</field>
+			<field name="modelo_id" ref="mod_18"/>
+			<field name="modelo_codigo">30</field>
+			<field name="clasificador_codigo">19</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_93"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="demod_255" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">350</field>
+			<field name="detalle_modelo_nombre">OVALADA</field>
+			<field name="modelo_id" ref="mod_3"/>
+			<field name="modelo_codigo">8</field>
+			<field name="clasificador_codigo">4</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_83"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_256" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">352</field>
+			<field name="detalle_modelo_nombre">CON MENU, PANTALLA Y FUNCIONES ESTANDAR</field>
+			<field name="modelo_id" ref="mod_141"/>
+			<field name="modelo_codigo">214</field>
+			<field name="clasificador_codigo">35</field>
+			<field name="grupo_bien_codigo">9</field>
+			<field name="clasificador_id" ref="clas_102"/>
+			<field name="grupo_bien_id" ref="grupo_16"/>
+		</record>
+		
+		<record id="demod_258" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">354</field>
+			<field name="detalle_modelo_nombre">CON ALA SIN GAVETAS</field>
+			<field name="modelo_id" ref="mod_13"/>
+			<field name="modelo_codigo">20</field>
+			<field name="clasificador_codigo">13</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_88"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		
+		<record id="demod_260" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">359</field>
+			<field name="detalle_modelo_nombre">RECTANGULAR</field>
+			<field name="modelo_id" ref="mod_4"/>
+			<field name="modelo_codigo">9</field>
+			<field name="clasificador_codigo">4</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_83"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_261" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">360</field>
+			<field name="detalle_modelo_nombre">DE 2 GAVETAS</field>
+			<field name="modelo_id" ref="mod_55"/>
+			<field name="modelo_codigo">85</field>
+			<field name="clasificador_codigo">44</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_107"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_262" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">361</field>
+			<field name="detalle_modelo_nombre">DE 3 NIVELES Y 2 PUERTAS</field>
+			<field name="modelo_id" ref="mod_18"/>
+			<field name="modelo_codigo">30</field>
+			<field name="clasificador_codigo">19</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_93"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="demod_263" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">362</field>
+			<field name="detalle_modelo_nombre">DE 4 NIVELES Y 2 PUERTAS</field>
+			<field name="modelo_id" ref="mod_18"/>
+			<field name="modelo_codigo">30</field>
+			<field name="clasificador_codigo">19</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_93"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="demod_264" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">364</field>
+			<field name="detalle_modelo_nombre">CARBONCILLO</field>
+			<field name="modelo_id" ref="mod_142"/>
+			<field name="modelo_codigo">216</field>
+			<field name="clasificador_codigo">38</field>
+			<field name="grupo_bien_codigo">10</field>
+			<field name="clasificador_id" ref="clas_104"/>
+			<field name="grupo_bien_id" ref="grupo_17"/>
+		</record>
+		<record id="demod_265" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">365</field>
+			<field name="detalle_modelo_nombre">PLEGABLES Y MÓVILES</field>
+			<field name="modelo_id" ref="mod_143"/>
+			<field name="modelo_codigo">217</field>
+			<field name="clasificador_codigo">4</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_83"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_266" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">366</field>
+			<field name="detalle_modelo_nombre">DE 2 PUERTAS, CON 5 NIVELES</field>
+			<field name="modelo_id" ref="mod_58"/>
+			<field name="modelo_codigo">89</field>
+			<field name="clasificador_codigo">9</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_86"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_267" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">367</field>
+			<field name="detalle_modelo_nombre">DE 4 NIVELES, CON 1 PUERTA</field>
+			<field name="modelo_id" ref="mod_18"/>
+			<field name="modelo_codigo">30</field>
+			<field name="clasificador_codigo">19</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_93"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+	
+		<record id="demod_269" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">370</field>
+			<field name="detalle_modelo_nombre">DE 5 PULGADAS</field>
+			<field name="modelo_id" ref="mod_5"/>
+			<field name="modelo_codigo">10</field>
+			<field name="clasificador_codigo">7</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_84"/>
+		    <field name="grupo_bien_id" ref="grupo_14"/>	
+		</record>
+		<record id="demod_270" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">371</field>
+			<field name="detalle_modelo_nombre">SIN GAVETAS</field>
+			<field name="modelo_id" ref="mod_55"/>
+			<field name="modelo_codigo">85</field>
+			<field name="clasificador_codigo">44</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_107"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_271" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">373</field>
+			<field name="detalle_modelo_nombre">3 PUERTAS, 4 GAVETAS Y 8 COMPARTIMIENTOS</field>
+			<field name="modelo_id" ref="mod_145"/>
+			<field name="modelo_codigo">221</field>
+			<field name="clasificador_codigo">14</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_89"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_272" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">374</field>
+			<field name="detalle_modelo_nombre">5 PUERTAS, 4 GAVETAS Y 4 COMPARTIMIENTOS</field>
+			<field name="modelo_id" ref="mod_145"/>
+			<field name="modelo_codigo">221</field>
+			<field name="clasificador_codigo">14</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_89"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_273" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">375</field>
+			<field name="detalle_modelo_nombre">DE 2 NIVELES</field>
+			<field name="modelo_id" ref="mod_18"/>
+			<field name="modelo_codigo">30</field>
+			<field name="clasificador_codigo">19</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_93"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="demod_274" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">376</field>
+			<field name="detalle_modelo_nombre">SIN GAVETAS</field>
+			<field name="modelo_id" ref="mod_12"/>
+			<field name="modelo_codigo">19</field>
+			<field name="clasificador_codigo">12</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_87"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_275" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">377</field>
+			<field name="detalle_modelo_nombre">SIN PUERTAS Y SIN NIVELES</field>
+			<field name="modelo_id" ref="mod_145"/>
+			<field name="modelo_codigo">221</field>
+			<field name="clasificador_codigo">14</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_89"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_276" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">378</field>
+			<field name="detalle_modelo_nombre">DE 4 VELOCIDADES</field>
+			<field name="modelo_id" ref="mod_9"/>
+			<field name="modelo_codigo">15</field>
+			<field name="clasificador_codigo">7</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_84"/>
+		    <field name="grupo_bien_id" ref="grupo_14"/>	
+		</record>
+		<record id="demod_277" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">379</field>
+			<field name="detalle_modelo_nombre">FIGURAS</field>
+			<field name="modelo_id" ref="mod_146"/>
+			<field name="modelo_codigo">222</field>
+			<field name="clasificador_codigo">38</field>
+			<field name="grupo_bien_codigo">10</field>
+			<field name="clasificador_id" ref="clas_104"/>
+			<field name="grupo_bien_id" ref="grupo_17"/>
+		</record>
+		<record id="demod_278" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">380</field>
+			<field name="detalle_modelo_nombre">DE 2 PUERTAS Y 14 NIVELES</field>
+			<field name="modelo_id" ref="mod_18"/>
+			<field name="modelo_codigo">30</field>
+			<field name="clasificador_codigo">19</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_93"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="demod_279" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">381</field>
+			<field name="detalle_modelo_nombre">DE 4 NIVELES Y 4 GAVETAS</field>
+			<field name="modelo_id" ref="mod_18"/>
+			<field name="modelo_codigo">30</field>
+			<field name="clasificador_codigo">19</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_93"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="demod_280" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">382</field>
+			<field name="detalle_modelo_nombre">MANUAL</field>
+			<field name="modelo_id" ref="mod_147"/>
+			<field name="modelo_codigo">223</field>
+			<field name="clasificador_codigo">106</field>
+			<field name="grupo_bien_codigo">2</field>
+			<field name="clasificador_id" ref="clas_143"/>
+			<field name="grupo_bien_id" ref="grupo_12"/>
+		</record>
+		<record id="demod_281" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">383</field>
+			<field name="detalle_modelo_nombre">DE 5 GAVETAS</field>
+			<field name="modelo_id" ref="mod_58"/>
+			<field name="modelo_codigo">89</field>
+			<field name="clasificador_codigo">9</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_86"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_282" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">384</field>
+			<field name="detalle_modelo_nombre">MANUAL</field>
+			<field name="modelo_id" ref="mod_148"/>
+			<field name="modelo_codigo">224</field>
+			<field name="clasificador_codigo">107</field>
+			<field name="grupo_bien_codigo">8</field>
+			<field name="clasificador_id" ref="clas_144"/>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="demod_283" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">385</field>
+			<field name="detalle_modelo_nombre">DE 5 TOMAS</field>
+			<field name="modelo_id" ref="mod_88"/>
+			<field name="modelo_codigo">130</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_284" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">386</field>
+			<field name="detalle_modelo_nombre">DE 6 NIVELES</field>
+			<field name="modelo_id" ref="mod_18"/>
+			<field name="modelo_codigo">30</field>
+			<field name="clasificador_codigo">19</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_93"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="demod_285" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">387</field>
+			<field name="detalle_modelo_nombre">DE PELÍCULA</field>
+			<field name="modelo_id" ref="mod_149"/>
+			<field name="modelo_codigo">226</field>
+			<field name="clasificador_codigo">78</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_131"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_286" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">389</field>
+			<field name="detalle_modelo_nombre">PARA CAMARA FOTOGRAFICA</field>
+			<field name="modelo_id" ref="mod_150"/>
+			<field name="modelo_codigo">228</field>
+			<field name="clasificador_codigo">108</field>
+			<field name="grupo_bien_codigo">2</field>
+			<field name="clasificador_id" ref="clas_145"/>
+			<field name="grupo_bien_id" ref="grupo_12"/>
+		</record>
+		<record id="demod_287" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">390</field>
+			<field name="detalle_modelo_nombre">DE 3 PATAS</field>
+			<field name="modelo_id" ref="mod_151"/>
+			<field name="modelo_codigo">229</field>
+			<field name="clasificador_codigo">108</field>
+			<field name="grupo_bien_codigo">2</field>
+			<field name="clasificador_id" ref="clas_145"/>
+			<field name="grupo_bien_id" ref="grupo_12"/>
+		</record>
+		<record id="demod_288" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">391</field>
+			<field name="detalle_modelo_nombre">PARA MICROFONO</field>
+			<field name="modelo_id" ref="mod_150"/>
+			<field name="modelo_codigo">228</field>
+			<field name="clasificador_codigo">108</field>
+			<field name="grupo_bien_codigo">2</field>
+			<field name="clasificador_id" ref="clas_145"/>
+			<field name="grupo_bien_id" ref="grupo_12"/>
+		</record>
+		<record id="demod_289" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">392</field>
+			<field name="detalle_modelo_nombre">DE 4 GAVETAS</field>
+			<field name="modelo_id" ref="mod_13"/>
+			<field name="modelo_codigo">20</field>
+			<field name="clasificador_codigo">13</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_88"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_290" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">393</field>
+			<field name="detalle_modelo_nombre">AERO KIT ( CABLE, LAMPARAS, 2 TRIPODES)</field>
+			<field name="modelo_id" ref="mod_152"/>
+			<field name="modelo_codigo">230</field>
+			<field name="clasificador_codigo">108</field>
+			<field name="grupo_bien_codigo">2</field>
+			<field name="clasificador_id" ref="clas_145"/>
+			<field name="grupo_bien_id" ref="grupo_12"/>
+		</record>
+		<record id="demod_291" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">394</field>
+			<field name="detalle_modelo_nombre">ESTUCHE QUE CONTIENE: BATERIA, LENTE, LECTOR OPTICO</field>
+			<field name="modelo_id" ref="mod_99"/>
+			<field name="modelo_codigo">143</field>
+			<field name="clasificador_codigo">81</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_133"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_292" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">395</field>
+			<field name="detalle_modelo_nombre">DE CINTA</field>
+			<field name="modelo_id" ref="mod_153"/>
+			<field name="modelo_codigo">231</field>
+			<field name="clasificador_codigo">81</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_133"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_293" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">396</field>
+			<field name="detalle_modelo_nombre">DE 1 GAVETA</field>
+			<field name="modelo_id" ref="mod_13"/>
+			<field name="modelo_codigo">20</field>
+			<field name="clasificador_codigo">13</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_88"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_294" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">397</field>
+			<field name="detalle_modelo_nombre">DE 1 PUERTA</field>
+			<field name="modelo_id" ref="mod_58"/>
+			<field name="modelo_codigo">89</field>
+			<field name="clasificador_codigo">9</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_86"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_295" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">398</field>
+			<field name="detalle_modelo_nombre">CON ALA DE 4 GAVETAS</field>
+			<field name="modelo_id" ref="mod_14"/>
+			<field name="modelo_codigo">21</field>
+			<field name="clasificador_codigo">14</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_89"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_296" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">399</field>
+			<field name="detalle_modelo_nombre">MANUAL</field>
+			<field name="modelo_id" ref="mod_154"/>
+			<field name="modelo_codigo">232</field>
+			<field name="clasificador_codigo">32</field>
+			<field name="grupo_bien_codigo">2</field>
+			<field name="clasificador_id" ref="clas_101"/>
+			<field name="grupo_bien_id" ref="grupo_12"/>
+		</record>
+		<record id="demod_297" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">400</field>
+			<field name="detalle_modelo_nombre">VARIOS</field>
+			<field name="modelo_id" ref="mod_53"/>
+			<field name="modelo_codigo">83</field>
+			<field name="clasificador_codigo">38</field>
+			<field name="grupo_bien_codigo">10</field>
+			<field name="clasificador_id" ref="clas_104"/>
+			<field name="grupo_bien_id" ref="grupo_17"/>
+		</record>
+		<record id="demod_298" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">401</field>
+			<field name="detalle_modelo_nombre">CON ALA Y ARMARIO DE 3 NIVELES</field>
+			<field name="modelo_id" ref="mod_14"/>
+			<field name="modelo_codigo">21</field>
+			<field name="clasificador_codigo">14</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_89"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_299" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">402</field>
+			<field name="detalle_modelo_nombre">CON ALA Y ARMARIO DE 3 NIVELES</field>
+			<field name="modelo_id" ref="mod_13"/>
+			<field name="modelo_codigo">20</field>
+			<field name="clasificador_codigo">13</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_88"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_300" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">403</field>
+			<field name="detalle_modelo_nombre">CON ALA DE 4 GAVETAS</field>
+			<field name="modelo_id" ref="mod_13"/>
+			<field name="modelo_codigo">20</field>
+			<field name="clasificador_codigo">13</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_88"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_301" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">404</field>
+			<field name="detalle_modelo_nombre">DE 3 PUESTOS</field>
+			<field name="modelo_id" ref="mod_6"/>
+			<field name="modelo_codigo">11</field>
+			<field name="clasificador_codigo">1</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_82"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+
+		</record>
+		<record id="demod_302" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">405</field>
+			<field name="detalle_modelo_nombre">DE 2 GAVETAS</field>
+			<field name="modelo_id" ref="mod_12"/>
+			<field name="modelo_codigo">19</field>
+			<field name="clasificador_codigo">12</field>
+			<field name="grupo_bien_codigo">1</field>	
+			<field name="clasificador_id" ref="clas_87"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		
+		<record id="demod_304" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">407</field>
+			<field name="detalle_modelo_nombre">DE 2 NIVELES, CON 6 PUERTAS</field>
+			<field name="modelo_id" ref="mod_18"/>
+			<field name="modelo_codigo">30</field>
+			<field name="clasificador_codigo">19</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_93"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="demod_305" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">408</field>
+			<field name="detalle_modelo_nombre">DE 4 PUERTAS, CON 3 GAVETAS</field>
+			<field name="modelo_id" ref="mod_12"/>
+			<field name="modelo_codigo">19</field>
+			<field name="clasificador_codigo">12</field>
+			<field name="grupo_bien_codigo">1</field>	
+			<field name="clasificador_id" ref="clas_87"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_306" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">409</field>
+			<field name="detalle_modelo_nombre">DE 2 NIVELES, CON 1 PUERTA</field>
+			<field name="modelo_id" ref="mod_12"/>
+			<field name="modelo_codigo">19</field>
+			<field name="clasificador_codigo">12</field>
+			<field name="grupo_bien_codigo">1</field>	
+			<field name="clasificador_id" ref="clas_87"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_307" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">410</field>
+			<field name="detalle_modelo_nombre">PARA PC</field>
+			<field name="modelo_id" ref="mod_156"/>
+			<field name="modelo_codigo">234</field>
+			<field name="clasificador_codigo">81</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_133"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_308" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">411</field>
+			<field name="detalle_modelo_nombre">BÁSICA</field>
+			<field name="modelo_id" ref="mod_157"/>
+			<field name="modelo_codigo">235</field>
+			<field name="clasificador_codigo">113</field>
+			<field name="grupo_bien_codigo">14</field>
+			<field name="clasificador_id" ref="clas_147"/>
+			<field name="grupo_bien_id" ref="grupo_19"/>
+		</record>
+			<record id="demod_309" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">412</field>
+			<field name="detalle_modelo_nombre">PARA DESTAPAR CAÑERÍAS</field>
+			<field name="modelo_id" ref="mod_158"/>
+			<field name="modelo_codigo">236</field>
+			<field name="clasificador_codigo">114</field>
+			<field name="grupo_bien_codigo">14</field>
+			<field name="clasificador_id" ref="clas_148"/>
+			<field name="grupo_bien_id" ref="grupo_19"/>
+		</record>
+		<record id="demod_310" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">414</field>
+			<field name="detalle_modelo_nombre">DE 1/2 CABALLO DE FUERZA</field>
+			<field name="modelo_id" ref="mod_159"/>
+			<field name="modelo_codigo">237</field>
+			<field name="clasificador_codigo">115</field>
+			<field name="grupo_bien_codigo">14</field>
+			<field name="clasificador_id" ref="clas_149"/>
+			<field name="grupo_bien_id" ref="grupo_19"/>
+		</record>
+		<record id="demod_311" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">417</field>
+			<field name="detalle_modelo_nombre">PAÍSES DEL MUNDO</field>
+			<field name="modelo_id" ref="mod_161"/>
+			<field name="modelo_codigo">242</field>
+			<field name="clasificador_codigo">38</field>
+			<field name="grupo_bien_codigo">10</field>
+			<field name="clasificador_id" ref="clas_104"/>
+			<field name="grupo_bien_id" ref="grupo_17"/>
+		</record>
+		<record id="demod_312" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">418</field>
+			<field name="detalle_modelo_nombre">PORTÁTIL</field>
+			<field name="modelo_id" ref="mod_160"/>
+			<field name="modelo_codigo">240</field>
+			<field name="clasificador_codigo">117</field>
+			<field name="grupo_bien_codigo">14</field>
+			<field name="clasificador_id" ref="clas_150"/>
+			<field name="grupo_bien_id" ref="grupo_19"/>
+		</record>
+		<record id="demod_313" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">419</field>
+			<field name="detalle_modelo_nombre">SIN ALA, SIN GAVETAS</field>
+			<field name="modelo_id" ref="mod_14"/>
+			<field name="modelo_codigo">21</field>
+			<field name="clasificador_codigo">14</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_89"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_314" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">420</field>
+			<field name="detalle_modelo_nombre">DE 3 PUESTOS</field>
+			<field name="modelo_id" ref="mod_162"/>
+			<field name="modelo_codigo">243</field>
+			<field name="clasificador_codigo">24</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_96"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_315" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">421</field>
+			<field name="detalle_modelo_nombre">FRANCISCO DE MIRANDA</field>
+			<field name="modelo_id" ref="mod_54"/>
+			<field name="modelo_codigo">84</field>
+			<field name="clasificador_codigo">38</field>
+			<field name="grupo_bien_codigo">10</field>
+			<field name="clasificador_id" ref="clas_104"/>
+			<field name="grupo_bien_id" ref="grupo_17"/>
+		</record>
+		<record id="demod_316" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">422</field>
+			<field name="detalle_modelo_nombre">DE 10 NIVELES, CON 5 PUERTAS</field>
+			<field name="modelo_id" ref="mod_18"/>
+			<field name="modelo_codigo">30</field>
+			<field name="clasificador_codigo">19</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_93"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="demod_317" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">423</field>
+			<field name="detalle_modelo_nombre">DE 9 GAVETAS</field>
+			<field name="modelo_id" ref="mod_58"/>
+			<field name="modelo_codigo">89</field>
+			<field name="clasificador_codigo">9</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_86"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_318" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">424</field>
+			<field name="detalle_modelo_nombre">PRESIDENTE DE LA REPUBLICA</field>
+			<field name="modelo_id" ref="mod_54"/>
+			<field name="modelo_codigo">84</field>
+			<field name="clasificador_codigo">38</field>
+			<field name="grupo_bien_codigo">10</field>
+			<field name="clasificador_id" ref="clas_104"/>
+			<field name="grupo_bien_id" ref="grupo_17"/>
+		</record>
+		<record id="demod_319" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">425</field>
+			<field name="detalle_modelo_nombre">ANDRES BELLO</field>
+			<field name="modelo_id" ref="mod_54"/>
+			<field name="modelo_codigo">84</field>
+			<field name="clasificador_codigo">38</field>
+			<field name="grupo_bien_codigo">10</field>
+			<field name="clasificador_id" ref="clas_104"/>
+			<field name="grupo_bien_id" ref="grupo_17"/>
+		</record>
+		<record id="demod_320" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">426</field>
+			<field name="detalle_modelo_nombre">DE 5 NIVELES, CON 2 PUERTAS</field>
+			<field name="modelo_id" ref="mod_145"/>
+			<field name="modelo_codigo">221</field>
+			<field name="clasificador_codigo">14</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_89"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_321" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">427</field>
+			<field name="detalle_modelo_nombre">PARA EQUIPO DE SONIDO</field>
+			<field name="modelo_id" ref="mod_164"/>
+			<field name="modelo_codigo">245</field>
+			<field name="clasificador_codigo">7</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_84"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="demod_322" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">428</field>
+			<field name="detalle_modelo_nombre">DE COCINA</field>
+			<field name="modelo_id" ref="mod_165"/>
+			<field name="modelo_codigo">246</field>
+			<field name="clasificador_codigo">7</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_84"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="demod_323" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">429</field>
+			<field name="detalle_modelo_nombre">DE AUDIO</field>
+			<field name="modelo_id" ref="mod_166"/>
+			<field name="modelo_codigo">247</field>
+			<field name="clasificador_codigo">81</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_133"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_324" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">430</field>
+			<field name="detalle_modelo_nombre">DE 1 MICROFONO</field>
+			<field name="modelo_id" ref="mod_167"/>
+			<field name="modelo_codigo">248</field>
+			<field name="clasificador_codigo">102</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_142"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_325" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">431</field>
+			<field name="detalle_modelo_nombre">DE AUDIO Y VIDEO</field>
+			<field name="modelo_id" ref="mod_168"/>
+			<field name="modelo_codigo">249</field>
+			<field name="clasificador_codigo">102</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_142"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		<record id="demod_326" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">432</field>
+			<field name="detalle_modelo_nombre">DE 4 PUERTAS, CON 8 GAVETAS</field>
+			<field name="modelo_id" ref="mod_18"/>
+			<field name="modelo_codigo">30</field>
+			<field name="clasificador_codigo">19</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_93"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		
+		<record id="demod_328" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">435</field>
+			<field name="detalle_modelo_nombre">DE 2 PUERTAS</field>
+			<field name="modelo_id" ref="mod_13"/>
+			<field name="modelo_codigo">20</field>
+			<field name="clasificador_codigo">13</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_88"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_329" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">436</field>
+			<field name="detalle_modelo_nombre">DE 3 GAVETAS</field>
+			<field name="modelo_id" ref="mod_145"/>
+			<field name="modelo_codigo">221</field>
+			<field name="clasificador_codigo">14</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_89"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_330" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">437</field>
+			<field name="detalle_modelo_nombre">ACOLCHADO</field>
+			<field name="modelo_id" ref="mod_169"/>
+			<field name="modelo_codigo">251</field>
+			<field name="clasificador_codigo">119</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_151"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="demod_331" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">438</field>
+			<field name="detalle_modelo_nombre">DE 3 NIVELES, DE 1 PUERTA</field>
+			<field name="modelo_id" ref="mod_18"/>
+			<field name="modelo_codigo">30</field>
+			<field name="clasificador_codigo">19</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_93"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="demod_332" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">439</field>
+			<field name="detalle_modelo_nombre">DE PILAS</field>
+			<field name="modelo_id" ref="mod_170"/>
+			<field name="modelo_codigo">252</field>
+			<field name="clasificador_codigo">120</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_152"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="demod_333" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">440</field>
+			<field name="detalle_modelo_nombre">INALAMBRICO</field>
+			<field name="modelo_id" ref="mod_40"/>
+			<field name="modelo_codigo">64</field>
+			<field name="clasificador_codigo">35</field>
+			<field name="grupo_bien_codigo">9</field>
+			<field name="clasificador_id" ref="clas_102"/>
+			<field name="grupo_bien_id" ref="grupo_16"/>
+		</record>
+		<record id="demod_334" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">441</field>
+			<field name="detalle_modelo_nombre">DE 2 PUERTAS, DE 4 GAVETAS</field>
+			<field name="modelo_id" ref="mod_58"/>
+			<field name="modelo_codigo">89</field>
+			<field name="clasificador_codigo">9</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_86"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>
+		<record id="demod_335" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">443</field>
+			<field name="detalle_modelo_nombre">TRICOLOR</field>
+			<field name="modelo_id" ref="mod_161"/>
+			<field name="modelo_codigo">242</field>
+			<field name="clasificador_codigo">38</field>
+			<field name="grupo_bien_codigo">10</field>
+			<field name="clasificador_id" ref="clas_104"/>
+			<field name="grupo_bien_id" ref="grupo_17"/>
+		</record>			
+		<record id="demod_336" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">444</field>
+			<field name="detalle_modelo_nombre">CON BASE</field>
+			<field name="modelo_id" ref="mod_171"/>	
+			<field name="modelo_codigo">253</field>
+			<field name="clasificador_codigo">121</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_153"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>			
+		<record id="demod_337" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">445</field>
+			<field name="detalle_modelo_nombre">PARA PC</field>
+			<field name="modelo_id" ref="mod_172"/>	
+			<field name="modelo_codigo">254</field>
+			<field name="clasificador_codigo">81</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_133"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+
+		</record>				
+		<record id="demod_338" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">446</field>
+			<field name="detalle_modelo_nombre">INALAMBRICO</field>
+			<field name="modelo_id" ref="mod_86"/>	
+			<field name="modelo_codigo">128</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>					
+		<record id="demod_339" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">447</field>
+			<field name="detalle_modelo_nombre">DE 3 VELOCIDADES</field>
+			<field name="modelo_id" ref="mod_173"/>	
+			<field name="modelo_codigo">255</field>
+			<field name="clasificador_codigo">7</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_84"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>					
+		<record id="demod_340" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">448</field>
+			<field name="detalle_modelo_nombre">DE 4 PUERTAS</field>
+			<field name="modelo_id" ref="mod_145"/>	
+			<field name="modelo_codigo">221</field>
+			<field name="clasificador_codigo">14</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_89"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>	
+		<record id="demod_341" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">449</field>
+			<field name="detalle_modelo_nombre">DE CINTA</field>
+			<field name="modelo_id" ref="mod_175"/>	
+			<field name="modelo_codigo">257</field>
+			<field name="clasificador_codigo">81</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_133"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>	
+		<record id="demod_342" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">451</field>
+			<field name="detalle_modelo_nombre">DE PEDESTAL</field>
+			<field name="modelo_id" ref="mod_176"/>	
+			<field name="modelo_codigo">258</field>
+			<field name="clasificador_codigo">81</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_133"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>	
+		<record id="demod_343" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">452</field>
+			<field name="detalle_modelo_nombre">DE 2 PUERTAS</field>
+			<field name="modelo_id" ref="mod_177"/>	
+			<field name="modelo_codigo">259</field>
+			<field name="clasificador_codigo">24</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_96"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>	
+		<record id="demod_344" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">453</field>
+			<field name="detalle_modelo_nombre">STATION</field>
+			<field name="modelo_id" ref="mod_178"/>	
+			<field name="modelo_codigo">260</field>
+			<field name="clasificador_codigo">81</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_133"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>	
+		<record id="demod_345" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">454</field>
+			<field name="detalle_modelo_nombre">DE SONIDO</field>
+			<field name="modelo_id" ref="mod_174"/>	
+			<field name="modelo_codigo">256</field>
+			<field name="clasificador_codigo">81</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_133"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>	
+		<record id="demod_346" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">455</field>
+			<field name="detalle_modelo_nombre">FOTOGRAFIA</field>
+			<field name="modelo_id" ref="mod_49"/>	
+			<field name="modelo_codigo">77</field>
+			<field name="clasificador_codigo">38</field>
+			<field name="grupo_bien_codigo">10</field>
+			<field name="clasificador_id" ref="clas_104"/>
+			<field name="grupo_bien_id" ref="grupo_17"/>
+		</record>
+		
+		
+		
+		<record id="demod_350" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">460</field>
+			<field name="detalle_modelo_nombre">S/P</field>
+			<field name="modelo_id" ref="mod_181"/>	
+			<field name="modelo_codigo">263</field>
+			<field name="clasificador_codigo">99</field>
+			<field name="grupo_bien_codigo">5</field>
+			<field name="clasificador_id" ref="clas_139"/>
+			<field name="grupo_bien_id" ref="grupo_13"/>
+		</record>
+		<record id="demod_351" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">461</field>
+			<field name="detalle_modelo_nombre">OPTICO</field>
+			<field name="modelo_id" ref="mod_182"/>	
+			<field name="modelo_codigo">264</field>
+			<field name="clasificador_codigo">74</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_127"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>
+		
+		<record id="demod_353" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">463</field>
+			<field name="detalle_modelo_nombre">S/P</field>
+			<field name="modelo_id" ref="mod_179"/>	
+			<field name="modelo_codigo">261</field>
+			<field name="clasificador_codigo">99</field>
+			<field name="grupo_bien_codigo">5</field>
+			<field name="clasificador_id" ref="clas_138"/>
+			<field name="grupo_bien_id" ref="grupo_13"/>
+		</record>	
+					
+		<record id="demod_357" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">467</field>
+			<field name="detalle_modelo_nombre">ABIERTO</field>
+			<field name="modelo_id" ref="mod_184"/>	
+			<field name="modelo_codigo">266</field>
+			<field name="clasificador_codigo">14</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_89"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>			
+		
+		<record id="demod_358" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">468</field>
+			<field name="detalle_modelo_nombre">CERRADO</field>
+			<field name="modelo_id" ref="mod_184"/>	
+			<field name="modelo_codigo">266</field>
+			<field name="clasificador_codigo">14</field>
+			<field name="grupo_bien_codigo">1</field>
+			<field name="clasificador_id" ref="clas_89"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>	
+		<record id="demod_359" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">469</field>
+			<field name="detalle_modelo_nombre">DE DISCO DURO</field>
+			<field name="modelo_id" ref="mod_185"/>	
+			<field name="modelo_codigo">267</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>			
+		<record id="demod_360" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">470</field>
+			<field name="detalle_modelo_nombre">DE DISCOS DE TRABAJO</field>
+			<field name="modelo_id" ref="mod_186"/>	
+			<field name="modelo_codigo">268</field>
+			<field name="clasificador_codigo">77</field>
+			<field name="grupo_bien_codigo">15</field>
+			<field name="clasificador_id" ref="clas_130"/>
+			<field name="grupo_bien_id" ref="grupo_20"/>
+		</record>			
+		<record id="demod_361" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">474</field>
+			<field name="detalle_modelo_nombre">DE DOS NIVELES</field>
+			<field name="modelo_id" ref="mod_187"/>
+			<field name="modelo_codigo">270</field>
+			<field name="clasificador_codigo">24</field>
+			<field name="grupo_bien_codigo">1</field>	
+			<field name="clasificador_id" ref="clas_96"/>
+			<field name="grupo_bien_id" ref="grupo_11"/>
+		</record>	
+		<record id="demod_362" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">474</field>
+			<field name="detalle_modelo_nombre">N/A</field>
+			<field name="modelo_id" ref="mod_188"/>	
+			<field name="modelo_codigo">271</field>
+			<field name="clasificador_codigo">124</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_155"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>			
+		<record id="demod_363" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">476</field>
+			<field name="detalle_modelo_nombre">ELECTRICA</field>
+			<field name="modelo_id" ref="mod_189"/>	
+			<field name="modelo_codigo">273</field>
+			<field name="clasificador_codigo">125</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_156"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>			
+		<record id="demod_364" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">478</field>
+			<field name="detalle_modelo_nombre">CON MENU, PANTALLA Y FUNCIONES AVANZADAS</field>
+			<field name="modelo_id" ref="mod_190"/>	
+			<field name="modelo_codigo">275</field>
+			<field name="clasificador_codigo">35</field>
+			<field name="grupo_bien_codigo">9</field>
+			<field name="clasificador_id" ref="clas_102"/>
+			<field name="grupo_bien_id" ref="grupo_16"/>
+		</record>		
+		<record id="demod_365" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">479</field>
+			<field name="detalle_modelo_nombre">DE LINEAS ANALOGICAS</field>
+			<field name="modelo_id" ref="mod_191"/>	
+			<field name="modelo_codigo">276</field>
+			<field name="clasificador_codigo">128</field>
+			<field name="grupo_bien_codigo">9</field>
+			<field name="clasificador_id" ref="clas_102"/>
+			<field name="grupo_bien_id" ref="grupo_16"/>
+		</record>		
+		<record id="demod_366" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">480</field>
+			<field name="detalle_modelo_nombre">TRANSMISION DE DATOS</field>
+			<field name="modelo_id" ref="mod_192"/>	
+			<field name="modelo_codigo">277</field>
+			<field name="clasificador_codigo">129</field>
+			<field name="grupo_bien_codigo">9</field>
+			<field name="clasificador_id" ref="clas_158"/>
+			<field name="grupo_bien_id" ref="grupo_16"/>
+		</record>
+		<record id="demod_367" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">482</field>
+			<field name="detalle_modelo_nombre">DE BANDA</field>
+			<field name="modelo_id" ref="mod_192"/>	
+			<field name="modelo_codigo">277</field>
+			<field name="clasificador_codigo">129</field>
+			<field name="grupo_bien_codigo">9</field>
+			<field name="clasificador_id" ref="clas_158"/>
+			<field name="grupo_bien_id" ref="grupo_16"/>
+		</record>
+		<record id="demod_368" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">483</field>
+			<field name="detalle_modelo_nombre">MANUAL</field>
+			<field name="modelo_id" ref="mod_194"/>	
+			<field name="modelo_codigo">279</field>
+			<field name="clasificador_codigo">130</field>
+			<field name="grupo_bien_codigo">14</field>
+			<field name="clasificador_id" ref="clas_159"/>
+			<field name="grupo_bien_id" ref="grupo_19"/>
+		</record>
+		<record id="demod_369" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">484</field>
+			<field name="detalle_modelo_nombre">DE PUNTOS</field>
+			<field name="modelo_id" ref="mod_195"/>	
+			<field name="modelo_codigo">280</field>
+			<field name="clasificador_codigo">131</field>
+			<field name="grupo_bien_codigo">14</field>
+			<field name="clasificador_id" ref="clas_160"/>
+			<field name="grupo_bien_id" ref="grupo_19"/>
+		</record>
+		<record id="demod_370" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">484</field>
+			<field name="detalle_modelo_nombre">PORTAHERRAMIENTA</field>
+			<field name="modelo_id" ref="mod_196"/>	
+			<field name="modelo_codigo">281</field>
+			<field name="clasificador_codigo">132</field>
+			<field name="grupo_bien_codigo">14</field>
+			<field name="clasificador_id" ref="clas_161"/>
+			<field name="grupo_bien_id" ref="grupo_19"/>
+		</record>
+		<record id="demod_371" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">486</field>
+			<field name="detalle_modelo_nombre">ELECTRONICO</field>
+			<field name="modelo_id" ref="mod_197"/>	
+			<field name="modelo_codigo">282</field>
+			<field name="clasificador_codigo">133</field>
+			<field name="grupo_bien_codigo">6</field>
+			<field name="clasificador_id" ref="clas_162"/>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>	
+	
+	
+		
+		
+		
+		
+		
+	</data>
+</odoo>

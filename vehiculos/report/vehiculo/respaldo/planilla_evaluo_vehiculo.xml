@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <report 
+            id = "accion_reporte_planilla_evaluo_vehiculo"
+            string = "Ficha Evalúo de Vehiculo."
+            model = "evaluo_vehiculo"
+            report_type = "qweb-pdf"
+            name = "bienes.planilla_evaluo_vehiculo_template"
+            file = "bienes.planilla_evaluo_vehiculo_template"
+            menu =" True" 
+        />   
+</odoo>

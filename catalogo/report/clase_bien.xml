@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <report 
+            id = "accion_reporte_clasificador_bien"
+            string = "Listado Clase Del Bien."
+            model = "clasificador_bien"
+            report_type = "qweb-html"
+            name = "catalogo.clase_bien_template"
+            menu =" True" 
+        />   
+</odoo>
+
+

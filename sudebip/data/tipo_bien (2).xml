@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="tipo_bien_1" model="tipo_bien">
+			<field name="tipo_bien_codigo">1</field>
+			<field name="tipo_bien_nombre">Mueble</field>
+		</record>
+		<record id="tipo_bien_2" model="tipo_bien">
+			<field name="tipo_bien_codigo">2</field>
+			<field name="tipo_bien_nombre">Semovientes</field>
+		</record>
+		<record id="tipo_bien_3" model="tipo_bien">
+			<field name="tipo_bien_codigo">3</field>
+			<field name="tipo_bien_nombre">Inmuebles</field>
+		</record>
+	</data>
+</odoo>
+
+
+
+

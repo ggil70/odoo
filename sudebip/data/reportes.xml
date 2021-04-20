@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="reportes_sudebip_1" model="reportes_sudebip">
+			<field name="reportes_sudebip_codigo">1</field>
+			<field name="reportes_sudebip_nombre">Proveedores de Bienes</field>
+			<field name="reportes_sudebip_nombre_txt">proveedores</field>
+		</record>
+		<record id="reportes_sudebip_2" model="reportes_sudebip">
+			<field name="reportes_sudebip_codigo">2</field>
+			<field name="reportes_sudebip_nombre">Orígenes de los Bienes  Compra por Concurso Abierto o Concurso Cerrado</field>
+			<field name="reportes_sudebip_nombre_txt">origenes_A</field>
+		</record>
+		<record id="reportes_sudebip_3" model="reportes_sudebip">
+			<field name="reportes_sudebip_codigo">3</field>
+			<field name="reportes_sudebip_nombre">Orígenes de los Bienes  Compra Directa (Consulta de Precios)</field>
+			<field name="reportes_sudebip_nombre_txt">origenes_B</field>
+		</record>
+     	<record id="reportes_sudebip_4" model="reportes_sudebip">
+			<field name="reportes_sudebip_codigo">4</field>
+			<field name="reportes_sudebip_nombre">Orígenes de los Bienes  Confiscación</field>
+			<field name="reportes_sudebip_nombre_txt">origenes_C</field>
+		</record>
+
+		<record id="reportes_sudebip_5" model="reportes_sudebip">
+			<field name="reportes_sudebip_codigo">5</field>
+			<field name="reportes_sudebip_nombre">Orígenes de los Bienes  Dación en pago</field>
+			<field name="reportes_sudebip_nombre_txt">origenes_D</field>
+		</record>
+		<record id="reportes_sudebip_6" model="reportes_sudebip">
+			<field name="reportes_sudebip_codigo">6</field>
+			<field name="reportes_sudebip_nombre">Orígenes de los Bienes  Donación </field>
+			<field name="reportes_sudebip_nombre_txt">origenes_E</field>
+		</record>
+		<record id="reportes_sudebip_7" model="reportes_sudebip">
+			<field name="reportes_sudebip_codigo">7</field>
+			<field name="reportes_sudebip_nombre">Orígenes de los Bienes  Expropiación </field>
+			<field name="reportes_sudebip_nombre_txt">origenes_F</field>
+		</record>
+
+		<record id="reportes_sudebip_8" model="reportes_sudebip">
+			<field name="reportes_sudebip_codigo">8</field>
+			<field name="reportes_sudebip_nombre">Orígenes de los Bienes  Permuta </field>
+			<field name="reportes_sudebip_nombre_txt">origenes_G</field>
+		</record>
+		
+		<record id="reportes_sudebip_9" model="reportes_sudebip">
+			<field name="reportes_sudebip_codigo">9</field>
+			<field name="reportes_sudebip_nombre">Orígenes de los Bienes  Trasferencias </field>
+			<field name="reportes_sudebip_nombre_txt">origenes_H</field>
+		</record>
+
+		<record id="reportes_sudebip_10" model="reportes_sudebip">
+			<field name="reportes_sudebip_codigo">10</field>
+			<field name="reportes_sudebip_nombre">Orígenes de los Bienes  Adjudicación </field>
+			<field name="reportes_sudebip_nombre_txt">origenes_H</field>
+		</record>
+
+
+		<record id="reportes_sudebip_11" model="reportes_sudebip">
+			<field name="reportes_sudebip_codigo">11</field>
+			<field name="reportes_sudebip_nombre">Seguros de los Bienes</field>
+			<field name="reportes_sudebip_nombre_txt">seguros</field>
+		</record>
+		<record id="reportes_sudebip_12" model="reportes_sudebip">
+			<field name="reportes_sudebip_codigo">12</field>
+			<field name="reportes_sudebip_nombre">Responsables de los Bienes</field>
+			<field name="reportes_sudebip_nombre_txt">responsables</field>
+		</record>
+		<record id="reportes_sudebip_13" model="reportes_sudebip">
+			<field name="reportes_sudebip_codigo">13</field>
+			<field name="reportes_sudebip_nombre">Marcas de los Bienes</field>
+			<field name="reportes_sudebip_nombre_txt">marcas</field>
+		</record>
+		<record id="reportes_sudebip_14" model="reportes_sudebip">
+			<field name="reportes_sudebip_codigo">14</field>
+			<field name="reportes_sudebip_nombre">Modelos de Fabrica de los Bienes Muebles</field>
+			<field name="reportes_sudebip_nombre_txt">modelos</field>
+		</record>
+		
+		<record id="reportes_sudebip_15" model="reportes_sudebip">
+			<field name="reportes_sudebip_codigo">15</field>
+			<field name="reportes_sudebip_nombre">Datos de los Bienes Muebles</field>
+			<field name="reportes_sudebip_nombre_txt">muebles_A</field>
+		</record>
+		
+		<record id="reportes_sudebip_16" model="reportes_sudebip">
+			<field name="reportes_sudebip_codigo">16</field>
+			<field name="reportes_sudebip_nombre">Datos de los Bienes Inmuebles</field>
+			<field name="reportes_sudebip_nombre_txt">inmuebles</field>
+		</record>
+
+		<record id="reportes_sudebip_17" model="reportes_sudebip">
+			<field name="reportes_sudebip_codigo">17</field>
+			<field name="reportes_sudebip_nombre">Datos de los Vehículos</field>
+			<field name="reportes_sudebip_nombre_txt">muebles_B</field>
+		</record>
+	</data>
+</odoo>
+
+
+
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="uni_med_1" model="unidad_medida_construccion">
+			<field name="unidad_medida_construccion_codigo">1</field>
+			<field name="unidad_medida_construccion_nombre">Hectárea</field>
+			
+		</record>
+		<record id="unidad_medida_construccion_2" model="unidad_medida_construccion">
+			<field name="unidad_medida_construccion_codigo">2</field>
+			<field name="unidad_medida_construccion_nombre">Kilómetro Cuadrado</field>
+			
+	
+		</record>
+		<record id="unidad_medida_construccion_3" model="unidad_medida_construccion">
+			<field name="unidad_medida_construccion_codigo">3</field>
+			<field name="unidad_medida_construccion_nombre">Metro Cuadrado</field>
+			
+	
+		</record>
+
+		<record id="unidad_medida_construccion_4" model="unidad_medida_construccion">
+			<field name="unidad_medida_construccion_codigo">4</field>
+			<field name="unidad_medida_construccion_nombre">Centímetro Cuadrado</field>
+			
+	
+		</record>
+		<record id="unidad_medida_construccion_5" model="unidad_medida_construccion">
+			<field name="unidad_medida_construccion_codigo">5</field>
+			<field name="unidad_medida_construccion_nombre">Milímetro Cuadrado</field>
+		
+	
+		</record>
+
+	
+	</data>
+</odoo>
+
+
+
+

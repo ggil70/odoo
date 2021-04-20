@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <report 
+            id = "accion_reporte_planilla_vehiculo"
+            string = "Ficha del Vehiculo."
+            model = "bienes_vehiculos"
+            report_type = "qweb-pdf"
+            name = "vehiculos.planilla_vehiculo_template"
+            menu =" True" 
+        />   
+</odoo>

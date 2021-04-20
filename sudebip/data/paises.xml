@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <data noupdate="1">
+     <!--Paises, segun la SUDEBIP -->
+          <record id="pais_1" model="paises">
+            <field name="codigo_pais">1</field>
+            <field name="pais">Afganistán</field>
+          </record>
+          <record id="pais_2" model="paises">
+            <field name="codigo_pais">2</field>
+            <field name="pais">American Samoa</field>
+          </record>
+          <record id="pais_3" model="paises">
+           <field name="codigo_pais">3</field>
+            <field name="pais">Alemania</field>
+          </record>
+          <record id="pais_4" model="paises">
+           <field name="codigo_pais">4</field>
+            <field name="pais">Albania</field>
+          </record>
+          <record id="pais_5" model="paises">
+           <field name="codigo_pais">5</field>
+            <field name="pais">Andorra</field>
+          </record>
+          <record id="pais_6" model="paises">
+           <field name="codigo_pais">6</field>
+            <field name="pais">Angola</field>
+          </record>
+          <record id="pais_7" model="paises">
+           <field name="codigo_pais">7</field>
+            <field name="pais">Anguila</field>
+          </record>
+          <record id="pais_8" model="paises">
+           <field name="codigo_pais">8</field>
+            <field name="pais">Antigua and Barbuda</field>
+          </record>
+          <record id="pais_9" model="paises">
+           <field name="codigo_pais">9</field>
+            <field name="pais">Antillas Holandesas</field>
+          </record>
+          <record id="pais_10" model="paises">
+           <field name="codigo_pais">10</field>
+            <field name="pais">Antártida</field>
+          </record>
+          <record id="pais_11" model="paises">
+           <field name="codigo_pais">11</field>
+            <field name="pais">Arabia Saudita</field>
+          </record>
+          <record id="pais_12" model="paises">
+           <field name="codigo_pais">12</field>
+            <field name="pais">Argelia</field>
+          </record>
+          <record id="pais_13" model="paises">
+           <field name="codigo_pais">13</field>
+            <field name="pais">Argentina</field>
+          </record>
+          <record id="pais_14" model="paises">
+           <field name="codigo_pais">14</field>
+            <field name="pais">Armenia</field>
+          </record>
+          <record id="pais_15" model="paises">
+           <field name="codigo_pais">15</field>
+            <field name="pais">Aruba</field>
+          </record>
+          <record id="pais_16" model="paises">
+           <field name="codigo_pais">16</field>
+            <field name="pais">Australia</field>
+          </record>
+          <record id="pais_17" model="paises">
+           <field name="codigo_pais">17</field>
+            <field name="pais">Austria</field>
+          </record>
+          <record id="pais_18" model="paises">
+           <field name="codigo_pais">18</field>
+            <field name="pais">Azerbaiyán</field>
+          </record>
+          <record id="pais_19" model="paises">
+           <field name="codigo_pais">19</field>
+            <field name="pais">Bahamas</field>
+          </record>
+          <record id="pais_20" model="paises">
+           <field name="codigo_pais">20</field>
+            <field name="pais">Bahréin</field>
+          </record>
+          <record id="pais_21" model="paises">
+           <field name="codigo_pais">21</field>
+            <field name="pais">Bangladesh</field>
+          </record>
+          <record id="pais_22" model="paises">
+           <field name="codigo_pais">22</field>
+            <field name="pais">Barbados</field>
+          </record>
+          <record id="pais_23" model="paises">
+           <field name="codigo_pais">23</field>
+            <field name="pais">Belice</field>
+          </record>
+          <record id="pais_24" model="paises">
+           <field name="codigo_pais">24</field>
+            <field name="pais">Benín</field>
+          </record>
+          <record id="pais_25" model="paises">
+           <field name="codigo_pais">25</field>
+            <field name="pais">Bermuda</field>
+          </record>
+          <record id="pais_26" model="paises">
+           <field name="codigo_pais">26</field>
+            <field name="pais">Bielorrusia</field>
+          </record>
+          <record id="pais_27" model="paises">
+           <field name="codigo_pais">27</field>
+            <field name="pais">Bolivia</field>
+          </record>
+          <record id="pais_28" model="paises">
+           <field name="codigo_pais">28</field>
+            <field name="pais">Bosnia y Herzegovina</field>
+          </record>
+          <record id="pais_29" model="paises">
+           <field name="codigo_pais">29</field>
+            <field name="pais">Botsuana</field>
+          </record>
+          <record id="pais_30" model="paises">
+           <field name="codigo_pais">30</field>
+            <field name="pais">Bouvet Island Ocean</field>
+          </record>
+          <record id="pais_31" model="paises">
+           <field name="codigo_pais">31</field>
+            <field name="pais">Brasil</field>
+          </record>
+          <record id="pais_32" model="paises">
+           <field name="codigo_pais">32</field>
+            <field name="pais">British India Territory</field>
+          </record>
+          <record id="pais_33" model="paises">
+           <field name="codigo_pais">33</field>
+            <field name="pais">Brunei Darussalam</field>
+          </record>
+          <record id="pais_34" model="paises">
+           <field name="codigo_pais">34</field>
+            <field name="pais">Bulgaria</field>
+          </record>
+          <record id="pais_35" model="paises">
+           <field name="codigo_pais">35</field>
+            <field name="pais">Burkina Faso</field>
+          </record>
+          <record id="pais_36" model="paises">
+           <field name="codigo_pais">36</field>
+            <field name="pais">Burundi</field>
+          </record>
+          <record id="pais_37" model="paises">
+           <field name="codigo_pais">37</field>
+            <field name="pais">Bután</field>
+          </record>
+          <record id="pais_38" model="paises">
+           <field name="codigo_pais">38</field>
+            <field name="pais">Bélgica</field>
+          </record>
+          <record id="pais_39" model="paises">
+           <field name="codigo_pais">39</field>
+            <field name="pais">Cabo Verda</field>
+          </record>
+          <record id="pais_40" model="paises">
+           <field name="codigo_pais">40</field>
+            <field name="pais">Camboya</field>
+          </record>
+          <record id="pais_41" model="paises">
+           <field name="codigo_pais">41</field>
+            <field name="pais">Camerún</field>
+          </record>
+          <record id="pais_42" model="paises">
+           <field name="codigo_pais">42</field>
+            <field name="pais">Canada</field>
+          </record>
+          <record id="pais_43" model="paises">
+           <field name="codigo_pais">43</field>
+            <field name="pais">Chad</field>
+          </record>
+          <record id="pais_44" model="paises">
+           <field name="codigo_pais">44</field>
+            <field name="pais">Chile</field>
+          </record>
+          <record id="pais_45" model="paises">
+           <field name="codigo_pais">45</field>
+            <field name="pais">China</field>
+          </record>
+          <record id="pais_46" model="paises">
+           <field name="codigo_pais">46</field>
+            <field name="pais">Chipre</field>
+          </record>
+          <record id="pais_47" model="paises">
+           <field name="codigo_pais">47</field>
+            <field name="pais">Colombia</field>
+          </record>
+          <record id="pais_48" model="paises">
+           <field name="codigo_pais">48</field>
+            <field name="pais">Comores</field>
+          </record>
+          <record id="pais_49" model="paises">
+           <field name="codigo_pais">49</field>
+            <field name="pais">Congo</field>
+          </record>
+          <record id="pais_50" model="paises">
+           <field name="codigo_pais">50</field>
+            <field name="pais">Corea del  Norte</field>
+          </record>
+          <record id="pais_51" model="paises">
+           <field name="codigo_pais">51</field>
+            <field name="pais">Corea del  Sur</field>
+          </record>
+          <record id="pais_52" model="paises">
+           <field name="codigo_pais">52</field>
+            <field name="pais">Costa Rica </field>
+          </record>
+          <record id="pais_53" model="paises">
+           <field name="codigo_pais">53</field>
+            <field name="pais">Cote D  Ivoire</field>
+          </record>
+          <record id="pais_54" model="paises">
+           <field name="codigo_pais">54</field>
+            <field name="pais">Croacia</field>
+          </record>
+          <record id="pais_55" model="paises">
+           <field name="codigo_pais">55</field>
+            <field name="pais">Cuba</field>
+          </record>
+          <record id="pais_56" model="paises">
+           <field name="codigo_pais">56</field>
+            <field name="pais">Dinamarca</field>
+          </record>
+          <record id="pais_57" model="paises">
+           <field name="codigo_pais">57</field>
+            <field name="pais">Djibouti</field>
+          </record>
+          <record id="pais_58" model="paises">
+           <field name="codigo_pais">58</field>
+            <field name="pais">Dominica</field>
+          </record>
+          <record id="pais_59" model="paises">
+           <field name="codigo_pais">59</field>
+            <field name="pais">East Timor </field>
+          </record>
+          <record id="pais_60" model="paises">
+           <field name="codigo_pais">60</field>
+            <field name="pais">Ecuador</field>
+          </record>
+          <record id="pais_61" model="paises">
+           <field name="codigo_pais">61</field>
+            <field name="pais">Egipto</field>
+          </record>
+          <record id="pais_62" model="paises">
+           <field name="codigo_pais">62</field>
+            <field name="pais">El Salvador </field>
+          </record>
+          <record id="pais_63" model="paises">
+           <field name="codigo_pais">63</field>
+            <field name="pais">El Vaticano </field>
+          </record>
+          <record id="pais_64" model="paises">
+           <field name="codigo_pais">64</field>
+            <field name="pais">Emiratos Arabes Unidos </field>
+          </record>
+          <record id="pais_65" model="paises">
+           <field name="codigo_pais">65</field>
+            <field name="pais">Eritrea</field>
+          </record>
+          <record id="pais_66" model="paises">
+           <field name="codigo_pais">66</field>
+            <field name="pais">Eslovaquia</field>
+          </record>
+          <record id="pais_67" model="paises">
+           <field name="codigo_pais">67</field>
+            <field name="pais">Eslovenia</field>
+          </record>
+          <record id="pais_68" model="paises">
+           <field name="codigo_pais">68</field>
+            <field name="pais">España</field>
+          </record>
+          <record id="pais_69" model="paises">
+           <field name="codigo_pais">69</field>
+            <field name="pais">Estados Unidos </field>
+          </record>
+          <record id="pais_70" model="paises">
+           <field name="codigo_pais">70</field>
+            <field name="pais">Estonia</field>
+          </record>
+          <record id="pais_71" model="paises">
+           <field name="codigo_pais">71</field>
+            <field name="pais">Etiopia</field>
+          </record>
+          <record id="pais_72" model="paises">
+           <field name="codigo_pais">72</field>
+            <field name="pais">Fiji</field>
+          </record>
+          <record id="pais_73" model="paises">
+           <field name="codigo_pais">73</field>
+            <field name="pais">Filipinas</field>
+          </record>
+          <record id="pais_74" model="paises">
+           <field name="codigo_pais">74</field>
+            <field name="pais">Finlandia</field>
+          </record>
+          <record id="pais_75" model="paises">
+           <field name="codigo_pais">75</field>
+            <field name="pais">Francia</field>
+          </record>
+          <record id="pais_76" model="paises">
+           <field name="codigo_pais">76</field>
+            <field name="pais">French Guiana </field>
+          </record>
+          <record id="pais_77" model="paises">
+           <field name="codigo_pais">77</field>
+            <field name="pais">French Polynesia </field>
+          </record>
+          <record id="pais_78" model="paises">
+           <field name="codigo_pais">78</field>
+            <field name="pais">French Southern	 Territories </field>
+          </record>
+          <record id="pais_79" model="paises">
+           <field name="codigo_pais">79</field>
+            <field name="pais">Gabon</field>
+          </record>
+          <record id="pais_80" model="paises">
+           <field name="codigo_pais">80</field>
+            <field name="pais">Gambia</field>
+          </record>
+          <record id="pais_81" model="paises">
+           <field name="codigo_pais">81</field>
+            <field name="pais">Georgia</field>
+          </record>
+          <record id="pais_82" model="paises">
+           <field name="codigo_pais">82</field>
+            <field name="pais">Ghana</field>
+          </record>
+          <record id="pais_83" model="paises">
+           <field name="codigo_pais">83</field>
+            <field name="pais">Gibraltar</field>
+          </record>
+          <record id="pais_84" model="paises">
+           <field name="codigo_pais">84</field>
+            <field name="pais">Granada</field>
+          </record>
+          <record id="pais_85" model="paises">
+           <field name="codigo_pais">85</field>
+            <field name="pais">Grecia</field>
+          </record>
+          <record id="pais_86" model="paises">
+           <field name="codigo_pais">86</field>
+            <field name="pais">Groenlandia</field>
+          </record>
+          <record id="pais_87" model="paises">
+           <field name="codigo_pais">87</field>
+            <field name="pais">Guadalupe</field>
+          </record>
+          <record id="pais_88" model="paises">
+           <field name="codigo_pais">88</field>
+            <field name="pais">Guam</field>
+          </record>
+          <record id="pais_89" model="paises">
+           <field name="codigo_pais">89</field>
+            <field name="pais">Guatemala</field>
+          </record>
+          <record id="pais_90" model="paises">
+           <field name="codigo_pais">90</field>
+            <field name="pais">Guinea</field>
+          </record>
+          <record id="pais_91" model="paises">
+           <field name="codigo_pais">91</field>
+            <field name="pais">Guinea Ecuatorial </field>
+          </record>
+          <record id="pais_92" model="paises">
+           <field name="codigo_pais">92</field>
+            <field name="pais">Guinea-Bissau</field>
+          </record>
+          <record id="pais_93" model="paises">
+           <field name="codigo_pais">93</field>
+            <field name="pais">Guyana</field>
+          </record>
+          <record id="pais_94" model="paises">
+           <field name="codigo_pais">94</field>
+            <field name="pais">Haití</field>
+          </record>
+          <record id="pais_95" model="paises">
+           <field name="codigo_pais">95</field>
+            <field name="pais">Heard Island and McDonald Isla </field>
+          </record>
+          <record id="pais_96" model="paises">
+           <field name="codigo_pais">96</field>
+            <field name="pais">Holanda</field>
+          </record>
+          <record id="pais_97" model="paises">
+           <field name="codigo_pais">97</field>
+            <field name="pais">Honduras</field>
+          </record>
+          <record id="pais_98" model="paises">
+           <field name="codigo_pais">98</field>
+            <field name="pais">Hong Kong </field>
+          </record>
+          <record id="pais_99" model="paises">
+           <field name="codigo_pais">99</field>
+            <field name="pais">Hungría</field>
+          </record>
+          <record id="pais_100" model="paises">
+           <field name="codigo_pais">100</field>
+            <field name="pais">India</field>
+          </record>
+          <record id="pais_101" model="paises">
+           <field name="codigo_pais">101</field>
+            <field name="pais">Indonesia</field>
+          </record>
+          <record id="pais_102" model="paises">
+           <field name="codigo_pais">102</field>
+            <field name="pais">Iraq</field>
+          </record>
+          <record id="pais_103" model="paises">
+           <field name="codigo_pais">103</field>
+            <field name="pais">Irlanda</field>
+          </record>
+          <record id="pais_104" model="paises">
+           <field name="codigo_pais">104</field>
+            <field name="pais">Islas Cocos </field>
+          </record>
+          <record id="pais_105" model="paises">
+           <field name="codigo_pais">105</field>
+            <field name="pais">Isla Christmas </field>
+          </record>
+          <record id="pais_106" model="paises">
+           <field name="codigo_pais">106</field>
+            <field name="pais">Islandia</field>
+          </record>
+          <record id="pais_107" model="paises">
+           <field name="codigo_pais">107</field>
+            <field name="pais">Islas Caimán </field>
+          </record>
+          <record id="pais_108" model="paises">
+           <field name="codigo_pais">108</field>
+            <field name="pais">Islas Cook </field>
+          </record>
+          <record id="pais_109" model="paises">
+           <field name="codigo_pais">109</field>
+            <field name="pais">Islas Feroe </field>
+          </record>
+          <record id="pais_110" model="paises">
+           <field name="codigo_pais">110</field>
+            <field name="pais">Islas Malvinas </field>
+          </record>
+          <record id="pais_111" model="paises">
+           <field name="codigo_pais">111</field>
+            <field name="pais">Islas Marshall </field>
+          </record>
+          <record id="pais_112" model="paises">
+           <field name="codigo_pais">112</field>
+            <field name="pais">Islas Mauricio </field>
+          </record>
+          <record id="pais_113" model="paises">
+           <field name="codigo_pais">113</field>
+            <field name="pais">Islas Salomón </field>
+          </record>
+          <record id="pais_114" model="paises">
+           <field name="codigo_pais">114</field>
+            <field name="pais">Islas Sándwich </field>
+          </record>
+          <record id="pais_115" model="paises">
+           <field name="codigo_pais">115</field>
+            <field name="pais">Islas Turks y Caicos </field>
+          </record>
+          <record id="pais_116" model="paises">
+           <field name="codigo_pais">116</field>
+            <field name="pais">Islas Wallis y Futuna</field>
+          </record>
+          <record id="pais_117" model="paises">
+           <field name="codigo_pais">117</field>
+            <field name="pais">Israel</field>
+          </record>
+          <record id="pais_118" model="paises">
+           <field name="codigo_pais">118</field>
+            <field name="pais">Italia</field>
+          </record>
+          <record id="pais_119" model="paises">
+           <field name="codigo_pais">119</field>
+            <field name="pais">Jamaica</field>
+          </record>
+          <record id="pais_120" model="paises">
+           <field name="codigo_pais">120</field>
+            <field name="pais">Japón</field>
+          </record>
+          <record id="pais_121" model="paises">
+           <field name="codigo_pais">121</field>
+            <field name="pais">Jordania</field>
+          </record>
+          <record id="pais_122" model="paises">
+           <field name="codigo_pais">122</field>
+            <field name="pais">Kazakhstan</field>
+          </record>
+          <record id="pais_123" model="paises">
+           <field name="codigo_pais">123</field>
+            <field name="pais">Kenia</field>
+          </record>
+          <record id="pais_124" model="paises">
+           <field name="codigo_pais">124</field>
+            <field name="pais">Kiribati</field>
+          </record>
+          <record id="pais_125" model="paises">
+           <field name="codigo_pais">125</field>
+            <field name="pais">Kuwait</field>
+          </record>
+          <record id="pais_126" model="paises">
+           <field name="codigo_pais">126</field>
+            <field name="pais">Kyrgyzstan</field>
+          </record>
+          <record id="pais_127" model="paises">
+           <field name="codigo_pais">127</field>
+            <field name="pais">Laos</field>
+          </record>
+          <record id="pais_128" model="paises">
+           <field name="codigo_pais">128</field>
+            <field name="pais">Latvia</field>
+          </record>
+          <record id="pais_129" model="paises">
+           <field name="codigo_pais">129</field>
+            <field name="pais">Lesoto</field>
+          </record>
+          <record id="pais_130" model="paises">
+           <field name="codigo_pais">130</field>
+            <field name="pais">Liberia</field>
+          </record>
+          <record id="pais_131" model="paises">
+           <field name="codigo_pais">131</field>
+            <field name="pais">Libia</field>
+          </record>
+          <record id="pais_132" model="paises">
+           <field name="codigo_pais">132</field>
+            <field name="pais">Liechtenstein</field>
+          </record>
+          <record id="pais_133" model="paises">
+           <field name="codigo_pais">133</field>
+            <field name="pais">Lituania</field>
+          </record>
+          <record id="pais_134" model="paises">
+           <field name="codigo_pais">134</field>
+            <field name="pais">Luxemburgo</field>
+          </record>
+          <record id="pais_135" model="paises">
+           <field name="codigo_pais">135</field>
+            <field name="pais">Líbano</field>
+          </record>
+          <record id="pais_136" model="paises">
+           <field name="codigo_pais">136</field>
+            <field name="pais">Macao</field>
+          </record>
+          <record id="pais_137" model="paises">
+           <field name="codigo_pais">137</field>
+            <field name="pais">Macedonia</field>
+          </record>
+          <record id="pais_138" model="paises">
+           <field name="codigo_pais">138</field>
+            <field name="pais">Madagascar</field>
+          </record>
+          <record id="pais_139" model="paises">
+           <field name="codigo_pais">139</field>
+            <field name="pais">Malasia</field>
+          </record>
+          <record id="pais_140" model="paises">
+           <field name="codigo_pais">140</field>
+            <field name="pais">Malaui</field>
+          </record>
+          <record id="pais_141" model="paises">
+           <field name="codigo_pais">141</field>
+            <field name="pais">Maldivas</field>
+          </record>
+          <record id="pais_142" model="paises">
+           <field name="codigo_pais">142</field>
+            <field name="pais">Malta</field>
+          </record>
+          <record id="pais_143" model="paises">
+           <field name="codigo_pais">143</field>
+            <field name="pais">Mali</field>
+          </record>
+          <record id="pais_144" model="paises">
+           <field name="codigo_pais">144</field>
+            <field name="pais">Marruecos</field>
+          </record>
+          <record id="pais_145" model="paises">
+           <field name="codigo_pais">145</field>
+            <field name="pais">Martinique</field>
+          </record>
+          <record id="pais_146" model="paises">
+           <field name="codigo_pais">146</field>
+            <field name="pais">Mauritania</field>
+          </record>
+          <record id="pais_147" model="paises">
+           <field name="codigo_pais">147</field>
+            <field name="pais">Mayotte</field>
+          </record>
+          <record id="pais_148" model="paises">
+           <field name="codigo_pais">148</field>
+            <field name="pais">Micronesia</field>
+          </record>
+          <record id="pais_149" model="paises">
+           <field name="codigo_pais">149</field>
+            <field name="pais">Moldavia</field>
+          </record>
+          <record id="pais_150" model="paises">
+           <field name="codigo_pais">150</field>
+            <field name="pais">Mongolia</field>
+          </record>
+          <record id="pais_151" model="paises">
+           <field name="codigo_pais">151</field>
+            <field name="pais">Montserrat</field>
+          </record>
+          <record id="pais_152" model="paises">
+           <field name="codigo_pais">152</field>
+            <field name="pais">Mozambique</field>
+          </record>
+          <record id="pais_153" model="paises">
+           <field name="codigo_pais">153</field>
+            <field name="pais">Myanmar</field>
+          </record>
+          <record id="pais_154" model="paises">
+           <field name="codigo_pais">154</field>
+            <field name="pais">México</field>
+          </record>
+          <record id="pais_155" model="paises">
+           <field name="codigo_pais">155</field>
+            <field name="pais">Mónaco</field>
+          </record>
+          <record id="pais_156" model="paises">
+           <field name="codigo_pais">156</field>
+            <field name="pais">Namibia</field>
+          </record>
+          <record id="pais_157" model="paises">
+           <field name="codigo_pais">157</field>
+            <field name="pais">Nauru</field>
+          </record>
+          <record id="pais_158" model="paises">
+           <field name="codigo_pais">158</field>
+            <field name="pais">Nepal</field>
+          </record>
+          <record id="pais_159" model="paises">
+           <field name="codigo_pais">159</field>
+            <field name="pais">Nicaragua</field>
+          </record>
+          <record id="pais_160" model="paises">
+           <field name="codigo_pais">160</field>
+            <field name="pais">Nigeria</field>
+          </record>
+          <record id="pais_161" model="paises">
+           <field name="codigo_pais">161</field>
+            <field name="pais">Niue</field>
+          </record>
+          <record id="pais_162" model="paises">
+           <field name="codigo_pais">162</field>
+            <field name="pais">Norfolk Island </field>
+          </record>
+          <record id="pais_163" model="paises">
+           <field name="codigo_pais">163</field>
+            <field name="pais">Northern Mariana Islands </field>
+          </record>
+          <record id="pais_164" model="paises">
+           <field name="codigo_pais">164</field>
+            <field name="pais">Noruega</field>
+          </record>
+          <record id="pais_165" model="paises">
+           <field name="codigo_pais">165</field>
+            <field name="pais">Nueva Caledonia</field>
+          </record>
+          <record id="pais_166" model="paises">
+           <field name="codigo_pais">166</field>
+            <field name="pais">Nueva ZelandaNiger </field>
+          </record>
+          <record id="pais_167" model="paises">
+           <field name="codigo_pais">167</field>
+            <field name="pais">Omán</field>
+          </record>
+          <record id="pais_168" model="paises">
+           <field name="codigo_pais">168</field>
+            <field name="pais">Pakistán</field>
+          </record>
+          <record id="pais_169" model="paises">
+           <field name="codigo_pais">169</field>
+            <field name="pais">Palau</field>
+          </record>
+          <record id="pais_170" model="paises">
+           <field name="codigo_pais">170</field>
+            <field name="pais">Palestinian Territory </field>
+          </record>
+          <record id="pais_171" model="paises">
+           <field name="codigo_pais">171</field>
+            <field name="pais">Panamá</field>
+          </record>
+          <record id="pais_172" model="paises">
+           <field name="codigo_pais">172</field>
+            <field name="pais">Papua Nueva Guinea </field>
+          </record>
+          <record id="pais_173" model="paises">
+           <field name="codigo_pais">173</field>
+            <field name="pais">Paraguay</field>
+          </record>
+          <record id="pais_174" model="paises">
+           <field name="codigo_pais">174</field>
+            <field name="pais">Perú</field>
+          </record>
+          <record id="pais_175" model="paises">
+           <field name="codigo_pais">175</field>
+            <field name="pais">Pitcairn</field>
+          </record>
+          <record id="pais_176" model="paises">
+           <field name="codigo_pais">176</field>
+            <field name="pais">Polonia</field>
+          </record>
+          <record id="pais_177" model="paises">
+           <field name="codigo_pais">177</field>
+            <field name="pais">Portugal</field>
+          </record>
+          <record id="pais_178" model="paises">
+           <field name="codigo_pais">178</field>
+            <field name="pais">Puerto Rico </field>
+          </record>
+          <record id="pais_179" model="paises">
+           <field name="codigo_pais">179</field>
+            <field name="pais">Qatar</field>
+          </record>
+          <record id="pais_180" model="paises">
+           <field name="codigo_pais">180</field>
+            <field name="pais">Reino Unido </field>
+          </record>
+          <record id="pais_181" model="paises">
+           <field name="codigo_pais">181</field>
+            <field name="pais">Republica Centroafricana</field>
+          </record>
+          <record id="pais_182" model="paises">
+           <field name="codigo_pais">182</field>
+            <field name="pais">Republica Checa </field>
+          </record>
+          <record id="pais_183" model="paises">
+           <field name="codigo_pais">183</field>
+            <field name="pais">Republica Democrática	del Congo </field>
+          </record>
+          <record id="pais_184" model="paises">
+           <field name="codigo_pais">184</field>
+            <field name="pais">Republica Dominicana </field>
+          </record>
+          <record id="pais_185" model="paises">
+           <field name="codigo_pais">185</field>
+            <field name="pais">Republica Islámica de Irán </field>
+          </record>
+          <record id="pais_186" model="paises">
+           <field name="codigo_pais">186</field>
+            <field name="pais">Ruanda</field>
+          </record>
+          <record id="pais_187" model="paises">
+           <field name="codigo_pais">187</field>
+            <field name="pais">Rumania</field>
+          </record>
+          <record id="pais_188" model="paises">
+           <field name="codigo_pais">188</field>
+            <field name="pais">Rusian</field>
+          </record>
+          <record id="pais_189" model="paises">
+           <field name="codigo_pais">189</field>
+            <field name="pais">Saint Kitts and Nevis </field>
+          </record>
+          <record id="pais_190" model="paises">
+           <field name="codigo_pais">190</field>
+            <field name="pais">Saint Pierre y Miquelon</field>
+          </record>
+          <record id="pais_191" model="paises">
+           <field name="codigo_pais">191</field>
+            <field name="pais">Samoa</field>
+          </record>
+          <record id="pais_192" model="paises">
+           <field name="codigo_pais">192</field>
+            <field name="pais">San Marino</field>
+          </record>
+          <record id="pais_193" model="paises">
+           <field name="codigo_pais">193</field>
+            <field name="pais">San Vicente  y  Las Granadinas</field>
+          </record>
+          <record id="pais_194" model="paises">
+           <field name="codigo_pais">194</field>
+            <field name="pais">Santa Elena </field>
+          </record>
+          <record id="pais_195" model="paises">
+           <field name="codigo_pais">195</field>
+            <field name="pais">Santa Lucia</field>
+          </record>
+          <record id="pais_196" model="paises">
+           <field name="codigo_pais">196</field>
+            <field name="pais">Sao Tome and Príncipe</field>
+          </record>
+          <record id="pais_197" model="paises">
+           <field name="codigo_pais">197</field>
+            <field name="pais">Senegal</field>
+          </record>
+          <record id="pais_198" model="paises">
+           <field name="codigo_pais">198</field>
+            <field name="pais">Serbia y Montenegro </field>
+          </record>
+          <record id="pais_199" model="paises">
+           <field name="codigo_pais">199</field>
+            <field name="pais">Seychelles</field>
+          </record>
+          <record id="pais_200" model="paises">
+           <field name="codigo_pais">200</field>
+            <field name="pais">Sierra Leona </field>
+          </record>
+          <record id="pais_201" model="paises">
+           <field name="codigo_pais">201</field>
+            <field name="pais">Singapur</field>
+          </record>
+          <record id="pais_202" model="paises">
+           <field name="codigo_pais">202</field>
+            <field name="pais">Siria</field>
+          </record>
+          <record id="pais_203" model="paises">
+           <field name="codigo_pais">203</field>
+            <field name="pais">Somalia</field>
+          </record>
+          <record id="pais_204" model="paises">
+           <field name="codigo_pais">204</field>
+            <field name="pais">Sri Lanka </field>
+          </record>
+          <record id="pais_205" model="paises">
+           <field name="codigo_pais">205</field>
+            <field name="pais">Suazilandia</field>
+          </record>
+          <record id="pais_206" model="paises">
+           <field name="codigo_pais">206</field>
+            <field name="pais">Sudáfrica</field>
+          </record>
+          <record id="pais_207" model="paises">
+           <field name="codigo_pais">207</field>
+            <field name="pais">Sudan</field>
+          </record>
+          <record id="pais_208" model="paises">
+           <field name="codigo_pais">208</field>
+            <field name="pais">Suecia</field>
+          </record>
+          <record id="pais_209" model="paises">
+           <field name="codigo_pais">209</field>
+            <field name="pais">Suiza</field>
+          </record>
+          <record id="pais_210" model="paises">
+           <field name="codigo_pais">210</field>
+            <field name="pais">Surinam</field>
+          </record>
+          <record id="pais_211" model="paises">
+           <field name="codigo_pais">211</field>
+            <field name="pais">Salvar and Jan Mayen</field>
+          </record>
+          <record id="pais_212" model="paises">
+           <field name="codigo_pais">212</field>
+            <field name="pais">Tailandia</field>
+          </record>
+          <record id="pais_213" model="paises">
+           <field name="codigo_pais">213</field>
+            <field name="pais">Taiwán</field>
+          </record>
+          <record id="pais_214" model="paises">
+           <field name="codigo_pais">214</field>
+            <field name="pais">Tajikistan</field>
+          </record>
+          <record id="pais_215" model="paises">
+           <field name="codigo_pais">215</field>
+            <field name="pais">Tanzania</field>
+          </record>
+          <record id="pais_216" model="paises">
+           <field name="codigo_pais">216</field>
+            <field name="pais">Togo</field>
+          </record>
+          <record id="pais_217" model="paises">
+           <field name="codigo_pais">217</field>
+            <field name="pais">Tonga</field>
+          </record>
+          <record id="pais_218" model="paises">
+           <field name="codigo_pais">218</field>
+            <field name="pais">Toquelau</field>
+          </record>
+          <record id="pais_219" model="paises">
+           <field name="codigo_pais">219</field>
+            <field name="pais">Trinidad y Tobago </field>
+          </record>
+          <record id="pais_220" model="paises">
+           <field name="codigo_pais">220</field>
+            <field name="pais">Turkmenistan</field>
+          </record>
+          <record id="pais_221" model="paises">
+           <field name="codigo_pais">221</field>
+            <field name="pais">Turquía</field>
+          </record>
+          <record id="pais_222" model="paises">
+           <field name="codigo_pais">222</field>
+            <field name="pais">Tuvalu</field>
+          </record>
+          <record id="pais_223" model="paises">
+           <field name="codigo_pais">223</field>
+            <field name="pais">Túnez</field>
+          </record>
+          <record id="pais_224" model="paises">
+           <field name="codigo_pais">224</field>
+            <field name="pais">Ucrania</field>
+          </record>
+          <record id="pais_225" model="paises">
+           <field name="codigo_pais">225</field>
+            <field name="pais">Uganda</field>
+          </record>
+          <record id="pais_226" model="paises">
+           <field name="codigo_pais">226</field>
+            <field name="pais">United States Minor Outlying I </field>
+          </record>
+          <record id="pais_227" model="paises">
+           <field name="codigo_pais">227</field>
+            <field name="pais">Uruguay</field>
+          </record>
+          <record id="pais_228" model="paises">
+           <field name="codigo_pais">228</field>
+            <field name="pais">Uzbekistan</field>
+          </record>
+          <record id="pais_229" model="paises">
+           <field name="codigo_pais">229</field>
+            <field name="pais">Vanuatu</field>
+          </record>
+          <record id="pais_230" model="paises">
+           <field name="codigo_pais">230</field>
+            <field name="pais">Venezuela</field>
+          </record>
+          <record id="pais_231" model="paises">
+           <field name="codigo_pais">231</field>
+            <field name="pais">Vietnam</field>
+          </record>
+          <record id="pais_232" model="paises">
+           <field name="codigo_pais">232</field>
+            <field name="pais">Virgin Islands British </field>
+          </record>
+          <record id="pais_233" model="paises">
+           <field name="codigo_pais">233</field>
+            <field name="pais">Virgin Islands U.S. </field>
+          </record>
+          <record id="pais_234" model="paises">
+           <field name="codigo_pais">234</field>
+            <field name="pais">Western Sahara </field>
+          </record>
+          <record id="pais_235" model="paises">
+           <field name="codigo_pais">235</field>
+            <field name="pais">Yemen</field>
+          </record>
+          <record id="pais_236" model="paises">
+           <field name="codigo_pais">236</field>
+            <field name="pais">Zaire</field>
+          </record>
+          <record id="pais_237" model="paises">
+           <field name="codigo_pais">237</field>
+            <field name="pais">Zambia</field>
+          </record>
+          <record id="pais_238" model="paises">
+           <field name="codigo_pais">238</field>
+            <field name="pais">Zimbabue</field>
+          </record>
+          <record id="pais_239" model="paises">
+           <field name="codigo_pais">239</field>
+            <field name="pais">Otro País </field>
+          </record>
+   </data>
+</odoo>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="uni_med_1" model="unidad_medida">
+			<field name="unidad_medida_codigo">1</field>
+			<field name="unidad_medida_nombre">Hectárea</field>
+			<field name="unidad_medida_simbolo">Ha</field>
+			<field name="unidad_medida_tipo">S</field>
+		</record>
+		<record id="unidad_medida_2" model="unidad_medida">
+			<field name="unidad_medida_codigo">2</field>
+			<field name="unidad_medida_nombre">Kilómetro Cuadrado</field>
+			<field name="unidad_medida_simbolo">km2</field>
+			<field name="unidad_medida_tipo">S</field>
+		</record>
+		<record id="unidad_medida_3" model="unidad_medida">
+			<field name="unidad_medida_codigo">3</field>
+			<field name="unidad_medida_nombre">Metro Cuadrado</field>
+			<field name="unidad_medida_simbolo">m2</field>
+			<field name="unidad_medida_tipo">S</field>
+		</record>
+
+		<record id="unidad_medida_4" model="unidad_medida">
+			<field name="unidad_medida_codigo">4</field>
+			<field name="unidad_medida_nombre">Centímetro Cuadrado</field>
+			<field name="unidad_medida_simbolo">cm2</field>
+			<field name="unidad_medida_tipo">S</field>
+		</record>
+		<record id="unidad_medida_5" model="unidad_medida">
+			<field name="unidad_medida_codigo">5</field>
+			<field name="unidad_medida_nombre">Milímetro Cuadrado</field>
+			<field name="unidad_medida_simbolo">mm2</field>
+			<field name="unidad_medida_tipo">S</field>
+		</record>
+
+		<record id="unidad_medida_6" model="unidad_medida">
+			<field name="unidad_medida_codigo">6</field>
+			<field name="unidad_medida_nombre">Tonelada</field>
+			<field name="unidad_medida_simbolo">ton</field>
+			<field name="unidad_medida_tipo">P</field>
+		</record>
+		<record id="unidad_medida_6" model="unidad_medida">
+			<field name="unidad_medida_codigo">6</field>
+			<field name="unidad_medida_nombre">Tonelada</field>
+			<field name="unidad_medida_simbolo">ton</field>
+			<field name="unidad_medida_tipo">P</field>
+		</record>
+		<record id="unidad_medida_7" model="unidad_medida">
+			<field name="unidad_medida_codigo">7</field>
+			<field name="unidad_medida_nombre">Kilogramo</field>
+			<field name="unidad_medida_simbolo">kg</field>
+			<field name="unidad_medida_tipo">P</field>
+		</record>
+		<record id="unidad_medida_8" model="unidad_medida">
+			<field name="unidad_medida_codigo">8</field>
+			<field name="unidad_medida_nombre">Gramo</field>
+			<field name="unidad_medida_simbolo">gr</field>
+			<field name="unidad_medida_tipo">P</field>
+		</record>
+
+		<record id="unidad_medida_9" model="unidad_medida">
+			<field name="unidad_medida_codigo">9</field>
+			<field name="unidad_medida_nombre">Libra</field>
+			<field name="unidad_medida_simbolo">lb</field>
+			<field name="unidad_medida_tipo">P</field>
+		</record>
+
+		<record id="unidad_medida_10" model="unidad_medida">
+			<field name="unidad_medida_codigo">10</field>
+			<field name="unidad_medida_nombre">Metro Cúbico</field>
+			<field name="unidad_medida_simbolo">m3</field>
+			<field name="unidad_medida_tipo">V</field>
+		</record>
+
+		<record id="unidad_medida_11" model="unidad_medida">
+			<field name="unidad_medida_codigo">11</field>
+			<field name="unidad_medida_nombre">Centímetro Cúbico</field>
+			<field name="unidad_medida_simbolo">cm3</field>
+			<field name="unidad_medida_tipo">V</field>
+		</record>
+		<record id="unidad_medida_12" model="unidad_medida">
+			<field name="unidad_medida_codigo">12</field>
+			<field name="unidad_medida_nombre">Litro</field>
+			<field name="unidad_medida_simbolo">l</field>
+			<field name="unidad_medida_tipo">V</field>
+		</record>
+		<record id="unidad_medida_13" model="unidad_medida">
+			<field name="unidad_medida_codigo">13</field>
+			<field name="unidad_medida_nombre">Mililitro</field>
+			<field name="unidad_medida_simbolo">ml</field>
+			<field name="unidad_medida_tipo">V</field>
+		</record>
+		<record id="unidad_medida_14" model="unidad_medida">
+			<field name="unidad_medida_codigo">14</field>
+			<field name="unidad_medida_nombre">Kilometro</field>
+			<field name="unidad_medida_simbolo">Km</field>
+			<field name="unidad_medida_tipo">D</field>
+		</record>
+
+		<record id="unidad_medida_15" model="unidad_medida">
+			<field name="unidad_medida_codigo">15</field>
+			<field name="unidad_medida_nombre">Metro</field>
+			<field name="unidad_medida_simbolo">m</field>
+			<field name="unidad_medida_tipo">D</field>
+		</record>
+
+		<record id="unidad_medida_16" model="unidad_medida">
+			<field name="unidad_medida_codigo">16</field>
+			<field name="unidad_medida_nombre">Centímetro</field>
+			<field name="unidad_medida_simbolo">cm</field>
+			<field name="unidad_medida_tipo">D</field>
+		</record>
+
+		<record id="unidad_medida_17" model="unidad_medida">
+			<field name="unidad_medida_codigo">17</field>
+			<field name="unidad_medida_nombre">Milímetro</field>
+			<field name="unidad_medida_simbolo">mm</field>
+			<field name="unidad_medida_tipo">D</field>
+		</record>
+
+		<record id="unidad_medida_18" model="unidad_medida">
+			<field name="unidad_medida_codigo">18</field>
+			<field name="unidad_medida_nombre">Otra medida</field>
+			<field name="unidad_medida_simbolo">otram</field>
+			<field name="unidad_medida_tipo">otro</field>
+		</record>
+
+	</data>
+</odoo>
+
+
+
+

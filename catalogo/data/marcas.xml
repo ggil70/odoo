@@ -1,0 +1,1812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data noupdate="1">
+   <record id="marc_1" model="marcas">
+      <field name="marcas_codigo">1</field>
+      <field name="marcas_nombre">HP</field>
+      <field name="marcas_fabricante">HP</field>
+   </record>
+   <record id="marc_2" model="marcas">
+      <field name="marcas_codigo">2</field>
+      <field name="marcas_nombre">DELL</field>
+      <field name="marcas_fabricante">DELL</field>
+   </record>
+   <record id="marc_3" model="marcas">
+      <field name="marcas_codigo">3</field>
+      <field name="marcas_nombre">WHIRPOOL</field>
+      <field name="marcas_fabricante">WHIRPOOL</field>
+   </record>
+   <record id="marc_4" model="marcas">
+      <field name="marcas_codigo">4</field>
+      <field name="marcas_nombre">SIEMENS</field>
+      <field name="marcas_fabricante">SIEMENS</field>
+   </record>
+   <record id="marc_5" model="marcas">
+      <field name="marcas_codigo">5</field>
+      <field name="marcas_nombre">AOC</field>
+      <field name="marcas_fabricante">AOC</field>
+   </record>
+   <record id="marc_6" model="marcas">
+      <field name="marcas_codigo">6</field>
+      <field name="marcas_nombre">DAEWOO</field>
+      <field name="marcas_fabricante">DAEWOO</field>
+   </record>
+   <record id="marc_7" model="marcas">
+      <field name="marcas_codigo">7</field>
+      <field name="marcas_nombre">CASIO</field>
+      <field name="marcas_fabricante">CASIO</field>
+   </record>
+   <record id="marc_8" model="marcas">
+      <field name="marcas_codigo">8</field>
+      <field name="marcas_nombre">PANASONIC</field>
+      <field name="marcas_fabricante">PANASONIC</field>
+   </record>
+   <record id="marc_9" model="marcas">
+      <field name="marcas_codigo">9</field>
+      <field name="marcas_nombre">SONY</field>
+      <field name="marcas_fabricante">SONY</field>
+   </record>
+   <record id="marc_10" model="marcas">
+      <field name="marcas_codigo">10</field>
+      <field name="marcas_nombre">OSTER</field>
+      <field name="marcas_fabricante">OSTER</field>
+   </record>
+   <record id="marc_11" model="marcas">
+      <field name="marcas_codigo">12</field>
+      <field name="marcas_nombre">XEROX</field>
+      <field name="marcas_fabricante">XEROX</field>
+   </record>
+   <record id="marc_12" model="marcas">
+      <field name="marcas_codigo">14</field>
+      <field name="marcas_nombre">MICROSOFT</field>
+      <field name="marcas_fabricante">MICROSOFT</field>
+   </record>
+   <record id="marc_13" model="marcas">
+      <field name="marcas_codigo">15</field>
+      <field name="marcas_nombre">SAMSUNG</field>
+      <field name="marcas_fabricante">SAMSUNG</field>
+   </record>
+   <record id="marc_15" model="marcas">
+      <field name="marcas_codigo">17</field>
+      <field name="marcas_nombre">HP COMPAQ</field>
+      <field name="marcas_fabricante">HP COMPAQ</field>
+   </record>
+   <record id="marc_16" model="marcas">
+      <field name="marcas_codigo">18</field>
+      <field name="marcas_nombre">BENQ</field>
+      <field name="marcas_fabricante">BENQ</field>
+   </record>
+   <record id="marc_17" model="marcas">
+      <field name="marcas_codigo">19</field>
+      <field name="marcas_nombre">PROXIMA</field>
+      <field name="marcas_fabricante">PROXIMA</field>
+   </record>
+   <record id="marc_18" model="marcas">
+      <field name="marcas_codigo">20</field>
+      <field name="marcas_nombre">CDP</field>
+      <field name="marcas_fabricante">CDP</field>
+   </record>
+   <record id="marc_19" model="marcas">
+      <field name="marcas_codigo">22</field>
+      <field name="marcas_nombre">IBM</field>
+      <field name="marcas_fabricante">IBM</field>
+   </record>
+   <record id="marc_20" model="marcas">
+      <field name="marcas_codigo">23</field>
+      <field name="marcas_nombre">MULTIMEDIA</field>
+      <field name="marcas_fabricante">MULTIMEDIA</field>
+   </record>
+   <record id="marc_21" model="marcas">
+      <field name="marcas_codigo">24</field>
+      <field name="marcas_nombre">GENIUS</field>
+      <field name="marcas_fabricante">GENIUS</field>
+   </record>
+   <record id="marc_22" model="marcas">
+      <field name="marcas_codigo">25</field>
+      <field name="marcas_nombre">BOSTON</field>
+      <field name="marcas_fabricante">BOSTON</field>
+   </record>
+   <record id="marc_24" model="marcas">
+      <field name="marcas_codigo">28</field>
+      <field name="marcas_nombre">GENERICO (A)</field>
+      <field name="marcas_fabricante">GENERICO (A)</field>
+   </record>
+   <record id="marc_25" model="marcas">
+      <field name="marcas_codigo">29</field>
+      <field name="marcas_nombre">INTEGRA</field>
+      <field name="marcas_fabricante">INTEGRA</field>
+   </record>
+   <record id="marc_26" model="marcas">
+      <field name="marcas_codigo">31</field>
+      <field name="marcas_nombre">FRIGILUX</field>
+      <field name="marcas_fabricante">FRIGILUX</field>
+   </record>
+   <record id="marc_27" model="marcas">
+      <field name="marcas_codigo">32</field>
+      <field name="marcas_nombre">ZUHIPOINT</field>
+      <field name="marcas_fabricante">ZUHIPOINT</field>
+   </record>
+   <record id="marc_30" model="marcas">
+      <field name="marcas_codigo">36</field>
+      <field name="marcas_nombre">ARCHIMÓVIL</field>
+      <field name="marcas_fabricante">ARCHIMÓVIL</field>
+   </record>
+   <record id="marc_32" model="marcas">
+      <field name="marcas_codigo">38</field>
+      <field name="marcas_nombre">DELUXE</field>
+      <field name="marcas_fabricante">DELUXE</field>
+   </record>
+   <record id="marc_33" model="marcas">
+      <field name="marcas_codigo">39</field>
+      <field name="marcas_nombre">SPEAKERS SYSTEM</field>
+      <field name="marcas_fabricante">SPEAKERS SYSTEM</field>
+   </record>
+   <record id="marc_34" model="marcas">
+      <field name="marcas_codigo">40</field>
+      <field name="marcas_nombre">CREATIVE</field>
+      <field name="marcas_fabricante">CREATIVE</field>
+   </record>
+   <record id="marc_35" model="marcas">
+      <field name="marcas_codigo">41</field>
+      <field name="marcas_nombre">SUNSHINE</field>
+      <field name="marcas_fabricante">SUNSHINE</field>
+   </record>
+   <record id="marc_36" model="marcas">
+      <field name="marcas_codigo">42</field>
+      <field name="marcas_nombre">SHARP</field>
+      <field name="marcas_fabricante">SHARP</field>
+   </record>
+   <record id="marc_37" model="marcas">
+      <field name="marcas_codigo">43</field>
+      <field name="marcas_nombre">TAUROS</field>
+      <field name="marcas_fabricante">TAUROS</field>
+   </record>
+   <record id="marc_38" model="marcas">
+      <field name="marcas_codigo">44</field>
+      <field name="marcas_nombre">WELBILT-TURN</field>
+      <field name="marcas_fabricante">WELBILT-TURN</field>
+   </record>
+   <record id="marc_39" model="marcas">
+      <field name="marcas_codigo">45</field>
+      <field name="marcas_nombre">CECS</field>
+      <field name="marcas_fabricante">CECS</field>
+   </record>
+   <record id="marc_40" model="marcas">
+      <field name="marcas_codigo">46</field>
+      <field name="marcas_nombre">CELSIUS</field>
+      <field name="marcas_fabricante">CELSIUS</field>
+   </record>
+   <record id="marc_41" model="marcas">
+      <field name="marcas_codigo">47</field>
+      <field name="marcas_nombre">KING POST</field>
+      <field name="marcas_fabricante">KING POST</field>
+   </record>
+   <record id="marc_42" model="marcas">
+      <field name="marcas_codigo">48</field>
+      <field name="marcas_nombre">BW-692</field>
+      <field name="marcas_fabricante">BW-692</field>
+   </record>
+   <record id="marc_43" model="marcas">
+      <field name="marcas_codigo">51</field>
+      <field name="marcas_nombre">COMPAQ</field>
+      <field name="marcas_fabricante">COMPAQ</field>
+   </record>
+   <record id="marc_44" model="marcas">
+      <field name="marcas_codigo">52</field>
+      <field name="marcas_nombre">VIEW SONIC</field>
+      <field name="marcas_fabricante">VIEW SONIC</field>
+   </record>
+   <record id="marc_46" model="marcas">
+      <field name="marcas_codigo">54</field>
+      <field name="marcas_nombre">KODE</field>
+      <field name="marcas_fabricante">KODE</field>
+   </record>
+   <record id="marc_47" model="marcas">
+      <field name="marcas_codigo">57</field>
+      <field name="marcas_nombre">ETERNA</field>
+      <field name="marcas_fabricante">ETERNA</field>
+   </record>
+   <record id="marc_48" model="marcas">
+      <field name="marcas_codigo">58</field>
+      <field name="marcas_nombre">KENMORE</field>
+      <field name="marcas_fabricante">KENMORE</field>
+   </record>
+   <record id="marc_50" model="marcas">
+      <field name="marcas_codigo">60</field>
+      <field name="marcas_nombre">PRINTEX</field>
+      <field name="marcas_fabricante">PRINTEX</field>
+   </record>
+   <record id="marc_51" model="marcas">
+      <field name="marcas_codigo">61</field>
+      <field name="marcas_nombre">NATIONAL</field>
+      <field name="marcas_fabricante">NATIONAL</field>
+   </record>
+   <record id="marc_53" model="marcas">
+      <field name="marcas_codigo">63</field>
+      <field name="marcas_nombre">PONE</field>
+      <field name="marcas_fabricante">PONE</field>
+   </record>
+   <record id="marc_54" model="marcas">
+      <field name="marcas_codigo">64</field>
+      <field name="marcas_nombre">AUDITEH</field>
+      <field name="marcas_fabricante">AUDITEH</field>
+   </record>
+   <record id="marc_56" model="marcas">
+      <field name="marcas_codigo">68</field>
+      <field name="marcas_nombre">SUMBEAM</field>
+      <field name="marcas_fabricante">SUMBEAM</field>
+   </record>
+   <record id="marc_57" model="marcas">
+      <field name="marcas_codigo">70</field>
+      <field name="marcas_nombre">CENTINELA</field>
+      <field name="marcas_fabricante">CENTINELA</field>
+   </record>
+   <record id="marc_58" model="marcas">
+      <field name="marcas_codigo">71</field>
+      <field name="marcas_nombre">DIGITAL</field>
+      <field name="marcas_fabricante">DIGITAL</field>
+   </record>
+   <record id="marc_59" model="marcas">
+      <field name="marcas_codigo">72</field>
+      <field name="marcas_nombre">LEITZ</field>
+      <field name="marcas_fabricante">LEITZ</field>
+  
+   </record>
+   <record id="marc_60" model="marcas">
+      <field name="marcas_codigo">73</field>
+      <field name="marcas_fabricante">TANTUNG</field>
+      <field name="marcas_nombre">TANTUNG</field>
+   </record>
+   <record id="marc_61" model="marcas">
+      <field name="marcas_codigo">74</field>
+      <field name="marcas_nombre">TEACH</field>
+      <field name="marcas_fabricante">TEACH</field>
+   
+   </record>
+   <record id="marc_62" model="marcas">
+      <field name="marcas_codigo">75</field>
+      <field name="marcas_nombre">COMPACTA</field>
+      <field name="marcas_fabricante">COMPACTA</field>
+    
+   </record>
+   <record id="marc_63" model="marcas">
+      <field name="marcas_codigo">76</field>
+      <field name="marcas_nombre">KW -TRIO</field>
+      <field name="marcas_fabricante">KW -TRIO</field>
+   </record>
+   <record id="marc_64" model="marcas">
+      <field name="marcas_codigo">77</field>
+      <field name="marcas_nombre">OLIVETTI</field>
+      <field name="marcas_fabricante">OLIVETTI</field>
+   </record>
+   <record id="marc_66" model="marcas">
+      <field name="marcas_codigo">80</field>
+      <field name="marcas_nombre">EPSON</field>
+      <field name="marcas_fabricante">EPSON</field>
+   </record>
+   <record id="marc_67" model="marcas">
+      <field name="marcas_codigo">83</field>
+      <field name="marcas_nombre">APC</field>
+      <field name="marcas_fabricante">APC</field>
+   </record>
+   <record id="marc_68" model="marcas">
+      <field name="marcas_codigo">85</field>
+      <field name="marcas_nombre">PLUS</field>
+      <field name="marcas_fabricante">PLUS</field>
+   </record>
+   <record id="marc_69" model="marcas">
+      <field name="marcas_codigo">86</field>
+      <field name="marcas_nombre">BOLEX PAILLARD</field>
+      <field name="marcas_fabricante">BOLEX PAILLARD</field>
+   </record>
+   <record id="marc_70" model="marcas">
+      <field name="marcas_codigo">87</field>
+      <field name="marcas_nombre">3M</field>
+      <field name="marcas_fabricante">3M</field>
+   </record>
+   <record id="marc_71" model="marcas">
+      <field name="marcas_codigo">88</field>
+      <field name="marcas_nombre">FM</field>
+      <field name="marcas_fabricante">FM</field>
+   </record>
+   <record id="marc_73" model="marcas">
+      <field name="marcas_codigo">91</field>
+      <field name="marcas_nombre">QUICKSEL</field>
+      <field name="marcas_fabricante">QUICKSEL</field>
+   </record>
+   <record id="marc_74" model="marcas">
+      <field name="marcas_codigo">92</field>
+      <field name="marcas_nombre">TOSHIBA</field>
+      <field name="marcas_fabricante">TOSHIBA</field>
+   </record>
+   <record id="marc_75" model="marcas">
+      <field name="marcas_codigo">93</field>
+      <field name="marcas_nombre">LG</field>
+      <field name="marcas_fabricante">LG</field>
+   </record>
+   <record id="marc_76" model="marcas">
+      <field name="marcas_codigo">94</field>
+      <field name="marcas_nombre">RDS</field>
+      <field name="marcas_fabricante">RDS</field>
+   </record>
+   <record id="marc_77" model="marcas">
+      <field name="marcas_codigo">95</field>
+      <field name="marcas_nombre">ACER</field>
+      <field name="marcas_fabricante">ACER</field>
+   </record>
+   <record id="marc_79" model="marcas">
+      <field name="marcas_codigo">97</field>
+      <field name="marcas_nombre">LIE SEGANG</field>
+      <field name="marcas_fabricante">LIE SEGANG</field>
+   </record>
+   <record id="marc_80" model="marcas">
+      <field name="marcas_codigo">99</field>
+      <field name="marcas_nombre">DOOUGUARD</field>
+      <field name="marcas_fabricante">DOOUGUARD</field>
+   </record>
+   <record id="marc_81" model="marcas">
+      <field name="marcas_codigo">100</field>
+      <field name="marcas_nombre">IOMEGA</field>
+      <field name="marcas_fabricante">IOMEGA</field>
+   </record>
+   <record id="marc_82" model="marcas">
+      <field name="marcas_codigo">101</field>
+      <field name="marcas_nombre">KHALED</field>
+      <field name="marcas_fabricante">KHALED</field>
+   </record>
+   <record id="marc_84" model="marcas">
+      <field name="marcas_codigo">104</field>
+      <field name="marcas_nombre">SUNRISE</field>
+      <field name="marcas_fabricante">SUNRISE</field>
+   </record>
+   <record id="marc_85" model="marcas">
+      <field name="marcas_codigo">105</field>
+      <field name="marcas_nombre">ELECTROSONIC</field>
+      <field name="marcas_fabricante">ELECTROSONIC</field>
+   </record>
+   <record id="marc_86" model="marcas">
+      <field name="marcas_codigo">106</field>
+      <field name="marcas_nombre">TAPPAN</field>
+      <field name="marcas_fabricante">TAPPAN</field>
+   </record>
+   <record id="marc_88" model="marcas">
+      <field name="marcas_codigo">109</field>
+      <field name="marcas_nombre">OFITECH</field>
+      <field name="marcas_fabricante">OFITECH</field>
+   </record>
+   <record id="marc_89" model="marcas">
+      <field name="marcas_codigo">111</field>
+      <field name="marcas_nombre">TRIUMPH</field>
+      <field name="marcas_fabricante">TRIUMPH</field>
+   </record>
+   <record id="marc_90" model="marcas">
+      <field name="marcas_codigo">112</field>
+      <field name="marcas_nombre">CASTI CARRY</field>
+      <field name="marcas_fabricante">CASTI CARRY</field>
+   </record>
+   <record id="marc_91" model="marcas">
+      <field name="marcas_codigo">113</field>
+      <field name="marcas_nombre">ADMIRAL</field>
+      <field name="marcas_fabricante">ADMIRAL</field>
+   </record>
+   <record id="marc_93" model="marcas">
+      <field name="marcas_codigo">115</field>
+      <field name="marcas_nombre">TURBO STAR</field>
+      <field name="marcas_fabricante">TURBO STAR</field>
+   </record>
+   <record id="marc_94" model="marcas">
+      <field name="marcas_codigo">116</field>
+      <field name="marcas_nombre">MOTOROLA</field>
+      <field name="marcas_fabricante">MOTOROLA</field>
+   </record>
+   <record id="marc_95" model="marcas">
+      <field name="marcas_codigo">117</field>
+      <field name="marcas_nombre">SOEHNLO</field>
+      <field name="marcas_fabricante">SOEHNLO</field>
+   </record>
+   <record id="marc_96" model="marcas">
+      <field name="marcas_codigo">118</field>
+      <field name="marcas_nombre">PLANAX</field>
+      <field name="marcas_fabricante">PLANAX</field>
+   </record>
+   <record id="marc_97" model="marcas">
+      <field name="marcas_codigo">119</field>
+      <field name="marcas_nombre">CROWN</field>
+      <field name="marcas_fabricante">CROWN</field>
+   </record>
+   <record id="marc_98" model="marcas">
+      <field name="marcas_codigo">120</field>
+      <field name="marcas_nombre">KAEV</field>
+      <field name="marcas_fabricante">KAEV</field>
+   </record>
+   <record id="marc_99" model="marcas">
+      <field name="marcas_codigo">121</field>
+      <field name="marcas_nombre">ARGENTOCON</field>
+      <field name="marcas_fabricante">ARGENTOCON</field>
+   </record>
+   <record id="marc_100" model="marcas">
+      <field name="marcas_codigo">122</field>
+      <field name="marcas_nombre">MULTICUT</field>
+      <field name="marcas_fabricante">MULTICUT</field>
+   </record>
+   <record id="marc_101" model="marcas">
+      <field name="marcas_codigo">123</field>
+      <field name="marcas_nombre">DUPLO</field>
+      <field name="marcas_fabricante">DUPLO</field>
+   </record>
+   <record id="marc_102" model="marcas">
+      <field name="marcas_codigo">124</field>
+      <field name="marcas_nombre">GBC</field>
+      <field name="marcas_fabricante">GBC</field>
+   </record>
+   <record id="marc_103" model="marcas">
+      <field name="marcas_codigo">125</field>
+      <field name="marcas_nombre">TASHIN</field>
+      <field name="marcas_fabricante">TASHIN</field>
+   </record>
+   <record id="marc_104" model="marcas">
+      <field name="marcas_codigo">127</field>
+      <field name="marcas_nombre">GESTETNER</field>
+      <field name="marcas_fabricante">GESTETNER</field>
+   </record>
+   <record id="marc_105" model="marcas">
+      <field name="marcas_codigo">128</field>
+      <field name="marcas_nombre">ENCORE</field>
+      <field name="marcas_fabricante">ENCORE</field>
+   </record>
+   <record id="marc_106" model="marcas">
+      <field name="marcas_codigo">130</field>
+      <field name="marcas_nombre">MIC</field>
+      <field name="marcas_fabricante">MIC</field>
+   </record>
+   <record id="marc_107" model="marcas">
+      <field name="marcas_codigo">132</field>
+      <field name="marcas_nombre">LOGITECH</field>
+      <field name="marcas_fabricante">LOGITECH</field>
+   </record>
+   <record id="marc_108" model="marcas">
+      <field name="marcas_codigo">134</field>
+      <field name="marcas_nombre">CJC</field>
+      <field name="marcas_fabricante">CJC</field>
+   </record>
+   <record id="marc_109" model="marcas">
+      <field name="marcas_codigo">135</field>
+      <field name="marcas_nombre">GENERAL</field>
+      <field name="marcas_fabricante">GENERAL</field>
+   </record>
+   <record id="marc_110" model="marcas">
+      <field name="marcas_codigo">136</field>
+      <field name="marcas_nombre">PEDROLLO</field>
+      <field name="marcas_fabricante">PEDROLLO</field>
+   </record>
+   <record id="marc_111" model="marcas">
+      <field name="marcas_codigo">137</field>
+      <field name="marcas_nombre">METABO</field>
+      <field name="marcas_fabricante">METABO</field>
+   </record>
+   <record id="marc_112" model="marcas">
+      <field name="marcas_codigo">138</field>
+      <field name="marcas_nombre">TURBO</field>
+      <field name="marcas_fabricante">TURBO</field>
+   </record>
+   <record id="marc_113" model="marcas">
+      <field name="marcas_codigo">139</field>
+      <field name="marcas_nombre">PRETOLL</field>
+      <field name="marcas_fabricante">PRETOLL</field>
+   </record>
+   <record id="marc_114" model="marcas">
+      <field name="marcas_codigo">140</field>
+      <field name="marcas_nombre">SKILL</field>
+      <field name="marcas_fabricante">SKILL</field>
+   </record>
+   <record id="marc_115" model="marcas">
+      <field name="marcas_codigo">141</field>
+      <field name="marcas_nombre">RIDGID</field>
+      <field name="marcas_fabricante">RIDGID</field>
+   </record>
+   <record id="marc_116" model="marcas">
+      <field name="marcas_codigo">144</field>
+      <field name="marcas_nombre">SUECO</field>
+      <field name="marcas_fabricante">SUECO</field>
+   </record>
+   <record id="marc_117" model="marcas">
+      <field name="marcas_codigo">145</field>
+      <field name="marcas_nombre">SILVER</field>
+      <field name="marcas_fabricante">SILVER</field>
+   </record>
+   <record id="marc_118" model="marcas">
+      <field name="marcas_codigo">146</field>
+      <field name="marcas_nombre">SAMURAI</field>
+      <field name="marcas_fabricante">SAMURAI</field>
+   </record>
+   <record id="marc_119" model="marcas">
+      <field name="marcas_codigo">147</field>
+      <field name="marcas_nombre">TOYOTOMI</field>
+      <field name="marcas_fabricante">TOYOTOMI</field>
+   </record>
+   <record id="marc_120" model="marcas">
+      <field name="marcas_codigo">148</field>
+      <field name="marcas_nombre">JUPITER</field>
+      <field name="marcas_fabricante">JUPITER</field>
+   </record>
+   <record id="marc_121" model="marcas">
+      <field name="marcas_codigo">149</field>
+      <field name="marcas_nombre">AICA</field>
+      <field name="marcas_fabricante">AICA</field>
+   </record>
+   <record id="marc_124" model="marcas">
+      <field name="marcas_codigo">152</field>
+      <field name="marcas_nombre">EXTRON</field>
+      <field name="marcas_fabricante">EXTRON</field>
+   </record>
+   <record id="marc_125" model="marcas">
+      <field name="marcas_codigo">153</field>
+      <field name="marcas_nombre">CRESTON</field>
+      <field name="marcas_fabricante">CRESTON</field>
+   </record>
+   <record id="marc_126" model="marcas">
+      <field name="marcas_codigo">154</field>
+      <field name="marcas_nombre">BEAM</field>
+      <field name="marcas_fabricante">BEAM</field>
+   </record>
+   <record id="marc_127" model="marcas">
+      <field name="marcas_codigo">155</field>
+      <field name="marcas_nombre">ELECTRO-VOICE</field>
+      <field name="marcas_fabricante">ELECTRO-VOICE</field>
+   </record>
+   <record id="marc_128" model="marcas">
+      <field name="marcas_codigo">156</field>
+      <field name="marcas_nombre">BOSE</field>
+      <field name="marcas_fabricante">BOSE</field>
+   </record>
+   <record id="marc_129" model="marcas">
+      <field name="marcas_codigo">157</field>
+      <field name="marcas_nombre">OLEVIA</field>
+      <field name="marcas_fabricante">OLEVIA</field>
+   </record>
+   <record id="marc_130" model="marcas">
+      <field name="marcas_codigo">159</field>
+      <field name="marcas_nombre">MICROSTARS</field>
+      <field name="marcas_fabricante">MICROSTARS</field>
+   </record>
+   <record id="marc_132" model="marcas">
+      <field name="marcas_codigo">161</field>
+      <field name="marcas_nombre">SAITRONIC</field>
+      <field name="marcas_fabricante">SAITRONIC</field>
+   </record>
+   <record id="marc_134" model="marcas">
+      <field name="marcas_codigo">163</field>
+      <field name="marcas_nombre">AGILEV</field>
+      <field name="marcas_fabricante">AGILEV</field>
+   </record>
+   <record id="marc_135" model="marcas">
+      <field name="marcas_codigo">164</field>
+      <field name="marcas_nombre">HITACHI</field>
+      <field name="marcas_fabricante">HITACHI</field>
+   </record>
+   <record id="marc_136" model="marcas">
+      <field name="marcas_codigo">166</field>
+      <field name="marcas_nombre">SALICRO</field>
+      <field name="marcas_fabricante">SALICRO</field>
+   </record>
+   <record id="marc_137" model="marcas">
+      <field name="marcas_codigo">167</field>
+      <field name="marcas_nombre">DATACARD</field>
+      <field name="marcas_fabricante">DATACARD</field>
+   </record>
+   <record id="marc_138" model="marcas">
+      <field name="marcas_codigo">168</field>
+      <field name="marcas_nombre">KEYMOUSE</field>
+      <field name="marcas_fabricante">KEYMOUSE</field>
+   </record>
+   <record id="marc_140" model="marcas">
+      <field name="marcas_codigo">170</field>
+      <field name="marcas_nombre">POLYCOM</field>
+      <field name="marcas_fabricante">POLYCOM</field>
+   </record>
+   <record id="marc_141" model="marcas">
+      <field name="marcas_codigo">173</field>
+      <field name="marcas_nombre">CASET DENON</field>
+      <field name="marcas_fabricante">CASET DENON</field>
+   </record>
+   <record id="marc_142" model="marcas">
+      <field name="marcas_codigo">174</field>
+      <field name="marcas_nombre">CHEVROLET</field>
+      <field name="marcas_fabricante">CHEVROLET</field>
+   </record>
+   <record id="marc_143" model="marcas">
+      <field name="marcas_codigo">175</field>
+      <field name="marcas_nombre">SHURE</field>
+      <field name="marcas_fabricante">SHURE</field>
+   </record>
+   <record id="marc_144" model="marcas">
+      <field name="marcas_codigo">176</field>
+      <field name="marcas_nombre">GENERAL ELECTRIC</field>
+      <field name="marcas_fabricante">GENERAL ELECTRIC</field>
+   </record>
+   <record id="marc_145" model="marcas">
+      <field name="marcas_codigo">177</field>
+      <field name="marcas_nombre">AIWA</field>
+      <field name="marcas_fabricante">AIWA</field>
+   </record>
+   <record id="marc_146" model="marcas">
+      <field name="marcas_codigo">178</field>
+      <field name="marcas_nombre">FUNDIM</field>
+      <field name="marcas_fabricante">FUNDIM</field>
+   </record>
+   <record id="marc_148" model="marcas">
+      <field name="marcas_codigo">181</field>
+      <field name="marcas_nombre">RUSH</field>
+      <field name="marcas_fabricante">RUSH</field>
+   </record>
+   <record id="marc_149" model="marcas">
+      <field name="marcas_codigo">182</field>
+      <field name="marcas_nombre">DIAMOND</field>
+      <field name="marcas_fabricante">DIAMOND</field>
+   </record>
+   <record id="marc_150" model="marcas">
+      <field name="marcas_codigo">183</field>
+      <field name="marcas_nombre">PC WORDS</field>
+      <field name="marcas_fabricante">PC WORDS</field>
+   </record>
+   <record id="marc_152" model="marcas">
+      <field name="marcas_codigo">188</field>
+      <field name="marcas_nombre">POWER DIGITAL</field>
+      <field name="marcas_fabricante">POWER DIGITAL</field>
+   </record>
+   <record id="marc_153" model="marcas">
+      <field name="marcas_codigo">190</field>
+      <field name="marcas_nombre">YAMAHA</field>
+      <field name="marcas_fabricante">YAMAHA</field>
+   </record>
+   <record id="marc_154" model="marcas">
+      <field name="marcas_codigo">191</field>
+      <field name="marcas_nombre">FORD</field>
+      <field name="marcas_fabricante">FORD</field>
+   </record>
+   <record id="marc_155" model="marcas">
+      <field name="marcas_codigo">192</field>
+      <field name="marcas_nombre">CONAIR</field>
+      <field name="marcas_fabricante">CONAIR</field>
+   </record>
+   <record id="marc_156" model="marcas">
+      <field name="marcas_codigo">193</field>
+      <field name="marcas_nombre">TOYOTA</field>
+      <field name="marcas_fabricante">TOYOTA</field>
+   </record>
+   <record id="marc_157" model="marcas">
+      <field name="marcas_codigo">195</field>
+      <field name="marcas_nombre">3COM</field>
+      <field name="marcas_fabricante">3COM</field>
+   </record>
+   <record id="marc_158" model="marcas">
+      <field name="marcas_codigo">197</field>
+      <field name="marcas_nombre">CISCO</field>
+      <field name="marcas_fabricante">CISCO</field>
+   </record>
+   <record id="marc_159" model="marcas">
+      <field name="marcas_codigo">198</field>
+      <field name="marcas_nombre">PROLIANT</field>
+      <field name="marcas_fabricante">PROLIANT</field>
+   </record>
+   <record id="marc_160" model="marcas">
+      <field name="marcas_codigo">199</field>
+      <field name="marcas_nombre">PHILIPS</field>
+      <field name="marcas_fabricante">PHILIPS</field>
+   </record>
+   <record id="marc_162" model="marcas">
+      <field name="marcas_codigo">201</field>
+      <field name="marcas_nombre">CANNON</field>
+      <field name="marcas_fabricante">CANNON</field>
+   </record>
+   <record id="marc_164" model="marcas">
+      <field name="marcas_codigo">204</field>
+      <field name="marcas_nombre">SUPER DELUXE</field>
+      <field name="marcas_fabricante">SUPER DELUXE</field>
+   </record>
+   <record id="marc_165" model="marcas">
+      <field name="marcas_codigo">205</field>
+      <field name="marcas_nombre">STASKY</field>
+      <field name="marcas_fabricante">STASKY</field>
+   </record>
+   <record id="marc_167" model="marcas">
+      <field name="marcas_codigo">207</field>
+      <field name="marcas_nombre">MAZDA</field>
+      <field name="marcas_fabricante">MAZDA</field>
+   </record>
+   <record id="marc_168" model="marcas">
+      <field name="marcas_codigo">208</field>
+      <field name="marcas_nombre">HONDA</field>
+      <field name="marcas_fabricante">HONDA</field>
+   </record>
+   <record id="marc_169" model="marcas">
+      <field name="marcas_codigo">209</field>
+      <field name="marcas_nombre">CIVIC</field>
+      <field name="marcas_fabricante">HONDA</field>
+   </record>
+   <record id="marc_170" model="marcas">
+      <field name="marcas_codigo">210</field>
+      <field name="marcas_nombre">EXPLORER</field>
+      <field name="marcas_fabricante">FORD</field>
+   </record>
+   <record id="marc_171" model="marcas">
+      <field name="marcas_codigo">211</field>
+      <field name="marcas_nombre">COROLA</field>
+      <field name="marcas_fabricante">TOYOTA</field>
+   </record>
+   <record id="marc_172" model="marcas">
+      <field name="marcas_codigo">212</field>
+      <field name="marcas_nombre">BLAZER</field>
+      <field name="marcas_fabricante">CHEVROLET</field>
+   </record>
+   <record id="marc_173" model="marcas">
+      <field name="marcas_codigo">213</field>
+      <field name="marcas_nombre">HEALTHO METER</field>
+      <field name="marcas_fabricante">HEALTHO METER</field>
+   </record>
+   <record id="marc_175" model="marcas">
+      <field name="marcas_codigo">216</field>
+      <field name="marcas_nombre">AST</field>
+      <field name="marcas_fabricante">AST</field>
+   </record>
+   <record id="marc_176" model="marcas">
+      <field name="marcas_codigo">217</field>
+      <field name="marcas_nombre">CVGA</field>
+      <field name="marcas_fabricante">CVGA</field>
+   </record>
+   <record id="marc_177" model="marcas">
+      <field name="marcas_codigo">218</field>
+      <field name="marcas_nombre">GATEWAY</field>
+      <field name="marcas_fabricante">GATEWAY</field>
+   </record>
+   <record id="marc_178" model="marcas">
+      <field name="marcas_codigo">219</field>
+      <field name="marcas_nombre">APPLE KEYBOARD</field>
+      <field name="marcas_fabricante">APPLE</field>
+   </record>
+   <record id="marc_179" model="marcas">
+      <field name="marcas_codigo">220</field>
+      <field name="marcas_nombre">MITEL</field>
+      <field name="marcas_fabricante">MITEL</field>
+   </record>
+   <record id="marc_181" model="marcas">
+      <field name="marcas_codigo">223</field>
+      <field name="marcas_nombre">COBY</field>
+      <field name="marcas_fabricante">COBY</field>
+   </record>
+   <record id="marc_182" model="marcas">
+      <field name="marcas_codigo">224</field>
+      <field name="marcas_nombre">ALTON</field>
+      <field name="marcas_fabricante">ALTON</field>
+   </record>
+   <record id="marc_183" model="marcas">
+      <field name="marcas_codigo">225</field>
+      <field name="marcas_nombre">MARKVISIÓN</field>
+      <field name="marcas_fabricante">MARKVISIÓN</field>
+   </record>
+   <record id="marc_184" model="marcas">
+      <field name="marcas_codigo">227</field>
+      <field name="marcas_nombre">LION</field>
+      <field name="marcas_fabricante">LION</field>
+   </record>
+   <record id="marc_185" model="marcas">
+      <field name="marcas_codigo">228</field>
+      <field name="marcas_nombre">LENOVO</field>
+      <field name="marcas_fabricante">LENOVO</field>
+   </record>
+   <record id="marc_188" model="marcas">
+      <field name="marcas_codigo">231</field>
+      <field name="marcas_nombre">ORBITAL</field>
+      <field name="marcas_fabricante">ORBITAL</field>
+   </record>
+   <record id="marc_190" model="marcas">
+      <field name="marcas_codigo">232</field>
+      <field name="marcas_nombre">NO APLICA</field>
+      <field name="marcas_fabricante">NO APLICA</field>
+   </record>
+   <record id="marc_192" model="marcas">
+      <field name="marcas_codigo">233</field>
+      <field name="marcas_nombre">PANDUIT</field>
+      <field name="marcas_fabricante">PANDUIT</field>
+   </record>
+   <record id="marc_193" model="marcas">
+      <field name="marcas_codigo">234</field>
+      <field name="marcas_nombre">FURSYS</field>
+      <field name="marcas_fabricante">FURSYS</field>
+   </record>
+   <record id="marc_194" model="marcas">
+      <field name="marcas_codigo">235</field>
+      <field name="marcas_nombre">FORMA</field>
+      <field name="marcas_fabricante">FORMA</field>
+   </record>
+   <record id="marc_195" model="marcas">
+      <field name="marcas_codigo">236</field>
+      <field name="marcas_nombre">GIROFLEX</field>
+      <field name="marcas_fabricante">GIROFLEX</field>
+   </record>
+   <record id="marc_196" model="marcas">
+      <field name="marcas_codigo">237</field>
+      <field name="marcas_nombre">AVTEK</field>
+      <field name="marcas_fabricante">AVTEK</field>
+   </record>
+   <record id="marc_198" model="marcas">
+      <field name="marcas_codigo">169</field>
+      <field name="marcas_nombre">BLACK AND  DECKER</field>
+      <field name="marcas_fabricante">BLACK AND  DECKER</field>
+   </record>
+   <record id="marc_199" model="marcas">
+      <field name="marcas_codigo">239</field>
+      <field name="marcas_nombre">delius</field>
+      <field name="marcas_fabricante">delius</field>
+   </record>
+   <record id="marc_200" model="marcas">
+      <field name="marcas_codigo">240</field>
+      <field name="marcas_nombre">MAKITA</field>
+      <field name="marcas_fabricante">MAKITA</field>
+   </record>
+   <record id="marc_202" model="marcas">
+      <field name="marcas_codigo">242</field>
+      <field name="marcas_nombre">EMERSON</field>
+      <field name="marcas_fabricante">EMERSON</field>
+   </record>
+   <record id="marc_203" model="marcas">
+      <field name="marcas_codigo">243</field>
+      <field name="marcas_nombre">SALICRU</field>
+      <field name="marcas_fabricante">SALICRU</field>
+   </record>
+   <record id="marc_204" model="marcas">
+      <field name="marcas_codigo">244</field>
+      <field name="marcas_nombre">VIT</field>
+      <field name="marcas_fabricante">VIT</field>
+   </record>
+   <record id="marc_205" model="marcas">
+      <field name="marcas_codigo">245</field>
+      <field name="marcas_nombre">WESTER DIGITAL</field>
+      <field name="marcas_fabricante">WESTER DIGITAL</field>
+   </record>
+   <record id="marc_206" model="marcas">
+      <field name="marcas_codigo">246</field>
+      <field name="marcas_nombre">GENERAL PLUS</field>
+      <field name="marcas_fabricante">GENERAL PLUS</field>
+   </record>
+   <record id="marc_207" model="marcas">
+      <field name="marcas_codigo">247</field>
+      <field name="marcas_nombre">EAGLE</field>
+      <field name="marcas_fabricante">EAGLE</field>
+   </record>
+   <record id="marc_208" model="marcas">
+      <field name="marcas_codigo">248</field>
+      <field name="marcas_nombre">MIVIC´S</field>
+      <field name="marcas_fabricante">MIVIC´S</field>
+   </record>
+   <record id="marc_209" model="marcas">
+      <field name="marcas_codigo">249</field>
+      <field name="marcas_nombre">POWER BEAT</field>
+      <field name="marcas_fabricante">POWER BEAT</field>
+   </record>
+   <record id="marc_210" model="marcas">
+      <field name="marcas_codigo">250</field>
+      <field name="marcas_nombre">MAXTONE</field>
+      <field name="marcas_fabricante">MAXTONE</field>
+   </record>
+   <record id="marc_211" model="marcas">
+      <field name="marcas_codigo">251</field>
+      <field name="marcas_nombre">ORBITREK</field>
+      <field name="marcas_fabricante">ORBITREK</field>
+   </record>
+   <record id="marc_212" model="marcas">
+      <field name="marcas_codigo">252</field>
+      <field name="marcas_nombre">PROTEUS</field>
+      <field name="marcas_fabricante">PROTEUS</field>
+   </record>
+   <record id="marc_213" model="marcas">
+      <field name="marcas_codigo">253</field>
+      <field name="marcas_nombre">GEMINI</field>
+      <field name="marcas_fabricante">GEMINI</field>
+   </record>
+   <record id="marc_214" model="marcas">
+      <field name="marcas_codigo">254</field>
+      <field name="marcas_nombre">ULTIMATE</field>
+      <field name="marcas_fabricante">ULTIMATE</field>
+   </record>
+   <record id="marc_216" model="marcas">
+      <field name="marcas_codigo">255</field>
+      <field name="marcas_nombre">PIONEER CLASSIC</field>
+      <field name="marcas_fabricante">PIONEER</field>
+   </record>
+   <record id="marc_217" model="marcas">
+      <field name="marcas_codigo">256</field>
+      <field name="marcas_nombre">ATHLETIC</field>
+      <field name="marcas_fabricante">ATHLETIC</field>
+   </record>
+   <record id="marc_218" model="marcas">
+      <field name="marcas_codigo">257</field>
+      <field name="marcas_nombre">LIFE FITNESS</field>
+      <field name="marcas_fabricante">LIFE FITNESS</field>
+   </record>
+   <record id="marc_219" model="marcas">
+      <field name="marcas_codigo">258</field>
+      <field name="marcas_nombre">KETTLER</field>
+      <field name="marcas_fabricante">KETTLER</field>
+   </record>
+   <record id="marc_220" model="marcas">
+      <field name="marcas_codigo">259</field>
+      <field name="marcas_nombre">X-ACTO</field>
+      <field name="marcas_fabricante">X-ACTO</field>
+   </record>
+   <record id="marc_221" model="marcas">
+      <field name="marcas_codigo">260</field>
+      <field name="marcas_nombre">DELONGHI</field>
+      <field name="marcas_fabricante">DELONGHI</field>
+   </record>
+   <record id="marc_222" model="marcas">
+      <field name="marcas_codigo">261</field>
+      <field name="marcas_nombre">MS-697</field>
+      <field name="marcas_fabricante">MS-697</field>
+   </record>
+   <record id="marc_225" model="marcas">
+      <field name="marcas_codigo">35</field>
+      <field name="marcas_nombre">N/A</field>
+      <field name="marcas_fabricante">N/A</field>
+   </record>
+   <record id="marc_233" model="marcas">
+      <field name="marcas_codigo">151</field>
+      <field name="marcas_nombre">DAL-LITE</field>
+       <field name="marcas_fabricante">DAL-LITE</field>
+   </record>
+   <record id="marc_244" model="marcas">
+      <field name="marcas_codigo">263</field>
+      <field name="marcas_nombre">COMPUCORP</field>
+      <field name="marcas_fabricante">COMPUCORP</field>
+   </record>
+   <record id="marc_246" model="marcas">
+      <field name="marcas_codigo">264</field>
+      <field name="marcas_nombre">ADVANTEK</field>
+      <field name="marcas_fabricante">ADVANTEK</field>
+   </record>
+   <record id="marc_247" model="marcas">
+      <field name="marcas_codigo">265</field>
+      <field name="marcas_nombre">CHEFT</field>
+      <field name="marcas_fabricante">CHEFT</field>
+   </record>
+   <record id="marc_248" model="marcas">
+      <field name="marcas_codigo">266</field>
+      <field name="marcas_nombre">ELECTROLUX</field>
+      <field name="marcas_fabricante">ELECTROLUX</field>
+   </record>
+   <record id="marc_249" model="marcas">
+      <field name="marcas_codigo">267</field>
+      <field name="marcas_nombre">BOSCH</field>
+      <field name="marcas_fabricante">BOSCH</field>
+   </record>
+   <record id="marc_250" model="marcas">
+      <field name="marcas_codigo">268</field>
+      <field name="marcas_nombre">STRUPER</field>
+      <field name="marcas_fabricante">STRUPER</field>
+   </record>
+   <record id="marc_251" model="marcas">
+      <field name="marcas_codigo">269</field>
+      <field name="marcas_nombre">SKILSAW</field>
+      <field name="marcas_fabricante">SKILSAW</field>
+   </record>
+   <record id="marc_252" model="marcas">
+      <field name="marcas_codigo">270</field>
+      <field name="marcas_nombre">PROFFTOOL</field>
+      <field name="marcas_fabricante">PROFFTOOL</field>
+   </record>
+   <record id="marc_253" model="marcas">
+      <field name="marcas_codigo">271</field>
+      <field name="marcas_nombre">STANLEY</field>
+      <field name="marcas_fabricante">STANLEY</field>
+   </record>
+   <record id="marc_254" model="marcas">
+      <field name="marcas_codigo">272</field>
+      <field name="marcas_nombre">TRUPER</field>
+      <field name="marcas_fabricante">TRUPER</field>
+   </record>
+   <record id="marc_255" model="marcas">
+      <field name="marcas_codigo">273</field>
+      <field name="marcas_nombre">GARDNER BENDER</field>
+      <field name="marcas_fabricante">GARDNER BENDER</field>
+   </record>
+   <record id="marc_256" model="marcas">
+      <field name="marcas_codigo">274</field>
+      <field name="marcas_nombre">DEWALT</field>
+      <field name="marcas_fabricante">DEWALT</field>
+   </record>
+   <record id="marc_258" model="marcas">
+      <field name="marcas_codigo">275</field>
+      <field name="marcas_nombre">FLUKE</field>
+      <field name="marcas_fabricante">FLUKE</field>
+   </record>
+   <record id="marc_259" model="marcas">
+      <field name="marcas_codigo">276</field>
+      <field name="marcas_nombre">MAGIC CHEF</field>
+      <field name="marcas_fabricante">MAGIC CHEF</field>
+   </record>
+   <record id="marc_260" model="marcas">
+      <field name="marcas_codigo">277</field>
+      <field name="marcas_nombre">EMERALD</field>
+      <field name="marcas_fabricante">EMERALD</field>
+   </record>
+   <record id="marc_261" model="marcas">
+      <field name="marcas_codigo">278</field>
+      <field name="marcas_nombre">LINDACO</field>
+      <field name="marcas_fabricante">LINDACO</field>
+   </record>
+   <record id="marc_262" model="marcas">
+      <field name="marcas_codigo">279</field>
+      <field name="marcas_nombre">SARBERO</field>
+      <field name="marcas_fabricante">SARBERO</field>
+   </record>
+   <record id="marc_263" model="marcas">
+      <field name="marcas_codigo">280</field>
+      <field name="marcas_nombre">LECAPPE</field>
+      <field name="marcas_fabricante">LECAPPE</field>
+   </record>
+   <record id="marc_264" model="marcas">
+      <field name="marcas_codigo">281</field>
+      <field name="marcas_nombre">RUBI</field>
+      <field name="marcas_fabricante">RUBI</field>
+   </record>
+   <record id="marc_265" model="marcas">
+      <field name="marcas_codigo">282</field>
+      <field name="marcas_nombre">CEBORA</field>
+      <field name="marcas_fabricante">CEBORA</field>
+   </record>
+   <record id="marc_266" model="marcas">
+      <field name="marcas_codigo">283</field>
+      <field name="marcas_nombre">HYUNDAI</field>
+      <field name="marcas_fabricante">HYUNDAI</field>
+   </record>
+   <record id="marc_269" model="marcas">
+      <field name="marcas_codigo">284</field>
+      <field name="marcas_nombre">COMIX</field>
+      <field name="marcas_fabricante">COMIX</field>
+   </record>
+   <record id="marc_270" model="marcas">
+      <field name="marcas_codigo">285</field>
+      <field name="marcas_nombre">ADATA</field>
+      <field name="marcas_fabricante">ADATA</field>
+   </record>
+   <record id="marc_272" model="marcas">
+      <field name="marcas_codigo">287</field>
+      <field name="marcas_nombre">VELOVEN</field>
+      <field name="marcas_fabricante">VELOVEN</field>
+   </record>
+   <record id="marc_279" model="marcas">
+      <field name="marcas_codigo">301</field>
+      <field name="marcas_nombre">KOSS</field>
+      <field name="marcas_fabricante">KOSS</field>
+   </record>
+   <record id="marc_283" model="marcas">
+      <field name="marcas_codigo">302</field>
+      <field name="marcas_nombre">WEX</field>
+      <field name="marcas_fabricante">WEX</field>
+   </record>
+   <record id="marc_295" model="marcas">
+      <field name="marcas_codigo">303</field>
+      <field name="marcas_nombre">INFOCUS</field>
+      <field name="marcas_fabricante">INFOCUS</field>
+   </record>
+   <record id="marc_296" model="marcas">
+      <field name="marcas_codigo">304</field>
+      <field name="marcas_nombre">SONEVIEW</field>
+      <field name="marcas_fabricante">SONEVIEW</field>
+   </record>
+   <record id="marc_297" model="marcas">
+      <field name="marcas_codigo">305</field>
+      <field name="marcas_nombre">TECAM</field>
+      <field name="marcas_fabricante">TECAM</field>
+   </record>
+   <record id="marc_300" model="marcas">
+      <field name="marcas_codigo">306</field>
+      <field name="marcas_nombre">DELCOP</field>
+      <field name="marcas_fabricante">DELCOP</field>
+   </record>
+   <record id="marc_301" model="marcas">
+      <field name="marcas_codigo">307</field>
+      <field name="marcas_nombre">DINAMO</field>
+      <field name="marcas_fabricante">DINAMO</field>
+   </record>
+   <record id="marc_302" model="marcas">
+      <field name="marcas_codigo">308</field>
+      <field name="marcas_nombre">ER</field>
+      <field name="marcas_fabricante">ER</field>
+   </record>
+   <record id="marc_305" model="marcas">
+      <field name="marcas_codigo">309</field>
+      <field name="marcas_nombre">CONCEP</field>
+      <field name="marcas_fabricante">CONCEP</field>
+   </record>
+   <record id="marc_306" model="marcas">
+      <field name="marcas_codigo">310</field>
+      <field name="marcas_nombre">IBBL</field>
+      <field name="marcas_fabricante">IBBL</field>
+   </record>
+   <record id="marc_308" model="marcas">
+      <field name="marcas_codigo">313</field>
+      <field name="marcas_nombre">BOCONCEP</field>
+      <field name="marcas_fabricante">BOCONCEP</field>
+   </record>
+   <record id="marc_309" model="marcas">
+      <field name="marcas_codigo">350</field>
+      <field name="marcas_nombre">SIRAGON</field>
+      <field name="marcas_fabricante">SIRAGON</field>
+   </record>
+   <record id="marc_310" model="marcas">
+      <field name="marcas_codigo">314</field>
+      <field name="marcas_nombre">TIAMJIN</field>
+      <field name="marcas_fabricante">TIAMJIN</field>
+   </record>
+   <record id="marc_311" model="marcas">
+      <field name="marcas_codigo">315</field>
+      <field name="marcas_nombre">TAHSIN</field>
+      <field name="marcas_fabricante">TAHSIN</field>
+   </record>
+   <record id="marc_312" model="marcas">
+      <field name="marcas_codigo">316</field>
+      <field name="marcas_nombre">VELOBIND</field>
+      <field name="marcas_fabricante">VELOBIND</field>
+   </record>
+   <record id="marc_313" model="marcas">
+      <field name="marcas_codigo">317</field>
+      <field name="marcas_nombre">DETROIT</field>
+      <field name="marcas_fabricante">DETROIT</field>
+   </record>
+   <record id="marc_314" model="marcas">
+      <field name="marcas_codigo">318</field>
+      <field name="marcas_nombre">ART ELECTRA SEAL</field>
+      <field name="marcas_fabricante">ART ELECTRA SEAL</field>
+
+   </record>
+   <record id="marc_315" model="marcas">
+      <field name="marcas_codigo">319</field>
+      <field name="marcas_nombre">ALDA</field>
+      <field name="marcas_fabricante">ALDA</field>
+   </record>
+   <record id="marc_316" model="marcas">
+      <field name="marcas_codigo">320</field>
+      <field name="marcas_nombre">APPLE</field>
+      <field name="marcas_fabricante">APPLE</field>
+   </record>
+   <record id="marc_317" model="marcas">
+      <field name="marcas_codigo">321</field>
+      <field name="marcas_nombre">FAVECA</field>
+      <field name="marcas_fabricante">FAVECA</field>
+   </record>
+   <record id="marc_318" model="marcas">
+      <field name="marcas_codigo">322</field>
+      <field name="marcas_nombre">SENNHEISER</field>
+      <field name="marcas_fabricante">SENNHEISER</field>
+   </record>
+   <record id="marc_319" model="marcas">
+      <field name="marcas_codigo">323</field>
+      <field name="marcas_nombre">MANFROHO</field>
+      <field name="marcas_fabricante">MANFROHO</field>
+
+   </record>
+      <record id="marc_320" model="marcas">
+      <field name="marcas_codigo">324</field>
+      <field name="marcas_nombre">LAWEL PRO</field>
+      <field name="marcas_fabricante">LAWEL PRO</field>
+   </record>
+   <record id="marc_321" model="marcas">
+      <field name="marcas_codigo">325</field>
+      <field name="marcas_nombre">SKY</field>
+      <field name="marcas_fabricante">SKY</field>
+   </record>
+   <record id="marc_322" model="marcas">
+      <field name="marcas_codigo">326</field>
+      <field name="marcas_nombre">DMB</field>
+      <field name="marcas_fabricante">DMB</field>
+   </record>
+   <record id="marc_323" model="marcas">
+      <field name="marcas_codigo">327</field>
+      <field name="marcas_nombre">IOWEL</field>
+      <field name="marcas_fabricante">IOWEL</field>
+   </record>
+   <record id="marc_324" model="marcas">
+      <field name="marcas_codigo">328</field>
+      <field name="marcas_nombre">SUPER STACK</field>
+      <field name="marcas_fabricante">SUPER STACK</field>
+   </record>
+   <record id="marc_325" model="marcas">
+      <field name="marcas_codigo">329</field>
+      <field name="marcas_nombre">MAGNA VOX</field>
+      <field name="marcas_fabricante">MAGNA VOX</field>
+   </record>
+   <record id="marc_327" model="marcas">
+      <field name="marcas_codigo">330</field>
+      <field name="marcas_nombre">MEGA BILLAL</field>
+      <field name="marcas_fabricante">MEGA BILLAL</field>
+   </record>
+   <record id="marc_330" model="marcas">
+      <field name="marcas_codigo">331</field>
+      <field name="marcas_nombre">FREZZI</field>
+      <field name="marcas_fabricante">FREZZI</field>
+   </record>
+   <record id="marc_332" model="marcas">
+      <field name="marcas_codigo">22</field>
+      <field name="marcas_nombre">OMB</field>
+      <field name="marcas_fabricante">OMB</field>
+   </record>
+   <record id="marc_335" model="marcas">
+      <field name="marcas_codigo">332</field>
+      <field name="marcas_nombre">COMQTECH</field>
+      <field name="marcas_fabricante">COMQTECH</field>
+   </record>
+   <record id="marc_336" model="marcas">
+      <field name="marcas_codigo">333</field>
+      <field name="marcas_nombre">TAROS</field>
+      <field name="marcas_fabricante">TAROS</field>
+   </record>
+   <record id="marc_340" model="marcas">
+      <field name="marcas_codigo">334</field>
+      <field name="marcas_nombre">FELLOWES</field>
+      <field name="marcas_fabricante">FELLOWES</field>
+   </record>
+   <record id="marc_342" model="marcas">
+      <field name="marcas_codigo">335</field>
+      <field name="marcas_nombre">BLUE NET</field>
+      <field name="marcas_fabricante">BLUE NET</field>
+   </record>
+   <record id="marc_344" model="marcas">
+      <field name="marcas_codigo">336</field>
+      <field name="marcas_nombre">G-691</field>
+      <field name="marcas_fabricante">G-691</field>
+   </record>
+   <record id="marc_346" model="marcas">
+      <field name="marcas_codigo">337</field>
+      <field name="marcas_nombre">INGEO MAPS</field>
+      <field name="marcas_fabricante">INGEO MAPS</field>
+   </record>
+   <record id="marc_347" model="marcas">
+      <field name="marcas_codigo">338</field>
+      <field name="marcas_nombre">GARMIN</field>
+      <field name="marcas_fabricante">GARMIN</field>
+   </record>
+   <record id="marc_348" model="marcas">
+      <field name="marcas_codigo">339</field>
+      <field name="marcas_nombre">NIKON</field>
+      <field name="marcas_fabricante">NIKON</field>
+   </record>
+   <record id="marc_349" model="marcas">
+      <field name="marcas_codigo">340</field>
+      <field name="marcas_nombre">SKANGEN</field>
+      <field name="marcas_fabricante">SKANGEN</field>
+   </record>
+   <record id="marc_350" model="marcas">
+      <field name="marcas_codigo">341</field>
+      <field name="marcas_nombre">ACQUARELLA</field>
+      <field name="marcas_fabricante">ACQUARELLA</field>
+   </record>
+   <record id="marc_353" model="marcas">
+      <field name="marcas_codigo">342</field>
+      <field name="marcas_nombre">SMART COOK</field>
+      <field name="marcas_fabricante">SMART COOK</field>
+   </record>
+   <record id="marc_355" model="marcas">
+      <field name="marcas_codigo">343</field>
+      <field name="marcas_nombre">MERCURY</field>
+      <field name="marcas_fabricante">MERCURY</field>
+   </record>
+   <record id="marc_356" model="marcas">
+      <field name="marcas_codigo">344</field>
+      <field name="marcas_nombre">SHEVEN</field>
+      <field name="marcas_fabricante">SHEVEN</field>
+   </record>
+   <record id="marc_358" model="marcas">
+      <field name="marcas_codigo">345</field>
+      <field name="marcas_nombre">TP-LINK</field>
+      <field name="marcas_fabricante">TP-LINK</field>
+   </record>
+   <record id="marc_360" model="marcas">
+      <field name="marcas_codigo">346</field>
+      <field name="marcas_nombre">MAGEFESA</field>
+      <field name="marcas_fabricante">MAGEFESA</field>
+   </record>
+   <record id="marc_361" model="marcas">
+      <field name="marcas_codigo">347</field>
+      <field name="marcas_nombre">TEEMS</field>
+      <field name="marcas_fabricante">TEEM</field>
+   </record>
+   <record id="marc_363" model="marcas">
+      <field name="marcas_codigo">348</field>
+      <field name="marcas_nombre">GOLD STAR</field>
+      <field name="marcas_fabricante">GOLD STAR</field>
+   </record>
+   <record id="marc_365" model="marcas">
+      <field name="marcas_codigo">349</field>
+      <field name="marcas_nombre">RAPID</field>
+      <field name="marcas_fabricante">RAPID</field>
+   </record>
+   <record id="marc_367" model="marcas">
+      <field name="marcas_codigo">350</field>
+      <field name="marcas_nombre">PREMIER</field>
+      <field name="marcas_fabricante">PREMIER</field>
+   </record>
+   <record id="marc_378" model="marcas">
+      <field name="marcas_codigo">351</field>
+      <field name="marcas_nombre">BARONET</field>
+      <field name="marcas_fabricante">BARONET</field>
+   </record>
+   <record id="marc_380" model="marcas">
+      <field name="marcas_codigo">352</field>
+      <field name="marcas_nombre">STURDMARK</field>
+      <field name="marcas_fabricante">STURDMARK</field>
+   </record>
+   <record id="marc_382" model="marcas">
+      <field name="marcas_codigo">353</field>
+      <field name="marcas_nombre">TASCAM</field>
+      <field name="marcas_fabricante">TASCAM</field>
+   </record>
+   <record id="marc_383" model="marcas">
+      <field name="marcas_codigo">354</field>
+      <field name="marcas_nombre">MACKIE</field>
+      <field name="marcas_fabricante">MACKIE</field>
+   </record>
+   <record id="marc_384" model="marcas">
+      <field name="marcas_codigo">355</field>
+      <field name="marcas_nombre">KRAMER</field>
+      <field name="marcas_fabricante">KRAMER</field>
+   </record>
+   <record id="marc_385" model="marcas">
+      <field name="marcas_codigo">356</field>
+      <field name="marcas_nombre">EV</field>
+      <field name="marcas_fabricante">EV</field>
+   </record>
+   <record id="marc_386" model="marcas">
+      <field name="marcas_codigo">357</field>
+      <field name="marcas_nombre">SYMPODIUM</field>
+      <field name="marcas_fabricante">SYMPODIUM</field>
+   </record>
+   <record id="marc_387" model="marcas">
+      <field name="marcas_codigo">358</field>
+      <field name="marcas_nombre">WOLF VISION</field>
+      <field name="marcas_fabricante">WOLF VISION</field>
+   </record>
+   <record id="marc_388" model="marcas">
+      <field name="marcas_codigo">359</field>
+      <field name="marcas_nombre">SIYUAN</field>
+      <field name="marcas_fabricante">SIYUAN</field>
+   </record>
+   <record id="marc_390" model="marcas">
+      <field name="marcas_codigo">360</field>
+      <field name="marcas_nombre">OLYMPUS</field>
+      <field name="marcas_fabricante">OLYMPUS</field>
+   </record>
+   <record id="marc_391" model="marcas">
+      <field name="marcas_codigo">361</field>
+      <field name="marcas_nombre">SEAGATE</field>
+      <field name="marcas_fabricante">SEAGATE</field>
+   </record>
+   <record id="marc_393" model="marcas">
+      <field name="marcas_codigo">362</field>
+      <field name="marcas_nombre">ECOX</field>
+      <field name="marcas_fabricante">ECOX</field>
+   </record>
+   <record id="marc_394" model="marcas">
+      <field name="marcas_codigo">363</field>
+      <field name="marcas_nombre">PROFESIONAL</field>
+      <field name="marcas_fabricante">PROFESIONAL</field>
+   </record>
+   <record id="marc_395" model="marcas">
+      <field name="marcas_codigo">364</field>
+      <field name="marcas_nombre">CATALYST</field>
+      <field name="marcas_fabricante">CATALYST</field>
+   </record>
+   <record id="marc_396" model="marcas">
+      <field name="marcas_codigo">365</field>
+      <field name="marcas_nombre">BIONAIRE</field>
+      <field name="marcas_fabricante">BIONAIRE</field>
+   </record>
+   <record id="marc_397" model="marcas">
+      <field name="marcas_codigo">366</field>
+      <field name="marcas_nombre">ONE</field>
+      <field name="marcas_fabricante">ONE</field>
+   </record>
+   <record id="marc_398" model="marcas">
+      <field name="marcas_codigo">367</field>
+      <field name="marcas_nombre">RIESTER</field>
+      <field name="marcas_fabricante">RIESTER</field>
+   </record>
+   <record id="marc_399" model="marcas">
+      <field name="marcas_codigo">368</field>
+      <field name="marcas_nombre">MICROLIFE</field>
+      <field name="marcas_fabricante">MICROLIFE</field>
+   </record>
+   <record id="marc_400" model="marcas">
+      <field name="marcas_codigo">369</field>
+      <field name="marcas_nombre">SANAT</field>
+      <field name="marcas_fabricante">SANAT</field>
+   </record>
+   <record id="marc_402" model="marcas">
+      <field name="marcas_codigo">370</field>
+      <field name="marcas_nombre">DCP</field>
+      <field name="marcas_fabricante">DCP</field>
+   </record>
+   <record id="marc_403" model="marcas">
+      <field name="marcas_codigo">371</field>
+      <field name="marcas_nombre">EXA</field>
+      <field name="marcas_fabricante">EXA</field>
+   </record>
+   <record id="marc_404" model="marcas">
+      <field name="marcas_codigo">372</field>
+      <field name="marcas_nombre">HONEYWELL</field>
+      <field name="marcas_fabricante">HONEYWELL</field>
+   </record>
+   <record id="marc_405" model="marcas">
+      <field name="marcas_codigo">373</field>
+      <field name="marcas_nombre">CDM</field>
+      <field name="marcas_fabricante">CDM</field>
+   </record>
+   <record id="marc_406" model="marcas">
+      <field name="marcas_codigo">374</field>
+      <field name="marcas_nombre">DIEBOLD</field>
+      <field name="marcas_fabricante">DIEBOLD</field>
+   </record>
+   <record id="marc_407" model="marcas">
+      <field name="marcas_codigo">375</field>
+      <field name="marcas_nombre">EUR</field>
+      <field name="marcas_fabricante">EUR</field>
+   </record>
+   <record id="marc_408" model="marcas">
+      <field name="marcas_codigo">376</field>
+      <field name="marcas_nombre">XACTO</field>
+      <field name="marcas_fabricante">XACTO</field>
+   </record>
+   <record id="marc_409" model="marcas">
+      <field name="marcas_codigo">377</field>
+      <field name="marcas_nombre">GARMINI</field>
+      <field name="marcas_fabricante">GARMINI</field>
+   </record>
+   <record id="marc_410" model="marcas">
+      <field name="marcas_codigo">378</field>
+      <field name="marcas_nombre">JEEP</field>
+      <field name="marcas_fabricante">JEEP</field>
+   </record>
+   <record id="marc_411" model="marcas">
+      <field name="marcas_codigo">379</field>
+      <field name="marcas_nombre">LABTEC</field>
+      <field name="marcas_fabricante">LABTEC</field>
+   </record>
+   <record id="marc_413" model="marcas">
+      <field name="marcas_codigo">380</field>
+      <field name="marcas_nombre">TRENDNET</field>
+      <field name="marcas_fabricante">TRENDNET</field>
+   </record>
+   <record id="marc_414" model="marcas">
+      <field name="marcas_codigo">381</field>
+      <field name="marcas_nombre">LINKSYS</field>
+      <field name="marcas_fabricante">LINKSYS</field>
+   </record>
+   <record id="marc_415" model="marcas">
+      <field name="marcas_codigo">382</field>
+      <field name="marcas_nombre">VOLKSWAGEN</field>
+      <field name="marcas_fabricante">VOLKSWAGEN</field>
+   </record>
+   <record id="marc_416" model="marcas">
+      <field name="marcas_codigo">383</field>
+      <field name="marcas_nombre">KIA</field>
+      <field name="marcas_fabricante">KIA</field>
+   </record>
+   <record id="marc_417" model="marcas">
+      <field name="marcas_codigo">384</field>
+      <field name="marcas_nombre">CHERY</field>
+      <field name="marcas_fabricante">CHERY</field>
+   </record>
+   <record id="marc_418" model="marcas">
+      <field name="marcas_codigo">385</field>
+      <field name="marcas_nombre">KW-TRIO</field>
+      <field name="marcas_fabricante">KW-TRIO</field>
+   </record>
+   <record id="marc_420" model="marcas">
+      <field name="marcas_codigo">386</field>
+      <field name="marcas_nombre">WD</field>
+      <field name="marcas_fabricante">WD</field>
+   </record>
+   <record id="marc_421" model="marcas">
+      <field name="marcas_codigo">387</field>
+      <field name="marcas_nombre">KAWASAKI</field>
+      <field name="marcas_fabricante">KAWASAKI</field>
+   </record>
+   <record id="marc_422" model="marcas">
+      <field name="marcas_codigo">388</field>
+      <field name="marcas_nombre">SUZUKI</field>
+      <field name="marcas_fabricante">SUZUKI</field>
+   </record>
+   <record id="marc_424" model="marcas">
+      <field name="marcas_codigo">389</field>
+      <field name="marcas_nombre">SUBEAN</field>
+      <field name="marcas_fabricante">SUBEAN</field>
+   </record>
+   <record id="marc_425" model="marcas">
+      <field name="marcas_codigo">390</field>
+      <field name="marcas_nombre">LAMINEX</field>
+      <field name="marcas_fabricante">LAMINEX</field>
+   </record>
+   <record id="marc_426" model="marcas">
+      <field name="marcas_codigo">391</field>
+      <field name="marcas_nombre">TV IN DOOR</field>
+      <field name="marcas_fabricante">TV IN DOOR</field>
+   </record>
+   <record id="marc_427" model="marcas">
+      <field name="marcas_codigo">392</field>
+      <field name="marcas_nombre">OMNISEC</field>
+      <field name="marcas_fabricante">OMNISEC</field>
+   </record>
+   <record id="marc_428" model="marcas">
+      <field name="marcas_codigo">393</field>
+      <field name="marcas_nombre">TECNOMATIC</field>
+      <field name="marcas_fabricante">TECNOMATIC</field>
+   </record>
+   <record id="marc_429" model="marcas">
+      <field name="marcas_codigo">394</field>
+      <field name="marcas_nombre">LYON</field>
+      <field name="marcas_fabricante">LYON</field>
+   </record>
+   <record id="marc_430" model="marcas">
+      <field name="marcas_codigo">395</field>
+      <field name="marcas_nombre">VUT</field>
+      <field name="marcas_fabricante">VUT</field>
+   </record>
+   <record id="marc_431" model="marcas">
+      <field name="marcas_codigo">396</field>
+      <field name="marcas_nombre">POWER LINE</field>
+      <field name="marcas_fabricante">POWER LINE</field>
+   </record>
+   <record id="marc_432" model="marcas">
+      <field name="marcas_codigo">397</field>
+      <field name="marcas_nombre">PC WORKS</field>
+      <field name="marcas_fabricante">PC WORKS</field>
+   </record>
+   <record id="marc_433" model="marcas">
+      <field name="marcas_codigo">398</field>
+      <field name="marcas_nombre">INTIMUS</field>
+      <field name="marcas_fabricante">INTIMUS</field>
+   </record>
+   <record id="marc_434" model="marcas">
+      <field name="marcas_codigo">399</field>
+      <field name="marcas_nombre">IDEAL</field>
+      <field name="marcas_fabricante">IDEAL</field>
+   </record>
+   <record id="marc_435" model="marcas">
+      <field name="marcas_codigo">400</field>
+      <field name="marcas_nombre">TRANSCEIVERS</field>
+      <field name="marcas_fabricante">TRANSCEIVERS</field>
+   </record>
+   <record id="marc_438" model="marcas">
+      <field name="marcas_codigo">401</field>
+      <field name="marcas_nombre">DP</field>
+      <field name="marcas_fabricante">DP</field>
+   </record>
+   <record id="marc_439" model="marcas">
+      <field name="marcas_codigo">402</field>
+      <field name="marcas_nombre">BIOMP</field>
+      <field name="marcas_fabricante">BIOMP</field>
+   </record>
+   <record id="marc_440" model="marcas">
+      <field name="marcas_codigo">403</field>
+      <field name="marcas_nombre">MITSUBISHI</field>
+      <field name="marcas_fabricante">MITSUBISHI</field>
+   </record>
+   <record id="marc_441" model="marcas">
+      <field name="marcas_codigo">404</field>
+      <field name="marcas_nombre">DENON</field>
+      <field name="marcas_fabricante">DENON</field> 
+   </record>
+   <record id="marc_442" model="marcas">
+      <field name="marcas_codigo">405</field>
+      <field name="marcas_nombre">KITCHEN AID</field>
+      <field name="marcas_fabricante">KITCHEN AID</field>
+   </record>
+   <record id="marc_443" model="marcas">
+      <field name="marcas_codigo">406</field>
+      <field name="marcas_nombre">RANCILIO</field>
+      <field name="marcas_fabricante">RANCILIO</field>
+   </record>
+   <record id="marc_445" model="marcas">
+      <field name="marcas_codigo">407</field>
+      <field name="marcas_nombre">TECNOLAM</field>
+      <field name="marcas_fabricante">TECNOLAM</field>
+   </record>
+   <record id="marc_446" model="marcas">
+      <field name="marcas_codigo">408</field>
+      <field name="marcas_nombre">ELECTROMASTER</field>
+      <field name="marcas_fabricante">ELECTROMASTER</field> 
+   </record>
+   <record id="marc_447" model="marcas">
+      <field name="marcas_codigo">409</field>
+      <field name="marcas_nombre">NEVELARA</field>
+      <field name="marcas_fabricante">NEVELARA</field>
+   </record>
+   <record id="marc_448" model="marcas">
+      <field name="marcas_codigo">410</field>
+      <field name="marcas_nombre">RHYTHM</field>
+      <field name="marcas_fabricante">RHYTHM</field>
+   </record>
+   <record id="marc_449" model="marcas">
+      <field name="marcas_codigo">411</field>
+      <field name="marcas_nombre">FUNDY</field>
+      <field name="marcas_fabricante">FUNDY</field>
+   </record>
+   <record id="marc_450" model="marcas">
+      <field name="marcas_codigo">412</field>
+      <field name="marcas_nombre">FABER</field>
+      <field name="marcas_fabricante">FABER</field>
+   </record>
+   <record id="marc_452" model="marcas">
+      <field name="marcas_codigo">413</field>
+      <field name="marcas_nombre">DRAPER</field>
+      <field name="marcas_fabricante">DRAPER</field>
+   </record>
+   <record id="marc_453" model="marcas">
+      <field name="marcas_codigo">414</field>
+      <field name="marcas_nombre">JUSTER</field>
+      <field name="marcas_fabricante">JUSTER</field>
+   </record>
+   <record id="marc_454" model="marcas">
+      <field name="marcas_codigo">415</field>
+      <field name="marcas_nombre">DATAMAX</field>
+      <field name="marcas_fabricante">DATAMAX</field>
+   </record>
+   <record id="marc_456" model="marcas">
+      <field name="marcas_codigo">416</field>
+      <field name="marcas_nombre">RECORD</field>
+      <field name="marcas_fabricante">RECORD</field>
+   </record>
+   <record id="marc_457" model="marcas">
+      <field name="marcas_codigo">417</field>
+      <field name="marcas_nombre">HAIER</field>
+      <field name="marcas_fabricante">HAIER</field>
+      
+   </record>
+   <record id="marc_458" model="marcas">
+      <field name="marcas_codigo">418</field>
+      <field name="marcas_nombre">ZOTYE</field>
+      <field name="marcas_fabricante">ZOTYE</field>
+   </record>
+   <record id="marc_459" model="marcas">
+      <field name="marcas_codigo">419</field>
+      <field name="marcas_nombre">DONG PENG</field>
+      <field name="marcas_fabricante">DONG PENG</field>
+   </record>
+   <record id="marc_460" model="marcas">
+      <field name="marcas_codigo">420</field>
+      <field name="marcas_nombre">MPT</field>
+      <field name="marcas_fabricante">MPT</field>
+   </record>
+   <record id="marc_461" model="marcas">
+      <field name="marcas_codigo">421</field>
+      <field name="marcas_nombre">GIA</field>
+      <field name="marcas_fabricante">GIA</field>
+   </record>
+   <record id="marc_462" model="marcas">
+      <field name="marcas_codigo">422</field>
+      <field name="marcas_nombre">MOTOROLAD</field>
+      <field name="marcas_fabricante">MOTOROLAD</field>
+   </record>
+   <record id="marc_463" model="marcas">
+      <field name="marcas_codigo">423</field>
+      <field name="marcas_nombre">MAITUO</field>
+      <field name="marcas_fabricante">MAITUO</field>
+      
+   </record>
+   <record id="marc_464" model="marcas">
+      <field name="marcas_codigo">424</field>
+      <field name="marcas_nombre">FENIX</field>
+      <field name="marcas_fabricante">FENIX</field>
+      
+   </record>
+   <record id="marc_466" model="marcas">
+      <field name="marcas_codigo">425</field>
+      <field name="marcas_nombre">DIMO</field>
+      <field name="marcas_fabricante">DIMO</field>
+   </record>
+   <record id="marc_467" model="marcas">
+      <field name="marcas_codigo">426</field>
+      <field name="marcas_nombre">PERFECT</field> 
+      <field name="marcas_fabricante">PERFECT</field> 
+   </record>
+   <record id="marc_468" model="marcas">
+      <field name="marcas_codigo">427</field>
+      <field name="marcas_nombre">ZEBRA</field>
+      <field name="marcas_fabricante">ZEBRA</field>
+   </record>
+   <record id="marc_471" model="marcas">
+      <field name="marcas_codigo">428</field>
+      <field name="marcas_nombre">DM</field>
+      <field name="marcas_fabricante">DM</field>
+   </record>
+   <record id="marc_472" model="marcas">
+      <field name="marcas_codigo">429</field>
+      <field name="marcas_nombre">TECHKO</field>
+      <field name="marcas_fabricante">TECHKO</field>
+   </record>
+   <record id="marc_473" model="marcas">
+      <field name="marcas_codigo">430</field>
+      <field name="marcas_nombre">YBT</field>
+      <field name="marcas_fabricante">YBT</field>
+   </record>
+   <record id="marc_474" model="marcas">
+      <field name="marcas_codigo">431</field>
+      <field name="marcas_nombre">SPEAKER SYSTEM</field>
+      <field name="marcas_fabricante">SPEAKER SYSTEM</field>
+   </record>
+   <record id="marc_476" model="marcas">
+      <field name="marcas_codigo">432</field>
+      <field name="marcas_nombre">LENNOX</field>
+      <field name="marcas_fabricante">LENNOX</field>
+   </record>
+   <record id="marc_478" model="marcas">
+      <field name="marcas_codigo">433</field>
+      <field name="marcas_nombre">DAMLE</field>
+      <field name="marcas_fabricante">DAMLE</field>
+      
+   </record>
+   <record id="marc_479" model="marcas">
+      <field name="marcas_codigo">434</field>
+      <field name="marcas_nombre">METBISA</field>
+      <field name="marcas_fabricante">METBISA</field>
+   </record>
+   <record id="marc_480" model="marcas">
+      <field name="marcas_codigo">435</field>
+      <field name="marcas_nombre">LOWEL</field>
+      <field name="marcas_fabricante">LOWEL</field>
+   </record>
+   <record id="marc_481" model="marcas">
+      <field name="marcas_codigo">436</field>
+      <field name="marcas_nombre">IQ BOARD</field>
+      <field name="marcas_fabricante">IQ BOARD</field>
+   </record>
+   <record id="marc_483" model="marcas">
+      <field name="marcas_codigo">437</field>
+      <field name="marcas_nombre">PRINTA</field>
+      <field name="marcas_fabricante">PRINTA</field>
+   </record>
+   <record id="marc_484" model="marcas">
+      <field name="marcas_codigo">438</field>
+      <field name="marcas_nombre">3500</field>
+      <field name="marcas_fabricante">3500</field>
+   </record>
+   <record id="marc_485" model="marcas">
+      <field name="marcas_codigo">439</field>
+      <field name="marcas_nombre">DAHLE</field>
+      <field name="marcas_fabricante">DAHLE</field>
+   </record>
+   <record id="marc_486" model="marcas">
+      <field name="marcas_codigo">440</field>
+      <field name="marcas_nombre">RIVIERA</field>
+      <field name="marcas_fabricante">RIVIERA</field>
+      
+   </record>
+   <record id="marc_487" model="marcas">
+      <field name="marcas_codigo">441</field>
+      <field name="marcas_nombre">SWING LINE</field>
+      <field name="marcas_fabricante">SWING LINE</field>
+   </record>
+   <record id="marc_488" model="marcas">
+      <field name="marcas_codigo">442</field>
+      <field name="marcas_nombre">ACARD TECNOLOGY PRO</field>
+      <field name="marcas_fabricante">ACARD TECNOLOGY PRO</field>
+      
+   </record>
+   <record id="marc_489" model="marcas">
+      <field name="marcas_codigo">443</field>
+      <field name="marcas_nombre">SHEREDMASTER</field>
+      <field name="marcas_fabricante">SHEREDMASTER</field>
+   </record>
+   <record id="marc_490" model="marcas">
+      <field name="marcas_codigo">444</field>
+      <field name="marcas_nombre">ELM - NEW V7</field>
+      <field name="marcas_fabricante">ELM - NEW V7</field>
+   </record>
+	</data>
+</odoo>
+				
+				
+				
+				
+				
+

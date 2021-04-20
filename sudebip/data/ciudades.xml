@@ -1,0 +1,3670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data noupdate="1">
+		
+	   <!-- ciudads de Venezuela, segun codificacion del INE -->
+	   <record id="geo_ciud_010101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">010101</field>
+		  <field name="ciudad">CARACAS</field>
+		  <field name="codigo_sudebip_ciudad">101000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0101"/>
+		  <field name="codigo_municipio">0101</field>
+		  <field name="estado_id" ref="geo_est_01" />
+		  <field name="codigo_estado">1</field>
+	   </record>
+
+
+	   <record id="geo_ciud_020101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">020101</field>
+		  <field name="ciudad">LA ESMERALDA</field>
+		  <field name="codigo_sudebip_ciudad">201000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0201"/>
+		  <field name="codigo_municipio">0201</field>
+		  <field name="estado_id" ref="geo_est_02" />
+		  <field name="codigo_estado">2</field>
+	   </record>
+ 	
+	   <record id="geo_ciud_020201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">020201</field>
+		  <field name="ciudad">SAN FERNANDO DE ATABAPO</field>
+		  <field name="codigo_sudebip_ciudad">202000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0202"/>
+		  <field name="codigo_municipio">0202</field>
+		  <field name="estado_id" ref="geo_est_02" />
+		  <field name="codigo_estado">2</field>
+	   </record>
+ 
+	    <record id="geo_ciud_020301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">020301</field>
+		  <field name="ciudad">PUERTO AYACUCHO</field>
+		  <field name="codigo_sudebip_ciudad">203000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0203"/>
+		  <field name="codigo_municipio">0203</field>
+		  <field name="estado_id" ref="geo_est_02" />
+		  <field name="codigo_estado">2</field>
+	   </record>
+
+	   <record id="geo_ciud_020401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">020401</field>
+		  <field name="ciudad">ISLA RATÓN</field>
+		  <field name="codigo_sudebip_ciudad">204000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0204"/>
+		  <field name="codigo_municipio">0204</field>
+		  <field name="estado_id" ref="geo_est_02" />
+		  <field name="codigo_estado">2</field>
+	   </record>
+
+	
+	    <record id="geo_ciud_020501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">020501</field>
+		  <field name="ciudad">MAROA</field>
+		  <field name="codigo_sudebip_ciudad">205000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0205"/>
+		  <field name="codigo_municipio">0205</field>
+		  <field name="estado_id" ref="geo_est_02" />
+		  <field name="codigo_estado">2</field>
+	   </record>
+
+	    <record id="geo_ciud_020601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">020601</field>
+		  <field name="ciudad">SAN JUAN DE MANAPIARE</field>
+		  <field name="codigo_sudebip_ciudad">206000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0206"/>
+		  <field name="codigo_municipio">0206</field>
+		  <field name="estado_id" ref="geo_est_02" />
+		  <field name="codigo_estado">2</field>
+	   </record>
+
+	   <record id="geo_ciud_020701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">020701</field>
+		  <field name="ciudad">SAN CARLOS DE RÍO NEGRO</field>
+		  <field name="codigo_sudebip_ciudad">207000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0207"/>
+		  <field name="codigo_municipio">0207</field>
+		  <field name="estado_id" ref="geo_est_02" />
+		  <field name="codigo_estado">2</field>
+	   </record>
+	   <record id="geo_ciud_030101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">030101</field>
+		  <field name="ciudad">CAPITAL ANACO</field>
+		  <field name="codigo_sudebip_ciudad">301000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0301"/>
+		  <field name="codigo_municipio">0301</field>
+		  <field name="estado_id" ref="geo_est_03" />
+		  <field name="codigo_estado">3</field>
+	   </record>
+	  
+	    <record id="geo_ciud_030201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">030201</field>
+		  <field name="ciudad">ARAGUA DE BARCELONA</field>
+		  <field name="codigo_sudebip_ciudad">302000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0302"/>
+		  <field name="codigo_municipio">0302</field>
+		  <field name="estado_id" ref="geo_est_03" />
+		  <field name="codigo_estado">3</field>
+	   </record>
+	  
+	   <record id="geo_ciud_030301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">030301</field>
+		  <field name="ciudad">PUERTO PÍRITU</field>
+		  <field name="codigo_sudebip_ciudad">303000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0303"/>
+		  <field name="codigo_municipio">0303</field>
+		  <field name="estado_id" ref="geo_est_03" />
+		  <field name="codigo_estado">3</field>
+	   </record>
+	   
+	   <record id="geo_ciud_030401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">030401</field>
+		  <field name="ciudad">VALLE DE GUANAPE</field>
+		  <field name="codigo_sudebip_ciudad">304000001 </field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0304"/>
+		  <field name="codigo_municipio">0304</field>
+		  <field name="estado_id" ref="geo_est_03" />
+		  <field name="codigo_estado">3</field>
+	   </record>
+	   <record id="geo_ciud_030501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">030501</field>
+		  <field name="ciudad">PARIAGUÁN</field>
+		  <field name="codigo_sudebip_ciudad">305000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0305"/>
+		  <field name="codigo_municipio">0305</field>
+		  <field name="estado_id" ref="geo_est_03" />
+		  <field name="codigo_estado">3</field>
+	   </record>
+	
+	   <record id="geo_ciud_030601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">030601</field>
+		  <field name="ciudad">GUANTA</field>
+		  <field name="codigo_sudebip_ciudad">306000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0306"/>
+		  <field name="codigo_municipio">0306</field>
+		  <field name="estado_id" ref="geo_est_03" />
+		  <field name="codigo_estado">3</field>
+	   </record>
+	  
+	   <record id="geo_ciud_030701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">030701</field>
+		  <field name="ciudad">SOLEDAD</field>
+		  <field name="codigo_sudebip_ciudad">307000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0307"/>
+		  <field name="codigo_municipio">0307</field>
+		  <field name="estado_id" ref="geo_est_03" />
+		  <field name="codigo_estado">3</field>
+	   </record>
+	   
+	   <record id="geo_ciud_030801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">030801</field>
+		  <field name="ciudad">PUERTO LA CRUZ</field>
+		  <field name="codigo_sudebip_ciudad">308000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0308"/>
+		  <field name="codigo_municipio">0308</field>
+		  <field name="estado_id" ref="geo_est_03" />
+		  <field name="codigo_estado">3</field>
+	   </record>
+	  
+	   <record id="geo_ciud_030901" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">030901</field>
+		  <field name="ciudad">ONOTO</field>
+		  <field name="codigo_sudebip_ciudad">309000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0309"/>
+		  <field name="codigo_municipio">0309</field>
+		  <field name="estado_id" ref="geo_est_03" />
+		  <field name="codigo_estado">3</field>
+	   </record>
+
+	   <record id="geo_ciud_031001" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">031001</field>
+		  <field name="ciudad">MAPIRE</field>
+		  <field name="codigo_sudebip_ciudad">310000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0310"/>
+		  <field name="codigo_municipio">0310</field>
+		  <field name="estado_id" ref="geo_est_03" />
+		  <field name="codigo_estado">3</field>
+	   </record>
+	  
+	   <record id="geo_ciud_031101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">031101</field>
+		  <field name="ciudad">SAN MATEO</field>
+		  <field name="codigo_sudebip_ciudad">3311000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0311"/>
+		  <field name="codigo_municipio">0311</field>
+		  <field name="estado_id" ref="geo_est_03" />
+		  <field name="codigo_estado">3</field>
+	   </record>
+	 
+
+	   <record id="geo_ciud_031201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">031201</field>
+		  <field name="ciudad">CLARINES</field>
+		  <field name="codigo_sudebip_ciudad">312000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0312"/>
+		  <field name="codigo_municipio">0312</field>
+		  <field name="estado_id" ref="geo_est_03" />
+		  <field name="codigo_estado">3</field>
+	   </record>
+	   
+	   <record id="geo_ciud_031301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">031301</field>
+		  <field name="ciudad">CANTAURA</field>
+		  <field name="codigo_sudebip_ciudad">313000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0313"/>
+		  <field name="codigo_municipio">0313</field>
+		  <field name="estado_id" ref="geo_est_03" />
+		  <field name="codigo_estado">3</field>
+	   </record>
+	  
+	   <record id="geo_ciud_031401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">031401</field>
+		  <field name="ciudad">PÍRITU</field>
+		  <field name="codigo_sudebip_ciudad">314000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0314"/>
+		  <field name="codigo_municipio">0314</field>
+		  <field name="estado_id" ref="geo_est_03" />
+		  <field name="codigo_estado">3</field>
+	   </record>
+	 
+	   <record id="geo_ciud_031501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">031501</field>
+		  <field name="ciudad">SAN JOSÉ DE GUANIPA</field>
+		  <field name="codigo_sudebip_ciudad">315000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0315"/>
+		  <field name="codigo_municipio">0315</field>
+		  <field name="estado_id" ref="geo_est_03" />
+		  <field name="codigo_estado">3</field>
+	   </record>
+	   <record id="geo_ciud_031601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">031601</field>
+		  <field name="ciudad">BOCA DE UCHIRE</field>
+		  <field name="codigo_sudebip_ciudad">316000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0316"/>
+		  <field name="codigo_municipio">0316</field>
+		  <field name="estado_id" ref="geo_est_03" />
+		  <field name="codigo_estado">3</field>
+	   </record>
+	   
+	   <record id="geo_ciud_031701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">031701</field>
+		  <field name="ciudad">SANTA ANA</field>
+		  <field name="codigo_sudebip_ciudad">317000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0317"/>
+		  <field name="codigo_municipio">0317</field>
+		  <field name="estado_id" ref="geo_est_03" />
+		  <field name="codigo_estado">3</field>
+	   </record>
+	  
+	   <record id="geo_ciud_031801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">031801</field>
+		  <field name="ciudad">BARCELONA</field>
+		  <field name="codigo_sudebip_ciudad">318000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0318"/>
+		  <field name="codigo_municipio">0318</field>
+		  <field name="estado_id" ref="geo_est_03" />
+		  <field name="codigo_estado">3</field>
+	   </record>
+	   
+	   <record id="geo_ciud_031901" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">031901</field>
+		  <field name="ciudad">EL TIGRE</field>
+		  <field name="codigo_sudebip_ciudad">319000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0319"/>
+		  <field name="codigo_municipio">0319</field>
+		  <field name="estado_id" ref="geo_est_03" />
+		  <field name="codigo_estado">3</field>
+	   </record>
+	 
+	   <record id="geo_ciud_032001" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">032001</field>
+		  <field name="ciudad">EL CHAPARRO</field>
+		  <field name="codigo_sudebip_ciudad">320000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0320"/>
+		  <field name="codigo_municipio">0320</field>
+		  <field name="estado_id" ref="geo_est_03" />
+		  <field name="codigo_estado">3</field>
+
+	   </record>
+	 
+	   <record id="geo_ciud_032101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">032101</field>
+		  <field name="ciudad">LECHERÍAS</field>
+		  <field name="codigo_sudebip_ciudad">321000001 </field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0321"/>
+		  <field name="codigo_municipio">0321</field>
+		  <field name="estado_id" ref="geo_est_03" />
+		  <field name="codigo_estado">3</field>
+	   </record>
+	 
+	   <record id="geo_ciud_040101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">040101</field>
+		  <field name="ciudad">ACHAGUAS</field>
+		  <field name="codigo_sudebip_ciudad">401000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0401"/>
+		  <field name="codigo_municipio">0401</field>
+		  <field name="estado_id" ref="geo_est_04" />
+		  <field name="codigo_estado">4</field>
+	   </record>
+	 
+	  
+	   <record id="geo_ciud_040201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">040201</field>
+		  <field name="ciudad">BIRUACA</field>
+		  <field name="codigo_sudebip_ciudad">402000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0402"/>
+		  <field name="codigo_municipio">0402</field>
+		  <field name="estado_id" ref="geo_est_04" />
+		  <field name="codigo_estado">4</field>
+	   </record>
+	   <record id="geo_ciud_040301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">040301</field>
+		  <field name="ciudad">BRUZUAL</field>
+		  <field name="codigo_sudebip_ciudad">403000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0403"/>
+		  <field name="codigo_municipio">0403</field>
+		  <field name="estado_id" ref="geo_est_04" />
+		  <field name="codigo_estado">4</field>
+	   </record>
+	   <record id="geo_ciud_040401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">040401</field>
+		  <field name="ciudad">GUASDUALITO</field>
+		  <field name="codigo_sudebip_ciudad">404000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0404"/>
+		  <field name="codigo_municipio">0404</field>
+		  <field name="estado_id" ref="geo_est_04" />
+		  <field name="codigo_estado">4</field>
+	   </record>
+	   
+	   <record id="geo_ciud_040501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">040501</field>
+		  <field name="ciudad">SAN JUAN DE PAYARA</field>
+		  <field name="codigo_sudebip_ciudad">405000001 </field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0405"/>
+		  <field name="codigo_municipio">0405</field>
+		  <field name="estado_id" ref="geo_est_04" />
+		  <field name="codigo_estado">4</field>
+	   </record>
+	
+	   <record id="geo_ciud_040601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">040601</field>
+		  <field name="ciudad">ELORZA</field>
+		  <field name="codigo_sudebip_ciudad">406000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0406"/>
+		  <field name="codigo_municipio">0406</field>
+		  <field name="estado_id" ref="geo_est_04" />
+		  <field name="codigo_estado">4</field>
+	   </record>
+	 
+	   <record id="geo_ciud_040701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">040701</field>
+		  <field name="ciudad">SAN FERNANDO DE APURE</field>
+		  <field name="codigo_sudebip_ciudad">407000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0407"/>
+		  <field name="codigo_municipio">0407</field>
+		  <field name="estado_id" ref="geo_est_04" />
+		  <field name="codigo_estado">4</field>
+	   </record>
+	   
+	   <record id="geo_ciud_050101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">050101</field>
+		  <field name="ciudad">SAN MATEO</field>
+		  <field name="codigo_sudebip_ciudad">501000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0501"/>
+		  <field name="codigo_municipio">0501</field>
+		  <field name="estado_id" ref="geo_est_05" />
+		  <field name="codigo_estado">5</field>
+
+	   </record>
+	   <record id="geo_ciud_050201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">050201</field>
+		  <field name="ciudad">CAMATAGUA</field>
+		  <field name="codigo_sudebip_ciudad">502000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0502"/>
+		  <field name="codigo_municipio">0502</field>
+		  <field name="estado_id" ref="geo_est_05" />
+		  <field name="codigo_estado">5</field>
+	   </record>	 
+	   <record id="geo_ciud_050301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">050301</field>
+		  <field name="ciudad">MARACAY</field>
+		  <field name="codigo_sudebip_ciudad">503000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0503"/>
+		  <field name="codigo_municipio">0503</field>
+		  <field name="estado_id" ref="geo_est_05" />
+		  <field name="codigo_estado">5</field>
+	   </record>
+	     
+	   <record id="geo_ciud_050401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">050401</field>
+		  <field name="ciudad">JOSÉ ÁNGE LAMAS</field>
+		  <field name="codigo_sudebip_ciudad">504000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0504"/>
+		  <field name="codigo_municipio">0504</field>
+		  <field name="estado_id" ref="geo_est_05" />
+		  <field name="codigo_estado">5</field>
+	   </record>
+	  
+	   <record id="geo_ciud_050501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">050501</field>
+		  <field name="ciudad">LA VICTORIA</field>
+		  <field name="codigo_sudebip_ciudad">505000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0505"/>
+		  <field name="codigo_municipio">0505</field>
+		  <field name="estado_id" ref="geo_est_05" />
+		  <field name="codigo_estado">5</field>
+	   </record>
+	  
+	  
+	   <record id="geo_ciud_050601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">050601</field>
+		  <field name="ciudad">EL CONSEJO</field>
+		  <field name="codigo_sudebip_ciudad">506000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0506"/>
+		  <field name="codigo_municipio">0506</field>
+		  <field name="estado_id" ref="geo_est_05" />
+		  <field name="codigo_estado">5</field>
+	   </record>
+	   <record id="geo_ciud_050701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">050701</field>
+		  <field name="ciudad">PALO NEGRO</field>
+		  <field name="codigo_sudebip_ciudad">507000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0507"/>
+		  <field name="codigo_municipio">0507</field>
+		  <field name="estado_id" ref="geo_est_05" />
+		  <field name="codigo_estado">5</field>
+	   </record>
+	  
+	 
+	   <record id="geo_ciud_050801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">050801</field>
+		  <field name="ciudad">EL LIMÓN</field>
+		  <field name="codigo_sudebip_ciudad">508000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0508"/>
+		  <field name="codigo_municipio">0503</field>
+		  <field name="estado_id" ref="geo_est_05" />
+		  <field name="codigo_estado">5</field>
+	   </record>
+	 
+	  
+	   <record id="geo_ciud_050901" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">050901</field>
+		  <field name="ciudad">SAN CASIMIRO</field>
+		  <field name="codigo_sudebip_ciudad">509000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0509"/>
+		  <field name="codigo_municipio">0509</field>
+		  <field name="estado_id" ref="geo_est_05" />
+		  <field name="codigo_estado">5</field>
+	   </record>
+	   
+
+	   <record id="geo_ciud_051001" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">051001</field>
+		  <field name="ciudad">SAN SEBASTIÁN</field>
+		  <field name="codigo_sudebip_ciudad">510000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0510"/>
+		  <field name="codigo_municipio">0510</field>
+		  <field name="estado_id" ref="geo_est_05" />
+		  <field name="codigo_estado">5</field>
+	   </record>
+	   
+  		<record id="geo_ciud_051101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">051101</field>
+		  <field name="ciudad">TURMERO</field>
+		  <field name="codigo_sudebip_ciudad">511000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0511"/>
+		  <field name="codigo_municipio">0511</field>
+		  <field name="estado_id" ref="geo_est_05" />
+		  <field name="codigo_estado">5</field>
+	   </record>
+ 	  
+	  
+	  	<record id="geo_ciud_051201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">051201</field>
+		  <field name="ciudad">LAS TEJERÍAS</field>
+		  <field name="codigo_sudebip_ciudad">512000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0512"/>
+		  <field name="codigo_municipio">0512</field>
+		  <field name="estado_id" ref="geo_est_05" />
+		  <field name="codigo_estado">5</field>
+	   </record>
+	 
+	   <record id="geo_ciud_051301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">051301</field>
+		  <field name="ciudad">CAGUA</field>
+		  <field name="codigo_sudebip_ciudad">513000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0513"/>
+		  <field name="codigo_municipio">0513</field>
+		  <field name="estado_id" ref="geo_est_05" />
+		  <field name="codigo_estado">5</field>
+	   </record>
+	    
+	   <record id="geo_ciud_051401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">051401</field>
+		  <field name="ciudad">COLONIA TOVAR</field>
+		  <field name="codigo_sudebip_ciudad">514000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0514"/>
+		  <field name="codigo_municipio">0514</field>
+		  <field name="estado_id" ref="geo_est_05" />
+		  <field name="codigo_estado">5</field>
+	   </record>
+	 
+  		<record id="geo_ciud_051501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">051501</field>
+		  <field name="ciudad">BARBACOAS</field>
+		  <field name="codigo_sudebip_ciudad">515000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0515"/>
+		  <field name="codigo_municipio">0515</field>
+		  <field name="estado_id" ref="geo_est_05" />
+		  <field name="codigo_estado">5</field>
+	   </record>
+   		
+	  
+	   <record id="geo_ciud_051601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">051601</field>
+		  <field name="ciudad">VILLA DE CURA</field>
+		  <field name="codigo_sudebip_ciudad">516000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0516"/>
+		  <field name="codigo_municipio">0516</field>
+		  <field name="estado_id" ref="geo_est_05" />
+		  <field name="codigo_estado">5</field>
+	   </record>
+	 
+   		<record id="geo_ciud_051701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">051701</field>
+		  <field name="ciudad">SANTA RITA</field>
+		  <field name="codigo_sudebip_ciudad">517000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0517"/>
+		  <field name="codigo_municipio">0517</field>
+		  <field name="estado_id" ref="geo_est_05" />
+		  <field name="codigo_estado">5</field>
+	   </record>
+	  
+	   <record id="geo_ciud_051801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">051801</field>
+		  <field name="ciudad"> OCUMARE DE LA COSTA</field>
+		  <field name="codigo_sudebip_ciudad">518000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0518"/>
+		  <field name="codigo_municipio">0518</field>
+		  <field name="estado_id" ref="geo_est_05" />
+		  <field name="codigo_estado">5</field>
+	   </record>
+	   <record id="geo_ciud_060101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">060101</field>
+		  <field name="ciudad">SABANETA</field>
+		  <field name="codigo_sudebip_ciudad">601000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0601" />
+		  <field name="codigo_municipio">0601</field>
+		  <field name="estado_id" ref="geo_est_06" />
+		  <field name="codigo_estado">6</field>
+	   </record>
+	  
+	   <record id="geo_ciud_060201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">060201</field>
+		  <field name="ciudad">SOCOPÓ</field>
+		  <field name="codigo_sudebip_ciudad">602000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0602"/>
+		  <field name="codigo_municipio">0602</field>
+		  <field name="estado_id" ref="geo_est_06" />
+		  <field name="codigo_estado">6</field>
+	   </record>
+	 
+	   <record id="geo_ciud_060301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">060301</field>
+		  <field name="ciudad">ARISMENDI</field>
+		  <field name="codigo_sudebip_ciudad">603000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0603"/>
+		  <field name="codigo_municipio">0603</field>
+		  <field name="estado_id" ref="geo_est_06" />
+		  <field name="codigo_estado">6</field>
+	   </record>
+	   
+	   <record id="geo_ciud_060401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">060401</field>
+		  <field name="ciudad">BARINAS</field>
+		  <field name="codigo_sudebip_ciudad">604000001 </field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0604"/>
+		  <field name="codigo_municipio">0604</field>
+		  <field name="estado_id" ref="geo_est_06" />
+		  <field name="codigo_estado">6</field>
+	   </record>
+	 
+	   <record id="geo_ciud_060501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">060501</field>
+		  <field name="ciudad">BARINITAS</field>
+		  <field name="codigo_sudebip_ciudad">605000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0605"/>
+		  <field name="codigo_municipio">0605</field>
+		  <field name="estado_id" ref="geo_est_06" />
+		  <field name="codigo_estado">6</field>
+	   </record>
+	  
+	   <record id="geo_ciud_060601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">060601</field>
+		  <field name="ciudad">BARRANCAS</field>
+		  <field name="codigo_sudebip_ciudad">606000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0606"/>
+		  <field name="codigo_municipio">0606</field>
+		  <field name="estado_id" ref="geo_est_06" />
+		  <field name="codigo_estado">6</field>
+	   </record>
+	 
+	   <record id="geo_ciud_060701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">060701</field>
+		  <field name="ciudad">SANTA BÁRBARA</field>
+		  <field name="codigo_sudebip_ciudad">607000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0607"/>
+		  <field name="codigo_municipio">0607</field>
+		  <field name="estado_id" ref="geo_est_06" />
+		  <field name="codigo_estado">6</field>
+	   </record>
+	  
+	   <record id="geo_ciud_060801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">060801</field>
+		  <field name="ciudad">OBISPOS</field>
+		  <field name="codigo_sudebip_ciudad">608000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0608"/>
+		  <field name="codigo_municipio">0608</field>
+		  <field name="estado_id" ref="geo_est_06" />
+		  <field name="codigo_estado">6</field>
+	   	</record>
+	   <record id="geo_ciud_060901" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">060901</field>
+		  <field name="ciudad">CIUDAD BOLIVIA</field>
+		  <field name="codigo_sudebip_ciudad">609000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0609"/>
+		  <field name="codigo_municipio">0609</field>
+		  <field name="estado_id" ref="geo_est_06" />
+		  <field name="codigo_estado">6</field>
+	   </record>
+	   
+	   <record id="geo_ciud_061001" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">061001</field>
+		  <field name="ciudad">LIBERTAD</field>
+		  <field name="codigo_sudebip_ciudad">610000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0610"/>
+		  <field name="codigo_municipio">0610</field>
+		  <field name="estado_id" ref="geo_est_06" />
+		  <field name="codigo_estado">6</field>
+	   </record>
+	   <record id="geo_ciud_061002" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">061002</field>
+		  <field name="ciudad">DOLORES</field>
+		  <field name="codigo_sudebip_ciudad">61002</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0610"/>
+		  <field name="codigo_municipio">0610</field>
+		  <field name="estado_id" ref="geo_est_06" />
+		  <field name="codigo_estado">6</field>
+	   </record>
+	  
+	   <record id="geo_ciud_061101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">061101</field>
+		  <field name="ciudad">CIUDAD DE NUTRIAS</field>
+		  <field name="codigo_sudebip_ciudad">611000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0611"/>
+		  <field name="codigo_municipio">0611</field>
+		  <field name="estado_id" ref="geo_est_06" />
+		  <field name="codigo_estado">6</field>
+	   </record>
+	   
+	   <record id="geo_ciud_061201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">061201</field>
+		  <field name="ciudad">EL CANTÓN</field>
+		  <field name="codigo_sudebip_ciudad">612000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0612"/>
+		  <field name="codigo_municipio">0612</field>
+		  <field name="estado_id" ref="geo_est_06" />
+		  <field name="codigo_estado">6</field>
+	   </record>
+	   
+		
+	   <record id="geo_ciud_070101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">070101</field>
+		  <field name="ciudad">CIUDAD GUAYANA</field>
+		  <field name="codigo_sudebip_ciudad">701000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0701"/>
+		  <field name="codigo_municipio">0701</field>
+		  <field name="estado_id" ref="geo_est_07" />
+		  <field name="codigo_estado">7</field>
+	   </record>
+	  
+	    
+	   <record id="geo_ciud_070201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">070201</field>
+		  <field name="ciudad">CAICARA DEL ORINOCO</field>
+		  <field name="codigo_sudebip_ciudad">702000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0702"/>
+		  <field name="codigo_municipio">0702</field>
+		  <field name="estado_id" ref="geo_est_07" />
+		  <field name="codigo_estado">7</field>
+	   </record>
+	 
+	   
+	   <record id="geo_ciud_070301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">070301</field>
+		  <field name="ciudad">EL CALLAO</field>
+		  <field name="codigo_sudebip_ciudad">703000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0703"/>
+		  <field name="codigo_municipio">0703</field>
+		  <field name="estado_id" ref="geo_est_07" />
+		  <field name="codigo_estado">7</field>
+	   </record>
+	   <record id="geo_ciud_070401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">070401</field>
+		  <field name="ciudad">SANTA ELENA DE UAIRÉN</field>
+		  <field name="codigo_sudebip_ciudad">704000001</field>
+		  <field name="municipios_id" ref="geo_mun_0704"/>
+		  <field name="codigo_municipio">0704</field>
+		  <field name="estado_id" ref="geo_est_07" />
+		  <field name="codigo_estado">7</field>
+	   </record>
+	  
+	 
+	    <record id="geo_ciud_070701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">070701</field>
+		  <field name="ciudad">CIUDAD PIAR</field>
+		  <field name="codigo_sudebip_ciudad">707000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0707"/>
+		  <field name="codigo_municipio">0707</field>
+		  <field name="estado_id" ref="geo_est_07" />
+		  <field name="codigo_estado">7</field>
+	   </record>
+	  
+	   <record id="geo_ciud_070801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">070801</field>
+		  <field name="ciudad">GUASIPATI</field>
+		  <field name="codigo_sudebip_ciudad">708000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0708"/>
+		  <field name="codigo_municipio">0708</field>
+		  <field name="estado_id" ref="geo_est_07" />
+		  <field name="codigo_estado">7</field>
+	   </record>
+	 
+	   <record id="geo_ciud_070901" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">070901</field>
+		  <field name="ciudad">TUMEREMO</field>
+		  <field name="codigo_sudebip_ciudad">709000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0709"/>
+		  <field name="codigo_municipio">0709</field>
+		  <field name="estado_id" ref="geo_est_07" />
+		  <field name="codigo_estado">7</field>
+	   </record>
+	   
+	   <record id="geo_ciud_071001" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">071001</field>
+		  <field name="ciudad">MARIPA</field>
+		  <field name="codigo_sudebip_ciudad">710000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0710"/>
+		  <field name="codigo_municipio">0710</field>
+		  <field name="estado_id" ref="geo_est_07" />
+		  <field name="codigo_estado">7</field>
+	   </record>
+	  
+	   <record id="geo_ciud_071101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">071101</field>
+		  <field name="ciudad">EL PALMAR</field>
+		  <field name="codigo_sudebip_ciudad">711000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0711"/>
+		  <field name="codigo_municipio">0711</field>
+		  <field name="estado_id" ref="geo_est_07" />
+		  <field name="codigo_estado">7</field>
+	   </record>
+	   
+	   
+	   <record id="geo_ciud_080101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">080101</field>
+		  <field name="ciudad">BEJUMA</field>
+		  <field name="codigo_sudebip_ciudad">801000001</field>  
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0801"/>
+		  <field name="codigo_municipio">0801</field>
+		  <field name="estado_id" ref="geo_est_08" />
+		  <field name="codigo_estado">8</field>
+	   </record>
+	 
+	   <record id="geo_ciud_080201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">080201</field>
+		  <field name="ciudad">GÜIGÜE</field>
+		  <field name="codigo_sudebip_ciudad">802000001</field>  
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0802"/>
+		  <field name="codigo_municipio">0802</field>
+		  <field name="estado_id" ref="geo_est_08" />
+		  <field name="codigo_estado">8</field>
+	   </record>
+	   
+	  
+	   <record id="geo_ciud_080301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">080301</field>
+		  <field name="ciudad">MARIARA</field>
+		  <field name="codigo_sudebip_ciudad">803000001</field>  
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0803"/>
+		  <field name="codigo_municipio">0803</field>
+		  <field name="estado_id" ref="geo_est_08" />
+		  <field name="codigo_estado">8</field>
+	   </record>
+	  
+	   <record id="geo_ciud_080401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">080401</field>
+		  <field name="ciudad">GUACARA</field>
+		  <field name="codigo_sudebip_ciudad">804000001</field>  
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0804"/>
+		  <field name="codigo_municipio">0804</field>
+		  <field name="estado_id" ref="geo_est_08" />
+		  <field name="codigo_estado">8</field>
+	   </record>
+	   
+	    <record id="geo_ciud_080501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">080501</field>
+		  <field name="ciudad">MORÓN</field>
+		  <field name="codigo_sudebip_ciudad">805000001</field>  
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0805"/>
+		  <field name="codigo_municipio">0805</field>
+		  <field name="estado_id" ref="geo_est_08" />
+		  <field name="codigo_estado">8</field>
+	   </record>
+	 
+	   <record id="geo_ciud_080601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">080601</field>
+		  <field name="ciudad">TOCUYITO</field>
+		  <field name="codigo_sudebip_ciudad">806000001</field>  
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0806"/>
+		  <field name="codigo_municipio">0806</field>
+		  <field name="estado_id" ref="geo_est_08" />
+		  <field name="codigo_estado">8</field>
+	   </record>
+	  
+	   <record id="geo_ciud_080701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">080701</field>
+		  <field name="ciudad">LOS GUAYOS</field>
+		  <field name="codigo_sudebip_ciudad">807000001</field>  
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0807"/>
+		  <field name="codigo_municipio">0807</field>
+		  <field name="estado_id" ref="geo_est_08" />
+		  <field name="codigo_estado">8</field>
+	   </record>
+	   <record id="geo_ciud_080801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">080801</field>
+		  <field name="ciudad">MIRANDA</field>
+		  <field name="codigo_sudebip_ciudad">808000001</field>  
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0808"/>
+		  <field name="codigo_municipio">0808</field>
+		  <field name="estado_id" ref="geo_est_08" />
+		  <field name="codigo_estado">8</field>
+	   </record>
+	   <record id="geo_ciud_080901" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">080901</field>
+		  <field name="ciudad">MONTALBÁN</field>
+		  <field name="codigo_sudebip_ciudad">809000001</field>  
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0809"/>
+		  <field name="codigo_municipio">0809</field>
+		  <field name="estado_id" ref="geo_est_08" />
+		  <field name="codigo_estado">8</field>
+	   </record>
+	   <record id="geo_ciud_081001" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">081001</field>
+		  <field name="ciudad">NAGUANAGUA</field>
+		  <field name="codigo_sudebip_ciudad">810000001</field>  
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0810"/>
+		  <field name="codigo_municipio">0810</field>
+		  <field name="estado_id" ref="geo_est_08" />
+		  <field name="codigo_estado">8</field>
+	   </record>
+	   <record id="geo_ciud_081101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">081101</field>
+		  <field name="ciudad">PUERTO CABELLO</field>
+		  <field name="codigo_sudebip_ciudad">811000001</field>  
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0811"/>
+		  <field name="codigo_municipio">0811</field>
+		  <field name="estado_id" ref="geo_est_08" />
+		  <field name="codigo_estado">8</field>
+	   </record>
+	 
+	   <record id="geo_ciud_081201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">081201</field>
+		  <field name="ciudad">SAN DIEGO</field>
+		  <field name="codigo_sudebip_ciudad">812000001</field>  
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0812"/>
+		  <field name="codigo_municipio">0812</field>
+		  <field name="estado_id" ref="geo_est_08" />
+		  <field name="codigo_estado">8</field>
+	   </record>
+	   <record id="geo_ciud_081301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">081301</field>
+		  <field name="ciudad">SAN JOAQUÍN</field>
+		  <field name="codigo_sudebip_ciudad">813000001</field>  
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0813"/>
+		  <field name="codigo_municipio">0813</field>
+		  <field name="estado_id" ref="geo_est_08" />
+		  <field name="codigo_estado">8</field>
+	  
+
+	   </record>
+	   <record id="geo_ciud_081401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">081401</field>
+		  <field name="ciudad">VALENCIA</field>
+		  <field name="codigo_sudebip_ciudad">814000001</field>  
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0814"/>
+		  <field name="codigo_municipio">0814</field>
+		  <field name="estado_id" ref="geo_est_08" />
+		  <field name="codigo_estado">8</field>
+	   </record>
+	
+	   <record id="geo_ciud_090101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">090101</field>
+		  <field name="ciudad">COJEDES</field>
+		  <field name="codigo_sudebip_ciudad">901000001</field>  
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0901"/>
+		  <field name="codigo_municipio">0901</field>
+		  <field name="estado_id" ref="geo_est_09" />
+		  <field name="codigo_estado">9</field>
+	   </record>
+	 
+	   <record id="geo_ciud_090201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">090201</field>
+		  <field name="ciudad">TINAQUILLO</field>
+		  <field name="codigo_sudebip_ciudad">902000001</field>  
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0902"/>
+		  <field name="codigo_municipio">0902</field>
+		  <field name="estado_id" ref="geo_est_09" />
+		  <field name="codigo_estado">9</field>
+	   </record>
+	   <record id="geo_ciud_090301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">090301</field>
+		  <field name="ciudad">EL BAÚL</field>
+		  <field name="codigo_sudebip_ciudad">903000001</field>  
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0903"/>
+		  <field name="codigo_municipio">0903</field>
+		  <field name="estado_id" ref="geo_est_09" />
+		  <field name="codigo_estado">9</field>
+	   </record>
+	 
+	   <record id="geo_ciud_090401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">090401</field>
+		  <field name="ciudad">MACAPO</field>
+		  <field name="codigo_sudebip_ciudad">904000001</field>  
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0904"/>
+		  <field name="codigo_municipio">0904</field>
+		  <field name="estado_id" ref="geo_est_09" />
+		  <field name="codigo_estado">9</field>
+	   </record>
+	  
+	   <record id="geo_ciud_090501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">090501</field>
+		  <field name="ciudad">EL PAO</field>
+		  <field name="codigo_sudebip_ciudad">905000001</field>  
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0905"/>
+		  <field name="codigo_municipio">0905</field>
+		  <field name="estado_id" ref="geo_est_09" />
+		  <field name="codigo_estado">9</field>
+	   </record>
+	   <record id="geo_ciud_090601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">090601</field>
+		  <field name="ciudad">LIBERTAD</field>
+		  <field name="codigo_sudebip_ciudad">906000001</field>  
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0906"/>
+		  <field name="codigo_municipio">0906</field>
+		  <field name="estado_id" ref="geo_est_09" />
+		  <field name="codigo_estado">9</field>
+	   </record>
+	   
+	   <record id="geo_ciud_090701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">090701</field>
+		  <field name="ciudad">LAS VEGAS</field>
+		  <field name="codigo_sudebip_ciudad">907000001</field>  
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0907"/>
+		  <field name="codigo_municipio">0907</field>
+		  <field name="estado_id" ref="geo_est_09" />
+		  <field name="codigo_estado">9</field>
+	   </record>
+	   <record id="geo_ciud_090801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">090801</field>
+		  <field name="ciudad">SAN CARLOS DE RÍO NEGRO</field>
+		  <field name="codigo_sudebip_ciudad">908000001</field>  
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0908"/>
+		  <field name="codigo_municipio">0908</field>
+		  <field name="estado_id" ref="geo_est_09" />
+		  <field name="codigo_estado">9</field>
+	   </record>
+	 
+	   <record id="geo_ciud_090901" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">090901</field>
+		  <field name="ciudad">TINACO</field>
+		  <field name="codigo_sudebip_ciudad">909000001</field>  
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_0909"/>
+		  <field name="codigo_municipio">0909</field>
+		  <field name="estado_id" ref="geo_est_09" />
+		  <field name="codigo_estado">9</field>
+	   </record>
+	   <record id="geo_ciud_100101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">100101</field>
+		  <field name="ciudad">CURIAPO</field>
+		  <field name="codigo_sudebip_ciudad">1001000001</field>  
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1001"/>
+		  <field name="codigo_municipio">1001</field>
+		  <field name="estado_id" ref="geo_est_10" />
+		  <field name="codigo_estado">10</field>
+	   </record>
+	 
+	   <record id="geo_ciud_100201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">100201</field>
+		  <field name="ciudad">SIERRA IMATACA</field>
+		  <field name="codigo_sudebip_ciudad">1002000001</field>  
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1002"/>
+		  <field name="codigo_municipio">1002</field>
+		  <field name="estado_id" ref="geo_est_10" />
+		  <field name="codigo_estado">10</field>
+	   </record>
+	 
+	   <record id="geo_ciud_100302" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">100302</field>
+		  <field name="ciudad">PEDERNALES</field>
+		  <field name="codigo_sudebip_ciudad">1003000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1003"/>
+		  <field name="codigo_municipio">1003</field>
+		  <field name="estado_id" ref="geo_est_10" />
+		  <field name="codigo_estado">10</field>
+	   </record>
+	   <record id="geo_ciud_100401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">100401</field>
+		  <field name="ciudad">TUCUPITA</field>
+		  <field name="codigo_sudebip_ciudad">1004000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1004"/>
+		  <field name="codigo_municipio">1004</field>
+		  <field name="estado_id" ref="geo_est_10" />
+		  <field name="codigo_estado">10</field>
+	   </record>
+	  
+	   <record id="geo_ciud_110101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">110101</field>
+		  <field name="ciudad">SAN JUAN DE LOS CAYOS</field>
+		  <field name="codigo_sudebip_ciudad">1101000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1101"/>
+		  <field name="codigo_municipio">1101</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	   </record>
+	   
+	   <record id="geo_ciud_110201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">110201</field>
+		  <field name="ciudad">SAN LUIS</field>
+		  <field name="codigo_sudebip_ciudad">1102000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1102"/>
+		  <field name="codigo_municipio">1102</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	   </record>
+	   <record id="geo_ciud_110202" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">110202</field>
+		  <field name="ciudad">ARACUA</field>
+		  <field name="codigo_sudebip_ciudad">110202</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1102"/>
+		  <field name="codigo_municipio">1102</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	   </record>
+	  
+	   <record id="geo_ciud_110301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">110301</field>
+		  <field name="ciudad">CAPATÁRIDA</field>
+		  <field name="codigo_sudebip_ciudad">1103000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1103"/>
+		  <field name="codigo_municipio">1103</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	   </record>
+	  
+	   <record id="geo_ciud_110401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">110401</field>
+		  <field name="ciudad">YARACAL</field>
+		  <field name="codigo_sudebip_ciudad">1104000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1104"/>
+		  <field name="codigo_municipio">1104</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	   </record>
+	   <record id="geo_ciud_110501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">110501</field>
+		  <field name="ciudad">PUNTO FIJO</field>
+		  <field name="codigo_sudebip_ciudad">1105000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1105"/>
+		  <field name="codigo_municipio">1105</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	   </record>
+	
+	   <record id="geo_ciud_110601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">110601</field>
+		  <field name="ciudad">LA VELA DE CORO</field>
+		  <field name="codigo_sudebip_ciudad">1106000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1106"/>
+		  <field name="codigo_municipio">1106</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	   </record>
+	  
+	   <record id="geo_ciud_110701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">110701</field>
+		  <field name="ciudad">DABAJURO</field>
+		  <field name="codigo_sudebip_ciudad">1107000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1107"/>
+		  <field name="codigo_municipio">1107</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	   </record>
+	   <record id="geo_ciud_110801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">110801</field>
+		  <field name="ciudad">PEDREGAL</field>
+		  <field name="codigo_sudebip_ciudad">1108000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1108"/>
+		  <field name="codigo_municipio">1108</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	   </record>
+	
+	   <record id="geo_ciud_110901" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">110901</field>
+		  <field name="ciudad">PUEBLO NUEVO</field>
+		  <field name="codigo_sudebip_ciudad">1109000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1109"/>
+          <field name="codigo_municipio">1109</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	   </record>
+	   
+	   <record id="geo_ciud_111001" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">111001</field>
+		  <field name="ciudad">CHURUGUARA</field>
+		  <field name="codigo_sudebip_ciudad">1110000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1110"/>
+		  <field name="codigo_municipio">1110</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	   </record>
+	  
+	   <record id="geo_ciud_111101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">111101</field>
+		  <field name="ciudad">JACURA</field>
+		  <field name="codigo_sudebip_ciudad">1111000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1111"/>
+		  <field name="codigo_municipio">1111</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	   </record>
+	  
+	   <record id="geo_ciud_111201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">111201</field>
+		  <field name="ciudad">SANTA CRUZ DE LOS TAQUES</field>
+		  <field name="codigo_sudebip_ciudad">1112000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1112"/>
+		  <field name="codigo_municipio">1112</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	   </record>
+	  
+	   <record id="geo_ciud_111301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">111301</field>
+		  <field name="ciudad">MENE DE MAUROA</field>
+		  <field name="codigo_sudebip_ciudad">1113000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1113"/>
+		  <field name="codigo_municipio">1113</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	  	</record>
+	   <record id="geo_ciud_111401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">111401</field>
+		  <field name="ciudad">SANTA ANA DE CORO</field>
+		  <field name="codigo_sudebip_ciudad">1114000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1114"/>
+		  <field name="codigo_municipio">1114</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	   </record>
+	   
+	   <record id="geo_ciud_111501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">111501</field>
+		  <field name="ciudad">CHICHIRIVICHE</field>
+		  <field name="codigo_sudebip_ciudad">1115000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1115"/>
+		  <field name="codigo_municipio">1115</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	   </record>
+	  
+	   <record id="geo_ciud_111601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">111601</field>
+		  <field name="ciudad">PALMASOLA</field>
+		  <field name="codigo_sudebip_ciudad">1116000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1116"/>
+		  <field name="codigo_municipio">1116</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	   </record>
+	   <record id="geo_ciud_111701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">111701</field>
+		  <field name="ciudad">CABURE</field>
+		  <field name="codigo_sudebip_ciudad">1117000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1117"/>
+		  <field name="codigo_municipio">1117</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	   </record>
+	  
+	   <record id="geo_ciud_111801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">111801</field>
+		  <field name="ciudad">PÍRITU</field>
+		  <field name="codigo_sudebip_ciudad">1118000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1118"/>
+		  <field name="codigo_municipio">1118</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	   </record>
+	   
+	   <record id="geo_ciud_111901" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">111901</field>
+		  <field name="ciudad">MIRIMIRE</field>
+		  <field name="codigo_sudebip_ciudad">1119000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1119"/>
+		  <field name="codigo_municipio">1119</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	   </record>
+	   <record id="geo_ciud_112001" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">112001</field>
+		  <field name="ciudad">TUCACAS</field>
+		  <field name="codigo_sudebip_ciudad">1120000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1120"/>
+		  <field name="codigo_municipio">1120</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	   </record>
+	   
+	   <record id="geo_ciud_112101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">112101</field>
+		  <field name="ciudad">LA CRUZ DE TARATARA</field>
+		  <field name="codigo_sudebip_ciudad">1121000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1121"/>
+		  <field name="codigo_municipio">1121</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	   </record>
+	   <record id="geo_ciud_112102" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">112102</field>
+		  <field name="ciudad">PECAYA</field>
+		  <field name="codigo_sudebip_ciudad">112102</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1121"/>
+		  <field name="codigo_municipio">1121</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	   </record>
+	   <record id="geo_ciud_112201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">112201</field>
+		  <field name="ciudad">TOCÓPERO</field>
+		  <field name="codigo_sudebip_ciudad">1122000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1122"/>
+		  <field name="codigo_municipio">1122</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	   </record>
+	   <record id="geo_ciud_112301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">112301</field>
+		  <field name="ciudad">SANTA CRUZ DE BUCARAL</field>
+		  <field name="codigo_sudebip_ciudad">1123000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1123"/>
+		  <field name="codigo_municipio">1123</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	   </record>
+	
+	
+	   <record id="geo_ciud_112401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">112401</field>
+		  <field name="ciudad">URUMACO</field>
+		  <field name="codigo_sudebip_ciudad">1124000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1124"/>
+		  <field name="codigo_municipio">1124</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	   </record>
+	   
+	   <record id="geo_ciud_112501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">112501</field>
+		  <field name="ciudad">PUERTO CUMAREBO</field>
+		  <field name="codigo_sudebip_ciudad">1125000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1125"/>
+		  <field name="codigo_municipio">1125</field>
+		  <field name="estado_id" ref="geo_est_11" />
+		  <field name="codigo_estado">11</field>
+	   </record>
+	 
+	   <record id="geo_ciud_120101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">120101</field>
+		  <field name="ciudad">CAMAGUÁN</field>
+		  <field name="codigo_sudebip_ciudad">1201000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1201"/>
+		  <field name="codigo_municipio">1201</field>
+		  <field name="estado_id" ref="geo_est_12" />
+		  <field name="codigo_estado">12</field>
+	   </record>
+	   
+	   <record id="geo_ciud_120201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">120201</field>
+		  <field name="ciudad">CHAGUARAMAS</field>
+		   <field name="codigo_sudebip_ciudad">1202000001</field>
+		   <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1202"/>
+		  <field name="codigo_municipio">1202</field>
+		  <field name="estado_id" ref="geo_est_12" />
+		  <field name="codigo_estado">12</field>
+	   </record>
+	   <record id="geo_ciud_120301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">120301</field>
+		  <field name="ciudad">EL SOCORRO</field>
+		  <field name="codigo_sudebip_ciudad">1203000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1203"/>
+		  <field name="codigo_municipio">1203</field>
+		  <field name="estado_id" ref="geo_est_12" />
+		  <field name="codigo_estado">12</field>
+	   </record>
+	   <record id="geo_ciud_120401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">120401</field>
+		  <field name="ciudad">GUAYABAL</field>
+		  <field name="codigo_sudebip_ciudad">1204000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1204"/>
+		  <field name="codigo_municipio">1204</field>
+		  <field name="estado_id" ref="geo_est_12" />
+		  <field name="codigo_estado">12</field>
+	   </record>
+	   
+	   <record id="geo_ciud_120501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">120501</field>
+		  <field name="ciudad">VALLE DE LA PASCUA</field>
+		  <field name="codigo_sudebip_ciudad">1205000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1205"/>
+		  <field name="codigo_municipio">1205</field>
+		  <field name="estado_id" ref="geo_est_12" />
+		  <field name="codigo_estado">12</field>
+	   </record>
+	   
+	   <record id="geo_ciud_120601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">120601</field>
+		  <field name="ciudad">LAS MERCEDES</field>
+		  <field name="codigo_sudebip_ciudad">1206000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1206"/>
+		  <field name="codigo_municipio">1206</field>
+		  <field name="estado_id" ref="geo_est_12" />
+		  <field name="codigo_estado">12</field>
+	   </record>
+	 
+	   <record id="geo_ciud_120701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">120701</field>
+		  <field name="ciudad">EL SOMBRERO</field>
+		  <field name="codigo_sudebip_ciudad">1207000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1207"/>
+		  <field name="codigo_municipio">1207</field>
+		  <field name="estado_id" ref="geo_est_12" />
+		  <field name="codigo_estado">12</field>
+	   </record>
+	 
+	   <record id="geo_ciud_120801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">120801</field>
+		  <field name="ciudad">CALABOZO</field>
+		  <field name="codigo_sudebip_ciudad">1208000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1208"/>
+		  <field name="codigo_municipio">1208</field>
+		  <field name="estado_id" ref="geo_est_12" />
+		  <field name="codigo_estado">12</field>
+	   </record>
+	   
+	  
+	   <record id="geo_ciud_121001" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">121001</field>
+		  <field name="ciudad">ORTIZ</field>
+		  <field name="codigo_sudebip_ciudad">1210000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1210"/>
+		  <field name="codigo_municipio">1210</field>
+		  <field name="estado_id" ref="geo_est_12" />
+		  <field name="codigo_estado">12</field>
+	  	</record>
+	   <record id="geo_ciud_121101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">121101</field>
+		  <field name="ciudad">TUCUPIDO</field>
+		  <field name="codigo_sudebip_ciudad">1211000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1211"/>
+		  <field name="codigo_municipio">1211</field>
+		  <field name="estado_id" ref="geo_est_12" />
+		  <field name="codigo_estado">12</field>
+
+	   </record>
+	  
+	   <record id="geo_ciud_121201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">121201</field>
+		  <field name="ciudad">SAN JUAN DE LOS MORROS</field>
+		  <field name="codigo_sudebip_ciudad">1212000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1212"/>
+		  <field name="codigo_municipio">1212</field>
+		  <field name="estado_id" ref="geo_est_12" />
+		  <field name="codigo_estado">12</field>
+	   </record>
+	   
+	   <record id="geo_ciud_121301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">121301</field>
+		  <field name="ciudad">SAN JOSÉ DE GUARIBE</field>
+		  <field name="codigo_sudebip_ciudad">1213000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1213"/>
+		  <field name="codigo_municipio">1213</field>
+		  <field name="estado_id" ref="geo_est_12" />
+		  <field name="codigo_estado">12</field>
+	   </record>
+	   <record id="geo_ciud_121401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">121401</field>
+		  <field name="ciudad">CAPITAL SANTA MARÍA DE IPIRE</field>
+		  <field name="codigo_sudebip_ciudad">1214000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1214"/>
+		  <field name="codigo_municipio">1214</field>
+		  <field name="estado_id" ref="geo_est_12" />
+		  <field name="codigo_estado">12</field>
+	   </record>
+	  
+	   <record id="geo_ciud_121501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">121501</field>
+		  <field name="ciudad">ZARAZA</field>
+		  <field name="codigo_sudebip_ciudad">1215000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1215"/>
+		  <field name="codigo_municipio">1215</field>
+		  <field name="estado_id" ref="geo_est_12" />
+		  <field name="codigo_estado">12</field>
+	   </record>
+	  
+	   <record id="geo_ciud_130101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">130101</field>
+		  <field name="ciudad">SANARE</field>
+		  <field name="codigo_sudebip_ciudad">1301000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1301"/>
+		  <field name="codigo_municipio">1301</field>
+		  <field name="estado_id" ref="geo_est_13" />
+		  <field name="codigo_estado">13</field>
+	   </record>
+	  
+	   <record id="geo_ciud_130201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">130201</field>
+		  <field name="ciudad">DUACA</field>
+		  <field name="codigo_sudebip_ciudad">1302000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1302"/>
+		  <field name="codigo_municipio">1302</field>
+		  <field name="estado_id" ref="geo_est_13" />
+		  <field name="codigo_estado">13</field>
+	   </record>
+	 
+	   <record id="geo_ciud_130301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">130301</field>
+		  <field name="ciudad">BARQUISIMETO</field>
+		  <field name="codigo_sudebip_ciudad">1303000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1303"/>
+		  <field name="codigo_municipio">1303</field>
+		  <field name="estado_id" ref="geo_est_13" />
+		  <field name="codigo_estado">13</field>
+	   </record>
+	  
+	   <record id="geo_ciud_130401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">130401</field>
+		  <field name="ciudad">QUÍBOR</field>
+		  <field name="codigo_sudebip_ciudad">1304000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1304"/>
+		  <field name="codigo_municipio">1304</field>
+		  <field name="estado_id" ref="geo_est_13" />
+		  <field name="codigo_estado">13</field>
+	   </record>
+	   
+	   <record id="geo_ciud_130501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">130501</field>
+		  <field name="ciudad">EL TOCUYO</field>
+		  <field name="codigo_sudebip_ciudad">1305000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1305"/>
+		  <field name="codigo_municipio">1305</field>
+		  <field name="estado_id" ref="geo_est_13" />
+		  <field name="codigo_estado">13</field>
+	   </record>
+	
+	   <record id="geo_ciud_130601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">130601</field>
+		  <field name="ciudad">CABUDARE</field>
+		  <field name="codigo_sudebip_ciudad">1306000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1306"/>
+		  <field name="codigo_municipio">1306</field>
+		  <field name="estado_id" ref="geo_est_13" />
+		  <field name="codigo_estado">13</field>
+	   </record>
+	   
+	   <record id="geo_ciud_130701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">130701</field>
+		  <field name="ciudad">SARARE</field>
+		  <field name="codigo_sudebip_ciudad">1307000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1307"/>
+		  <field name="codigo_municipio">1307</field>
+		  <field name="estado_id" ref="geo_est_13" />
+		  <field name="codigo_estado">13</field>
+	   </record>
+	   
+	   <record id="geo_ciud_130801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">130801</field>
+		  <field name="ciudad">CARORA</field>
+		  <field name="codigo_sudebip_ciudad">1308000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1308"/>
+		  <field name="codigo_municipio">1308</field>
+		  <field name="estado_id" ref="geo_est_13" />
+		  <field name="codigo_estado">13</field>
+	   </record>
+	   
+	   
+	   <record id="geo_ciud_130901" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">130901</field>
+		  <field name="ciudad">SIQUISIQUE</field>
+		  <field name="codigo_sudebip_ciudad">1309000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1309"/>
+		  <field name="codigo_municipio">1309</field>
+		  <field name="estado_id" ref="geo_est_13" />
+		  <field name="codigo_estado">13</field>
+	   </record>
+	   
+	   <record id="geo_ciud_140101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">140101</field>
+		  <field name="ciudad">EL VIGÍA</field>
+		  <field name="codigo_sudebip_ciudad">1401000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1401"/>
+		  <field name="codigo_municipio">1401</field>
+		  <field name="estado_id" ref="geo_est_14" />
+		  <field name="codigo_estado">14</field>
+	   	</record>
+
+	   <record id="geo_ciud_140201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">140201</field>
+		  <field name="ciudad">LA AZULITA</field>
+		  <field name="codigo_sudebip_ciudad">1402000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1402"/>
+		  <field name="codigo_municipio">1402</field>
+		  <field name="estado_id" ref="geo_est_14" />
+		  <field name="codigo_estado">14</field>
+	   </record>
+	   <record id="geo_ciud_140301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">140301</field>
+		  <field name="ciudad">SANTA CRUZ DE MORA</field>
+		  <field name="codigo_sudebip_ciudad">1403000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1403"/>
+		  <field name="codigo_municipio">1403</field>
+		  <field name="estado_id" ref="geo_est_14" />
+		  <field name="codigo_estado">14</field>
+	   </record>
+	   
+	   <record id="geo_ciud_140401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">140401</field>
+		  <field name="ciudad">ARICAGUA</field>
+		  <field name="codigo_sudebip_ciudad">1404000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1404"/>
+		  <field name="codigo_municipio">1404</field>
+		  <field name="estado_id" ref="geo_est_14" />
+		  <field name="codigo_estado">14</field>
+	   </record>
+	 
+	   <record id="geo_ciud_140501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">140501</field>
+		  <field name="ciudad">CANAGUA</field>
+		  <field name="codigo_sudebip_ciudad">1405000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1405"/>
+		  <field name="codigo_municipio">1405</field>
+		  <field name="estado_id" ref="geo_est_14" />
+		  <field name="codigo_estado">14</field>
+	   </record>
+	   <record id="geo_ciud_140502" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">140502</field>
+		  <field name="ciudad">CAPURÍ</field>
+		  <field name="codigo_sudebip_ciudad">140502</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1405"/>
+		  <field name="codigo_municipio">1405</field>
+		  <field name="estado_id" ref="geo_est_14" />
+		  <field name="codigo_estado">14</field>
+	   </record>
+	  
+	   <record id="geo_ciud_140601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">140601</field>
+		  <field name="ciudad">EJIDO</field>
+		  <field name="codigo_sudebip_ciudad">1406000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1406"/>
+		  <field name="codigo_municipio">1406</field>
+		  <field name="estado_id" ref="geo_est_14" />
+		  <field name="codigo_estado">14</field>
+	   </record>
+	  
+	   <record id="geo_ciud_140701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">140701</field>
+		  <field name="ciudad">TUCANI</field>
+		  <field name="codigo_sudebip_ciudad">1407000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1407"/>
+		  <field name="codigo_municipio">1407</field>
+		  <field name="estado_id" ref="geo_est_14" />
+		  <field name="codigo_estado">14</field>
+	   </record>
+	  
+	   <record id="geo_ciud_140801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">140801</field>
+		  <field name="ciudad">SANTO DOMINGO</field>
+		  <field name="codigo_sudebip_ciudad">1408000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1408"/>
+		  <field name="codigo_municipio">1408</field>
+		  <field name="estado_id" ref="geo_est_14" />
+		  <field name="codigo_estado">14</field>
+	   </record>
+	  
+	   <record id="geo_ciud_140901" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">140901</field>
+		  <field name="ciudad">GUARAQUE</field>
+		  <field name="codigo_sudebip_ciudad">1409000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1409"/>
+		  <field name="codigo_municipio">1409</field>
+		  <field name="estado_id" ref="geo_est_14" />
+		  <field name="codigo_estado">14</field>
+	   </record>
+	   
+	   <record id="geo_ciud_141001" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">141001</field>
+		  <field name="ciudad">CARAPUEY</field>
+		  <field name="codigo_sudebip_ciudad">1410000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1410"/>
+		  <field name="codigo_municipio">1410</field>
+		  <field name="estado_id" ref="geo_est_14" />
+		  <field name="codigo_estado">14</field>
+	   </record>
+	   
+	   <record id="geo_ciud_141101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">141101</field>
+		  <field name="ciudad">TORONDOY</field>
+		  <field name="codigo_sudebip_ciudad">1411000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1411"/>
+		  <field name="codigo_municipio">1411</field>
+		  <field name="estado_id" ref="geo_est_14" />
+		  <field name="codigo_estado">14</field>
+	   </record>
+	   <record id="geo_ciud_141102" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">141102</field>
+		  <field name="ciudad">SAN CRISTÓBAL DE TORONDOY</field>
+		  <field name="codigo_sudebip_ciudad">141102</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1411"/>
+		  <field name="codigo_municipio">1411</field>
+		  <field name="estado_id" ref="geo_est_14" />
+		  <field name="codigo_estado">14</field>
+	   </record>
+	   <record id="geo_ciud_141201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">141201</field>
+		  <field name="ciudad">MÉRIDA</field>
+		  <field name="codigo_sudebip_ciudad">1412000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1412"/>
+		  <field name="codigo_municipio">1412</field>
+		  <field name="estado_id" ref="geo_est_14" />
+		  <field name="codigo_estado">14</field>
+	   </record>
+	  
+	   <record id="geo_ciud_141301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">141301</field>
+		  <field name="ciudad">TIMOTES</field>
+		  <field name="codigo_sudebip_ciudad">1413000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1413"/>
+		  <field name="codigo_municipio">1413</field>
+		  <field name="estado_id" ref="geo_est_14" />
+		  <field name="codigo_estado">14</field>
+	   </record>
+	   
+	   <record id="geo_ciud_141401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">141401</field>
+		  <field name="ciudad">SANTA ELENA DE ARENALES</field>
+		  <field name="codigo_sudebip_ciudad">1414000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1414"/>
+		  <field name="codigo_municipio">1414</field>
+		  <field name="estado_id" ref="geo_est_14" />
+		  <field name="codigo_estado">14</field>
+	   </record>
+	  
+	   <record id="geo_ciud_141501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">141501</field>
+		  <field name="ciudad">SANTA MARÍA DE CAPARO</field>
+		  <field name="codigo_sudebip_ciudad">1415000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1415"/>
+		  <field name="codigo_municipio">1415</field>
+		  <field name="estado_id" ref="geo_est_14" />
+		  <field name="codigo_estado">14</field>
+	   </record>
+	   <record id="geo_ciud_141601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">141601</field>
+		  <field name="ciudad">PUEBLO LLANO</field>
+		  <field name="codigo_sudebip_ciudad">1416000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1416"/>
+		  <field name="codigo_municipio">1416</field>
+		  <field name="estado_id" ref="geo_est_14" />
+		  <field name="codigo_estado">14</field>
+	   </record>
+	   <record id="geo_ciud_141701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">141701</field>
+		  <field name="ciudad">MUCHUCHÍES</field>
+		  <field name="codigo_sudebip_ciudad">1417000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1417"/>
+		  <field name="codigo_municipio">1417</field>
+		  <field name="estado_id" ref="geo_est_14" />
+		  <field name="codigo_estado">14</field>
+	   </record>
+	  
+	   <record id="geo_ciud_141801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">141801</field>
+		  <field name="ciudad">BAILADORES</field>
+		  <field name="codigo_sudebip_ciudad">1418000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1418"/>
+		  <field name="codigo_municipio">1418</field>
+		  <field name="estado_id" ref="geo_est_14" />
+		  <field name="codigo_estado">14</field>
+	   </record>
+	  
+	   <record id="geo_ciud_141901" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">141901</field>
+		  <field name="ciudad">TABAY</field>
+		  <field name="codigo_sudebip_ciudad">1419000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1419"/>
+		  <field name="codigo_municipio">1419</field>
+		  <field name="estado_id" ref="geo_est_14" />
+		  <field name="codigo_estado">14</field>
+	   </record>
+	   <record id="geo_ciud_142001" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">142001</field>
+		  <field name="ciudad">LAGUNILLAS</field>
+		  <field name="codigo_sudebip_ciudad">1420000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1420"/>
+		  <field name="codigo_municipio">1420</field>
+		  <field name="estado_id" ref="geo_est_14" />
+		  <field name="codigo_estado">14</field>
+	   </record>
+	 
+	   <record id="geo_ciud_142101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">142101</field>
+		  <field name="ciudad">EL AMPARO</field>
+		  <field name="codigo_sudebip_ciudad">1421000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1421"/>
+		  <field name="codigo_municipio">1421</field>
+		  <field name="estado_id" ref="geo_est_14" />
+		  <field name="codigo_estado">14</field>
+	   </record>
+	 
+	  
+	   <record id="geo_ciud_142201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">142201</field>
+		  <field name="ciudad">NUEVA BOLIVIA</field>
+		  <field name="codigo_sudebip_ciudad">1422000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1422"/>
+		  <field name="codigo_municipio">1422</field>
+		  <field name="estado_id" ref="geo_est_14" />
+		  <field name="codigo_estado">14</field>
+	   </record>
+	   	
+	   <record id="geo_ciud_142301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">142301</field>
+		  <field name="ciudad">ZEA</field>
+		  <field name="codigo_sudebip_ciudad">1423000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1423"/>
+		  <field name="codigo_municipio">1423</field>
+		  <field name="estado_id" ref="geo_est_14" />
+		  <field name="codigo_estado">14</field>
+	   </record>
+	  
+	   <record id="geo_ciud_150101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">150101</field>
+		  <field name="ciudad">CAUCAGUA</field>
+		  <field name="codigo_sudebip_ciudad">1501000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1501"/>
+		  <field name="codigo_municipio">1501</field>
+		  <field name="estado_id" ref="geo_est_15" />
+		  <field name="codigo_estado">15</field>
+	   </record>
+	 
+	   <record id="geo_ciud_150201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">150201</field>
+		  <field name="ciudad">SAN JOSÉ DE BARLOVENTO</field>
+		  <field name="codigo_sudebip_ciudad">1502000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1502"/>
+		  <field name="codigo_municipio">1502</field>
+		  <field name="estado_id" ref="geo_est_15" />
+		  <field name="codigo_estado">15</field>
+	   </record>
+	 
+	   <record id="geo_ciud_150301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">150301</field>
+		  <field name="ciudad">NUESTRA SEÑORA DEL ROSARIO DE BARUTA</field>
+		  <field name="codigo_sudebip_ciudad">1503000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1503"/>
+		  <field name="codigo_municipio">1503</field>
+		  <field name="estado_id" ref="geo_est_15" />
+		  <field name="codigo_estado">15</field>
+	   </record>
+	 
+	   <record id="geo_ciud_150401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">150401</field>
+		  <field name="ciudad">HIGUEROTE</field>
+		  <field name="codigo_sudebip_ciudad">1504000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1504"/>
+		  <field name="codigo_municipio">1504</field>
+		  <field name="estado_id" ref="geo_est_15" />
+		  <field name="codigo_estado">15</field>
+	   </record>
+	   
+	   <record id="geo_ciud_150501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">150501</field>
+		  <field name="ciudad">MAMPORAL</field>
+		  <field name="codigo_sudebip_ciudad">1505000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1505"/>
+		  <field name="codigo_municipio">1505</field>
+		  <field name="estado_id" ref="geo_est_15" />
+		  <field name="codigo_estado">15</field>
+	   </record>
+	   <record id="geo_ciud_150601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">150601</field>
+		  <field name="ciudad">CARRIZAL</field>
+		  <field name="codigo_sudebip_ciudad">1506000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1506"/>
+		  <field name="codigo_municipio">1506</field>
+		  <field name="estado_id" ref="geo_est_15" />
+		  <field name="codigo_estado">15</field>
+	   </record>
+	   <record id="geo_ciud_150701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">150701</field>
+		  <field name="ciudad">CHACAO</field>
+		   <field name="codigo_sudebip_ciudad">1507000001</field>
+		   <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1507"/>
+		  <field name="codigo_municipio">1507</field>
+		  <field name="estado_id" ref="geo_est_15" />
+		  <field name="codigo_estado">15</field>
+	   </record>
+	   <record id="geo_ciud_150801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">150801</field>
+		  <field name="ciudad">CHARALLAVE</field>
+		   <field name="codigo_sudebip_ciudad">1508000001</field>
+		   <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1508"/>
+		  <field name="codigo_municipio">1508</field>
+		  <field name="estado_id" ref="geo_est_15" />
+		  <field name="codigo_estado">15</field>
+	   </record>
+	 
+	   <record id="geo_ciud_150901" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">150901</field>
+		  <field name="ciudad">EL HATILLO</field>
+		  <field name="codigo_sudebip_ciudad">1509000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1509"/>
+		  <field name="codigo_municipio">1509</field>
+		  <field name="estado_id" ref="geo_est_15" />
+		  <field name="codigo_estado">15</field>
+	   </record>
+	   <record id="geo_ciud_151001" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">151001</field>
+		  <field name="ciudad">LOS TEQUES</field>
+		  <field name="codigo_sudebip_ciudad">1510000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1510"/>
+		  <field name="codigo_municipio">1510</field>
+		  <field name="estado_id" ref="geo_est_15" />
+		  <field name="codigo_estado">15</field>
+	   </record>
+	   
+	   <record id="geo_ciud_151101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">151101</field>
+		  <field name="ciudad">SANTA TERESA DEL TUY</field>
+		  <field name="codigo_sudebip_ciudad">1511000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1511"/>
+		  <field name="codigo_municipio">1511</field>
+		  <field name="estado_id" ref="geo_est_15" />
+		  <field name="codigo_estado">15</field>
+	   </record>
+	  
+	   <record id="geo_ciud_151201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">151201</field>
+		  <field name="ciudad">OCUMARE DEL TUY</field>
+		  <field name="codigo_sudebip_ciudad">1512000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1512"/>
+		  <field name="codigo_municipio">1512</field>
+		  <field name="estado_id" ref="geo_est_15" />
+		  <field name="codigo_estado">15</field>
+	   </record>
+	  
+	   <record id="geo_ciud_151301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">151301</field>
+		  <field name="ciudad">SAN ANTONIO DE LOS ALTOS</field>
+		  <field name="codigo_sudebip_ciudad">1513000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1513"/>
+		  <field name="codigo_municipio">1513</field>
+		  <field name="estado_id" ref="geo_est_15" />
+		  <field name="codigo_estado">15</field>
+	   </record>
+	   <record id="geo_ciud_151401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">151401</field>
+		  <field name="ciudad">RÍO CHICO</field>
+		  <field name="codigo_sudebip_ciudad">1514000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1514"/>
+		  <field name="codigo_municipio">1514</field>
+		  <field name="estado_id" ref="geo_est_15" />
+		  <field name="codigo_estado">15</field>
+	   </record>
+	   
+	   <record id="geo_ciud_151501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">151501</field>
+		  <field name="ciudad">SANTA LUCÍA</field>
+		  <field name="codigo_sudebip_ciudad">1515000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1515"/>
+		  <field name="codigo_municipio">1515</field>
+		  <field name="estado_id" ref="geo_est_15" />
+		  <field name="codigo_estado">15</field>
+	   </record>
+	   <record id="geo_ciud_151601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">151601</field>
+		  <field name="ciudad">CÚPIRA</field>
+		  <field name="codigo_sudebip_ciudad">1516000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1516"/>
+		  <field name="codigo_municipio">1516</field>
+		  <field name="estado_id" ref="geo_est_15" />
+		  <field name="codigo_estado">15</field>
+	   </record>
+	   
+	   <record id="geo_ciud_151701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">151701</field>
+		  <field name="ciudad">GUARENAS</field>
+		  <field name="codigo_sudebip_ciudad">1517000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1517"/>
+		  <field name="codigo_municipio">1517</field>
+		  <field name="estado_id" ref="geo_est_15" />
+		  <field name="codigo_estado">15</field>
+	   </record>
+	   <record id="geo_ciud_151801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">151801</field>
+		  <field name="ciudad">SAN FRANCISCO DE YARE</field>
+		  <field name="codigo_sudebip_ciudad">1518000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1518"/>
+		  <field name="codigo_municipio">1518</field>
+		  <field name="estado_id" ref="geo_est_15" />
+		  <field name="codigo_estado">15</field>
+	   </record>
+	  
+	   <record id="geo_ciud_151901" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">151901</field>
+		  <field name="ciudad">PETARE</field>
+		  <field name="codigo_sudebip_ciudad">1519000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1519"/>
+		  <field name="codigo_municipio">1519</field>
+		  <field name="estado_id" ref="geo_est_15" />
+		  <field name="codigo_estado">15</field>
+	   </record>
+	 
+	 
+	   <record id="geo_ciud_160101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">160101</field>
+		  <field name="ciudad">SAN ANTONIO DE LOS ALTOS</field>
+		  <field name="codigo_sudebip_ciudad">1601000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1601"/>
+		  <field name="codigo_municipio">1601</field>
+		  <field name="estado_id" ref="geo_est_16" />
+		  <field name="codigo_estado">16</field>
+	   </record>
+	   <record id="geo_ciud_160102" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">160102</field>
+		  <field name="ciudad">AGUASAY</field>
+		  <field name="codigo_sudebip_ciudad">1602000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1601"/>
+		  <field name="codigo_municipio">1601</field>
+		  <field name="estado_id" ref="geo_est_16" />
+		  <field name="codigo_estado">16</field>
+	   </record>
+	
+	   <record id="geo_ciud_160301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">160301</field>
+		  <field name="ciudad">CARIPITO</field>
+		  <field name="codigo_sudebip_ciudad">161603000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1603"/>
+		  <field name="codigo_municipio">1603</field>
+		  <field name="estado_id" ref="geo_est_16" />
+		  <field name="codigo_estado">16</field>
+	   </record>
+	   <record id="geo_ciud_160401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">160401</field>
+		  <field name="ciudad">CARIPE</field>
+		  <field name="codigo_sudebip_ciudad">1604000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1604"/>
+		  <field name="codigo_municipio">1604</field>
+		  <field name="estado_id" ref="geo_est_16" />
+		  <field name="codigo_estado">16</field>
+	   </record>
+	   	  
+	   <record id="geo_ciud_160501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">160501</field>
+		  <field name="ciudad">CAICARA</field>
+		  <field name="codigo_sudebip_ciudad">1605000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1605"/>
+		  <field name="codigo_municipio">1605</field>
+		  <field name="estado_id" ref="geo_est_16" />
+		  <field name="codigo_estado">16</field>
+	   </record>
+	  
+	   <record id="geo_ciud_160601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">160601</field>
+		  <field name="ciudad">PUNTA DE MATA</field>
+		  <field name="codigo_sudebip_ciudad">1606000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1606"/>
+		  <field name="codigo_municipio">1606</field>
+		  <field name="estado_id" ref="geo_est_16" />
+		  <field name="codigo_estado">16</field>
+	   </record>
+	   
+	   <record id="geo_ciud_160701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">160701</field>
+		  <field name="ciudad">TEMBLADOR</field>
+		  <field name="codigo_sudebip_ciudad">1607000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1607"/>
+		  <field name="codigo_municipio">1607</field>
+		  <field name="estado_id" ref="geo_est_16" />
+		  <field name="codigo_estado">16</field>
+	   </record>
+	   
+	   <record id="geo_ciud_160801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">160801</field>
+		  <field name="ciudad">MATURÍN</field>
+		  <field name="codigo_sudebip_ciudad">1608000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1608"/>
+		  <field name="codigo_municipio">1608</field>
+		  <field name="estado_id" ref="geo_est_16" />
+		  <field name="codigo_estado">16</field>
+	   </record>
+	 
+	   <record id="geo_ciud_160901" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">160901</field>
+		  <field name="ciudad">ARAGUA DE MATURÍN</field>
+		  <field name="codigo_sudebip_ciudad">1609000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1609"/>
+		  <field name="codigo_municipio">1609</field>
+		  <field name="estado_id" ref="geo_est_16" />
+		  <field name="codigo_estado">16</field>
+	   </record>
+	   
+	   <record id="geo_ciud_161001" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">161001</field>
+		  <field name="ciudad">PUNCERES</field>
+		  <field name="codigo_sudebip_ciudad">1610000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1610"/>
+		  <field name="codigo_municipio">1610</field>
+		  <field name="estado_id" ref="geo_est_16" />
+		  <field name="codigo_estado">16</field>
+	   </record>
+	  
+	   <record id="geo_ciud_161101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">161101</field>
+		  <field name="ciudad">SANTA BÁRBARA</field>
+		  <field name="codigo_sudebip_ciudad">1611000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1611"/>
+		  <field name="codigo_municipio">1611</field>
+		  <field name="estado_id" ref="geo_est_16" />
+		  <field name="codigo_estado">16</field>
+	   </record>
+	   <record id="geo_ciud_161201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">161201</field>
+		  <field name="ciudad">BARRANCAS</field>
+		  <field name="codigo_sudebip_ciudad">1612000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1612"/>
+		  <field name="codigo_municipio">1612</field>
+		  <field name="estado_id" ref="geo_est_16" />
+		  <field name="codigo_estado">16</field>
+	   </record>
+	 
+	   <record id="geo_ciud_161301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">161301</field>
+		  <field name="ciudad">URACOA</field>
+		  <field name="codigo_sudebip_ciudad">1613000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1613"/>
+		  <field name="codigo_municipio">1613</field>
+		  <field name="estado_id" ref="geo_est_16" />
+		  <field name="codigo_estado">16</field>
+	   </record>
+	   <record id="geo_ciud_170101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">170101</field>
+		  <field name="ciudad">PLAZA PARAGUACHI</field>
+		  <field name="codigo_sudebip_ciudad">1701000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1701"/>
+		  <field name="codigo_municipio">1701</field>
+		  <field name="estado_id" ref="geo_est_17" />
+		  <field name="codigo_estado">17</field>
+	   </record>
+	   <record id="geo_ciud_170201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">170201</field>
+		  <field name="ciudad">LA ASUNCIÓN</field>
+		  <field name="codigo_sudebip_ciudad">1702000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1702"/>
+		  <field name="codigo_municipio">1702</field>
+		  <field name="estado_id" ref="geo_est_17" />
+		  <field name="codigo_estado">17</field>
+	   </record>
+	   <record id="geo_ciud_170301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">170301</field>
+		  <field name="ciudad">SAN JUAN BAUTISTA</field>
+		  <field name="codigo_sudebip_ciudad">1703000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1703"/>
+		  <field name="codigo_municipio">1703</field>
+		  <field name="estado_id" ref="geo_est_17" />
+		  <field name="codigo_estado">17</field>
+	   </record>
+	  
+	   <record id="geo_ciud_170401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">170401</field>
+		  <field name="ciudad">EL VALLE DEL ESPÍRITU SANTO</field>
+		  <field name="codigo_sudebip_ciudad">1704000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1704"/>
+		  <field name="codigo_municipio">1704</field>
+		  <field name="estado_id" ref="geo_est_17" />
+		  <field name="codigo_estado">17</field>
+	   </record>
+	  
+	   <record id="geo_ciud_170501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">170501</field>
+		  <field name="ciudad">SANTA ANA</field>
+		  <field name="codigo_sudebip_ciudad">1705000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1705"/>
+		  <field name="codigo_municipio">1705</field>
+		  <field name="estado_id" ref="geo_est_17" />
+		  <field name="codigo_estado">17</field>
+	   </record>
+	  
+	   <record id="geo_ciud_170601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">170601</field>
+		  <field name="ciudad">PAMPATAR</field>
+		  <field name="codigo_sudebip_ciudad">1706000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1706"/>
+		  <field name="codigo_municipio">1706</field>
+		  <field name="estado_id" ref="geo_est_17" />
+		  <field name="codigo_estado">17</field>
+	   </record>
+	   
+	   <record id="geo_ciud_170701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">170701</field>
+		  <field name="ciudad">JUAN GRIEGO</field>
+		  <field name="codigo_sudebip_ciudad">1707000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1707"/>
+		  <field name="codigo_municipio">1707</field>
+		  <field name="estado_id" ref="geo_est_17" />
+		  <field name="codigo_estado">17</field>
+	   </record>
+	   
+	   <record id="geo_ciud_170801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">170801</field>
+		  <field name="ciudad">PORLAMAR</field>
+		  <field name="codigo_sudebip_ciudad">1708000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1708"/>
+		  <field name="codigo_municipio">1708</field>
+		  <field name="estado_id" ref="geo_est_17" />
+		  <field name="codigo_estado">17</field>
+	   </record>
+	   <record id="geo_ciud_170901" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">170901</field>
+		  <field name="ciudad">BOCA DEL RÍO</field>
+		  <field name="codigo_sudebip_ciudad">1709000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1709"/>
+		  <field name="codigo_municipio">1709</field>
+		  <field name="estado_id" ref="geo_est_17" />
+		  <field name="codigo_estado">17</field>
+	   </record>
+	   
+	   <record id="geo_ciud_171001" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">171001</field>
+		  <field name="ciudad">PUNTA DE PIEDRA</field>
+		  <field name="codigo_sudebip_ciudad">1710000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1710"/>
+		  <field name="codigo_municipio">1710</field>
+		  <field name="estado_id" ref="geo_est_17" />
+		  <field name="codigo_estado">17</field>
+	   </record>
+	   <record id="geo_ciud_171002" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">171002</field>
+		  <field name="ciudad">LOS BARALES</field>
+		  <field name="codigo_sudebip_ciudad">171002</field>
+		  <field name="municipios_id" ref="geo_mun_1710"/>
+		  <field name="codigo_municipio">1710</field>
+		  <field name="estado_id" ref="geo_est_17" />
+		  <field name="codigo_estado">17</field>
+	   </record>
+	   <record id="geo_ciud_171101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">171101</field>
+		  <field name="ciudad">SAN PEDRO DE COCHE</field>
+		  <field name="codigo_sudebip_ciudad">1711000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1711"/>
+		  <field name="codigo_municipio">1711</field>
+		  <field name="estado_id" ref="geo_est_17" />
+		  <field name="codigo_estado">17</field>
+	   </record>
+	 
+	   <record id="geo_ciud_180101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">180101</field>
+		  <field name="ciudad">AGUA BLANCA</field>
+		  <field name="codigo_sudebip_ciudad">1801000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1801"/>
+		  <field name="codigo_municipio">1801</field>
+		  <field name="estado_id" ref="geo_est_18" />
+		  <field name="codigo_estado">18</field>
+	   </record>
+	   <record id="geo_ciud_180201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">180201</field>
+		  <field name="ciudad">ARAURE</field>
+		  <field name="codigo_sudebip_ciudad">1802000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1802"/>
+		  <field name="codigo_municipio">1802</field>
+		  <field name="estado_id" ref="geo_est_18" />
+		  <field name="codigo_estado">18</field>
+	   </record>
+	   
+	    <record id="geo_ciud_180301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">180301</field>
+		  <field name="ciudad">CAPITAL ESTELLER</field>
+		  <field name="codigo_sudebip_ciudad">1803000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1803"/>
+		  <field name="codigo_municipio">1803</field>
+		  <field name="estado_id" ref="geo_est_18" />
+		  <field name="codigo_estado">18</field>
+	   </record>
+	 
+	   <record id="geo_ciud_180401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">180401</field>
+		  <field name="ciudad">GUANARE</field>
+		  <field name="codigo_sudebip_ciudad">1804000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1804"/>
+		  <field name="codigo_municipio">1804</field>
+		  <field name="estado_id" ref="geo_est_18" />
+		  <field name="codigo_estado">18</field>
+	   </record>
+	   <record id="geo_ciud_180402" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">180402</field>
+		  <field name="ciudad">CÓRDOBA</field>
+		  <field name="codigo_sudebip_ciudad">180402</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1804"/>
+		  <field name="codigo_municipio">1804</field>
+		  <field name="estado_id" ref="geo_est_18" />
+		  <field name="codigo_estado">18</field>
+	   </record>
+	   <record id="geo_ciud_180501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">180501</field>
+		  <field name="ciudad">GUANARITO</field>
+		  <field name="codigo_sudebip_ciudad">1805000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1805"/>
+		  <field name="codigo_municipio">1805</field>
+		  <field name="estado_id" ref="geo_est_18" />
+		  <field name="codigo_estado">18</field>
+	   </record>
+	  
+	   <record id="geo_ciud_180601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">180601</field>
+		  <field name="ciudad">PARAÍSO DE CHABASQUÉN</field>
+		  <field name="codigo_sudebip_ciudad">1806000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1806"/>
+		  <field name="codigo_municipio">1806</field>
+		  <field name="estado_id" ref="geo_est_18" />
+		  <field name="codigo_estado">18</field>
+	   </record>
+	 
+	   <record id="geo_ciud_180702" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">180702</field>
+		  <field name="ciudad">OSPINO</field>
+		  <field name="codigo_sudebip_ciudad">1807000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1807"/>
+		  <field name="codigo_municipio">1807</field>
+		  <field name="estado_id" ref="geo_est_18" />
+		  <field name="codigo_estado">18</field>
+	   </record>
+	   
+	   <record id="geo_ciud_180801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">180801</field>
+		  <field name="ciudad">ACARIGUA</field>
+		  <field name="codigo_sudebip_ciudad">1808000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1808"/>
+		  <field name="codigo_municipio">1808</field>
+		  <field name="estado_id" ref="geo_est_18" />
+		  <field name="codigo_estado">18</field>
+	   </record>
+	  
+	   <record id="geo_ciud_180901" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">180901</field>
+		  <field name="ciudad">PAPELÓN</field>
+		  <field name="codigo_sudebip_ciudad">1809000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1809"/>
+		  <field name="codigo_municipio">1809</field>
+		  <field name="estado_id" ref="geo_est_18" />
+		  <field name="codigo_estado">18</field>
+	   </record>
+	  
+	   <record id="geo_ciud_181001" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">181001</field>
+		  <field name="ciudad">BOCONOITO</field>
+		  <field name="codigo_sudebip_ciudad">1810000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1810"/>
+		  <field name="codigo_municipio">1810</field>
+		  <field name="estado_id" ref="geo_est_18" />
+		  <field name="codigo_estado">18</field>
+	   </record>
+	  
+	   <record id="geo_ciud_181101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">181101</field>
+		  <field name="ciudad">CAPITAL SAN RAFAEL DE ONOTO</field>
+		  <field name="codigo_sudebip_ciudad">1811000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1811"/>
+		  <field name="codigo_municipio">1811</field>
+		  <field name="estado_id" ref="geo_est_18" />
+		  <field name="codigo_estado">18</field>
+	   </record>
+	  
+	   <record id="geo_ciud_181201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">181201</field>
+		  <field name="ciudad">EL PLAYÓN</field>
+		  <field name="codigo_sudebip_ciudad">1812000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1812"/>
+		  <field name="codigo_municipio">1812</field>
+		  <field name="estado_id" ref="geo_est_18" />
+		  <field name="codigo_estado">18</field>
+	   </record>
+	   
+	   <record id="geo_ciud_181301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">181301</field>
+		  <field name="ciudad">MUNICIPIO SUCRE BISCUCUY</field>
+		  <field name="codigo_sudebip_ciudad">1813000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1813"/>
+		  <field name="codigo_municipio">1813</field>
+		  <field name="estado_id" ref="geo_est_18" />
+		  <field name="codigo_estado">18</field>
+	   </record>
+	   
+	   <record id="geo_ciud_181401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">181401</field>
+		  <field name="ciudad">VILLA BRUZUAL</field>
+		  <field name="codigo_sudebip_ciudad">1814000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1814"/>
+		  <field name="codigo_municipio">1814</field>
+		  <field name="estado_id" ref="geo_est_18" />
+		  <field name="codigo_estado">18</field>
+	   </record>
+	  
+	   <record id="geo_ciud_190101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">190101</field>
+		  <field name="ciudad">CASANAY</field>
+		  <field name="codigo_sudebip_ciudad">1901000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1901"/>
+		  <field name="codigo_municipio">1901</field>
+		  <field name="estado_id" ref="geo_est_19" />
+		  <field name="codigo_estado">19</field>
+	   </record>
+	   
+	   <record id="geo_ciud_190201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">190201</field>
+		  <field name="ciudad">SAN JOSÉ DE AEROCUAR</field>
+		  <field name="codigo_sudebip_ciudad">1902000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1902"/>
+		  <field name="codigo_municipio">1902</field>
+		  <field name="estado_id" ref="geo_est_19" />
+		  <field name="codigo_estado">19</field>
+	   </record>
+	   
+	   <record id="geo_ciud_190301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">190301</field>
+		  <field name="ciudad">RÍO CARIBE</field>
+		  <field name="codigo_sudebip_ciudad">1903000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1903"/>
+		  <field name="codigo_municipio">1903</field>
+		  <field name="estado_id" ref="geo_est_19" />
+		  <field name="codigo_estado">19</field>
+	   </record>
+	 
+	   <record id="geo_ciud_190401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">190401</field>
+		  <field name="ciudad">EL PILAR</field>
+		  <field name="codigo_sudebip_ciudad">1904000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1904"/>
+		  <field name="codigo_municipio">1904</field>
+		  <field name="estado_id" ref="geo_est_19" />
+		  <field name="codigo_estado">19</field>
+	   </record>
+	  
+	   <record id="geo_ciud_190501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">190501</field>
+		  <field name="ciudad">CARÚPANO</field>
+		  <field name="codigo_sudebip_ciudad">1905000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1905"/>
+		  <field name="codigo_municipio">1905</field>
+		  <field name="estado_id" ref="geo_est_19" />
+		  <field name="codigo_estado">19</field>
+	   </record>
+	  
+	   <record id="geo_ciud_190601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">190601</field>
+		  <field name="ciudad">MARIGÜITAR</field>
+		  <field name="codigo_sudebip_ciudad">1906000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1906"/>
+		  <field name="codigo_municipio">1906</field>
+		  <field name="estado_id" ref="geo_est_19" />
+		  <field name="codigo_estado">19</field>
+	   </record>
+	   <record id="geo_ciud_190701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">190701</field>
+		  <field name="ciudad">YAGUARAPARO</field>
+		  <field name="codigo_sudebip_ciudad">1907000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1907"/>
+		  <field name="codigo_municipio">1907</field>
+		  <field name="estado_id" ref="geo_est_19" />
+		  <field name="codigo_estado">19</field>
+	   </record>
+	  
+	   
+	   <record id="geo_ciud_190901" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">190901</field>
+		  <field name="ciudad">TUNAPUY</field>
+		  <field name="codigo_sudebip_ciudad">1909000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1909"/>
+		  <field name="codigo_municipio">1909</field>
+		  <field name="estado_id" ref="geo_est_19" />
+		  <field name="codigo_estado">19</field>
+	   </record>
+	  
+	   <record id="geo_ciud_191001" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">191001</field>
+		  <field name="ciudad">IRAPA</field>
+		  <field name="codigo_sudebip_ciudad">1910000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1910"/>
+		  <field name="codigo_municipio">1910</field>
+		  <field name="estado_id" ref="geo_est_19" />
+		  <field name="codigo_estado">19</field>
+	   </record>
+	  
+	   <record id="geo_ciud_191101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">191101</field>
+		  <field name="ciudad">SAN ANTONIO DEL GOLFO</field>
+		  <field name="codigo_sudebip_ciudad">1911000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1911"/>
+		  <field name="codigo_municipio">1911</field>
+		  <field name="estado_id" ref="geo_est_19" />
+		  <field name="codigo_estado">19</field>
+	   </record>
+	   <record id="geo_ciud_191201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">191201</field>
+		  <field name="ciudad">CUMANACOA</field>
+		  <field name="codigo_sudebip_ciudad">1912000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1912"/>
+		  <field name="codigo_municipio">1912</field>
+		  <field name="estado_id" ref="geo_est_19" />
+		  <field name="codigo_estado">19</field>
+	   </record>
+	   
+	   <record id="geo_ciud_191301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">191301</field>
+		  <field name="ciudad">CARIACO</field>
+		  <field name="codigo_sudebip_ciudad">1913000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1913"/>
+		  <field name="codigo_municipio">1913</field>
+		  <field name="estado_id" ref="geo_est_19" />
+		  <field name="codigo_estado">19</field>
+	   </record>
+	  
+	   <record id="geo_ciud_191401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">191401</field>
+		  <field name="ciudad">CUMANÁ</field>
+		  <field name="codigo_sudebip_ciudad">1914000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1914"/>
+		  <field name="codigo_municipio">1914</field>
+		  <field name="estado_id" ref="geo_est_19" />
+		  <field name="codigo_estado">19</field>
+		</record>  
+	
+	   <record id="geo_ciud_191501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">191501</field>
+		  <field name="ciudad">GÜIRIA</field>
+		  <field name="codigo_sudebip_ciudad">1915000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_1915"/>
+		  <field name="codigo_municipio">1915</field>
+		  <field name="estado_id" ref="geo_est_19" />
+		  <field name="codigo_estado">19</field>
+	   </record>
+	   
+		
+	   <record id="geo_ciud_200101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">200101</field>
+		  <field name="ciudad">CORDERO</field>
+		  <field name="codigo_sudebip_ciudad">2001000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2001"/>
+		  <field name="codigo_municipio">2001</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	   <record id="geo_ciud_200201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">200201</field>
+		  <field name="ciudad">LAS MESAS</field>
+		  <field name="codigo_sudebip_ciudad">2002000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2002"/>
+		  <field name="codigo_municipio">2002</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	   <record id="geo_ciud_200301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">200301</field>
+		  <field name="ciudad">COLÓN</field>
+		  <field name="codigo_sudebip_ciudad">2003000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2003"/>
+		  <field name="codigo_municipio">2003</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	  
+	   <record id="geo_ciud_200401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">200401</field>
+		  <field name="ciudad">SAN ANTONIO DEL TÁCHIRA</field>
+		  <field name="codigo_sudebip_ciudad">2004000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2004"/>
+		  <field name="codigo_municipio">2004</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	  
+	   <record id="geo_ciud_200501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">200501</field>
+		  <field name="ciudad">TÁRIBA</field>
+		  <field name="codigo_sudebip_ciudad">2005000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2005"/>
+		  <field name="codigo_municipio">2005</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	   
+	   <record id="geo_ciud_200601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">200601</field>
+		  <field name="ciudad">SANTA ANA DEL TÁCHIRA</field>
+		  <field name="codigo_sudebip_ciudad">2006000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2006"/>
+		  <field name="codigo_municipio">2006</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	   <record id="geo_ciud_200701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">200701</field>
+		  <field name="ciudad">SAN RAFAEL DEL PIÑAL</field>
+		  <field name="codigo_sudebip_ciudad">2007000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2007"/>
+		  <field name="codigo_municipio">2007</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	  
+	   <record id="geo_ciud_200801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">200801</field>
+		  <field name="ciudad">SAN JOSÉ DE BOLÍVAR</field>
+		   <field name="codigo_sudebip_ciudad">2008000001</field>
+		   <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2008"/>
+		  <field name="codigo_municipio">2008</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	   <record id="geo_ciud_200901" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">200901</field>
+		  <field name="ciudad">LA FRÍA</field>
+		  <field name="codigo_sudebip_ciudad">2009000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2009"/>
+		  <field name="codigo_municipio">2009</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	   
+	   <record id="geo_ciud_201001" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">201001</field>
+		  <field name="ciudad">PALMIRA</field>
+		  <field name="codigo_sudebip_ciudad">2010000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2010"/>
+		  <field name="codigo_municipio">2010</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	   <record id="geo_ciud_201101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">201101</field>
+		  <field name="ciudad">CAPACHO NUEVO</field>
+		  <field name="codigo_sudebip_ciudad">2011000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2011"/>
+		  <field name="codigo_municipio">2011</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	 
+	   <record id="geo_ciud_201201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">201201</field>
+		  <field name="ciudad">LA GRITA</field>
+		  <field name="codigo_sudebip_ciudad">2012000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2012"/>
+		  <field name="codigo_municipio">2012</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	  
+	   <record id="geo_ciud_201301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">201301</field>
+		  <field name="ciudad">EL COBRE</field>
+		  <field name="codigo_sudebip_ciudad">2013000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2013"/>
+		  <field name="codigo_municipio">2013</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	   <record id="geo_ciud_201401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">201401</field>
+		  <field name="ciudad">RUBIO</field>
+		  <field name="codigo_sudebip_ciudad">2014000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2014"/>
+		  <field name="codigo_municipio">2014</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	   
+	   <record id="geo_ciud_201501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">201501</field>
+		  <field name="ciudad">CAPACHO VIEJO</field>
+		  <field name="codigo_sudebip_ciudad">2015000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2015"/>
+		  <field name="codigo_municipio">2015</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	 
+	   <record id="geo_ciud_201601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">201601</field>
+		  <field name="ciudad">ABEJALES</field>
+		  <field name="codigo_sudebip_ciudad">2016000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2016"/>
+		  <field name="codigo_municipio">2016</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	   <record id="geo_ciud_201602" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">201602</field>
+		  <field name="ciudad">EMETERIO OCHOA</field>
+		  <field name="codigo_sudebip_ciudad">201602</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2016"/>
+		  <field name="codigo_municipio">2016</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	  
+	   <record id="geo_ciud_201701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">201701</field>
+		  <field name="ciudad">LOBATERA</field>
+		  <field name="codigo_sudebip_ciudad">2017000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2017"/>
+		  <field name="codigo_municipio">2017</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	  
+	   <record id="geo_ciud_201801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">201801</field>
+		  <field name="ciudad">MICHELENA</field>
+		  <field name="codigo_sudebip_ciudad">2018000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2018"/>
+		  <field name="codigo_municipio">2018</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	   <record id="geo_ciud_201901" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">201901</field>
+		  <field name="ciudad">COLONCITO</field>
+		  <field name="codigo_sudebip_ciudad">2019000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2019"/>
+		  <field name="codigo_municipio">2019</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	  
+	   <record id="geo_ciud_202001" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">202001</field>
+		  <field name="ciudad">UREÑA</field>
+		  <field name="codigo_sudebip_ciudad">2020000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2020"/>
+		  <field name="codigo_municipio">2020</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	   
+	   <record id="geo_ciud_202101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">202101</field>
+		  <field name="ciudad">DELICIAS</field>
+		  <field name="codigo_sudebip_ciudad">2021000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2021"/>
+		  <field name="codigo_municipio">2021</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	   <record id="geo_ciud_202201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">202201</field>
+		  <field name="ciudad">LA TENDIDA</field>
+		  <field name="codigo_sudebip_ciudad">2022000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2022"/>
+		  <field name="codigo_municipio">2022</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	  
+	   <record id="geo_ciud_202301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">202301</field>
+		  <field name="ciudad">SAN CRISTÓBAL</field>
+		  <field name="codigo_sudebip_ciudad">2023000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2023"/>
+		  <field name="codigo_municipio">2023</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	  
+	   <record id="geo_ciud_202401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">202401</field>
+		  <field name="ciudad">SEBORUCO</field>
+		  <field name="codigo_sudebip_ciudad">2024000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2024"/>
+		  <field name="codigo_municipio">2024</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	   <record id="geo_ciud_202501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">202501</field>
+		  <field name="ciudad">SAN SIMÓN</field>
+		  <field name="codigo_sudebip_ciudad">2025000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2025"/>
+		  <field name="codigo_municipio">2025</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	   <record id="geo_ciud_202601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">202601</field>
+		  <field name="ciudad">QUENIQUEA</field>
+		  <field name="codigo_sudebip_ciudad">2026000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2026"/>
+		  <field name="codigo_municipio">2026</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	   
+	   <record id="geo_ciud_202701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">202701</field>
+		  <field name="ciudad">SAN JOSECITO</field>
+		  <field name="codigo_sudebip_ciudad">2027000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2027"/>
+		  <field name="codigo_municipio">2027</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	   <record id="geo_ciud_202801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">202801</field>
+		  <field name="ciudad">PREGONERO</field>
+		  <field name="codigo_sudebip_ciudad">2028000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2028"/>
+		  <field name="codigo_municipio">2028</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	 
+	   <record id="geo_ciud_202901" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">202901</field>
+		  <field name="ciudad">UMUQUENA</field>
+		  <field name="codigo_sudebip_ciudad">2029000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2029"/>
+		  <field name="codigo_municipio">2029</field>
+		  <field name="estado_id" ref="geo_est_20" />
+		  <field name="codigo_estado">20</field>
+	   </record>
+	   <record id="geo_ciud_210101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">210101</field>
+		  <field name="ciudad">SANTA ISABEL</field>
+		  <field name="codigo_sudebip_ciudad">2101000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2101"/>
+		  <field name="codigo_municipio">2021</field>
+		  <field name="estado_id" ref="geo_est_21" />
+		  <field name="codigo_estado">21</field>
+	   </record>
+	   
+	   <record id="geo_ciud_210201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">210201</field>
+		  <field name="ciudad">BOCONÓ</field>
+		  <field name="codigo_sudebip_ciudad">2102000001</field>
+		  <field name="municipios_id" ref="geo_mun_2102"/>
+		  <field name="codigo_municipio">2102</field>
+		  <field name="estado_id" ref="geo_est_21" />
+		  <field name="codigo_estado">21</field>
+	   </record>
+	  
+	  
+	   <record id="geo_ciud_210301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">210301</field>
+		  <field name="ciudad">SABANA GRANDE</field>
+		  <field name="codigo_sudebip_ciudad">2103000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2103"/>
+		  <field name="codigo_municipio">2103</field>
+		  <field name="estado_id" ref="geo_est_21" />
+		  <field name="codigo_estado">21</field>
+	   </record>
+	  
+	   <record id="geo_ciud_210401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">210401</field>
+		  <field name="ciudad">CHEJENDÉ</field>
+		  <field name="codigo_sudebip_ciudad">2104000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2104"/>
+		  <field name="codigo_municipio">2104</field>
+		  <field name="estado_id" ref="geo_est_21" />
+		  <field name="codigo_estado">21</field>
+	   </record>
+	 
+	   <record id="geo_ciud_210501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">210501</field>
+		  <field name="ciudad">CARACHE</field>
+		  <field name="codigo_sudebip_ciudad">2105000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2105"/>
+		  <field name="codigo_municipio">2105</field>
+		  <field name="estado_id" ref="geo_est_21" />
+		  <field name="codigo_estado">21</field>
+	   </record>
+	   <record id="geo_ciud_210502" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">210502</field>
+		  <field name="ciudad">CUICAS</field>
+		  <field name="codigo_sudebip_ciudad">210502</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2105"/>
+		  <field name="codigo_municipio">2105</field>
+		  <field name="estado_id" ref="geo_est_21" />
+		  <field name="codigo_estado">21</field>
+	   </record>
+	   
+	   <record id="geo_ciud_210601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">210601</field>
+		  <field name="ciudad">ESCUQUE</field>
+		   <field name="codigo_sudebip_ciudad">2106000001</field>
+		   <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2106"/>
+		  <field name="codigo_municipio">2106</field>
+		  <field name="estado_id" ref="geo_est_21" />
+		  <field name="codigo_estado">21</field>
+	   </record>
+	   
+	   <record id="geo_ciud_210701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">210701</field>
+		  <field name="ciudad">EL PARADERO</field>
+		  <field name="codigo_sudebip_ciudad">2107000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2107"/>
+		  <field name="codigo_municipio">2107</field>
+		  <field name="estado_id" ref="geo_est_21" />
+		  <field name="codigo_estado">21</field>
+	   </record>
+	  
+	   <record id="geo_ciud_210801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">210801</field>
+		  <field name="ciudad">CAMPO ELÍAS</field>
+		  <field name="codigo_sudebip_ciudad">2108000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2108"/>
+		  <field name="codigo_municipio">2108</field>
+		  <field name="estado_id" ref="geo_est_21" />
+		  <field name="codigo_estado">21</field>
+	   </record>
+	   
+	   <record id="geo_ciud_210901" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">210901</field>
+		  <field name="ciudad">SANTA APOLONIA</field>
+		  <field name="codigo_sudebip_ciudad">2109000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2109"/>
+		  <field name="codigo_municipio">2109</field>
+		  <field name="estado_id" ref="geo_est_21" />
+		  <field name="codigo_estado">21</field>
+	   </record>
+	  
+	   <record id="geo_ciud_211001" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">211001</field>
+		  <field name="ciudad">EL DIVIDIVE</field>
+		  <field name="codigo_sudebip_ciudad">2110000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2110"/>
+		  <field name="codigo_municipio">2110</field>
+		  <field name="estado_id" ref="geo_est_21" />
+		  <field name="codigo_estado">21</field>
+	   </record>
+	  
+	   <record id="geo_ciud_211101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">211101</field>
+		  <field name="ciudad">MONTE CARMELO</field>
+		  <field name="codigo_sudebip_ciudad">2111000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2111"/>
+		  <field name="codigo_municipio">2111</field>
+		  <field name="estado_id" ref="geo_est_21" />
+		  <field name="codigo_estado">21</field>
+	   </record>
+	  
+	   <record id="geo_ciud_211201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">211201</field>
+		  <field name="ciudad">MOTATÁN</field>
+		  <field name="codigo_sudebip_ciudad">2112000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2112"/>
+		  <field name="codigo_municipio">2112</field>
+		  <field name="estado_id" ref="geo_est_21" />
+		  <field name="codigo_estado">21</field>
+	   </record>
+	   
+	   <record id="geo_ciud_211301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">211301</field>
+		  <field name="ciudad">PAMPÁN</field>
+		  <field name="codigo_sudebip_ciudad">2113000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2113"/>
+		  <field name="codigo_municipio">2113</field>
+		 <field name="estado_id" ref="geo_est_21" />
+		  <field name="codigo_estado">21</field>
+	   </record>
+	  
+	   <record id="geo_ciud_211401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">211401</field>
+		  <field name="ciudad">PAMPANITO</field>
+		  <field name="codigo_sudebip_ciudad">2114000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2114"/>
+		  <field name="codigo_municipio">2114</field>
+		  <field name="estado_id" ref="geo_est_21" />
+		  <field name="codigo_estado">21</field>
+	   </record>
+	  
+	   <record id="geo_ciud_211501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">211501</field>
+		  <field name="ciudad">BETIJOQUE</field>
+		  <field name="codigo_sudebip_ciudad">2115000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2115"/>
+		  <field name="codigo_municipio">2115</field>
+		  <field name="estado_id" ref="geo_est_21" />
+		  <field name="codigo_estado">21</field>
+	   </record>
+	  
+	   <record id="geo_ciud_211601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">211601</field>
+		  <field name="ciudad">CARVAJAL</field>
+		  <field name="codigo_sudebip_ciudad">2116000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2116"/>
+		  <field name="codigo_municipio">2116</field>
+		  <field name="estado_id" ref="geo_est_21" />
+		  <field name="codigo_estado">21</field>
+	   </record>
+	  
+	   <record id="geo_ciud_211701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">211701</field>
+		  <field name="ciudad">SABANA DE MENDOZA</field>
+		  <field name="codigo_sudebip_ciudad">2117000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2117"/>
+		  <field name="codigo_municipio">2117</field>
+		  <field name="estado_id" ref="geo_est_21" />
+		  <field name="codigo_estado">21</field>
+	   </record>
+	  
+	   <record id="geo_ciud_211801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">211801</field>
+		  <field name="ciudad">TRUJILLO</field>
+		  <field name="codigo_sudebip_ciudad">2118000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2118"/>
+		  <field name="codigo_municipio">2118</field>
+		  <field name="estado_id" ref="geo_est_21" />
+		  <field name="codigo_estado">21</field>
+	   </record>
+	  
+	   <record id="geo_ciud_211901" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">211901</field>
+		  <field name="ciudad">LA QUEBRADA</field>
+		  <field name="codigo_sudebip_ciudad">2119000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2119"/>
+		  <field name="codigo_municipio">2119</field>
+		  <field name="estado_id" ref="geo_est_21" />
+		  <field name="codigo_estado">21</field>
+	   </record>
+	  
+	   <record id="geo_ciud_212001" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">212001</field>
+		  <field name="ciudad">VALERA</field>
+		  <field name="codigo_sudebip_ciudad">2120000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2120"/>
+		  <field name="codigo_municipio">2120</field>
+		  <field name="estado_id" ref="geo_est_21" />
+		  <field name="codigo_estado">21</field>
+	   </record>
+	 
+	   <record id="geo_ciud_220101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">220101</field>
+		  <field name="ciudad">SAN PABLO</field>
+		  <field name="codigo_sudebip_ciudad">2201000001</field>
+		  <field name="municipios_id" ref="geo_mun_2201"/>
+		  <field name="codigo_municipio">2201</field>
+		  <field name="estado_id" ref="geo_est_22" />
+		  <field name="codigo_estado">22</field>
+	   </record>
+	   <record id="geo_ciud_220201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">220201</field>
+		  <field name="ciudad">AROA</field>
+		  <field name="codigo_sudebip_ciudad">2202000001</field>
+		  <field name="municipios_id" ref="geo_mun_2202"/>
+		  <field name="codigo_municipio">2202</field>
+		  <field name="estado_id" ref="geo_est_22" />
+		  <field name="codigo_estado">22</field>
+	   </record>
+	   <record id="geo_ciud_220301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">220301</field>
+		  <field name="ciudad">CHIVACOA</field>
+		  <field name="codigo_sudebip_ciudad">2203000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2203"/>
+		  <field name="codigo_municipio">2203</field>
+		  <field name="estado_id" ref="geo_est_22" />
+		  <field name="codigo_estado">22</field>
+	   </record>
+	   <record id="geo_ciud_220401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">220401</field>
+		  <field name="ciudad">CAPITAL COCOROTE</field>
+		  <field name="codigo_sudebip_ciudad">2204000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2204"/>
+		  <field name="codigo_municipio">2204</field>
+		  <field name="estado_id" ref="geo_est_22" />
+		  <field name="codigo_estado">22</field>
+	   </record>
+	   <record id="geo_ciud_220501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">220501</field>
+		  <field name="ciudad">INDEPENDENCIA</field>
+		  <field name="codigo_sudebip_ciudad">2205000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2205"/>
+		  <field name="codigo_municipio">2205</field>
+		  <field name="estado_id" ref="geo_est_22" />
+		  <field name="codigo_estado">22</field>
+	   </record>
+	   <record id="geo_ciud_220601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">220601</field>
+		  <field name="ciudad">SABAN DE PARRA</field>
+		  <field name="codigo_sudebip_ciudad">2206000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2206"/>
+		  <field name="codigo_municipio">2206</field>
+		  <field name="estado_id" ref="geo_est_22" />
+		  <field name="codigo_estado">22</field>
+	   </record>
+	   <record id="geo_ciud_220701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">220701</field>
+		  <field name="ciudad">BORAURE</field>
+		  <field name="codigo_sudebip_ciudad">2207000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2207"/>
+		  <field name="codigo_municipio">2207</field>
+		  <field name="estado_id" ref="geo_est_22" />
+		  <field name="codigo_estado">22</field>
+	   </record>
+	   <record id="geo_ciud_220801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">220801</field>
+		  <field name="ciudad">YUMARE</field>
+		  <field name="codigo_sudebip_ciudad">2208000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2208"/>
+		  <field name="codigo_municipio">2208</field>
+		  <field name="estado_id" ref="geo_est_22" />
+		  <field name="codigo_estado">22</field>
+	   </record>
+	   <record id="geo_ciud_220901" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">220901</field>
+		  <field name="ciudad">NIRGUA</field>
+		  <field name="codigo_sudebip_ciudad">2209000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2209"/>
+		  <field name="codigo_municipio">2209</field>
+		  <field name="estado_id" ref="geo_est_22" />
+		  <field name="codigo_estado">22</field>
+	   </record>
+	  
+	   <record id="geo_ciud_221001" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">221001</field>
+		  <field name="ciudad">YARITAGUA</field>
+		  <field name="codigo_sudebip_ciudad">2210000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2210"/>
+		  <field name="codigo_municipio">2210</field>
+		  <field name="estado_id" ref="geo_est_22" />
+		  <field name="codigo_estado">22</field>
+	   </record>
+	   
+	   <record id="geo_ciud_221101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">221101</field>
+		  <field name="ciudad">SAN FELIPE</field>
+		  <field name="codigo_sudebip_ciudad">2211000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2211"/>
+		  <field name="codigo_municipio">2211</field>
+		  <field name="estado_id" ref="geo_est_22" />
+		  <field name="codigo_estado">22</field>
+	   </record>
+	  
+	   <record id="geo_ciud_221201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">221201</field>
+		  <field name="ciudad">GUAMA</field>
+		  <field name="codigo_sudebip_ciudad">2212000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2212"/>
+		  <field name="codigo_municipio">2212</field>
+		  <field name="estado_id" ref="geo_est_22" />
+		  <field name="codigo_estado">22</field>
+	   </record>
+	   <record id="geo_ciud_221301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">221301</field>
+		  <field name="ciudad">URACHICHE</field>
+		  <field name="codigo_sudebip_ciudad">2213000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2213"/>
+		  <field name="codigo_municipio">2213</field>
+		  <field name="estado_id" ref="geo_est_22" />
+		  <field name="codigo_estado">22</field>
+	   </record>
+	   <record id="geo_ciud_221401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">221401</field>
+		  <field name="ciudad">FARRIAR</field>
+		  <field name="codigo_sudebip_ciudad">2214000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2214"/>
+		  <field name="codigo_municipio">2214</field>
+		  <field name="estado_id" ref="geo_est_22" />
+		  <field name="codigo_estado">22</field>
+	   </record>
+	   
+	   <record id="geo_ciud_230101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">230101</field>
+		  <field name="ciudad">EL TORO</field>
+		  <field name="codigo_sudebip_ciudad">2301000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2301"/>
+		  <field name="codigo_municipio">2301</field>
+		  <field name="estado_id" ref="geo_est_22" />
+		  <field name="codigo_estado">22</field>
+	   </record>
+	   <record id="geo_ciud_230102" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">230102</field>
+		  <field name="ciudad">MONAGAS</field>
+		  <field name="codigo_sudebip_ciudad">230101</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2301"/>
+		  <field name="codigo_municipio">2301</field>
+		  <field name="estado_id" ref="geo_est_23" />
+		  <field name="codigo_estado">23</field>
+	   </record>
+	   <record id="geo_ciud_230201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">230201</field>
+		  <field name="ciudad">SAN TIMOTEO</field>
+		  <field name="codigo_sudebip_ciudad">2302000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2302"/>
+		  <field name="codigo_municipio">2302</field>
+		  <field name="estado_id" ref="geo_est_23" />
+		  <field name="codigo_estado">23</field>
+	   </record>
+	   
+	   <record id="geo_ciud_230301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">230301</field>
+		  <field name="ciudad">CABIMAS</field>
+		  <field name="codigo_sudebip_ciudad">2303000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2303"/>
+		  <field name="codigo_municipio">2303</field>
+		  <field name="estado_id" ref="geo_est_23" />
+		  <field name="codigo_estado">23</field>
+	   </record>
+	   
+	   <record id="geo_ciud_230401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">230401</field>
+		  <field name="ciudad">ENCONTRADOS</field>
+		  <field name="codigo_sudebip_ciudad">2304000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2304"/>
+		  <field name="codigo_municipio">2304</field>
+		  <field name="estado_id" ref="geo_est_23" />
+		  <field name="codigo_estado">23</field>
+	   </record>
+	   
+	   <record id="geo_ciud_230501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">230501</field>
+		  <field name="ciudad">SAN CARLOS DEL ZULIA</field>
+		  <field name="codigo_sudebip_ciudad">2305000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2305"/>
+		  <field name="codigo_municipio">2305</field>
+		  <field name="estado_id" ref="geo_est_23" />
+		  <field name="codigo_estado">23</field>
+	   </record>
+	 
+	   <record id="geo_ciud_230601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">230601</field>
+		  <field name="ciudad">PUEBLO NUEVO</field>
+		  <field name="codigo_sudebip_ciudad">2306000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2306"/>
+		  <field name="codigo_municipio">2306</field>
+		  <field name="estado_id" ref="geo_est_23" />
+		  <field name="codigo_estado">23</field>
+	   </record>
+	   
+	   <record id="geo_ciud_230701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">230701</field>
+		  <field name="ciudad">LA CONCEPCIÓN</field>
+		  <field name="codigo_sudebip_ciudad">2307000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2307"/>
+		  <field name="codigo_municipio">2307</field>
+		  <field name="estado_id" ref="geo_est_23" />
+		  <field name="codigo_estado">23</field>
+	   </record>
+	 
+	   <record id="geo_ciud_230801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">230801</field>
+		  <field name="ciudad">CASIGUA EL CUBO</field>
+		  <field name="codigo_sudebip_ciudad">2308000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2308"/>
+		  <field name="codigo_municipio">2308</field>
+		  <field name="estado_id" ref="geo_est_23" />
+		  <field name="codigo_estado">23</field>
+	   </record>
+	   
+	   <record id="geo_ciud_230901" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">230901</field>
+		  <field name="ciudad">CONCEPCIÓN</field>
+		  <field name="codigo_sudebip_ciudad">2309000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2309"/>
+		  <field name="codigo_municipio">2309</field>
+		  <field name="estado_id" ref="geo_est_23" />
+		  <field name="codigo_estado">23</field>
+	   </record>
+	  
+	   <record id="geo_ciud_231001" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">231001</field>
+		  <field name="ciudad">CIUDAD OJEDA</field>
+		  <field name="codigo_sudebip_ciudad">2310000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2310"/>
+		  <field name="codigo_municipio">2310</field>
+		  <field name="estado_id" ref="geo_est_23" />
+		  <field name="codigo_estado">23</field>
+	   </record>
+	  
+	   <record id="geo_ciud_231101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">231101</field>
+		  <field name="ciudad">MACHIQUES</field>
+		  <field name="codigo_sudebip_ciudad">2311000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2311"/>
+		  <field name="codigo_municipio">2311</field>
+		  <field name="estado_id" ref="geo_est_23" />
+		  <field name="codigo_estado">23</field>
+	   </record>
+	 
+	   <record id="geo_ciud_231201" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">231201</field>
+		  <field name="ciudad">SAN RAFAEL DE MOJÁN</field>
+		  <field name="codigo_sudebip_ciudad">2312000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2312"/>
+		  <field name="codigo_municipio">2312</field>
+		  <field name="estado_id" ref="geo_est_23" />
+		  <field name="codigo_estado">23</field>
+	   </record>
+	  
+	   <record id="geo_ciud_231301" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">231301</field>
+		  <field name="ciudad">MARACAIBO</field>
+		  <field name="codigo_sudebip_ciudad">2313000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2313"/>
+		  <field name="codigo_municipio">2313</field>
+		  <field name="estado_id" ref="geo_est_23" />
+		  <field name="codigo_estado">23</field>
+	   </record>
+	  
+	   <record id="geo_ciud_231401" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">231401</field>
+		  <field name="ciudad">LOS PUERTOS DE ALTAGRACIA</field>
+		  <field name="codigo_sudebip_ciudad">2314000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2314"/>
+		  <field name="codigo_municipio">2314</field>
+		  <field name="estado_id" ref="geo_est_23" />
+		  <field name="codigo_estado">23</field>
+	   </record>
+	   <record id="geo_ciud_231402" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">231402</field>
+		  <field name="ciudad">ANA MARÍA CAMPOS</field>
+		  <field name="codigo_sudebip_ciudad">231402</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2314"/>
+		  <field name="codigo_municipio">2314</field>
+		  <field name="estado_id" ref="geo_est_23" />
+		  <field name="codigo_estado">23</field>
+	   </record>
+	  
+	   <record id="geo_ciud_231501" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">231501</field>
+		  <field name="ciudad">SINAMAICA</field>
+		  <field name="codigo_sudebip_ciudad">2315000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2315"/>
+		  <field name="codigo_municipio">2315</field>
+		  <field name="estado_id" ref="geo_est_23" />
+		  <field name="codigo_estado">23</field>
+	   </record>
+	   
+	   <record id="geo_ciud_231601" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">231601</field>
+		  <field name="ciudad">LA VILLLA DEL ROSARIO</field>
+		  <field name="codigo_sudebip_ciudad">2316000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2316"/>
+		  <field name="codigo_municipio">2316</field>
+		  <field name="estado_id" ref="geo_est_23" />
+		  <field name="codigo_estado">23</field>
+	   </record>
+	  
+	   <record id="geo_ciud_231701" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">231701</field>
+		  <field name="ciudad">SAN FRANCISCO</field>
+		  <field name="codigo_sudebip_ciudad">2317000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2317"/>
+		  <field name="codigo_municipio">2317</field>
+		  <field name="estado_id" ref="geo_est_23" />
+		  <field name="codigo_estado">23</field>
+	   </record>
+	  
+	   
+	   <record id="geo_ciud_231801" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">231801</field>
+		  <field name="ciudad">SANTA RITA</field>
+		  <field name="codigo_sudebip_ciudad">2318000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2318"/>
+		  <field name="codigo_municipio">2318</field>
+		  <field name="estado_id" ref="geo_est_23" />
+		  <field name="codigo_estado">23</field>
+	   </record>
+	  
+	   <record id="geo_ciud_231901" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">231901</field>
+		  <field name="ciudad">TÍA JUANA</field>
+		  <field name="codigo_sudebip_ciudad">2319000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2319"/>
+		  <field name="codigo_municipio">2319</field>
+		  <field name="estado_id" ref="geo_est_23" />
+		  <field name="codigo_estado">23</field>
+	   </record>
+	  
+	  
+	   <record id="geo_ciud_232101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">232101</field>
+		  <field name="ciudad">BACHAQUERO</field>
+		  <field name="codigo_sudebip_ciudad">2321000001</field>
+		  <field name="municipios_id" ref="geo_mun_2321"/>
+		  <field name="codigo_municipio">2321</field>
+		  <field name="estado_id" ref="geo_est_23" />
+		  <field name="codigo_estado">23</field>
+	   </record>
+	  
+	   <record id="geo_ciud_240101" model="mppp_reg_pro_ciudad">
+		  <field name="codigo_ciudad">240101</field>
+		  <field name="ciudad">LA GUAIRA</field>
+		  <field name="codigo_sudebip_ciudad">2401000001</field>
+		  <field name="seleci">True</field>
+		  <field name="municipios_id" ref="geo_mun_2401"/>
+		  <field name="codigo_municipio">2401</field>
+		  <field name="estado_id" ref="geo_est_24" />
+		  <field name="codigo_estado">24</field>
+	    </record> 
+	</data>
+</odoo>
+

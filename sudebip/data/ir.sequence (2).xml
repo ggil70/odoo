@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+
+       <!-- <record id="grupo_bien_codigo_sequence" model="ir.sequence">
+            <field name="name">Secuencia del Codigo de Grupo de Bienes</field>
+            <field name="code">self.grupo_bien_codigo</field>
+            <field name="number_next">20</field>
+            <field name="number_increment">1</field>
+        </record> -->
+
+
+        <record id="detalle_adquisi_sequence" model="ir.sequence">
+             <field name="name">Secuencia de Detalle de  Adquisicion</field>
+             <field name="code">detalle_adquisi.detalle_adquisi_codigo</field>
+             <field name="prefix">detalle_adquisi.codigo_ori</field>
+             <field name="padding">10</field> 
+             <field name="number_increment">1</field>
+        </record>
+
+
+
+<!--         <record id="numero_registro_proyecto_sequence_type" model="ir.sequence.type">
+            <field name="name">Secuencia de Numero de registro del Proyecto</field>
+            <field name="code">seq_numero_registro_proyecto</field>
+        </record>
+
+        <record id="numero_registro_proyecto_sequence" model="ir.sequence">
+            <field name="name">Secuencia de Numero de registro del Proyecto</field>
+            <field name="prefix"></field>
+            <field name="code">seq_numero_registro_proyecto</field>
+            <field name="padding">10</field>
+        </record> -->
+
+        <!--record id="numero_cedula_proyecto_sequence_type" model="ir.sequence.type">
+            <field name="name">Secuencia de Numero de cédula del Proyecto</field>
+            <field name="code">seq_numero_cedula_proyecto</field>
+        </record-->
+
+       
+   <!--      <record id="numero_bien_vehiculo_sequence" model="ir.sequence">
+            <field name="name">Secuencia de Numero del bien de  Vehiculos</field>
+            <field name="suffix">%(month)s%(y)s</field> 
+            <field name="code">bienes_vehiculos.bienes_numbien</field>
+            <field name="prefix">VEHI-</field>
+            <field name="code">seq_numero_cedula_proyecto</field> 
+            <field name="padding">3</field>
+
+        </record>
+
+        <record id="numero_bien_inmuble_sequence" model="ir.sequence">
+            <field name="name">Secuencia de Numero del bien de  Inmuebles</field>
+            <field name="suffix">%(month)s%(y)s</field> 
+            <field name="code">bienes_inmuebles.bienes_numbien</field>
+            <field name="prefix">INMUEBLE-</field>
+            <field name="code">seq_numero_cedula_proyecto</field>
+            <field name="padding">3</field>
+
+        </record>-->
+
+
+
+
+
+
+    </data>
+</odoo>

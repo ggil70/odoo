@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+
+ 
+ 
+<!--
+****************vehiculos**************************
+-->            
+            
+    
+    <record model="ir.ui.view" id="view_bienes_vehiculos_form">
+        <field name="name">bienes_vehiculos_form</field>
+        <field name="model">bienes_vehiculos</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="bienes_vehiculos">
+                <sheet>
+                    <notebook>
+                        <page string="Datos Basicos">  
+                                <sheet>
+                                         <group col="4" colspan="2"> 
+                                            <field name="bienes_regiones_id" select="0"/>
+                                            <field name="bienes_regiones_codigo" style="width:15%"/>
+                                            <field name="bienes_sedes_id" select="0"/>
+                                            <field name="bienes_sedes_codigo"  style="width:20%"/>
+                                            <field name="bienes_oficinas_id" select="0"/>
+                                            <field name="bienes_oficinas_codigo"  style="width:20%"/>
+
+                                            <field name="bienes_ubica" select="0"/>
+                                            <field name="ubicacion_fisica_codigo"  style="width:15%"/>
+
+                                            <field name="resp_uso_id" select="0"/>
+                                            <field name="cedu_resp_uso"/>
+
+                                             <field name="tipo_bien_id" attrs="{'required': True}" select="0"/>
+                                            <field name="tipo_bien_codigo"  style="width:15%"/>
+                                        </group>
+                                 </sheet> 
+                                
+                                
+
+                                  <hr style="width:100%; border-color:  #cadff6  ;"> </hr>
+
+                                 <group col="4"> 
+
+                                    <field name="bienes_numbien" style="width:80%" attrs="{'required': True}" select="1"/>
+
+                                    <field name="image" widget="image" class="oe_avatar"/>
+                                </group>    
+
+                                <group col="4"> 
+
+                                     <field name="fech_inventario" style="width:20%" />
+                                    <field name="tipo_estatus_inventario_id" 
+                                            style=" width:40%"/>
+                                    <field name="cod_estatus"  style="width:15%"/>                           
+                                </group>  
+                               <group col="2" colspan="2">  
+                                 <field name="grupo_bien_id"
+                                   context="{'grupo': 58}" 
+                                      attrs="{'required': True}"  options='{"no_open": True,"no_create": 1, "no_create_edit": 1}' />
+                                 <field name="grupo_bien_codigo"  style="width:15%"/>
+                                 <field name="clasificador_bien_id"  attrs="{'required': True}" options='{"no_open": True,"no_create": 1, "no_create_edit": 1}'  />
+                                <field name="clasificador_codigo"  style="width:15%"/>
+
+                                <field name="modelo_bien_id"   attrs="{'required': True}"  options='{"no_open": True,"no_create": 1, "no_create_edit": 1}' />
+                                <field name="modelo_codigo"  style="width:15%"/>
+
+                                 <field name="detalle_modelo_id" options='{"no_open": True,"no_create": 1, "no_create_edit": 1}'/>
+                                <field name="detalle_modelo_codigo"  style="width:15%"   
+                                attrs="{'required': [(('detalle_modelo_id'),'!=',False)]}" />
+
+                                <field name="color_id" options='{"no_open": True,"no_create": 1, "no_create_edit": 1}'/>
+                                 <field name="color_codigo"  style="width:15%"/>
+                                <field name="bienes_nombre" 
+                                  readonly="1" force_save="1"/>    
+                                
+                            </group>
+
+                            
+                            <group col="4" colspan="2"> 
+                                    <field name="ano_fab" style="width:16%" select="0"/>
+                                    <field name="serial_carro" select="0"/>
+                                    <field name="serial_motor" select="0"/>
+                                    <field name="titulo_prop" select="0"/>
+                                    <field name="capacidad" select="0"/>
+                                   
+                            </group>   
+                             <hr style="width:100%; border-color:  #cadff6  ;"> </hr>
+                            <group col="4" colspan="2">
+                                                                     
+                                    <field name="nro_puestos" select="0"/>    
+                                    <field name="cantidad_motores"/>    
+                                    <field name="placas" select="0"/>  
+                                    <field name="nombre_bien" select="0"/>  
+                                    <field name="marcas_id" attrs="{'required': True}" options='{"no_open": True,"no_create": 1, "no_create_edit": 1}'/>
+                                    <field name="marcas_codigo"  style="width:15%"/>
+
+                                     <field name="modelo_fab_id" attrs="{'required': True}" options='{"no_open": True,"no_create": 1, "no_create_edit": 1}'/>
+                                    <field name="modelo_fab_codigo"  style="width:15%"/>    
+                                    <field name="observacion" select="0"/>
+                                        
+                            </group> 
+                     
+                        </page>
+
+                        <page string="Datos Requeridos por la SUDEBIP">         
+                               
+                                <group col="4" colspan="2">     
+                                    <field name="detalle_adquisi_id" select="0"/>
+                                    <field name="detalle_adquisi_id" attrs="{'required': True}" select="0"/>
+                                    <field name="detalle_adquisi_codigo"  attrs="{'invisible':True}" style="width:20%"/>
+                                    <field name="forma_adquisicion_codigo"  attrs="{'invisible':True}" style="width:20%"/>
+
+                                    <field name="costo"  attrs="{'required': True}" select="0"/>
+                                
+                                     <field name="estatus_uso_id" attrs="{'required': True}" options='{"no_open": True,"no_create": 1, "no_create_edit": 1}' />
+
+                                    <field name="estatus_uso_codigo"  style="width:15%"/>
+
+                                    <field name="estado_bien_id" attrs="{'required': True}"  options='{"no_open": True,"no_create": 1, "no_create_edit": 1}'/>
+                                    <field name="estado_bien_codigo"  style="width:15%"/>
+
+                                    <field name="condicion_fisica_id" attrs="{'required': True}"  options='{"no_open": True,"no_create": 1, "no_create_edit": 1}'/>
+                                    <field name="condicion_fisica_codigo"  style="width:15%"/>
+
+                                    <field name="poliza_id" select="0"/>
+                                     <field name="poliza_codigo"  attrs="{'required': [(('poliza_id'),'!=',False)]}"/>
+                                </group>
+
+                                <hr style="width:100%; border-color:  #cadff6  ;"> </hr>
+                                    <group>
+                                         <field name="catalogo_sudebi_id" attrs="{'required': True}" options='{"no_open": True,"no_create": 1, "no_create_edit": 1}' />
+                                        <field name="catalogo_sudebi_codigo"  style="width:25%"/>
+
+                                        <field name="catalogo_sudebi_sub_id" attrs="{'required': True}" options='{"no_open": True,"no_create": 1, "no_create_edit": 1}' />
+                                        <field name="catalogo_sudebi_sub_codigo"  style="width:25%"/>
+
+                                        <field name="catalogo_sudebi_esp_id" options='{"no_open": True,"no_create": 1, "no_create_edit": 1}' />
+                                        <field name="catalogo_sudebi_esp_codigo" attrs="{'required': [(('catalogo_sudebi_esp_id'),'!=',False)]}" style="width:25%"/>
+
+                                       <field name="color_sudebi_id"   attrs="{'required': True}" options='{"no_open": True,"no_create": 1, "no_create_edit": 1}' />
+                                       <field name="color_sudebi_codigo"  style="width:25%"/>
+                                    
+                                    
+                                 </group>
+
+                                     <hr style="width:100%; border-color:  #cadff6  ;"> </hr>  
+                                    <group>
+                                        
+                                        <field name="clase_sudebi_id" attrs="{'required': True}" options='{"no_open": True,"no_create": 1, "no_create_edit": 1}' />
+                                       <field name="clase_sudebi_codigo"  style="width:25%"/>
+
+                                        <field name="otra_clase" 
+                                            />
+                                                         
+                                    </group>
+                                
+                                
+                                 <hr style="width:100%; border-color:  #cadff6  ;"> </hr>
+
+
+                                <group col="2" colspan="2">     
+                                    
+                                    <group col="4" colspan="2">     
+                                        <field name="uso" select="0"/>
+                                        <field name="rastreo" select="0"/>
+                                        <field name="desc_rastreo" select="0"/>
+                                        <field name="garantia" select="0"/>
+                                        <field name="unidad_garantia"  options='{"no_open": True,"no_create": 1, "no_create_edit": 1}' />
+
+                                        <field name="fecha_ini_garantia" select="0"/>
+                                        <field name="fecha_fin_garantia" select="0"/>
+                                    </group>
+                                </group>            
+                            </page>
+               
+                          
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    
+        
+ 
+    
+    
+    <record model="ir.ui.view" id="view_bienes_vehiculos_tree">
+        <field name="name">bienes_vehiculos_tree</field>
+        <field name="model">bienes_vehiculos</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="bienes_vehiculos">
+                <field name="bienes_numbien"/>
+                <field name="bienes_nombre"/>
+                <field name="fech_inventario"/>
+                <field name="tipo_estatus_inventario_id"/>
+                <field name="grupo_bien_id"/>
+                <field name="clasificador_bien_id"/>
+                <field name="modelo_bien_id"/>
+                <field name="detalle_modelo_id"/>
+                <field name="ano_fab" />
+                <field name="placas" select="0"/>
+                <field name="color_id"/>
+                <field name="bienes_regiones_id" />
+                <field name="bienes_sedes_id" />
+                <field name="bienes_oficinas_id"/>
+                <field name="marcas_id"/>
+                <field name="modelo_fab_id"/>
+                <field name="resp_uso_id"/>
+                <field name="costo"/>
+                <field name="estatus_uso_id"/>
+                <field name="estado_bien_id" />
+                <field name="condicion_fisica_id"/>
+                <field name="detalle_adquisi_id"/>
+                <field name="catalogo_sudebi_id"/>
+                <field name="catalogo_sudebi_sub_id"/>
+                <field name="catalogo_sudebi_esp_id"/>
+                <field name="poliza_id"/>   
+
+            </tree>
+        </field>
+    </record>
+    
+    <record model="ir.ui.view" id="view_bienes_vehiculos_search">
+        <field name="name">bienes_vehiculos_search</field>
+        <field name="model">bienes_vehiculos</field>
+        <field name="type">search</field>
+        <field name="arch" type="xml">
+            <search string="Busquedas de Vehiculos">
+                <field name="bienes_numbien"/>
+                <field name="bienes_nombre"/>
+                <field name="placas" />    
+                <field name="resp_uso_id"/>
+                <field name="bienes_regiones_id"/>
+                <field name="bienes_sedes_id" />
+                <field name="bienes_oficinas_id"/>
+                <field name="resp_uso_id"/>
+                <group expand="1" string="Agrupado por...">
+                    <filter string="Regiones" name="group_by_bienes_regiones_id" domain="[]" context="{'group_by':'bienes_regiones_id'}"/>
+                   
+                    <filter string="Sedes" name="group_by_bienes_sedes_id" domain="[]" context="{'group_by':'bienes_sedes_id'}"/>
+
+                    <filter string="Oficinas" name="group_by_bienes_oficinas_id" domain="[]" context="{'group_by':'bienes_oficinas_id'}"/>
+                   
+                </group>
+
+
+
+
+
+            </search>
+         
+        </field>
+    </record>        
+
+
+    <record model="ir.actions.act_window" id="action_bienes_vehiculos">
+        <field name="name">Bienes_Vehiculos</field>
+        <field name="res_model">bienes_vehiculos</field>
+      
+        <field name="view_mode">tree,form</field>
+        <field name = "context">
+           {'readonly_by_pass': ['bienes_nombre',]}
+        </field>
+    </record>
+
+ <!--
+****************evaluo vehiculos**************************
+-->            
+   
+<!-- <record model="ir.ui.view" id="view_evaluo_vehiculo_form">
+        <field name="name">evaluo_vehiculo_form</field>
+        <field name="model">evaluo_vehiculo</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+             <form string="Evaluo de Vehiculos">
+                <sheet>
+                    <notebook>
+                        <page string="Evalúo Interno de los Componentes del Vehículo">   
+                            <group col="2" colspan="4"> 
+                                <field name="vehiculo_id" style="width:16%" select="1"/>
+                                <field name="vehiculo_nombre"  select="2"  readonly="1"/>
+                            </group>
+                            
+                            <group>
+                                <group>
+                                    <field name="vehiculo_regiones_id"  select="2"  readonly="1"/>
+                                </group>
+                                <group>
+                                    <field name="vehiculo_sedes_id"  select="2"  readonly="1"/>      
+                                </group> 
+                                 <group>
+                                    <field name="mecanico" />
+                                </group> 
+                                
+                              <group>
+                                   <hr/>
+                                </group> 
+                                
+                            </group>
+                            
+                            <group> 
+								   
+								<group> 
+									<separator string="Conjunto Motor" colspan="2"/>
+									<field name="motor_camara" select="0"/>
+									<field name="motor_bloque" select="0"/>
+									<field name="motor_carter" select="0"/>
+								</group>       
+								<group> 
+									<separator string="Sistema de Inyección" colspan="2"/>
+									<field name="inyeccion" select="0"/>
+                                    <field name="tanque_combustible" select="0"/>
+								</group>
+                            </group>         
+                            
+                            <group>
+                                <group>
+                                    <separator string="Sistema de Enfriamiento" colspan="2"/>
+                                    <field name="radiador" select="0"/>
+                                    <field name="bomba_agua" select="0"/>
+                                </group>
+                                <group>
+                                    <separator string="Sistema de Luces" colspan="2"/>
+                                    <field name="luces_stop" select="0"/>
+                                    <field name="luces_delanteras" select="0"/>
+                                </group>
+                            </group>        
+                            
+                            
+                            <group>
+								<group>
+									<separator string="Sistema de Cambios" colspan="2"/>
+                                    <field name="sistema_cambios" select="0"/>
+								</group>
+								<group>
+                                   <separator string="Accesorios" colspan="2"/>
+                                   <field name="radio" select="0"/>
+                                   <field name="antena" select="0"/>									
+								</group> 
+                            </group>        
+                                    
+                            <group>
+								<group>
+                                    <separator string="Sistema de Escape" colspan="2"/>
+                                    <field name="multiple" select="0"/>
+                                    <field name="silenciador" select="0"/>
+                                    <field name="bajante" select="0"/>
+                                </group>
+                                <group>
+                                   <separator string="Sistema de Transmición" colspan="2"/>
+                                   <field name="grupo_diferencial" select="0"/>
+                                   <field name="cuplo" select="0"/>
+                                   <field name="cardan" select="0"/>
+                                   <field name="crucetas" select="0"/>
+                                </group>
+                            </group>
+                        </page>                
+
+                        <page string="Evalúo Interno de los Componentes del Vehículo (Continuación)">   
+                            <group> 
+                                <group> 
+                                    <separator string="Sistema de Suspensión" colspan="2"/>
+                                    <field name="tren_delantero" select="0"/>
+                                    <field name="bujes" select="0"/>
+                                    <field name="ballestas" select="0"/>
+                                    <field name="espirales" select="0"/>
+                                    <field name="munones_terminales" select="0"/>
+                                </group>
+                                <group>    
+                                    <separator string="Sistema de Aire Acondicionado" colspan="2"/>
+                                    <field name="aire_acondicionado" select="0"/>
+
+                                    <separator string="Vidrios Puertas" colspan="2"/>
+                                    <field name="vidrios_puertas" select="0"/>
+
+                                    <separator string="Parabrisas" colspan="2"/>
+                                    <field name="parabrisas" select="0"/>
+                                </group>
+                            </group>         
+                                    
+                           <group>        
+                               <group>
+                                    <separator string="Sistema de Frenos" colspan="2"/>
+                                    <field name="cilindros" select="0"/>
+                                    <field name="hidrovac" select="0"/>
+                                    <field name="bandas_pastillas" select="0"/>
+                                    <field name="tambores_disco" select="0"/>
+                                    <field name="compresor_aire" select="0"/>                               
+                               </group>
+                               <group>
+                                    <separator string="Sistema de Frenos" colspan="2"/>
+                                    <field name="cilindros" select="0"/>
+                                    <field name="hidrovac" select="0"/>
+                                    <field name="bandas_pastillas" select="0"/>
+                                    <field name="tambores_disco" select="0"/>
+                                    <field name="compresor_aire" select="0"/>                               
+                               </group>
+                           </group>        
+
+                           <group>
+                               <group>
+                                    <separator string="Sistema de Dirección" colspan="2"/>
+                                    <field name="volante" select="0"/>
+                                    <field name="cajetin" select="0"/>
+                                    <field name="bomba_hidraulica" select="0"/>								   
+                               </group>
+                               <group>
+                                    <separator string="Sistema Eléctrico" colspan="2"/>
+                                    <field name="cables_terminales" select="0"/>
+                                    <field name="cableado_electrico" select="0"/>
+                                    <field name="distribuidor" select="0"/>
+                               </group>
+                           </group>    
+                           
+                           <group>
+                               <separator string="Otros Evalúos" colspan="2"/>
+                               <group>
+                                    <field name="luces_decruces" select="0"/>
+                                    <field name="rines" select="0"/>
+                                    <field name="vidrios" select="0"/>
+                                    <field name="pintura" select="0"/>
+                                    <field name="cauchos_delanteros" select="0"/>
+                                    <field name="manillas" select="0"/>
+                                    <field name="parachoques" select="0"/> 
+                               </group>
+                               <group>
+                                    <field name="chasis" select="0"/>
+                                    <field name="puertas" select="0"/>
+                                    <field name="tapiceria" select="0"/>
+                                    <field name="instrumentos" select="0"/>
+                                    <field name="cauchos_traseros" select="0"/>
+                                    <field name="carroceria" select="0"/>
+                               </group>
+                           </group>
+                        </page>                
+
+                   </notebook>
+                </sheet>
+             </form>
+        </field>
+</record>
+
+
+ -->
+
+
+                           <!--
+             <page string="Evalúo Interno de los Componentes del Vehículo">   
+                         <group col="2" colspan="2">
+                                <field name="vehiculo_id" style="width:16%" select="1"/>
+                                <field name="vehiculo_nombre"  select="2"  readonly="1"/>
+                                <field name="vehiculo_regiones_id"  select="2"  readonly="1"/>
+                                <field name="vehiculo_sedes_id"  select="2"  readonly="1"/>
+                             
+             <separator string="Conjunto Motor" colspan="2"/>
+                                <field name="motor_camara" select="0"/>
+                                <field name="motor_bloque" select="0"/>
+                                <field name="motor_carter" select="0"/>
+                            <separator string="Sistema de Alineacion" colspan="2"/>
+                                <field name="inyeccion" select="0"/>
+                                <field name="tanque_combustible" select="0"/>
+                                <field name="motor_carter" select="0"/>
+                            <separator string="Sistema de Enfriamiento" colspan="2"/>
+                                <field name="radiador" select="0"/>
+                                <field name="bomba_agua" select="0"/>
+                                <field name="motor_carter" select="0"/>
+                            <separator string="Sistema de Luces" colspan="2"/>
+                                <field name="luces_stop" select="0"/>
+                                <field name="luces_delanteras" select="0"/>
+                                <field name="motor_carter" select="0"/>
+
+                            <separator string="Sistema de Cambios" colspan="2"/>
+                                <field name="sistema_cambios" select="0"/>
+                             
+                            <separator string="Sistema de Escape" colspan="2"/>
+                               <field name="multiple" select="0"/>
+                               <field name="silenciador" select="0"/>
+                               <field name="bajante" select="0"/>
+                                
+   
+                            <separator string="Sistema de Transmición" colspan="2"/>
+                               <field name="grupo_diferencial" select="0"/>
+                               <field name="cuplo" select="0"/>
+                               <field name="cardan" select="0"/>
+                               <field name="crucetas" select="0"/>
+
+
+                            <separator string="Accesorios" colspan="2"/>
+                               <field name="radio" select="0"/>
+                               <field name="antena" select="0"/>
+                              
+
+
+
+                            <separator string="Sistema de Suspensión" colspan="2"/>
+                               <field name="tren_delantero" select="0"/>
+                               <field name="bujes" select="0"/>
+                               <field name="ballestas" select="0"/>
+                               <field name="espirales" select="0"/>
+                               <field name="munones_terminales" select="0"/>
+                               
+                            <separator string="Sistema de Aire Acondionado" colspan="2"/>
+                                <field name="aire_acondicionado" select="0"/>
+
+                            <separator string="Vidrios Puertas" colspan="2"/>
+                                <field name="vidrios_puertas" select="0"/>
+
+                            <separator string="Parabrisas" colspan="2"/>
+                                <field name="parabrisas" select="0"/>
+
+
+
+                            <separator string="Sistema de Dirección" colspan="2"/>
+                               <field name="volante" select="0"/>
+                               <field name="cajetin" select="0"/>
+                               <field name="bomba_hidraulica" select="0"/>
+                               
+
+
+
+
+                            <separator string="Sistema de Frenos" colspan="2"/>
+                               <field name="cilindros" select="0"/>
+                               <field name="hidrovac" select="0"/>
+                               <field name="bandas_pastillas" select="0"/>
+                               <field name="tambores_disco" select="0"/>
+                               <field name="compresor_aire" select="0"/>
+                             
+
+
+
+                            <separator string="Sistema Eléctrico" colspan="2"/>
+                               <field name="cables_terminales" select="0"/>
+                               <field name="cableado_electrico" select="0"/>
+                               <field name="distribuidor" select="0"/>
+                             
+
+
+                            <separator string="Otros Evalúos" colspan="2"/>
+                               <field name="luces_decruces" select="0"/>
+                               <field name="chasis" select="0"/>
+                               <field name="rines" select="0"/>
+                               <field name="puertas" select="0"/>
+                               <field name="vidrios" select="0"/>
+                               <field name="tapiceria" select="0"/>
+                               <field name="pintura" select="0"/>
+                               <field name="instrumentos" select="0"/>
+                               <field name="cauchos_delanteros" select="0"/>
+                               <field name="cauchos_traseros" select="0"/>
+                               <field name="manillas" select="0"/>
+                               <field name="carroceria" select="0"/>
+                               <field name="parachoques" select="0"/> 
+                        </group>    
+                          
+            </page> -->
+      
+
+<!-- <record model="ir.ui.view" id="view_evaluo_vehiculo_tree">
+        <field name="name">evaluo_vehiculo_tree</field>
+        <field name="model">evaluo_vehiculo</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+             <tree string="evaluo_vehiculo">
+                     <field name="vehiculo_id" />
+                     <field name="vehiculo_nombre"/>
+
+  
+             </tree>
+        </field>
+</record> -->
+
+  
+<!-- <record model="ir.actions.act_window" id="action_evaluo_vehiculo">
+        <field name="name">evaluo_vehiculo</field>
+        <field name="res_model">evaluo_vehiculo</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+</record> -->
+        
+    <menuitem name="Vehículos Públicos" id="menu_v" web_icon="vehiculo,static/vehiculos,description/carros.jpeg"/>
+        <menuitem name="Registro de Vehículos" id="menu_registro_vehiculos" parent="menu_v" />
+            <menuitem name="Vehículos" id="menu_ubica" parent="menu_registro_vehiculos" action="action_bienes_vehiculos"/>
+           <!--  <menuitem name="Evalúo de Vehículos" id="menu_evaluo" parent="menu_registro_vehiculos" action="action_evaluo_vehiculo"/> -->
+          
+         
+         
+   <!--       
+        <menuitem name="Reporte por Oficinas" id="menu_reportes" parent="menu_p"/>
+        <menuitem name="Inventario Sudebip"   id="menu_reportes" parent="menu_p"/>
+
+
+        <menuitem id="menu_jasper_informes" name="Informes Jasper" parent="menu_p"/>
+                  <menuitem
+                    parent="menu_jasper_informes"
+                    action="action_menu_jasper_oficinas_bienes"
+                    id="menu_jasper_report_oficinas"
+                />
+-->
+
+
+            
+            
+        
+<!--
+            <menuitem name="Selecionar Oficina" id="menu_oficrep" parent="menu_reportes" action="action_oficrep"/>
+-->              
+
+            
+    
+            
+        
+            
+                
+            
+        
+            
+            
+            
+            
+      
+</data>
+</odoo>

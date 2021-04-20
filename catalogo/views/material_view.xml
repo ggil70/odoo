@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+
+	
+    <record model="ir.ui.view" id="view_material_form">
+        <field name="name">material.form</field>
+        <field name="model">material</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="material">
+			  <sheet>
+				<notebook>
+				  <page string="Material del Bien">	    
+					<group col="4" colspan="2">
+
+						<field name="material_codigo" readonly="True" force_save="1"/>
+						<field name="material_nombre" select="2"/>
+						
+   					</group>			
+				  </page>
+		       </notebook>
+		      </sheet>	
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_material_tree">
+        <field name="name">material.tree</field>
+        <field name="model">material</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="material">
+
+               <field name="material_codigo"/>
+				<field name="material_nombre" select="2"/>
+			
+            </tree>
+        </field>
+    </record>
+
+     <record model="ir.actions.act_window" id="action_material">
+        <field name="name">Material del Bien</field>
+        <field name="res_model">material</field>
+    
+        <field name="view_mode">tree,form</field>
+    </record>
+	
+
+	<menuitem name="Material del Bien" id="menu_material"  parent="menu_cat_in"
+	 action="action_material" sequence="80" />
+</data>
+</odoo>
+
+

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+
+ 
+ 
+<!--
+****************vehiculos**************************
+-->            
+            
+    
+    <record model="ir.ui.view" id="view_bienes_vehiculos_form">
+        <field name="name">bienes_vehiculos_form</field>
+        <field name="model">bienes_vehiculos</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="bienes_vehiculos">
+                <sheet>
+                    
+                         <group col="12">  
+                             <group col="4" colspan="2">
+                                    <div class="ue_title">
+                                            <label for="bienes_numbien" style="color:#6610f2; font-size:16px; font-weight:700"/>
+                                            <h3><field name="bienes_numbien" style="width:100px" attrs="{'required': True}" select="1"/></h3>
+                                     </div>    
+                              </group>       
+                              <group col="6" colspan="6">
+                                    <div class="ue_title">
+                                            <label for="bienes_nombre" style="color:#6610f2; font-size:16px; font-weight:700"/>
+                                            <b><field name="bienes_nombre"  readonly="1" force_save="1"/></b>
+                                     </div>    
+                                </group>
+                          </group>      
+                    
+                    <notebook>
+                        <page string="Datos Basicos" style="font-size:16px;">  
+                               <separator colspan="4" string="Identificación del Bien" style="font-size:14px;"/>
+                               <sheet>
+                                 <group col="4" colspan="2"> 
+                                        <field name="grupo_bien_id"  context="{'grupo': 58}"  attrs="{'required': True}"  
+                                                     options='{"no_open": True,"no_create": 1, "no_create_edit": 1}' />
+                                        <field name="clasificador_bien_id"  attrs="{'required': True}" 
+                                               options='{"no_open": True,"no_create": 1, "no_create_edit": 1}'  />
+                                        <field name="modelo_bien_id"   attrs="{'required': True}"  options='{"no_open": True,"no_create": 1, "no_create_edit": 1}' />
+                                        <field name="detalle_modelo_id" options='{"no_open": True,"no_create": 1, "no_create_edit": 1}'/>
+                                        <field name="color_id" options='{"no_open": True,"no_create": 1, "no_create_edit": 1}'/>
+                                        
+                                        <field name="placas" select="0"/>  
+                                        <field name="image" widget="image" class="oe_avatar"/>
+                                        <field name="observacion" select="0"/>
+                                 </group>
+                               </sheet>    
+                               <hr style="width:100%; border-color:  #cadff6  ;"></hr>            
+                                          
+                                <separator colspan="4" string="Ubicación del Bien" style="font-size:14px;"/>
+                                <sheet>
+                                     <group col="4" colspan="2"> 
+                                        <field name="bienes_regiones_id" select="0" options='{"no_open": True,"no_create": 1, "no_create_edit": 1}'/>
+                                        <field name="bienes_sedes_id" select="0" options='{"no_open": True,"no_create": 1, "no_create_edit": 1}'/>
+                                        <field name="bienes_oficinas_id" select="0" options='{"no_open": True,"no_create": 1, "no_create_edit": 1}'/>
+                                        <field name="bienes_ubica" select="0"/>
+
+                                    </group>
+                                 </sheet> 
+                                 <hr style="width:100%; border-color:  #cadff6  ;"> </hr>
+
+                                <separator colspan="4" string="Información Administrativa" style="font-size:14px;"/>
+                                <sheet>
+                                         <group col="4" colspan="2"> 
+                                             <field name="resp_uso_id" select="0" 
+                                                    options='{"no_open": True,"no_create": 1, "no_create_edit": 1}'/>                                            
+                                            <field name="fech_inventario" style="width:100%" />
+                                            
+                                        </group>
+                                 </sheet>   
+                                  <hr style="width:100%; border-color:  #cadff6  ;"> </hr> 
+                        </page>    
+                        
+                        <page string="Caracteristicas del Vehiculo" style="font-size:16px;"> 
+                            <group col="4" colspan="2"> 
+                                    <field name="marcas_id" attrs="{'required': True}" options='{"no_open": True,"no_create": 1, "no_create_edit": 1}'/>
+                                    <field name="modelo_fab_id" attrs="{'required': True}" options='{"no_open": True,"no_create": 1, "no_create_edit": 1}'/>
+                                    <field name="ano_fab" style="width:16%" select="0"/>
+                                    <field name="serial_carro" select="0"/>
+                                    <field name="serial_motor" select="0"/>
+                                    <field name="nro_puestos" select="0"/>
+                                    <field name="cantidad_motores"/>
+                                    <field name="capacidad" select="0"/>
+                              </group>
+                              <hr style="width:100%; border-color:  #cadff6  ;"> </hr> 
+                               <group col="4" colspan="2">     
+                                    <field name="titulo_prop" select="0"/>
+                                    <field name="nombre_bien" select="0"/>
+                              </group>      
+                        </page>
+
+                        <page string="Datos Requeridos por la SUDEBIP" style="font-size:16px;">         
+                                 
+                                 <separator colspan="4" string="Identificación del Bien según SUDEBIP" style="font-size:14px;"/>
+                                 <group col="4" colspan="2">
+                                        <field name="catalogo_sudebi_id" attrs="{'required': True}" options='{"no_open": True,"no_create": 1, "no_create_edit": 1}' />
+                                        <field name="catalogo_sudebi_sub_id" attrs="{'required': True}" options='{"no_open": True,"no_create": 1, "no_create_edit": 1}' />
+                                        <field name="catalogo_sudebi_esp_id" attrs="{'required': True}" options='{"no_open": True,"no_create": 1, "no_create_edit": 1}' />
+                                       <field name="color_sudebi_id"   attrs="{'required': True}" options='{"no_open": True,"no_create": 1, "no_create_edit": 1}' />
+                                        <field name="clase_sudebi_id" attrs="{'required': True}" options='{"no_open": True,"no_create": 1, "no_create_edit": 1}' />
+                                        <field name="otra_clase"/>                                       
+                                 </group>
+
+                                 <hr style="width:100%; border-color:  #cadff6  ;"> </hr>                                 
+                                 
+                                 <separator colspan="4" string="Datos administrativos según SUDEBIP" style="font-size:14px;"/>
+                                <group col="4" colspan="2">     
+                                        <field name="detalle_adquisi_id" attrs="{'required': True}" select="0"/>
+                                        <field name="costo"  attrs="{'required': True}" select="0"/>
+                                         <field name="estatus_uso_id" attrs="{'required': True}" options='{"no_open": True,"no_create": 1, "no_create_edit": 1}' />
+                                        <field name="estado_bien_id" attrs="{'required': True}"  options='{"no_open": True,"no_create": 1, "no_create_edit": 1}'/>
+                                        <field name="condicion_fisica_id" attrs="{'required': True}"  options='{"no_open": True,"no_create": 1, "no_create_edit": 1}'/>
+                                        <field name="uso" select="0"/>
+                                        <field name="poliza_id" attrs="{'required': True}" select="0"/>
+                                </group>
+
+                                <hr style="width:100%; border-color:  #cadff6  ;"> </hr>
+                                
+                                <separator colspan="4" string="Datos Seguridad y Garantia" style="font-size:14px;"/>
+                                   
+                                    <group col="4" colspan="2">     
+                                        <field name="rastreo" select="0"/>
+                                        <field name="desc_rastreo" select="0"/>
+                                        <field name="garantia" select="0"/>
+                                        <field name="unidad_garantia"  options='{"no_open": True,"no_create": 1, "no_create_edit": 1}' />
+                                        <field name="fecha_ini_garantia" select="0"/>
+                                        <field name="fecha_fin_garantia" select="0"/>
+                                    </group>
+          
+                            </page>
+               
+                          
+                    </notebook>
+                </sheet>
+                
+                <!-- codigos ocultos -->
+                         <!--  Identificacion bien -->  
+                                <field name="grupo_bien_codigo" attrs="{'invisible': True}" />
+                                <field name="clasificador_codigo" attrs="{'invisible': True}"/>
+                                <field name="modelo_codigo"  attrs="{'invisible': True}"/>
+                                <field name="detalle_modelo_codigo"  attrs="{'invisible': True}"/>
+                                <field name="color_codigo"  attrs="{'invisible': True}"/>
+                                <field name="tipo_bien_codigo"  attrs="{'invisible': True}"/>
+                                <field name="tipo_bien_id" attrs="{'invisible': True}"/>
+                                
+                                
+                         <!-- Ubicación del bien -->
+                                 <field name="bienes_regiones_codigo" attrs="{'invisible': True}"/>
+                                 <field name="bienes_sedes_codigo"  attrs="{'invisible': True}"/>
+                                 <field name="bienes_oficinas_codigo"  attrs="{'invisible': True}"/>
+                                 <field name="ubicacion_fisica_codigo"  attrs="{'invisible': True}"/>
+                                 <field name="cedu_resp_uso" attrs="{'invisible': True}"/>
+                                 
+                         <!-- Información administrativa del bien -->        
+                                 <field name="cod_estatus"  attrs="{'invisible': True}"/> 
+                                 <field name="tipo_estatus_inventario_id" attrs="{'invisible': True}"/> 
+                                 
+                         <!-- Caracteristicas del vehiculo -->        
+                                 <field name="marcas_codigo"  attrs="{'invisible': True}"/>
+                                 <field name="modelo_fab_codigo"  attrs="{'invisible': True}"/>
+                                 
+                         <!-- Sudebip -->        
+                                 <field name="detalle_adquisi_codigo"  attrs="{'invisible':True}"/>
+                                 <field name="forma_adquisicion_codigo"  attrs="{'invisible':True}"/>
+                                 <field name="estatus_uso_codigo"  attrs="{'invisible':True}"/>
+                                 <field name="estado_bien_codigo"  attrs="{'invisible':True}"/>
+                                 <field name="condicion_fisica_codigo" attrs="{'invisible':True}"/>
+                                 <field name="poliza_codigo" attrs="{'invisible':True}"/>
+                                 <field name="catalogo_sudebi_codigo"  attrs="{'invisible':True}"/>
+                                 <field name="catalogo_sudebi_sub_codigo"  attrs="{'invisible':True}"/>
+                                 <field name="catalogo_sudebi_esp_codigo" attrs="{'invisible':True}"/>
+                                 <field name="color_sudebi_codigo"  attrs="{'invisible':True}"/>
+                                 <field name="clase_sudebi_codigo"  attrs="{'invisible':True}"/>
+            </form>
+        </field>
+    </record>
+    
+        
+ 
+    
+    
+    <record model="ir.ui.view" id="view_bienes_vehiculos_tree">
+        <field name="name">bienes_vehiculos_tree</field>
+        <field name="model">bienes_vehiculos</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="bienes_vehiculos">
+                <field name="bienes_numbien" string="Nro. Bien"/>
+                <field name="grupo_bien_id"/>
+                <field name="bienes_nombre"/>
+                <field name="fech_inventario" string="Fecha Registro"/>
+                <field name="marcas_id"/>
+                <field name="modelo_fab_id"/>
+                <field name="placas" select="0"/>
+                <field name="resp_uso_id"/>
+                <field name="estatus_uso_id"/>
+            </tree>
+        </field>
+    </record>
+    
+    <record model="ir.ui.view" id="view_bienes_vehiculos_search">
+        <field name="name">bienes_vehiculos_search</field>
+        <field name="model">bienes_vehiculos</field>
+        <field name="type">search</field>
+        <field name="arch" type="xml">
+            <search string="Busquedas de Vehiculos">
+                <field name="bienes_numbien"/>
+                <field name="bienes_nombre"/>
+                <field name="placas" />    
+                <field name="resp_uso_id"/>
+                <field name="bienes_regiones_id"/>
+                <field name="bienes_sedes_id" />
+                <field name="bienes_oficinas_id"/>
+                <field name="resp_uso_id"/>
+                <group expand="1" string="Agrupado por...">
+                    <filter string="Regiones" name="group_by_bienes_regiones_id" domain="[]" context="{'group_by':'bienes_regiones_id'}"/>
+                   
+                    <filter string="Sedes" name="group_by_bienes_sedes_id" domain="[]" context="{'group_by':'bienes_sedes_id'}"/>
+
+                    <filter string="Oficinas" name="group_by_bienes_oficinas_id" domain="[]" context="{'group_by':'bienes_oficinas_id'}"/>
+                   
+                </group>
+
+
+
+
+
+            </search>
+         
+        </field>
+    </record>        
+
+
+    <record model="ir.actions.act_window" id="action_bienes_vehiculos">
+        <field name="name">Bienes Vehiculos</field>
+        <field name="res_model">bienes_vehiculos</field>
+      
+        <field name="view_mode">tree,form</field>
+        <field name = "context">
+           {'readonly_by_pass': ['bienes_nombre',]}
+        </field>
+    </record>
+
+        
+    <menuitem name="Vehículos Públicos" id="menu_v" web_icon="vehiculo,static/vehiculos,description/carros.jpeg"/>
+        <menuitem name="Registro de Vehículos" id="menu_registro_vehiculos" parent="menu_v" />
+            <menuitem name="Vehículos" id="menu_ubica" parent="menu_registro_vehiculos" action="action_bienes_vehiculos"/>
+           <!--  <menuitem name="Evalúo de Vehículos" id="menu_evaluo" parent="menu_registro_vehiculos" action="action_evaluo_vehiculo"/> -->
+          
+         
+         
+   <!--       
+        <menuitem name="Reporte por Oficinas" id="menu_reportes" parent="menu_p"/>
+        <menuitem name="Inventario Sudebip"   id="menu_reportes" parent="menu_p"/>
+
+
+        <menuitem id="menu_jasper_informes" name="Informes Jasper" parent="menu_p"/>
+                  <menuitem
+                    parent="menu_jasper_informes"
+                    action="action_menu_jasper_oficinas_bienes"
+                    id="menu_jasper_report_oficinas"
+                />
+-->
+
+
+            
+            
+        
+<!--
+            <menuitem name="Selecionar Oficina" id="menu_oficrep" parent="menu_reportes" action="action_oficrep"/>
+-->              
+
+            
+    
+            
+        
+            
+                
+            
+        
+            
+            
+            
+            
+      
+</data>
+</odoo>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="estado_ocupacion_inmueble_1" model="estado_ocupacion_inmueble">
+			<field name="estado_ocupacion_inmueble_codigo">1</field>
+			<field name="estado_ocupacion_inmueble_nombre">Ocupado</field>
+		</record>
+		<record id="estado_ocupacion_inmueble_2" model="estado_ocupacion_inmueble">
+			<field name="estado_ocupacion_inmueble_codigo">2</field>
+			<field name="estado_ocupacion_inmueble_nombre">Parcialmente Ocupado</field>
+		</record>
+		<record id="estado_ocupacion_inmueble_3" model="estado_ocupacion_inmueble">
+			<field name="estado_ocupacion_inmueble_codigo">3</field>
+			<field name="estado_ocupacion_inmueble_nombre">Desocupado</field>
+		</record>
+		
+		
+	
+	</data>
+</odoo>
+
+
+
+

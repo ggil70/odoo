@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<!--
+                       Catalogo Interno de Bienes
+-->
+	
+
+    <record model="ir.ui.view" id="view_clasificador_bien_form">
+        <field name="name">clasificador_bien.form</field>
+        <field name="model">clasificador_bien</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="clasificador_bien">
+				<sheet>
+					<notebook>
+						<page string="Clasificador de Bienes">	    
+							<group col="4" colspan="2">
+                                <field name="grupo_bien_id" select="0"/>
+                                <field name="grupo_bien_codigo" readonly="True" force_save="1"/>
+								<field name="clasificador_codigo" readonly="True" force_save="1" />
+								<field name="clasificador_nombre" select="2"/>
+			
+							</group>
+						</page>
+					</notebook>
+				</sheet>
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_clasificador_bien_tree">
+        <field name="name">clasificador_bien.tree</field>
+        <field name="model">clasificador_bien</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="clasificador_bien">
+                <field name="grupo_bien_id"/>
+                <field name="grupo_bien_codigo" />
+                <field name="clasificador_codigo" />
+                <field name="clasificador_nombre"/>
+               
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_clasificador_search">
+        <field name="name">clasificador_search</field>
+        <field name="model">clasificador_bien</field>
+        <field name="type">search</field>
+        <field name="arch" type="xml">
+            <search string="Busquedas de Clasficador">
+                <field name="grupo_bien_id" select="0"/>
+                <field name="clasificador_nombre" select="2"/>
+               
+             </search>
+         
+        </field>
+    </record>        
+
+
+    <record  id="action_clasificador_bien" model="ir.actions.act_window">
+        <field name="name">Clasificador de Bienes</field>
+        <field name="res_model">clasificador_bien</field>
+        <field name="view_mode">tree,form</field>
+      
+        
+
+    </record>
+    
+         
+
+   	<menuitem name="Clasificador de Bienes" id="menu_clasificador_bien"  parent="menu_cat_in" action="action_clasificador_bien" sequence="40" />
+					
+                 
+
+
+
+
+
+
+
+
+
+
+     	
+		
+</data>
+</odoo>

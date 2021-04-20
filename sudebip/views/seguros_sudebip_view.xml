@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+
+
+<!--
+############################################### Registro de Polizas de Seguro #########################################
+--> 
+  
+     
+    <record model="ir.ui.view" id="view_cobertura_form">
+        <field name="name">cobertura.form</field>
+        <field name="model">cobertura</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="cobertura">
+                <sheet>
+                   <notebook>
+                     <page string="Coberturas de la Poliza">        
+                        <group col="4" colspan="2">
+                            <field name="cobertura_codigo" select="1"/>
+                            <field name="cobertura_nombre" select="2"/>
+                        </group>    
+                    </page>
+                 </notebook>
+               </sheet>     
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_cobertura_tree">
+        <field name="name">cobertura.tree</field>
+        <field name="model">cobertura</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="cobertura">
+                <field name="cobertura_codigo"/>
+                <field name="cobertura_nombre"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_cobertura">
+        <field name="name">Cobertura de la Poliza</field>
+        <field name="res_model">cobertura</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+
+<record model="ir.ui.view" id="view_aseguradoras_form">
+        <field name="name">aseguradoras.form</field>
+        <field name="model">aseguradoras</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="aseguradoras">
+                <sheet>
+                   <notebook>
+                     <page string="Compañí­as Aseguradoras">        
+                        <group col="2" colspan="2">
+                            <field name="aseguradoras_nombre" select="1"/>
+                            <field name="aseguradoras_codigo" select="2"/>
+                        </group>    
+                    </page>
+                 </notebook>
+               </sheet>     
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_aseguradoras_tree">
+        <field name="name">aseguradoras.tree</field>
+        <field name="model">aseguradoras</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="aseguradoras">
+                <field name="aseguradoras_nombre"/>
+                <field name="aseguradoras_codigo"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_aseguradoras">
+        <field name="name">Compañías Aseguradoras</field>
+        <field name="res_model">aseguradoras</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+  
+
+
+
+<record model="ir.ui.view" id="view_poliza_form">
+        <field name="name">poliza.form</field>
+        <field name="model">poliza</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="poliza">
+                <sheet>
+                   <notebook>
+                     <page string="Detalle de la Poliza de Seguro">     
+                        <group col="4" colspan="2">
+                            <field name="poliza_codigo" select="1"/>
+                            <field name="poliza_numero" select="2"/>
+                            <field name="aseguradoras_id" select="0"/>
+                            <field name="aseguradoras_codigo"/>
+                            <field name="poliza_tipo" select="0"/>
+                            <field name="poliza_monto" select="0"/>
+                            <field name="poliza_fecha_ini" select="0"/>
+                            <field name="poliza_fecha_fin" select="0"/>
+                            <field name="poliza_respon_civil" select="0"/>
+                            <field name="cobertura_id" select="0"/>
+                            <field name="codigo_cobertura" select="0"/>
+                            <field name="otro_tipo_cobertura" attrs="{'invisible': [('codigo_cobertura','not in',('3'))]}"/>
+                            <field name="descrip_otra_cobertura" attrs="{'invisible': [('codigo_cobertura','not in',('3'))]}"/>
+                        </group>    
+                    </page>
+                 </notebook>
+               </sheet>     
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_poliza_tree">
+        <field name="name">poliza.tree</field>
+        <field name="model">poliza</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="poliza">
+                <field name="poliza_codigo"/>
+                <field name="poliza_numero"/>
+                <field name="aseguradoras_id"/>
+                <field name="poliza_tipo"/>
+                <field name="poliza_monto"/>
+                <field name="poliza_fecha_ini"/>
+                <field name="poliza_fecha_fin"/>
+                <field name="poliza_respon_civil"/>
+                <field name="cobertura_id"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_poliza">
+        <field name="name">Detalle de la Poliza de Seguro</field>
+        <field name="res_model">poliza</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+
+
+
+
+
+
+
+
+
+
+
+    <menuitem name="Registro de Seguros de Bienes por la SUDEBIP" id="menu_registro_seguros" parent="menu_sude"/>
+                    <menuitem name="Coberturas de la Poliza (SUDEBIP)" id="menu_cobertura" parent="menu_registro_seguros" action="action_cobertura"/>
+                    <menuitem name="Compañí­as Aseguradoras (SUDEBIP)" id="menu_aseguradora" parent="menu_registro_seguros" action="action_aseguradoras"/>
+                    <menuitem name="Detalle de la Poliza de Seguro (SUDEBIP)" id="menu_poliza" parent="menu_registro_seguros" action="action_poliza"/>
+                   
+ 
+
+      
+</data>
+</odoo>

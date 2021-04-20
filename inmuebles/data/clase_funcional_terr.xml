@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="clase_funcional_terr_1" model="clase_funcional_terr">
+			<field name="clase_funcional_terr_codigo">1</field>
+			<field name="clase_funcional_terr_nombre">AGRICULTURA</field>
+		</record>
+		<record id="clase_funcional_terr_2" model="clase_funcional_terr">
+			<field name="clase_funcional_terr_codigo">2</field>
+			<field name="clase_funcional_terr_nombre">GANADERÍA</field>
+		</record>
+		<record id="clase_funcional_terr_3" model="clase_funcional_terr">
+			<field name="clase_funcional_terr_codigo">3</field>
+			<field name="clase_funcional_terr_nombre">MIXTO AGROPECUARIO</field>
+		</record>
+		<record id="clase_funcional_terr_4" model="clase_funcional_terr">
+			<field name="clase_funcional_terr_codigo">4</field>
+			<field name="clase_funcional_terr_nombre">OTROS USOS</field>
+		</record>
+	
+		
+	
+	</data>
+</odoo>
+
+
+
+

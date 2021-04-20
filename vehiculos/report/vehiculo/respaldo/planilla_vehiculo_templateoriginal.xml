@@ -1,0 +1,773 @@
+<?xml version="1.0"?>
+<odoo>
+	<data>
+		<template id="listado_color_template" name="Reporte de Color del Bien">
+			<t t-call="report.html_container">
+			<t t-call="report.external_layout">	
+					<div class="page">
+						<p style="text-align: center; font-size:20px">
+						    <b>FICHA PARQUE AUTOMOTOR</b>
+						</p>						
+						
+						<table  width="100%" style="border: 1px solid black; border-collapse:collapse;">
+							<tr>
+							    <td colspan="2" style="background:#D7D7D7;text-align: center; border: 1px solid black;">
+									 <p style="margin-top:1px; margin-bottom:1px;"><small> 1. DEPENDENCIA DE ADSCRIPCION DEL VEHICULO</small></p> 
+							    </td>
+							
+							</tr>
+							
+						    <tr>
+						        <td width="80%" style="border: 1px solid black; border-collapse:collapse; 
+						                               border-bottom:0">
+						            <p>&amp;nbsp;<small>DEPENDENCIA DE ADSCRIPCION:</small></p>
+						        </td>
+						        <td style="border: 1px solid black; border-bottom:0">
+						            &amp;nbsp;<small>REGION:</small>
+						        </td>
+						    </tr>
+						    <tr>
+						        <td width="10%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>TECNOLOGIA</small>
+						        </td>
+						        <td  style="border: 1px solid black; border-top:0">
+						            &amp;nbsp;<small>REGIÓN CENTRAL</small>
+						        </td>
+						    </tr>						    
+						    
+							<tr>
+							    <td colspan="2" style="background:#D7D7D7;text-align: center; border: 1px solid black;">
+									 <p style="margin-top:1px; margin-bottom:1px;"><small> 2. CARACTERISTICAS DEL BIEN NACIONAL:</small></p> 
+							    </td>
+							
+							</tr>
+						</table>
+						
+						<table  width="100%" style="border: 1px solid black; border-collapse:collapse;">
+							<tr>
+						        <td width="25%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>NRO. BIEN</small>
+						        </td>
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            &amp;nbsp;<small></small>
+						        </td>
+						        <td width="50%" rowspan="13" style="border: 1px solid black; border-top:0 bottom:0">
+						            FOTO
+						        </td>						        
+						    </tr>
+							<tr>
+						        <td width="25%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>ESTADO DEL VEHICULO</small>
+						        </td>
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            
+						        </td>
+						        <td width="50%"  style="border: 1px solid black; border-top:0 bottom:0">
+						            
+						        </td>						        
+						    </tr>
+							<tr>
+						        <td width="25%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>PLACA:</small>
+						        </td>
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            
+						        </td>
+						        <td width="50%"  style="border: 1px solid black; border-top:0 bottom:0">
+						            
+						        </td>						        
+						    </tr>						    
+							<tr>
+						        <td width="25%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>MARCA:</small>
+						        </td>
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            
+						        </td>
+						        <td width="50%"  style="border: 1px solid black; border-top:0 bottom:0">
+						            
+						        </td>						        
+						    </tr>	
+						    <tr>
+						        <td width="25%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>MODELO:</small>
+						        </td>
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            
+						        </td>
+						        <td width="50%"  style="border: 1px solid black; border-top:0 bottom:0">
+						            
+						        </td>						        
+						    </tr>
+						    <tr>
+						        <td width="25%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>AÑO:</small>
+						        </td>
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            
+						        </td>
+						        <td width="50%"  style="border: 1px solid black; border-top:0 bottom:0">
+						            
+						        </td>						        
+						    </tr>
+						    <tr>
+						        <td width="25%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>COLOR ORIGINAL:</small>
+						        </td>
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            
+						        </td>
+						        <td width="50%" style="border: 1px solid black; border-top:0 bottom:0">
+						            
+						        </td>						        
+						    </tr>
+						    <tr>
+						        <td width="25%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>COLOR ACTUAL:</small>
+						        </td>
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            
+						        </td>
+						        <td width="50%" style="border: 1px solid black; border-top:0 bottom:0">
+						            
+						        </td>						        
+						    </tr>	
+						    <tr>
+						        <td width="25%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>COLOR ACTUAL:</small>
+						        </td>
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            
+						        </td>
+						        <td width="50%" style="border: 1px solid black; border-top:0 bottom:0">
+						            
+						        </td>						        
+						    </tr>	
+						    
+						    <tr>
+						        <td width="25%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>SERIAL DE CARROCERÍA:</small>
+						        </td>
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            
+						        </td>
+						        <td width="50%" style="border: 1px solid black; border-top:0 bottom:0">
+						            
+						        </td>						        
+						    </tr>							    					    
+						    <tr>
+						        <td width="25%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>SERIAL DE MOTOR:</small>
+						        </td>
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            
+						        </td>
+						        <td width="50%" style="border: 1px solid black; border-top:0 bottom:0">
+						            
+						        </td>						        
+						    </tr>
+						    <tr>
+						        <td width="25%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>CLASE:</small>
+						        </td>
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            
+						        </td>
+						        <td width="50%" style="border: 1px solid black; border-top:0 bottom:0">
+						            
+						        </td>						        
+						    </tr>						    
+						    					    
+						</table>    
+						<table  width="100%" style="border: 1px solid black; border-collapse:collapse;">
+							<tr>
+							    <td width="50%" style="background:#D7D7D7;text-align: center; border: 1px solid black;">
+									 <p style="margin-top:1px; margin-bottom:1px;"><small> 3. EVALUO INTERNO</small></p> 
+							    </td>
+							    <td width="50%" style="background:#D7D7D7;text-align: center; border: 1px solid black;">
+									 <p style="margin-top:1px; margin-bottom:1px;"><small> 4. COMPONENTE DEL VEHICULO</small></p> 
+							    </td>							    
+							
+							</tr>	
+							
+							<tr>
+						        <td colspan="2" height="5px" style="border: 1px solid black; border-collapse:collapse; border-top:0 buttom:0;">
+						            <small><b>
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            B = BUENO
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            R = REGULAR
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            M = MALO
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            F = FALSO
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+						            D = DAÑADO
+						            </b></small>
+						        </td>							
+							
+							</tr>
+						</table>	
+						
+						<table  width="100%" style="border: 1px solid black; border-collapse:collapse;">
+							<tr>
+						        <td width="20%" height="2px">
+						            &amp;nbsp;<small>1. MOTOR CONJUNTO:</small>
+						        </td>
+						        <td width="5%">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>10. AIRE ACONDICIONADO:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black; border-top:0">
+						            
+						        </td>							        
+						    </tr>
+							<tr>
+						        <td width="20%">
+						            &amp;nbsp;<small>CAMARA:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>11. VIDRIOS PUERTAS:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black; border-top:0">
+						            
+						        </td>							        
+						    </tr>
+						<tr>
+						        <td width="20%">
+						            &amp;nbsp;<small>BLOQUE:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black; border-top:0">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>12. PARABRISAS:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black; border-top:0">
+						            
+						        </td>							        
+						    </tr>
+						<tr>
+						        <td width="20%">
+						            &amp;nbsp;<small>CARTER:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black; border-top:0">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>13. SISTEMA DIRECCIÓN:</small>
+						        </td>
+						        <td width="5%">
+						            
+						        </td>							        
+						</tr>	
+						<tr>
+						        <td width="20%">
+						            &amp;nbsp;<small>2. SISTEMA ALINEACIÓN:</small>
+						        </td>
+						        <td width="5%">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>VOLANTE:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>							        
+						</tr>
+						
+						
+						<tr>
+						        <td width="20%">
+						            &amp;nbsp;<small>SISTEMA DE INTECCIÓN:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>CAJETIN:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>							        
+						</tr>						
+						
+						<tr>
+						        <td width="20%">
+						            &amp;nbsp;<small>TANQUE DE COMBUSTIBLE:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>BOMBA HIDRÁULICA:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>							        
+						</tr>
+						<tr>
+						        <td width="20%">
+						            &amp;nbsp;<small>3. SISTEMA ENFRIAMIENTO:</small>
+						        </td>
+						        <td width="5%">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>14. SISTEMADE FRENOS</small>
+						        </td>
+						        <td width="5%">
+						            
+						        </td>							        
+						</tr>
+						
+						<tr>
+						        <td width="20%">
+						            &amp;nbsp;<small>RADIADOR:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>CILINDROS:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>							        
+						</tr>		
+						
+						<tr>
+						        <td width="20%">
+						            &amp;nbsp;<small>BOMBA DE AGUA:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>HIDROVAC:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>							        
+						</tr>	
+						
+						<tr>
+						        <td width="20%">
+						            &amp;nbsp;<small>4. SISTEMA DE LUCES:</small>
+						        </td>
+						        <td width="5%">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>BANDAS Y PASTILLAS:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>							        
+						</tr>
+						<tr>
+						        <td width="20%">
+						            &amp;nbsp;<small>STOP:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>TAMBORES Y DISCOS:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>							        
+						</tr>	
+						<tr>
+						        <td width="20%">
+						            &amp;nbsp;<small>LUCES DELANTERAS:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>COMPRESOR DE AIRE:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>							        
+						</tr>
+						
+						<tr>	
+						        <td width="20%">
+						            &amp;nbsp;<small>5. SISTEMA DE CAJA:</small>
+						        </td>
+						        <td width="5%">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>15 SISTEMA ELÉTRICO:</small>
+						        </td>
+						        <td width="5%">
+						            
+						        </td>							        
+						</tr>	
+						
+						<tr>	
+						        <td width="20%">
+						            &amp;nbsp;<small>SINCRONICA O AUTOMATICA:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>CABLE BORNES Y TERMINAL:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>							        
+						</tr>
+						
+						<tr>	
+						        <td width="20%">
+						            &amp;nbsp;<small>6 SISTEMA DE ESCAPE:</small>
+						        </td>
+						        <td width="5%">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>MOTOR DE ARRANQUE:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>							        
+						</tr>
+						
+						<tr>	
+						        <td width="20%">
+						            &amp;nbsp;<small>MÚLTIPLE:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>CABLE BORNES Y TERMINAL:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>							        
+						</tr>
+						
+						<tr>	
+						        <td width="20%">
+						            &amp;nbsp;<small>SILENCIADOR:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>MOTOR DE ARRANQUE:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>							        
+						</tr>
+						
+
+						<tr>	
+						        <td width="20%">
+						            &amp;nbsp;<small>BAJANTE:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>CABLEADO ELÉCTRICO:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>							        
+						</tr>
+
+						<tr>	
+						        <td width="20%">
+						            &amp;nbsp;<small>6. SISTEMA DE TRANSMISIÓN:</small>
+						        </td>
+						        <td width="5%">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>DISTRIBUIDOR:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>							        
+						</tr>	
+						
+						<tr>	
+						        <td width="20%">
+						            &amp;nbsp;<small>GRUPO DIFERENCIAL:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>16. OTROS:</small>
+						        </td>
+						        <td width="5%">
+						            
+						        </td>							        
+						</tr>
+						
+						<tr>	
+						        <td width="20%">
+						            &amp;nbsp;<small>CUPLO:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>LUCES DE CRUCES:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>							        
+						</tr>		
+						
+						<tr>	
+						        <td width="20%">
+						            &amp;nbsp;<small>CARDAN:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>CHASIS:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>							        
+						</tr>	
+						
+						<tr>	
+						        <td width="20%">
+						            &amp;nbsp;<small>CRUCETAS:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>RINES:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>							        
+						</tr>
+						
+						<tr>	
+						        <td width="20%">
+						            &amp;nbsp;<small>8. ACCESORIOS:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>PUERTAS:</small>
+						        </td>
+						        <td width="5%">
+						            
+						        </td>							        
+						</tr>	
+						
+						<tr>	
+						        <td width="20%">
+						            &amp;nbsp;<small>RADIO:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>VIDRIOS:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>							        
+						</tr>
+						
+						<tr>	
+						        <td width="20%">
+						            &amp;nbsp;<small>ANTENAS:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>TAPICERÍA:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>							        
+						</tr>
+						
+						<tr>	
+						        <td width="20%">
+						            &amp;nbsp;<small>8. SISTEMA DE SUSPENSIÓN:</small>
+						        </td>
+						        <td width="5%" >
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>PINTURA:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>							        
+						</tr>
+						
+						<tr>	
+						        <td width="20%">
+						            &amp;nbsp;<small>TREN DELANTERO:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>INSTRUMENTOS:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>							        
+						</tr>	
+						
+						<tr>	
+						        <td width="20%">
+						            &amp;nbsp;<small>BUJES:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>CAUCHOS DELANTEROS:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>							        
+						</tr>
+						<tr>	
+						        <td width="20%">
+						            &amp;nbsp;<small>BALLESTA:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>CAUCHOS TRASEROS:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>							        
+						</tr>
+						<tr>	
+						        <td width="20%">
+						            &amp;nbsp;<small>ESPIRALES:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>MANILLAS:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>							        
+						</tr>
+						
+						<tr>	
+						        <td width="20%">
+						            &amp;nbsp;<small>ESPIRALES:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>CARRORECRIA:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>							        
+						</tr>						
+						
+						<tr>	
+						        <td width="20%">
+						            &amp;nbsp;<small>MUÑONES TERMINALES:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>								
+						        <td width="20%">
+						            &amp;nbsp;<small>PARACHOQUES:</small>
+						        </td>
+						        <td width="5%" style="border: 1px solid black;">
+						            
+						        </td>							        
+						</tr>						
+						
+
+
+
+
+						</table>    
+						
+					    <br/>
+						
+
+						
+						
+			    
+						
+						
+                        <table class = "table table-condensed">
+							<thead>
+
+							    
+							    								
+								<tr>
+							        <th>
+										<strong>DESCRIPCIÓN</strong>
+							        </th>
+							    </tr>							
+							</thead>
+							
+							<body>
+								<t t-foreach="docs" t-as="o">
+									<tr>
+										<td>
+											<span t-field="o.color_nombre"/>
+										</td>										    
+									</tr>
+								</t>		
+							</body>
+                        </table> 
+                       
+                    </div>    
+				</t> 	
+			</t>		
+		</template>
+	</data>
+</odoo>

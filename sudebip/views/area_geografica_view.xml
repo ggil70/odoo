@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+
+
+
+<!--
+     #######################            Regiones del Ministerio    ##############################################
+-->  
+
+
+    <record model="ir.ui.view" id="view_regiones_form">
+        <field name="name">regiones.form</field>
+        <field name="model">regiones</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Regiones">
+                <sheet>
+                   <notebook>
+                     <page string="Regiones">       
+                        <group col="2" colspan="2">
+                            <field name="regiones_codigo"  style="width:10%"/>
+                            <field name="regiones_nombre" style="width:30%" select="2"/>
+                          
+                        </group>    
+                    </page>
+                 </notebook>
+               </sheet>     
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_regiones_tree">
+        <field name="name">regiones.tree</field>
+        <field name="model">regiones</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="regiones">
+                    <field name="regiones_codigo" select="2"/>
+                    <field name="regiones_nombre" select="2"/>
+                 
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_regiones">
+        <field name="name">Regiones del Ministerio</field>
+        <field name="res_model">regiones</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+         
+
+<!--
+     #######################            Sedes del Ministerio    ##############################################
+-->         
+      <record model="ir.ui.view" id="view_sedes_form">
+        <field name="name">sedes.form</field>
+        <field name="model">sedes</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="sedes">
+                <sheet>
+                   <notebook>
+                     <page string="Sedes del Ministerio">       
+                        <group col="4" colspan="4">
+                             <group col="4" colspan="4">
+                                 <field name="pais_id"  domain= "[('selepa','=','TRUE')]" style="width:50%" select="1"/>
+                                 <field name="codigo_pais"  style="width:10%" select="1"/>
+
+                             </group>    
+                             <group col="4" colspan="4">   
+                               <field name="regiones_id"  style="width:50%" select="1"/>
+                               <field name="regiones_codigo"  style="width:10%" select="1"/>
+                             </group>
+                           <group col="4" colspan="4">   
+                                <field name="sedes_nombre" select="2"/>
+                                <field name="sedes_codigo" style="width:20%"/>
+                                <field name="resp_uso_sede_id" select="0"/>
+                                <field name="tipo_localizacion" style="width:30%" select="1"/>
+                                <field name="lugar_id" select="0"/>
+                            </group> 
+                        </group>        
+                        <group col="4" colspan="4">
+                            <field name="urbanizacion" select="0"/>
+                            <field name="calle" select="0"/>
+                            <field name="casa_edificio" select="0"/>
+                            <field name="piso_sede" style="width:10%" select="0"/>
+                        </group>    
+                           <!--  <field name="resp_pat_id" select="0"/> -->
+                            <group col="4" colspan="2">                 
+                                <field name="estado_id"  domain= "[('seledo','=','TRUE')]" select="0"/>
+                                <field name="codigo_estado" style="width:15%"/>
+                                <field name="municipios_id" domain= "[('estado_id','=',estado_id),('selemu','=','TRUE')]" select="0"/>
+                                <field name="codigo_municipio" style="width:20%" />
+                                <field name="parroquias_id" domain="[('municipios_id','=',municipios_id),('selepa','=','TRUE')]" select="0"/>
+                                <field name="codigo_parroquia"  style="width:20%"/>
+                                <field name="ciudad_id" domain="[('municipios_id','=',municipios_id),('seleci','=','TRUE')]" select="0"/>
+                                <field name="codigo_ciudad" style="width:20%" />
+                            </group> 
+                        
+                           
+                         
+                    </page>
+                 </notebook>
+               </sheet>     
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_sedes_tree">
+        <field name="name">sedes.tree</field>
+        <field name="model">sedes</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Sedes">
+                <field name="pais_id"  select="1"/>
+                <field name="regiones_id"/>
+                <field name="sedes_nombre"/>
+                <field name="sedes_codigo" select="2"/>
+                <field name="resp_uso_sede_id"/>
+                <field name="tipo_localizacion"/>
+                <field name="lugar_id"/>
+                <field name="urbanizacion"/>
+                <field name="calle" />
+                <field name="casa_edificio"/>
+                <field name="piso_sede"/>
+                <field name="estado_id" />
+                <field name="municipios_id"/>
+                <field name="parroquias_id"/>
+                <field name="ciudad_id"/>
+                           
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_sedes">
+        <field name="name">Sedes del Ministerio</field>
+        <field name="res_model">sedes</field>
+
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+
+        
+ <!--
+     #######################             Oficinas del Ministerio    ##############################################
+-->         
+         <record model="ir.ui.view" id="view_oficinas_form">
+        <field name="name">oficinas.form</field>
+        <field name="model">oficinas</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="oficinas">
+                <sheet>
+                   <notebook>
+                     <page string="Oficinas">       
+                        <group col="4" colspan="2">
+                            
+                            <group col="4" colspan="4">   
+                               <field name="regiones_id"  style="width:50%" select="1"/>
+                               <field name="regiones_codigo"  style="width:10%" select="1"/>
+                             </group>
+                            
+                             <group col="4" colspan="4">   
+                               <field name="sedes_id"  style="width:30%" select="1"/>
+                               <field name="sedes_codigo" style="width:20%"/>
+
+                             </group>
+
+
+                           <group col="4" colspan="4">   
+                              <field name="oficinas_nombre" select="2"/>
+                              <field name="oficinas_codigo" style="width:16%" select="1"/>
+                              <field name="uniadm_sudebi_codigo" select="0"/>
+                              <field name="oficinas_padre_id" select="0"/>
+                              <field name="resp_uso_uni_id" select="0" />
+                              <field name="orden" select="0" />
+                            </group>
+
+
+                        </group>    
+                    </page>
+                 </notebook>
+               </sheet>     
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_oficinas_tree">
+        <field name="name">oficinas.tree</field>
+        <field name="model">oficinas</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="oficinas">
+                <field name="oficinas_codigo"/>
+                <field name="regiones_id" />
+                <field name="sedes_id"/>
+                <field name="oficinas_nombre"/>
+                <field name="uniadm_sudebi_codigo"/>
+                <field name="oficinas_padre_id"/>
+                <field name="orden" select="0" />
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_oficinas">
+        <field name="name">Oficinas del Ministerio</field>
+        <field name="res_model">oficinas</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+         
+
+
+
+<!--
+     #######################            Personal del Ministerio    ##############################################
+--> 
+
+
+<record model="ir.ui.view" id="view_personas_form">
+        <field name="name">personas.form</field>
+        <field name="model">personas</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="personas">
+                <sheet>
+                   <notebook>
+                     <page string="Personal de la Institución">        
+                        <group col="4" colspan="2">
+                           <field name="personas_cedula" style="width:30%"/>
+                            <field name="personas_pnombre" style="width:50%"/>
+                            <field name="personas_snombre" style="width:50%"/>
+                            <field name="personas_papellido" style="width:50%"/>
+                            <field name="personas_sapellido" style="width:50%"/>
+                            <field name="personas_cargo" style="width:50%"/>
+                            <field name="tipo_resp"  style="width:50%"/>
+                            <field name="correo_e" style="width:80%"/> 
+                    
+                        </group>     
+                         <group col="2" colspan="2">  
+                            <field name="personas_regiones_id"  style="width:50%"/>
+                            <field name="personas_regiones_codigo"  style="width:15%"/>
+                            <field name="personas_sedes_id"  style="width:50%"/>
+                            <field name="personas_sedes_codigo"  style="width:15%"/>
+                            <field name="personas_oficinas_id"   style="width:50%"/>
+                            <field name="personas_oficinas_codigo"   style="width:15%"/>
+
+                            <field name="active" position="attributes"/> 
+                        </group>
+                    </page>
+                 </notebook>
+               </sheet>                             
+            </form>
+        </field>
+    </record>
+<record model="ir.ui.view" id="view_personas_tree">
+        <field name="name">personas.tree</field>
+        <field name="model">personas</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="personas">
+                    <field name="personas_cedula"/>
+                    <field name="personas_pnombre"/>
+                    <field name="personas_snombre"/>
+                    <field name="personas_papellido"/> 
+                    <field name="personas_sapellido"/>
+                    <field name="personas_cargo"/>
+                    <field name="tipo_resp"/>
+                    <field name="personas_regiones_id" select="0"/>
+                    <field name="personas_sedes_id" select="0"/>
+                    <field name="personas_oficinas_id"/>  
+                    <field name="correo_e"/>
+                    <field name="active"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_personas">
+        <field name="name">Personal del Ministerio</field>
+        <field name="res_model">personas</field>
+        <field name="view_mode">tree,form</field>
+    </record> 
+   
+  
+
+
+
+<!--
+     #######################            Tipos Lugares de Ubicacion de la Sudebip   ##############################################
+-->  
+
+
+    <record model="ir.ui.view" id="view_tipos_lugares_ubicacion_sudebip_form">
+        <field name="name">tipos_lugares_ubicacion_sudebip.form</field>
+        <field name="model">tipos_lugares_ubicacion_sudebip</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Tipos Lugares Ubicacion SUDEBIP">
+                <sheet>
+                   <notebook>
+                     <page string="Tipos Lugares Ubicacion SUDEBIP">       
+                        <group col="2" colspan="2">
+                            <field name="codigo_lugar"/>
+                            <field name="nombre_lugar" style="width:30%" select="2"/>
+                          
+                        </group>    
+                    </page>
+                 </notebook>
+               </sheet>     
+            </form>
+        </field>
+    </record>
+    
+
+    <record model="ir.ui.view" id="view_tipos_lugares_ubicacion_sudebip_tree">
+        <field name="name">tipos_lugares_ubicacion_sudebip.tree</field>
+        <field name="model">tipos_lugares_ubicacion_sudebip</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+   
+            <tree string="Tipos Lugares Ubicacion SUDEBIP">
+    
+                    <field name="codigo_lugar"/>
+                    <field name="nombre_lugar" select="2"/>
+                        
+            </tree>
+        </field>
+     </record>
+    
+
+
+    <record model="ir.actions.act_window" id="action_tipos_lugares_ubicacion_sudebip">
+        <field name="name">Tipos Lugares Ubicacion SUDEBIP</field>
+        <field name="res_model">tipos_lugares_ubicacion_sudebip</field>
+
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+<!--
+     #######################   Paises  de la Sudebip   ##############################################
+-->  
+
+
+
+
+<record model="ir.ui.view" id="view_paises_form">
+        <field name="name">paises_form</field>
+        <field name="model">paises</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="paises">
+                <group col="2" colspan="2">
+                    <field name="codigo_pais" style="width:10%"/>
+                    <field name="pais" style="width:30%" select="2"/>
+                    <field name="selepa"/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+
+ <record model="ir.ui.view" id="view_paises_tree">
+        <field name="name">paises.tree</field>
+        <field name="model">paises</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="paises">
+                <field name="codigo_pais"/>  
+                <field name="pais"/>
+                <field name="selepa"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_paises">
+        <field name="name">Tabla Referencial de Paises</field>
+        <field name="res_model">paises</field>
+
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+
+<!--
+     #######################   Estados por la Sudebip   ##############################################
+-->  
+
+
+
+     <record model="ir.ui.view" id="view_mppp_reg_pro_estados_form">
+        <field name="name">mppp_reg_pro_estados_form</field>
+        <field name="model">mppp_reg_pro_estados</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Estados">
+                <field name="codigo_estado"/>
+                <field name="estado"/>
+                <field name="seledo"/>
+
+            </form>
+        </field>
+     </record>
+
+
+
+
+
+
+
+        <record model="ir.ui.view" id="view_mppp_reg_pro_estados_tree">
+        <field name="name">mppp_reg_pro_estados.tree</field>
+        <field name="model">mppp_reg_pro_estados</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="mppp_reg_pro_estados">
+                <field name="codigo_estado"/>
+                <field name="estado"/>
+                <field name="seledo"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_mppp_reg_pro_estados">
+        <field name="name">Tabla Referencial de Estados </field>
+        <field name="res_model">mppp_reg_pro_estados</field>
+
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+
+<!--
+     #######################   Municipios por la Sudebip   ##############################################
+-->  
+
+
+
+
+    <record model="ir.ui.view" id="view_mppp_reg_pro_municipios_form">
+        <field name="name">mppp_reg_pro_municipios.form</field>
+        <field name="model">mppp_reg_pro_municipios</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="mppp_reg_pro_municipios">
+                <sheet>
+                   <notebook>
+                     <page string="Municipios del Estado">      
+                        <group col="2" colspan="2">
+                            <field name="estado_id" select="0"/>
+                            <field name="codigo_estado" select="0"/>
+                            <field name="codigo_municipio" select="1"/>
+                            <field name="municipio" select="2"/>
+                            
+                            <field name="codigo_sudebip_municipio"/>
+                            <field name="selemu" select="2"/>
+                        </group>    
+                    </page>
+                 </notebook>
+               </sheet>     
+            </form>
+        </field>
+    </record>
+    
+    <record model="ir.ui.view" id="view_mppp_reg_pro_municipios_tree">
+        <field name="name">mppp_reg_pro_municipios.tree</field>
+        <field name="model">mppp_reg_pro_municipios</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="mppp_reg_pro_municipios">
+                <field name="estado_id"/>
+                <field name="codigo_estado"/>
+                
+                <field name="municipio"/>
+                <field name="codigo_municipio"/>
+                <field name="codigo_sudebip_municipio"/>
+                <field name="selemu"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_mppp_reg_pro_municipios">
+        <field name="name">Tabla Referencial de  Municipios</field>
+        <field name="res_model">mppp_reg_pro_municipios</field>
+
+        <field name="view_mode">tree,form</field>
+    </record>
+  
+
+<!--
+     #######################   Parroquias por la Sudebip   ##############################################
+-->  
+
+        
+    <record model="ir.ui.view" id="view_mppp_reg_pro_parroquias_form">
+        <field name="name">mppp_reg_pro_parroquias.form</field>
+        <field name="model">mppp_reg_pro_parroquias</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="mppp_reg_pro_parroquias">
+                <sheet>
+                   <notebook>
+                     <page string="Parroquias del Municipio">       
+                        <group col="2" colspan="2">
+                            <field name="estado_id"/>
+                            <field name="codigo_estado"/>
+                            <field name="municipios_id" select="0"/>
+                            <field name="codigo_municipio"/>
+                            <field name="codigo_parroquia" select="1"/>
+                            <field name="parroquia" select="2"/>                         
+                            <field name="codigo_sudebip_parroquia"/>
+                            <field name="selepa" select="2"/>
+                        </group>    
+                    </page>
+                 </notebook>
+               </sheet>     
+            </form>
+        </field>
+    </record>
+    
+    <record model="ir.ui.view" id="view_mppp_reg_pro_parroquias_tree">
+        <field name="name">mppp_reg_pro_parroquias.tree</field>
+        <field name="model">mppp_reg_pro_parroquias</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="mppp_reg_pro_parroquias">
+                <field name="estado_id"/>
+                        <field name="estado_id"/>
+                        <field name="codigo_estado"/>
+                        <field name="municipios_id"/>
+                        <field name="codigo_municipio"/>
+                        <field name="codigo_parroquia"/>
+                        <field name="parroquia"/>                         
+                        <field name="codigo_sudebip_parroquia"/>
+                        <field name="selepa"/>
+                       
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_mppp_reg_pro_parroquias">
+        <field name="name">Tabla Referencial de Parroquias</field>
+        <field name="res_model">mppp_reg_pro_parroquias</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+<!--
+     #######################   Ciudades por la Sudebip   ##############################################
+-->  
+
+
+    <record model="ir.ui.view" id="view_mppp_reg_pro_ciudad_form">
+        <field name="name">mppp_reg_pro_ciudad.form</field>
+        <field name="model">mppp_reg_pro_ciudad</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="mppp_reg_pro_ciudad">
+                <sheet>
+                   <notebook>
+                     <page string="Ciudades del Municipio">       
+                        <group col="2" colspan="2">
+                            <field name="estado_id"/>
+                            <field name="codigo_estado"/>
+                            <field name="municipios_id"/>
+                            <field name="codigo_municipio"/>
+                            <field name="codigo_ciudad" select="1"/>
+                            <field name="ciudad" select="2"/>
+                            <field name="codigo_sudebip_ciudad"/>
+                            <field name="seleci" select="2"/>
+                        </group>    
+                    </page>
+                 </notebook>
+               </sheet>     
+            </form>
+        </field>
+    </record>
+    
+    <record model="ir.ui.view" id="view_mppp_reg_pro_ciudad_tree">
+        <field name="name">mppp_reg_pro_ciudad.tree</field>
+        <field name="model">mppp_reg_pro_ciudad</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="mppp_reg_pro_ciudad">
+                <field name="estado_id"/>
+                <field name="codigo_estado"/>
+                <field name="municipios_id"/>
+                <field name="codigo_municipio"/>            
+                <field name="codigo_ciudad"/>
+                <field name="ciudad"/>
+                <field name="codigo_sudebip_ciudad"/>
+                <field name="seleci"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_mppp_reg_pro_ciudad">
+        <field name="name">Tabla Referencial de Ciudades por Municipio</field>
+        <field name="res_model">mppp_reg_pro_ciudad</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+<!--
+                      # Categorias de Unidades Administrativas segun SUDEBIP  #################################
+--> 
+  <record model="ir.ui.view" id="view_uniadm_sudebi_form">
+        <field name="name">uniadm_sudebi.form</field>
+        <field name="model">uniadm_sudebi</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="uniadm_sudebi">
+                <sheet>
+                   <notebook>
+                     <page string="Categorias de Unidades Administrativas segun SUDEBIP">       
+                        <group col="2" colspan="2">
+                            <field name="uniadm_sudebi_codigo" select="1"/>
+                            <field name="uniadm_sudebi_nombre" select="2"/>
+                        </group>    
+                    </page>
+                 </notebook>
+               </sheet>     
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_uniadm_sudebi_tree">
+        <field name="name">uniadm_sudebi.tree</field>
+        <field name="model">uniadm_sudebi</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="uniadm_sudebi">
+                <field name="uniadm_sudebi_codigo"/>
+                <field name="uniadm_sudebi_nombre"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_uniadm_sudebi">
+        <field name="name">Categorias de Unidades Administrativas segun Sudebip</field>
+        <field name="res_model">uniadm_sudebi</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+ 
+
+
+<!--
+                   Datos del Ministerio en la Sudebip
+--> 
+
+        
+    <record model="ir.ui.view" id="view_bienes_ministerio">
+        <field name="name">bienes_ministerio.form</field>
+        <field name="model">bienes_ministerio</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="bienes_ministerio">
+                <sheet>
+                   <notebook>
+                     <page string="Informacion del Ministerio en la Sudebip">       
+                        <group col="4" colspan="4">
+                            <field name="rif" select="1"/>
+                            <field name="nsudebip" select="2"/>
+                            <field name="bienes_ministerio_codigo" select="2"/>
+<!--                             <field name="fecha_remision" select="0"/>
+ -->                        <field name="telefono" select="2"/>
+                            <field name="seleinv" select="0"/>
+                        </group>    
+                    </page>
+                 </notebook>
+               </sheet>     
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_bienes_ministerio_tree">
+        <field name="name">bienes_ministerio.tree</field>
+        <field name="model">bienes_ministerio</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="bienes_ministerio">
+                <field name="rif"/>
+                <field name="nsudebip"/>
+                <field name="bienes_ministerio_codigo" />
+
+             <!--    <field name="fecha_remision"/> -->
+                <field name="telefono"/>
+                <field name="seleinv"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_bienes_ministerio">
+        <field name="name">Informacion del Ministerio en la Sudebip</field>
+        <field name="res_model">bienes_ministerio</field>
+       
+        <field name="view_mode">tree,form</field>
+    </record>
+
+  
+<!--
+    ############################# Fin Datos del Ministerio en la Sudebip #################################################
+--> 
+
+
+
+
+
+
+
+
+
+
+    <menuitem name="Registro de Areas Geográficas por la SUDEBIP" id="menu_registro_geograficas" parent="menu_sude"/>
+                     <menuitem name="Informacion del Ministerio (SUDEBIP)" id="menu_ministerio" parent="menu_registro_geograficas" action="action_bienes_ministerio"/>
+
+                    <menuitem name="Regiones (SUDEBIP)" id="menu_regiones" parent="menu_registro_geograficas" action="action_regiones"/>
+                    <menuitem name="Sedes (SUDEBIP)" id="menu_sedes" parent="menu_registro_geograficas" action="action_sedes"/>
+                    <menuitem name="Oficinas (SUDEBIP)" id="menu_oficinas" parent="menu_registro_geograficas" action="action_oficinas"/>
+
+                     <menuitem name="Personal (SUDEBIP)" id="menu_personal" parent="menu_registro_geograficas" action="action_personas"/>
+
+
+                    <menuitem name="Tipo de Ubicaciones Administrativas (SUDEBIP)" id="menu_ubica_adm" parent="menu_registro_geograficas" action="action_uniadm_sudebi"/>
+                    
+                    <menuitem name="Tipos de Lugares de Ubicación (SUDEBIP)" id="menu_tipos_lugar" parent="menu_registro_geograficas" action="action_tipos_lugares_ubicacion_sudebip"/>
+                    <menuitem name="Paises (SUDEBIP)" id="menu_paises" parent="menu_registro_geograficas" action="action_paises"/>
+                    <menuitem name="Estados (SUDEBIP)" id="menu_estado" parent="menu_registro_geograficas" action="action_mppp_reg_pro_estados"/>
+                    <menuitem name="Municipios (SUDEBIP)" id="menu_municipios" parent="menu_registro_geograficas" action="action_mppp_reg_pro_municipios"/>
+                    <menuitem name="Parroquias (SUDEBIP)" id="menu_parroquias" parent="menu_registro_geograficas" action="action_mppp_reg_pro_parroquias"/>
+                    <menuitem name="Ciudades (SUDEBIP)" id="menu_ciudades" parent="menu_registro_geograficas" action="action_mppp_reg_pro_ciudad"/>
+                                                                                                 
+
+</data>
+</odoo>

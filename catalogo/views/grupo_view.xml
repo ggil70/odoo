@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<!--
+                       Catalogo Interno de Bienes
+-->
+	<record model="ir.ui.view" id="view_grupo_bien_form">
+		<field name="name">Grupo de Bienes</field>
+		<field name="model">grupo_bien</field>
+		<field name="priority">50</field>
+		<field name="arch" type="xml">
+			<form string="grupo_bien">
+				<sheet>
+					<notebook>
+						<page string="Grupos de Bienes">	    
+							<group col="4" colspan="2">
+
+								<field name="grupo_bien_codigo"  readonly="True" force_save="1" select="1"/>
+								<field name="grupo_bien_nombre" select="2"/>
+								<field name="grupo_bien_partidapre" select="0"/>
+							</group>
+						</page>
+					</notebook>
+				</sheet>
+			</form>
+		</field>
+	</record>
+    
+
+
+
+  <record model="ir.ui.view" id="view_grupo_bien_tree">
+        <field name="name">Grupo de Bienes</field>
+        <field name="model">grupo_bien</field>
+        <field name="priority">50</field>
+        <field name="arch" type="xml">
+            <tree string="Grupo de Bienes">
+
+                <field name="grupo_bien_codigo"/>
+                <field name="grupo_bien_nombre"/>
+                <field name="grupo_bien_partidapre"/>
+
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_grupo_bien" model="ir.actions.act_window">
+            <field name="name">Grupo de Bienes</field>
+            <field name="res_model">grupo_bien</field>
+            <field name='view_mode'>tree,form</field>
+    </record>
+
+  
+   
+
+
+   
+ 
+    <menuitem name="Catalogo Interno de Bienes" id="menu_c" web_icon="catalogo,static/description/catalogo.jpeg"/>
+
+        <menuitem
+            id = "menu_cat_in"
+            parent="menu_c"
+            name=" Catalogo Interno de Bienes"/>
+            
+            <menuitem name="Grupo de Bienes" 
+                      id="menu_grupo_bien" 
+                      parent="menu_cat_in" 
+                      sequence="10" 
+                      action="action_grupo_bien"/>
+  
+</data>
+</odoo>

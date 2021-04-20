@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+
+
+
+
+  <!-- ********************Estatus de Uso segun Sudebip***************** -->
+
+
+  <record model="ir.ui.view" id="view_estatus_uso_form">
+        <field name="name">estatus_uso.form</field>
+        <field name="model">estatus_uso</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="estatus_uso">
+                <sheet>
+                   <notebook>
+                     <page string="Estatus de Uso del Bien">        
+                        <group col="4" colspan="2">
+                            <field name="estatus_uso_codigo" select="1"/>
+                            <field name="estatus_uso_nombre" select="2"/>
+                        </group>    
+                    </page>
+                 </notebook>
+               </sheet>                 
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_estatus_uso_tree">
+        <field name="name">estatus_uso.tree</field>
+        <field name="model">estatus_uso</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="estatus_uso">
+                <field name="estatus_uso_codigo"/>
+                <field name="estatus_uso_nombre"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_estatus_uso">
+        <field name="name">Estatus de uso del Bien</field>
+        <field name="res_model">estatus_uso</field>
+     
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+
+   <!-- ********************Estado del Bien segun Sudebip***************** -->      
+
+    <record model="ir.ui.view" id="view_estado_bien_form">
+        <field name="name">estado_bien.form</field>
+        <field name="model">estado_bien</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Estado del Bien">
+                <sheet>
+                   <notebook>
+                     <page string="Estado del Bien">       
+                        <group col="4" colspan="2">
+                            <field name="estado_bien_codigo" select="1"/>
+                            <field name="estado_bien_nombre" select="2"/>
+                        </group>    
+                    </page>
+                 </notebook>
+               </sheet>         
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_estado_bien_tree">
+        <field name="name">estado_bien.tree</field>
+        <field name="model">estado_bien</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Estado del Bien">
+                <field name="estado_bien_codigo"/>
+                <field name="estado_bien_nombre"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_estado_bien">
+        <field name="name">Estado del Bien</field>
+        <field name="res_model">estado_bien</field>
+        
+        <field name="view_mode">tree,form</field>
+    </record>
+   
+
+ <!-- ********************Condicion Fisica del Bien segun Sudebip*****************     -->  
+
+    <record model="ir.ui.view" id="view_condicion_fisica_form">
+        <field name="name">condicion_fisica.form</field>
+        <field name="model">condicion_fisica</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Condición Física del Bien">
+                <sheet>
+                   <notebook>
+                     <page string="Condición Física del Bien">       
+                        <group col="4" colspan="2">
+                            <field name="condicion_fisica_codigo" select="1"/>
+                            <field name="condicion_fisica_nombre" select="2"/>
+                        </group>    
+                    </page>
+                 </notebook>
+               </sheet>         
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_condicion_fisica_tree">
+        <field name="name">condicion_fisica.tree</field>
+        <field name="model">condicion_fisica</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Condición Física del Bien">
+                <field name="condicion_fisica_codigo"/>
+                <field name="condicion_fisica_nombre"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_condicion_fisica">
+        <field name="name">Condición Física del Bien</field>
+        <field name="res_model">condicion_fisica</field>
+       
+        <field name="view_mode">tree,form</field>
+    </record>
+   
+       
+
+
+<!--  ********************Tipo  de Bien segun Sudebip***************** --> 
+
+
+  <record model="ir.ui.view" id="view_tipo_bien_form">
+        <field name="name">tipo_bien.form</field>
+        <field name="model">tipo_bien</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="estatus_uso">
+                <sheet>
+                   <notebook>
+                     <page string="Tipo de Bien">        
+                        <group col="4" colspan="2">
+                            <field name="tipo_bien_codigo" select="1"/>
+                            <field name="tipo_bien_nombre" select="2"/>
+                        </group>    
+                    </page>
+                 </notebook>
+               </sheet>                 
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_tipo_bien_tree">
+        <field name="name">tipo_bien.tree</field>
+        <field name="model">tipo_bien</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Tipo de Bien">
+                <field name="tipo_bien_codigo"/>
+                <field name="tipo_bien_nombre"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_tipo_bien">
+        <field name="name">Tipo del Bien</field>
+        <field name="res_model">tipo_bien</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+
+
+
+
+
+
+
+    <menuitem name="Registro de Estatus de Bienes por la SUDEBIP" id="menu_registro_estatus" parent="menu_sude"/>
+                    <menuitem name="Estatus de Uso (SUDEBIP)" id="menu_estatus_uso" parent="menu_registro_estatus" action="action_estatus_uso"/>
+                    <menuitem name="Estatus del Bien (SUDEBIP)" id="menu_estatus_bien" parent="menu_registro_estatus" action="action_estado_bien"/>
+                    <menuitem name="Condición Física del Bien (SUDEBIP)" id="menu_condicion_bien" parent="menu_registro_estatus" action="action_condicion_fisica"/>
+                    <menuitem name="Tipo de Bien (SUDEBIP)" id="menu_tipo_bien" parent="menu_registro_estatus" action="action_tipo_bien"/>
+      
+ 
+
+      
+</data>
+</odoo>

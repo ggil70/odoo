@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<odoo>
+	<data>
+		<template id="inventario_bienes_template" name="Reporte de Color del Bien">
+			<t t-call="web.html_container">
+				
+				<t t-foreach="docs" t-as="o">
+					<t t-call="web.external_layout">
+						<div class="page">
+							<br/>
+							<br/>
+							<br/><br/><br/><br/><br/>
+						    <p style="text-align: center; font-size:20px">
+						        <b>Inventario de Bienes</b>
+						    </p>				
+						    			
+							<table  width="100%" style="border: 1px solid black; border-collapse:collapse;">
+								
+							<tr>
+							    <td colspan="2" style="background:#D7D7D7;text-align: center; border: 1px solid black;">
+									 <p style="margin-top:1px; margin-bottom:1px;"><small> 1. DEPENDENCIA DE ADSCRIPCION DEL BIEN</small></p> 
+							    </td>
+							
+							</tr>								
+						    <tr>
+						        <td width="70%" height="5px" style="border: 1px solid black; border-collapse:collapse; 
+						                               border-bottom:0">
+						            <p>&amp;nbsp;<small><b>DEPENDENCIA DE ADSCRIPCION:</b></small></p>
+						        </td>
+						        <td height="5px" style="border: 1px solid black; border-bottom:0">
+						            &amp;nbsp;<small><b>REGION:</b></small>
+						        </td>
+						    </tr>
+						    <tr>
+						        <td width="10%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<span t-field="o.oficinas_id"/>
+						        </td>
+						        <td  style="border: 1px solid black; border-top:0">
+						            &amp;nbsp;<span t-field="o.bienes_sedes_id"/>
+						        </td>
+						    </tr>	
+							<tr>
+							    <td colspan="2" style="background:#D7D7D7;text-align: center; border: 1px solid black;">
+									 <p style="margin-top:1px; margin-bottom:1px;"><small> 2. CARACTERISTICAS DEL BIEN NACIONAL:</small></p> 
+							    </td>
+							
+							</tr>
+						    </table>   
+						    
+							<table  width="100%" style="border: 1px solid black; border-collapse:collapse;">
+							<tr>
+						        <td width="25%" style="border: 1px solid black; border-collapse:collapse; border-top:0">
+						            &amp;nbsp;<small>NRO. BIEN</small>
+						        </td>
+ 								<td width="25%" style="border: 1px solid black;  border-collapse:collapse; border-top:0">
+						            <small>DESCRIPCION:</small>
+						        </td>
+
+						        <td width="25%" style="border: 1px solid black;  border-collapse:collapse; border-top:0">
+						            <small>COSTO</small>
+						        </td>
+
+						        <td width="25%" style="border: 1px solid black;  border-collapse:collapse; border-top:0">
+						            <small>OBSERVACIONES</small>
+						        </td>
+						      </tr>  
+						      <tr>  
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            &amp;nbsp;<span t-field="o.bienes_numbien"/>
+						        </td>
+						      					        
+						      	<td width="25%" style="border: 1px solid black; border-top:0">
+						            &amp;nbsp;<span t-field="o.bienes_nombre"/>
+						        </td>
+						        <td width="25%" style="border: 1px solid black; border-top:0">
+						            &amp;nbsp;<span t-field="o.costo"/>
+						        </td>
+						        
+								<td width="25%" style="border: 1px solid black; border-top:0">
+						            &amp;nbsp;<span t-field="o.observacion"/>
+						        </td>
+						        
+						      
+						    </tr>
+								    
+							
+						    					    
+							</table>    
+						    
+						    
+						      						
+                        </div>
+                    </t>        
+				</t> 	
+			</t>		
+		</template>
+	</data>
+</odoo>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+<report
+
+  id="action_report_bien_oficina"
+  string="Listado de Bienes por Oficina"
+  model="bienes.ficha.oficina.bien.reporte.wizard"
+  report_type="qweb-html"
+  name="bienes.ficha_bien_oficina_listado_render"
+  
+  file="bienes.ficha_bien_oficina_listado_template"
+  paperformat="bienes.paperformat_ficha_bien_oficina"
+  
+  menu="False"/>
+  
+  <!--paperformat="bienes.paperformat_ficha_bien_oficina"-->
+  <!-- name="bienes.ficha_bien_oficina_listado_render"-->
+
+<template id="ficha_bien_oficina_listado_render">
+    <t t-call="web.html_container">    
+        <t t-call="web.external_layout">
+			
+			
+			
+				
+
+                <t t-set='linea' t-value='0'/>
+                <t t-set='swPagina' t-value='0'/> 
+
+				<t t-foreach="docs" t-as="bienes">
+					<div class="page">
+                        <t t-set='linea' t-value='linea+1'/>
+                        <t t-if='swPagina==0'>
+                            <t t-set='swPagina' t-value='1'/>
+								<div style="text-align:right">
+									<span style="font-weight:700"><small>FECHA: </small></span><small t-esc="date_today"/>
+								</div>
+								<br/>
+								<div style="text-align:center">
+									<span style="font-weight:700; font-size:16px">LISTADO DE BIENES POR OFICINA</span>
+								</div>
+				
+								<table style="border:1px solid black; width:100%">
+								<tr>
+									<td style="border:1px solid black; height:20px">
+										<span style="font-size:14px; font-weight:700; margin-left:1px">SEDE: </span>
+										<span t-esc="sede" style="font-size:14px; margin-left:2px "/>
+									</td>
+								</tr>
+								<tr>
+									<td style="border:1px solid black; ; height:20px">
+										<span style="font-size:14px; font-weight:700; margin-left:1px">OFICINA: </span>
+										<span t-esc="oficina" style="font-size:14px; margin-left:2px"/>
+									</td>
+								</tr>				
+								</table>
+				
+								<table style="border:1px solid black; width:100%">
+								<tr style=" height:60px" align="center">
+									<td style="border:1px solid black; width:8%" >
+										<span style="font-size:12px; font-weight:700;">NÚMERO DEL BIEN </span>
+									</td>
+									<td style="border:1px solid black; width:42%">
+										<span style="font-size:12px; font-weight:700">DESCRIPCIÓN DEL BIEN </span>
+									</td>
+									<td style="border:1px solid black; width:15%" >
+										<span style="font-size:12px; font-weight:700; margin-left:1px">ESTATUS INVENTARIO </span>
+									</td>
+									<td style="border:1px solid black; width:10%">
+										<span style="font-size:12px; font-weight:700; margin-left:1px">COSTO</span>
+									</td>
+									<td style="border:1px solid black; width:25%">
+										<span style="font-size:12px; font-weight:700; margin-left:1px">OBSERVACIONES DEL BIEN</span>
+									</td>
+								</tr>
+								</table>
+								
+						</t>
+						        <table style="border:1px solid black; width:100%">
+									<tr style="height:60px" valign="top">
+										<td style="border:1px solid black; width:8%; text-align:center">
+											<small t-esc="bienes['bienes_numbien']"/>
+										</td>	
+										<td style="border:1px solid black; width:42%; text-align:left">
+											<small t-esc="bienes['bienes_nombre']" style="margin-left:4px"/>
+										</td>	
+										<td style="border:1px solid black; width:15%; text-align:center" >
+												<small t-esc="bienes['tipo_estatus_inventario_id'][1]"/>
+										</td>                                
+										<td style="border:1px solid black; width:10%; text-align:right">
+											<small t-esc="f_costo(bienes['costo'])" style="margin-right:4px"/>
+										</td> 	                        	
+										<td style="border:1px solid black; width:25%; text-align:left">
+											<!-- Nota al pasar un campo texto por parametro da error-->
+											<!-- por lo cual hay que guardarlo en una variable y dspues-->
+											<!-- pasarlo por parametro -->
+											<t t-set='observa' t-value='bienes["observacion"]'/>
+											<span style="font-size:10px; margin-left:4px" t-esc="m_observacion(observa)"/>
+										</td> 
+									</tr>
+									</table>
+									<t t-if='linea==7'>
+										<div style='page-break-after: always;'></div>                                       
+										<t t-set='swPagina' t-value='0'/>
+										<t t-set='linea' t-value='0'/>      
+                                    </t>
+                    </div>                 
+				</t>
+				
+				<t t-if='swPagina == 1'>
+					<t t-if='linea > 4'>
+					    <div class="page">
+							<div style='page-break-after: always;'></div>
+							<div style="text-align:right">
+								<span style="font-weight:700"><small>FECHA: </small></span><small t-esc="date_today"/>
+							</div>
+							<br/>
+							<div style="text-align:center">
+								<span style="font-weight:700; font-size:16px">LISTADO DE BIENES POR OFICINA</span>
+							</div>
+						</div>					    
+					</t>
+				</t>
+				<br/>
+				<div align="center">
+				<table style="border:1px solid black; width:40%;">
+					<tr style="height:40px" valign="top">
+						<td style="border:1px solid black; width:8%; text-align:center">
+							<span style="font-weight:700">Total de Bienes por Oficina: </span>
+							<small t-esc="nro_bienes"/>
+						</td>	
+					</tr>	
+					<tr style="height:40px" valign="top">
+						<td style="border:1px solid black; width:8%; text-align:center">
+							<span style="font-weight:700">Total Costo de Bienes: </span>
+							<small t-esc="tot_costo"/>
+						</td>							
+						
+					</tr>		
+				</table>
+				</div>	    
+						
+				
+									
+        </t>
+    </t>              
+</template>
+
+
+<record id="paperformat_ficha_bien_oficina" model="report.paperformat">
+    <field name="name">European A4</field>
+    <field name="default" eval="True" />
+    <field name="format">A4</field>
+    <field name="page_height">0</field>
+    <field name="page_width">0</field>
+    <!--<field name="orientation">Portrait</field>-->
+    <field name="orientation">Landscape</field>
+    <field name="margin_top">35</field>
+    <field name="margin_bottom">20</field>
+    <field name="margin_left">5</field>
+    <field name="margin_right">5</field>
+    <field name="header_line" eval="False" />
+    <field name="header_spacing">25</field>
+    <field name="dpi">90</field>
+</record>
+
+
+</odoo>
+

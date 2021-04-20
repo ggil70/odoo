@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+
+
+
+  <!--                     Registro de adquisicion del bien por la Sudebip -->
+
+
+ <record model="ir.ui.view" id="view_proveedores_form">
+        <field name="name">proveedores.form</field>
+        <field name="model">proveedores</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="proveedores">
+                <sheet>
+                   <notebook>
+                     <page string="Proveedores del Bien">       
+                        <group col="4" colspan="2">
+                            <field name="proveedores_codigo" select="1"/>
+                            <field name="proveedores_nombre" select="2"/>
+                            <field name="rif" select="0"/>
+                            <field name="proveedores_tipo" select="0"/>
+                            <field name="proveedores_observacion" select="0"/>
+                        </group>    
+                    </page>
+                 </notebook>
+               </sheet>     
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_proveedores_tree">
+        <field name="name">proveedores.tree</field>
+        <field name="model">proveedores</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="proveedores">
+                <field name="proveedores_codigo"/>
+                <field name="proveedores_nombre"/>
+                <field name="rif"/>
+                <field name="proveedores_tipo"/>
+                <field name="proveedores_observacion"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_proveedores">
+        <field name="name">Proveedores de Bienes</field>
+        <field name="res_model">proveedores</field>
+       
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+
+
+<!--
+     *****************Cargo de la Autoridad de la Sudebip****************************
+-->
+
+
+<record model="ir.ui.view" id="view_cargo_autoridad_form">
+        <field name="name">cargo_autoridad.form</field>
+        <field name="model">cargo_autoridad</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Cargo de la Autoridad">
+                <sheet>
+                   <notebook>
+                     <page string="Cargo de la Autoridad según la SUDEBIP">     
+                        <group col="2" colspan="2">
+                            <field name="cargo_autoridad_codigo" select="1"/>
+                            <field name="cargo_autoridad_nombre" select="2"/>
+                        </group>    
+                    </page>
+                 </notebook>
+               </sheet>         
+            </form>
+        </field>
+    </record>
+    
+
+
+
+    <record model="ir.ui.view" id="view_autoridad_tree">
+        <field name="name">cargo_autoridad.tree</field>
+        <field name="model">cargo_autoridad</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Cargo de la Autoridad según la SUDEBIP">
+               <field name="cargo_autoridad_codigo" select="1"/>
+               <field name="cargo_autoridad_nombre" select="2"/>
+
+            </tree>
+        </field>
+    </record>
+   
+    <record model="ir.actions.act_window" id="action_cargo_autoridad">
+        <field name="name">Cargo de la Autoridad según la SUDEBIP</field>
+        <field name="res_model">cargo_autoridad</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+     ****************Forma de adquisicion de la Sudebip****************************
+-->
+
+ <record model="ir.ui.view" id="view_forma_adquisicion_form">
+        <field name="name">forma_adquisicion.form</field>
+        <field name="model">forma_adquisicion</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="forma_adquisicion">
+                <sheet>
+                   <notebook>
+                     <page string="Forma de Adquisición del Bien">      
+                        <group col="4" colspan="2">
+                            <field name="forma_adquisicion_codigo" select="1"/>
+                            <field name="forma_adquisicion_nombre" select="2"/>
+                             <field name="forma_adquisicion_codigo_origen"/>
+
+                        </group>    
+                    </page>
+                 </notebook>
+               </sheet>     
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_forma_adquisicion_tree">
+        <field name="name">forma_adquisicion.tree</field>
+        <field name="model">forma_adquisicion</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="forma_adquisicion">
+                <field name="forma_adquisicion_codigo"/>
+                <field name="forma_adquisicion_nombre"/>
+                <field name="forma_adquisicion_codigo_origen"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_forma_adquisicion">
+        <field name="name">Formas de Adquisicion</field>
+        <field name="res_model">forma_adquisicion</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+
+<!--
+     ****************Detalle de la Forma de adquisicion de la Sudebip****************************
+-->
+
+
+ <record model="ir.ui.view" id="view_detalle_adquisi_form">
+        <field name="name">detalle_adquisi.form</field>
+        <field name="model">detalle_adquisi</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="detalle_adquisi">
+                <sheet>
+                <notebook>
+                     <page string="Detalle de la Adquisicion del Bien">  
+                        <group col="4" colspan="2">
+                            <field name="forma_adquisi_id" select="2"/>
+                             <field name="fecha_adquisi" select="0"/>
+                            <field name="codigo_ad"  readonly="1" force_save="1"/> 
+                             <field name="codigo_ori"  readonly="1" force_save="1" /> 
+                            <field name="detalle_adquisi_codigo"   force_save="1"/>
+                            <field name="fecha_de_ingreso_bien" select="0"/>
+                          </group>    
+                     </page>
+                             
+                        <page string= "Compra  (A-)" attrs="{'invisible': [(('codigo_ad'),'!=','1')]}">
+                                <group col="6" colspan="2">
+                                   <field name="numero_factura"  attrs="{'required': [('codigo_ad','=', '1')]}"/>
+                                   <field name="fecha_factura" attrs="{'required': [('codigo_ad','=', '1')]}"/>
+                                   <field name="proveedores_id" select="0"/>
+                                   <field name="monto_fact" select="0"/>
+                                   <field name="numero_ordcompra" select="0"/>
+                                   <field name="fecha_ordcompra" select="0"/>
+                      
+
+                                </group>    
+                         </page>
+
+                         <page string= "Permuta (B-)" attrs="{'invisible': [(('codigo_ad'),'!=','2')]}">
+                               <group col="6" colspan="2">
+                                    
+                                    <field name="nombre_registro"  attrs="{'required': [('codigo_ad','=', '2')]}"/>
+                                    <field name="tomo"  attrs="{'required': [('codigo_ad','=', '2')]}"/>
+                                    <field name="folio" attrs="{'required': [('codigo_ad','=', '2')]}"/>
+                                    <field name="fecha_registro"  attrs="{'required': [('codigo_ad','=', '2')]}"/>
+                                    <field name="numero_contrato" attrs="{'required': [('codigo_ad','=', '2')]}"/>
+                                    <field name="fecha_contrato" select="0"/>  
+                                    <field name="modalidad_permuta" attrs="{'required': [('codigo_ad','=', '2')]}"/>
+                                    <field name="nombre_licitacion" attrs="{'required': [('codigo_ad','=', '2')]}"/>
+                                    <field name="numero_licitacion" attrs="{'required': [('codigo_ad','=', '2')]}"/> 
+                                    <field name="fecha_licitacion" attrs="{'required': [('codigo_ad','=', '2')]}"/>
+                                    <field name="nombre_copermutante" select="0"/>
+                                    <field name="nombre_benefici" select="0"/> 
+                                    
+                                 
+                                </group> 
+                         </page>       
+
+                  
+                  <page string= "Dación en Pago (D-)" attrs="{'invisible': [('codigo_ad','!=','3')]}">
+                               <group col="6" colspan="2">
+                                    <field name="nombre_registro" attrs="{'required': [('codigo_ad','=', '3')]}"/>
+                                    <field name="tomo" attrs="{'required': [('codigo_ad','=', '3')]}"/>
+                                    <field name="folio"  attrs="{'required': [('codigo_ad','=', '3')]}"/>
+                                    <field name="fecha_registro"  attrs="{'required': [('codigo_ad','=', '3')]}"/>
+                                    <field name="nombre_benefici" attrs="{'required': [('codigo_ad','=', '3')]}"/> 
+                                    <field name="nombre_cedente" attrs="{'required': [('codigo_ad','=', '3')]}"/>
+                                    <field name="numero_contrato" attrs="{'required':    [('codigo_ad','=', '3')]}"/>
+                                    <field name="fecha_contrato" attrs="{'required': [('codigo_ad','=', '3')]}"/>
+                                    <field name="numero_finiquito" select="0"/>
+                                    <field name="fecha_finiquito" select="0"/>
+                                </group> 
+                  </page>                                             
+              
+                  <page string= "Donación (C-)" attrs="{'invisible': [('codigo_ad','!=','4')]}">
+                               <group col="6" colspan="2">
+                                   
+                                    <field name="nombre_registro" attrs="{'required': [('codigo_ad','=', '4')]}"/>
+                                    <field name="tomo" attrs="{'required': [('codigo_ad','=', '4')]}"/>
+                                    <field name="folio" attrs="{'required': [('codigo_ad','=', '4')]}"/>
+                                    <field name="fecha_registro" attrs="{'required': [('codigo_ad','=', '4')]}"/>
+                                    <field name="nombre_benefici" attrs="{'required': [('codigo_ad','=', '4')]}"/> 
+                                    <field name="numero_contrato" attrs="{'required': [('codigo_ad','=', '4')]}"/>
+                                    <field name="fecha_contrato" attrs="{'required': [('codigo_ad','=', '4')]}"/>
+                                    <field name="nombre_donante" attrs="{'required': [('codigo_ad','=', '4')]}"/>
+                                   
+                                </group> 
+                  </page>                          
+
+                  <page string= "Transferencia (F-)" attrs="{'invisible': [('codigo_ad','!=','5')]}">
+                               <group col="6" colspan="2">
+                                    <field name="nombre_organo_emisor" attrs="{'required': [('codigo_ad','=', '5')]}"/>
+                                    <field name="num_acta" attrs="{'required': [('codigo_ad','=', '5')]}"/>
+                                    <field name="fecha_acta" attrs="{'required': [('codigo_ad','=', '5')]}"/>
+                                    <field name="num_bienes" attrs="{'required': [('codigo_ad','=', '5')]}"/>
+
+                                    <field name="nombre_benefici" />    
+                                    <field name="nombre_registro" select="0"/>
+                                    <field name="tomo" select="0"/>
+                                    <field name="folio" select="0"/>
+                                    <field name="fecha_registro" select="0"/>
+                                </group> 
+                  </page>                          
+
+                <page string= "Expropiación (E-)" attrs="{'invisible': [('codigo_ad','!=','6')]}">
+                               <group col="6" colspan="2">
+                                    
+                                    <field name="nombre_autoridad" attrs="{'required': [('codigo_ad','=', '6')]}"/> 
+                                    <field name="cargo_autoridad" attrs="{'required': [('codigo_ad','=', '6')]}"/> 
+                                    <field name="codigo_auto" attrs="{'invisible': [('codigo_ad','!=', '6')]}"  style="width:16%"/> 
+                                    <field name="estado_autoridad_id" 
+                                      attrs="{'invisible': ['codigo_auto','=','0'],
+                                      'required':['|', ('codigo_ad','=', '6'),
+                                      ('codigo_auto','in',('1','2'))]}"/> 
+                                    <field name="municipio_autoridad_id" 
+                                      attrs="{'invisible': ['codigo_auto','=','0'],
+                                      'required':['|', ('codigo_ad','=', '6'),
+                                      ('codigo_auto','in',('1','2'))]}"/> 
+
+                                    <field name="num_sentencia" attrs="{'required': [('codigo_ad','=', '6')]}"/>
+                                    <field name="fecha_sentencia"/>
+
+                                    <field name="tribunal" attrs="{'required': [('codigo_ad','=', '6')]}"/>
+                                    <field name="num_decreto" attrs="{'required': [('codigo_ad','=', '6')]}"/>
+                                    <field name="fecha_decreto"/>
+                                    <field name="nombre_prop_ant" select="0"/>
+                                    <field name="nombre_benefici" select="0"/> 
+                                    
+                                    <field name="nombre_registro" select="0"/>
+                                    <field name="fecha_registro" select="0"/>
+                                    <field name="tomo" select="0"/>
+                                    <field name="folio" select="0"/>
+                                   
+                                </group> 
+                </page>                         
+            
+                 <page string= "Confiscación (G-)" attrs="{'invisible': [('codigo_ad','!=','7')]}">
+                               <group col="4" colspan="2">
+
+                                     <field name="nombre_autoridad" attrs="{'required': [('codigo_ad','=', '7')]}"/> 
+                                     <field name="num_sentencia" attrs="{'required': [('codigo_ad','=', '7')]}"/>
+                                     <field name="fecha_sentencia" attrs="{'required': [('codigo_ad','=', '7')]}"/>
+                                     <field name="tribunal" attrs="{'required': [('codigo_ad','=', '7')]}"/>
+                                   
+                                     <field name="nombre_prop_ant_confi"/>
+                                     <field name="nombre_benefici" />    
+                                     <field name="nombre_registro" select="0"/>
+                                     <field name="tomo" select="0"/>
+                                     <field name="folio" select="0"/>
+                                     <field name="fecha_registro" select="0"/>
+                                </group> 
+                  </page>                          
+            
+                 <page string= "Aporte a Capital Social (H-)" attrs="{'invisible': [('codigo_ad','!=','8')]}">
+                               <group col="4" colspan="2">
+                                     <field name="nombre_registro" attrs="{'required': [('codigo_ad','=', '8')]}"/>
+                                     <field name="tomo" attrs="{'required': [('codigo_ad','=', '8')]}"/>
+                                     <field name="folio" attrs="{'required': [('codigo_ad','=', '8')]}"/>
+                                     <field name="fecha_registro" attrs="{'required': [('codigo_ad','=', '8')]}"/>
+                                     <field name="num_acta" attrs="{'required': [('codigo_ad','=', '8')]}"/>
+                                     <field name="fecha_acta" attrs="{'required': [('codigo_ad','=', '8')]}"/>
+                                     <field name="nombre_accionista" attrs="{'required': [('codigo_ad','=', '8')]}"/>
+                                   
+                                </group> 
+                  </page>       
+
+                  <page string= "Comiso (I-)" attrs="{'invisible': [('codigo_ad','!=','9')]}">
+                               <group col="4" colspan="2">
+                                     <field name="num_sentencia" attrs="{'required': [('codigo_ad','=', '9')]}"/>
+                                     <field name="fecha_sentencia" attrs="{'required': [('codigo_ad','=', '9')]}"/>
+                                     <field name="tribunal" attrs="{'required': [('codigo_ad','=', '9')]}"/>
+                                    
+                                </group> 
+                  </page>       
+
+                   <page string= "Embargo (J-)" attrs="{'invisible': [('codigo_ad','!=','10')]}">
+                               <group col="4" colspan="2">
+                                     <field name="num_sentencia" attrs="{'required': [('codigo_ad','=', '10')]}"/>
+                                     <field name="fecha_sentencia" attrs="{'required': [('codigo_ad','=', '10')]}"/>
+                                     <field name="tribunal" attrs="{'required': [('codigo_ad','=', '10')]}"/>
+                                    
+                                </group> 
+                  </page>       
+
+
+                   <page string= "Nacionalización (K-)" attrs="{'invisible': [('codigo_ad','!=','11')]}">
+                               <group col="4" colspan="2">
+                                     <field name="num_decreto" attrs="{'required': [('codigo_ad','=', '11')]}"/>
+                                     <field name="fecha_decreto" attrs="{'required': [('codigo_ad','=', '11')]}"/>
+                                    
+                                </group> 
+                  </page>       
+    
+
+                  <page string= "Fusión por Incorporación y/o Absorción (L-)" attrs="{'invisible': [('codigo_ad','!=','12')]}">
+                               <group col="4" colspan="2">
+                                     <field name="nombre_registro" attrs="{'required': [('codigo_ad','=', '12')]}"/>
+                                     <field name="numero_registro" attrs="{'required': [('codigo_ad','=', '12')]}"/>
+                                     <field name="numero_resolucion" attrs="{'required': [('codigo_ad','=', '12')]}"/>
+                                     <field name="fecha_resolucion" attrs="{'required': [('codigo_ad','=', '12')]}"/>
+                                     <field name="numero_gaceta" attrs="{'required': [('codigo_ad','=', '12')]}"/>
+                                     <field name="fecha_gaceta" attrs="{'required': [('codigo_ad','=', '12')]}"/>
+                                     <field name="tomo_documento" attrs="{'required': [('codigo_ad','=', '12')]}"/>
+                                     <field name="folio_documento" attrs="{'required': [('codigo_ad','=', '12')]}"/>
+                                     <field name="num_acta" attrs="{'required': [('codigo_ad','=', '12')]}"/>
+                                     <field name="fecha_acta" attrs="{'required': [('codigo_ad','=', '12')]}"/>
+                                     <field name="numero_contrato" attrs="{'required': [('codigo_ad','=', '12')]}"/>
+                                     <field name="fecha_contrato" attrs="{'required': [('codigo_ad','=', '12')]}"/>
+                                     <field name="fecha_registro" attrs="{'required': [('codigo_ad','=', '12')]}"/>
+
+                             </group> 
+                  </page>    
+                      
+              
+               
+                      
+
+                </notebook>
+               </sheet>         
+            </form>
+        </field>
+    </record>
+    
+    
+    
+    <record model="ir.ui.view" id="view_detalle_adquisi_tree">
+        <field name="name">detalle_adquisi.tree</field>
+        <field name="model">detalle_adquisi</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="detalle_adquisi">
+                <field name="forma_adquisi_id" />
+                        <field name="fecha_adquisi" />
+                        <field name="codigo_ad"/> 
+                        <field name="codigo_ori" /> 
+                        <field name="detalle_adquisi_codigo"/>
+                        <field name="fecha_de_ingreso_bien"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_detalle_adquisi">
+        <field name="name">Detalle de Adquisición del Bien</field>
+        <field name="res_model">detalle_adquisi</field>
+       
+        <field name="view_mode">tree,form</field>
+    </record>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <menuitem name="Registro de adquisicion del bien ante la SUDEBIP" id="menu_registro_ adquisicion" parent="menu_sude"/>
+                    <menuitem name="Proveedores" id="menu_proveedores" parent="menu_registro_ adquisicion" action="action_proveedores"/>
+                    <menuitem name="Formas de Adquisicion" id="menu_forma_adquisicion"  parent="menu_registro_ adquisicion" action="action_forma_adquisicion"/>
+                    <menuitem name="Detalle de Adquisicion del Bien" id="menu_detalle_adquisi"  parent="menu_registro_ adquisicion" action="action_detalle_adquisi"/>
+                    <menuitem name="Autoridad según 
+                                   en la Sudebip" id="menu_cargo_autoridad"
+                     parent="menu_registro_ adquisicion" action="action_cargo_autoridad"/>
+
+      
+</data>
+</odoo>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="estado_bien_1" model="estado_bien">
+			<field name="estado_bien_codigo">1</field>
+			<field name="estado_bien_nombre">Operativo</field>
+		</record>
+	
+		<record id="estado_bien_2" model="estado_bien">
+			<field name="estado_bien_codigo">2</field>
+			<field name="estado_bien_nombre">En mantenimiento</field>
+		</record>
+		<record id="estado_bien_3" model="estado_bien">
+			<field name="estado_bien_codigo">3</field>
+			<field name="estado_bien_nombre">En reparación</field>
+		</record>
+		<record id="estado_bien_4" model="estado_bien">
+			<field name="estado_bien_codigo">4</field>
+			<field name="estado_bien_nombre">En proceso de disposición</field>
+		</record>
+		<record id="estado_bien_5" model="estado_bien">
+			<field name="estado_bien_codigo">5</field>
+			<field name="estado_bien_nombre">En desuso por obsolescencia</field>
+		</record>
+		<record id="estado_bien_6" model="estado_bien">
+			<field name="estado_bien_codigo">6</field>
+			<field name="estado_bien_nombre">En desuso por  inservibilidad</field>
+		</record>
+	
+	</data>
+</odoo>
+
+
+
+

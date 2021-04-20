@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="tipo_piso_1" model="tipo_piso">
+			<field name="tipo_piso_codigo">1</field>
+			<field name="tipo_piso_nombre">TIERRA</field>
+		</record>
+		<record id="tipo_piso_2" model="tipo_piso">
+			<field name="tipo_piso_codigo">2</field>
+			<field name="tipo_piso_nombre">CEMENTO</field>
+		</record>
+		<record id="tipo_piso_3" model="tipo_piso">
+			<field name="tipo_piso_codigo">3</field>
+			<field name="tipo_piso_nombre">LADRILLO</field>
+		</record>
+		<record id="tipo_piso_4" model="tipo_piso">
+			<field name="tipo_piso_codigo">4</field>
+			<field name="tipo_piso_nombre">MOSAICO</field>
+		</record>
+		<record id="tipo_piso_5" model="tipo_piso">
+			<field name="tipo_piso_codigo">5</field>
+			<field name="tipo_piso_nombre">GRANITO</field>
+		</record>
+		
+
+	</data>
+</odoo>
+
+
+
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="estatus_uso_1" model="estatus_uso">
+			<field name="estatus_uso_codigo">1</field>
+			<field name="estatus_uso_nombre">En uso</field>
+		</record>
+		<record id="estatus_uso_2" model="estatus_uso">
+			<field name="estatus_uso_codigo">2</field>
+			<field name="estatus_uso_nombre">En comodato</field>
+		</record>
+		<record id="estatus_uso_3" model="estatus_uso">
+			<field name="estatus_uso_codigo">3</field>
+			<field name="estatus_uso_nombre">En arrendamiento</field>
+		</record>
+		<record id="estatus_uso_4" model="estatus_uso">
+			<field name="estatus_uso_codigo">4</field>
+			<field name="estatus_uso_nombre">En Almacén o Depósito para asignación</field>
+		</record>
+		<record id="estatus_uso_5" model="estatus_uso">
+			<field name="estatus_uso_codigo">5</field>
+			<field name="estatus_uso_nombre">Asignación o Adscripción</field>
+		</record>
+		<record id="estatus_uso_6" model="estatus_uso">
+			<field name="estatus_uso_codigo">6</field>
+			<field name="estatus_uso_nombre">Conseción</field>
+		</record>
+		<record id="estatus_uso_7" model="estatus_uso">
+			<field name="estatus_uso_codigo">7</field>
+			<field name="estatus_uso_nombre">Permiso</field>
+		</record>
+		<record id="estatus_uso_8" model="estatus_uso">
+			<field name="estatus_uso_codigo">8</field>
+			<field name="estatus_uso_nombre">Autorizacion</field>
+		</record>
+		
+	</data>
+</odoo>
+
+
+
+

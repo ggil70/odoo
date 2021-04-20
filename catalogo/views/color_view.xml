@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+
+
+    <record model="ir.ui.view" id="view_color_form">
+        <field name="name">color.form</field>
+        <field name="model">color</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="color">
+			  <sheet>
+				<notebook>
+				  <page string="Color del Bien">	    
+					<group col="4" colspan="2">
+
+						<field name="color_codigo" readonly="True" force_save="1"/>
+						<field name="color_nombre" select="2"/>
+   					</group>			
+				 </page>
+			   </notebook>
+			  </sheet>	
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_color_tree">
+        <field name="name">color.tree</field>
+        <field name="model">color</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="color">
+	           <field name="color_codigo"/>
+               <field name="color_nombre"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_color">
+        <field name="name">Color de los Bienes </field>
+        <field name="res_model">color</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+	<menuitem name="Color de Bienes" id="menu_color"  parent="menu_cat_in"
+	 action="action_color" sequence="70" />
+</data>
+</odoo>

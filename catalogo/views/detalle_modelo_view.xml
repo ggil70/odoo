@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+
+
+<!--
+                       Moldeo de Bienes
+-->
+ <record model="ir.ui.view" id="view_detalle_modelo_bien_form">
+        <field name="name">detalle_modelo_bien.form</field>
+        <field name="model">detalle_modelo_bien</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="modelo_bien">
+			  <sheet>
+				<notebook>
+				  <page string="Modelos de Bienes">	    
+					<group col="4" colspan="2">
+
+                        <field name="grupo_bien_id"/>
+                        <field name="grupo_bien_codigo" readonly="True" force_save="1"/>      
+						<field name="clasificador_id" select="0"/>
+                        <field name="clasificador_codigo" readonly="True" force_save="1"/>
+                        <field name="modelo_id" select="2"/>
+                        <field name="modelo_codigo" readonly="True" force_save="1"/>
+                        <field name="detalle_modelo_codigo" readonly="True" force_save="1"/>
+                        <field name="detalle_modelo_nombre" select="2"/>
+						
+					</group>
+				  </page>
+			    </notebook>
+			</sheet>
+          </form>
+       </field>
+    </record>
+    <record model="ir.ui.view" id="view_detalle_modelo_bien_tree">
+        <field name="name">detalle_modelo_bien.tree</field>
+        <field name="model">detalle_modelo_bien</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="detalle_modelo_bien">
+
+                <field name="grupo_bien_id"/>
+                <field name="grupo_bien_codigo"/>
+                <field name="clasificador_id"/>
+                <field name="clasificador_codigo"/>
+                <field name="modelo_id"/>
+                <field name="modelo_codigo"/> 
+                <field name="detalle_modelo_codigo"/>
+                <field name="detalle_modelo_nombre"/>
+               
+            </tree>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_detalle_modelo_bien_search">
+        <field name="name">detalle_modelo_bien_search</field>
+        <field name="model">detalle_modelo_bien</field>
+        <field name="type">search</field>
+        <field name="arch" type="xml">
+            <search string="Busquedas del Detalle Modelo del Bien">
+                <field name="grupo_bien_id"/>
+                <field name="clasificador_id"/>
+                <field name="modelo_id"/> 
+                <field name="detalle_modelo_nombre"/>
+             </search>
+         
+        </field>
+    </record>        
+
+    <record model="ir.actions.act_window" id="action_detalle_modelo_bien">
+        <field name="name">Detalle del Modelo de Bienes</field>
+        <field name="res_model">detalle_modelo_bien</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+ 
+ 
+    <menuitem name="Detalle del Modelo de Bienes" id="menu_detalle_modelo_bien"  parent="menu_cat_in" action="action_detalle_modelo_bien" sequence="60" />
+
+</data>
+</odoo>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="tipo_techo_1" model="tipo_techo">
+			<field name="tipo_techo_codigo">1</field>
+			<field name="tipo_techo_nombre">METÁLICOS (ZINC O ALUMINIO)</field>
+		</record>
+		<record id="tipo_techo_2" model="tipo_techo">
+			<field name="tipo_techo_codigo">2</field>
+			<field name="tipo_techo_nombre">ASBESTO</field>
+		</record>
+		<record id="tipo_techo_3" model="tipo_techo">
+			<field name="tipo_techo_codigo">3</field>
+			<field name="tipo_techo_nombre">MADERA</field>
+		</record>
+		<record id="tipo_techo_4" model="tipo_techo">
+			<field name="tipo_techo_codigo">4</field>
+			<field name="tipo_techo_nombre">TEJAS DE ARCILLA SOBRE CAÑA AMARGA O SIMILAR</field>
+		</record>
+		<record id="tipo_techo_5" model="tipo_techo">
+			<field name="tipo_techo_codigo">5</field>
+			<field name="tipo_techo_nombre">OTRAS</field>
+		</record>
+		
+	
+	</data>
+</odoo>
+
+
+
+

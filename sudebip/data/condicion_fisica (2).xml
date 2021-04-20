@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="condicion_fisica_1" model="condicion_fisica">
+			<field name="condicion_fisica_codigo">1</field>
+			<field name="condicion_fisica_nombre">Óptimo</field>
+		</record>
+        <record id="condicion_fisica_2" model="condicion_fisica">
+			<field name="condicion_fisica_codigo">2</field>
+			<field name="condicion_fisica_nombre">Bueno</field>
+		</record>		
+        <record id="condicion_fisica_3" model="condicion_fisica">
+			<field name="condicion_fisica_codigo">3</field>
+			<field name="condicion_fisica_nombre">Regular</field>
+		</record>
+		<record id="condicion_fisica_4" model="condicion_fisica">
+			<field name="condicion_fisica_codigo">4</field>
+			<field name="condicion_fisica_nombre">Deteriorado</field>
+		</record>
+		<record id="condicion_fisica_5" model="condicion_fisica">
+			<field name="condicion_fisica_codigo">5</field>
+			<field name="condicion_fisica_nombre">Averiado</field>
+		</record>
+		<record id="condicion_fisica_6" model="condicion_fisica">
+			<field name="condicion_fisica_codigo">6</field>
+			<field name="condicion_fisica_nombre">Chatarra</field>
+		</record>
+		<record id="condicion_fisica_7" model="condicion_fisica">
+			<field name="condicion_fisica_codigo">7</field>
+			<field name="condicion_fisica_nombre">No operativo</field>
+		</record>
+		<record id="condicion_fisica_8" model="condicion_fisica">
+			<field name="condicion_fisica_codigo">8</field>
+			<field name="condicion_fisica_nombre">Otra condición física</field>
+		</record>
+	</data>
+</odoo>
+
+
+
+

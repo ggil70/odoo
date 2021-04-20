@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <data noupdate="1">
+          <record id="tipos_lugares_ubicacion_sudebip_1" model="tipos_lugares_ubicacion_sudebip">
+            <field name="codigo_lugar">1</field>
+            <field name="nombre_lugar">Sede Principal</field>
+          </record>
+
+          <record id="tipos_lugares_ubicacion_sudebip_2" model="tipos_lugares_ubicacion_sudebip">
+            <field name="codigo_lugar">2</field>
+            <field name="nombre_lugar">Puerto</field>
+          </record>
+
+          <record id="tipos_lugares_ubicacion_sudebip_3" model="tipos_lugares_ubicacion_sudebip">
+            <field name="codigo_lugar">3</field>
+            <field name="nombre_lugar">Aeropuerto</field>
+          </record>
+
+          <record id="tipos_lugares_ubicacion_sudebip_4" model="tipos_lugares_ubicacion_sudebip">
+            <field name="codigo_lugar">4</field>
+            <field name="nombre_lugar">Campamento</field>
+          </record>
+
+          <record id="tipos_lugares_ubicacion_sudebip_5" model="tipos_lugares_ubicacion_sudebip">
+            <field name="codigo_lugar">5</field>
+            <field name="nombre_lugar">Taller</field>
+          </record>
+
+          <record id="tipos_lugares_ubicacion_sudebip_6" model="tipos_lugares_ubicacion_sudebip">
+            <field name="codigo_lugar">6</field>
+            <field name="nombre_lugar">Almacén</field>
+          </record>
+
+          <record id="tipos_lugares_ubicacion_sudebip_7" model="tipos_lugares_ubicacion_sudebip">
+            <field name="codigo_lugar">7</field>
+            <field name="nombre_lugar">Galpón</field>
+          </record>
+
+          <record id="tipos_lugares_ubicacion_sudebip_8" model="tipos_lugares_ubicacion_sudebip">
+            <field name="codigo_lugar">8</field>
+            <field name="nombre_lugar">Otro  Tipo de Sede  o Lugar </field>
+          </record>
+  </data> 
+</odoo>

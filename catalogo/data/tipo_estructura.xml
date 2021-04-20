@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="estructura_1" model="estructura_inmueble">
+			<field name="estructura_codigo">1</field>
+			<field name="estructura_nombre">PAREDES DE CARGA</field>
+		</record>
+		<record id="estructura_2" model="estructura_inmueble">
+			<field name="estructura_codigo">2</field>
+			<field name="estructura_nombre">MADERA</field>
+		</record>
+		<record id="estructura_3" model="estructura_inmueble">
+			<field name="estructura_codigo">3</field>
+			<field name="estructura_nombre">METÁLICA</field>
+		</record>
+		<record id="estructura_4" model="estructura_inmueble">
+			<field name="estructura_codigo">4</field>
+			<field name="estructura_nombre">CONCRETO ARMADO</field>
+		</record>
+		<record id="estructura_5" model="estructura_inmueble">
+			<field name="estructura_codigo">5</field>
+			<field name="estructura_nombre">OTRAS</field>
+		</record>
+		
+
+	</data>
+</odoo>
+
+
+
+

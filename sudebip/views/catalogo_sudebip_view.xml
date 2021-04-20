@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+
+<!--
+     *****************Catalogo de la Sudebip****************************
+-->
+  
+  <!--
+     *****************Clasificacion General de la Sudebip****************************
+-->
+
+
+   <record model="ir.ui.view" id="view_catalogo_sudebi_form">
+        <field name="name">catalogo_sudebi.form</field>
+        <field name="model">catalogo_sudebi</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="catalogo_sudebi">
+                <sheet>
+                   <notebook>
+                     <page string="Catalogo General de la SUDEBIP">     
+                        <group col="2" colspan="2">
+                            <field name="catalogo_sudebi_codigo" select="1"/>
+                            <field name="catalogo_sudebi_nombre" select="2"/>
+                        </group>            
+                    </page>
+                 </notebook>
+               </sheet>             
+            </form>
+        </field>
+    </record>
+   
+
+
+    <record model="ir.ui.view" id="view_catalogo_sudebi_tree">
+        <field name="name">catalogo_sudebi.tree</field>
+        <field name="model">catalogo_sudebi</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="catalogo_sudebi">
+                <field name="catalogo_sudebi_codigo"/>
+                <field name="catalogo_sudebi_nombre"/>
+
+            </tree>
+        </field>
+    </record>
+   
+ 
+    <record model="ir.actions.act_window" id="action_catalogo_sudebi">
+        <field name="name">Catalogo General de Bienes segun (SUDEBIP)</field>
+        <field name="res_model">catalogo_sudebi</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+
+ <!--
+     *****************Clasificacion SubGeneral de la Sudebip****************************
+-->
+ 
+    <record model="ir.ui.view" id="view_catalogo_sudebi_sub_form">
+        <field name="name">catalogo_sudebi_sub.form</field>
+        <field name="model">catalogo_sudebi_sub</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="catalogo_sudebi_sub">
+                <sheet>
+                   <notebook>
+                     <page string="Catalogo Sub-General de la SUDEBIP">     
+                        <group col="2" colspan="2">
+                            <field name="catalogo_sudebi_id" select="0"/>
+                            <field name="catalogo_sudebi_codigo"/>
+                            <field name="catalogo_sudebi_sub_codigo" select="1"/>
+                            <field name="catalogo_sudebi_sub_nombre" select="2"/>
+                           
+                        </group>    
+                    </page>
+                 </notebook>
+               </sheet>         
+            </form>
+        </field>
+    </record>
+    
+    <record model="ir.ui.view" id="view_catalogo_sudebi_sub_tree">
+        <field name="name">catalogo_sudebi_sub.tree</field>
+        <field name="model">catalogo_sudebi_sub</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="catalogo_sudebi_sub">
+                <field name="catalogo_sudebi_id"/>
+                <field name="catalogo_sudebi_codigo"/>
+                <field name="catalogo_sudebi_sub_codigo"/>
+                <field name="catalogo_sudebi_sub_nombre"/>
+                
+
+            </tree>
+        </field>
+    </record>
+   
+    <record model="ir.actions.act_window" id="action_catalogo_sudebi_sub">
+        <field name="name">Catalogo Sub-General de Bienes segun (SUDEBIP)</field>
+        <field name="res_model">catalogo_sudebi_sub</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+
+<!--
+     *****************Clasificacion Especifica de la Sudebip****************************
+-->
+
+ <record model="ir.ui.view" id="view_catalogo_sudebi_esp_form">
+        <field name="name">catalogo_sudebi_esp.form</field>
+        <field name="model">catalogo_sudebi_esp</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="catalogo_sudebi_esp">
+                <sheet>
+                   <notebook>
+                     <page string="Catalogo EspecÃ­fico de la SUDEBIP">     
+                        <group col="2" colspan="2">
+                            <field name="catalogo_sudebi_id" select="0"/>
+                            <field name="catalogo_sudebi_codigo"/>
+                            <field name="catalogo_sudebi_sub_id" select="0"/>
+                            <field name="catalogo_sudebi_sub_codigo" select="1"/>
+                            
+                            <field name="catalogo_sudebi_esp_codigo" select="1"/>
+                            <field name="catalogo_sudebi_esp_nombre" select="2"/>
+                           
+                        </group>    
+                    </page>
+                 </notebook>
+               </sheet>         
+            </form>
+        </field>
+    </record>
+    
+    <record model="ir.ui.view" id="view_catalogo_sudebi_esp_tree">
+        <field name="name">catalogo_sudebi_esp.tree</field>
+        <field name="model">catalogo_sudebi_esp</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="catalogo_sudebi_esp">
+                <field name="catalogo_sudebi_codigo"/>
+                <field name="catalogo_sudebi_id" select="0"/>
+                <field name="catalogo_sudebi_sub_codigo" select="1"/>
+                <field name="catalogo_sudebi_sub_id"/>
+                <field name="catalogo_sudebi_esp_codigo"/>
+                <field name="catalogo_sudebi_esp_nombre"/>
+                
+
+            </tree>
+        </field>
+    </record>
+   
+    <record model="ir.actions.act_window" id="action_catalogo_sudebi_esp">
+        <field name="name">Catalogo Especifico de Bienes segun (SUDEBIP)</field>
+        <field name="res_model">catalogo_sudebi_esp</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+   
+
+
+<!-- ********************Color segun Sudebip***************** -->
+
+
+<record model="ir.ui.view" id="view_color_sudebi_form">
+        <field name="name">color_sudebi.form</field>
+        <field name="model">color_sudebi</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="color_sudebi">
+                <sheet>
+                   <notebook>
+                     <page string="Color de los Bienes segun la SUDEBIP">       
+                        <group col="4" colspan="2">
+                            <field name="color_sudebi_codigo" select="1"/>
+                            <field name="color_sudebi_nombre" select="2"/>
+                        </group>    
+                    </page>
+                 </notebook>
+               </sheet>     
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_color_sudebi_tree">
+        <field name="name">color_sudebi.tree</field>
+        <field name="model">color_sudebi</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="color_sudebi">
+                <field name="color_sudebi_codigo"/>
+                <field name="color_sudebi_nombre"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_color_sudebi">
+        <field name="name">Color de los Bienes segun SUDEBIP</field>
+        <field name="res_model">color_sudebi</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+      
+  
+
+
+<!--
+     *****************Clasificacion de Vehiculos de la Sudebip****************************
+-->
+
+
+<record model="ir.ui.view" id="view_clase_sudebi_form">
+        <field name="name">clase_sudebi.form</field>
+        <field name="model">clase_sudebi</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="clase_sudebi">
+                <sheet>
+                   <notebook>
+                     <page string="Clase de Vehí­culos segun la SUDEBIP">       
+                        <group col="4" colspan="2">
+                            <field name="clase_sudebi_codigo" select="1"/>
+
+                            <field name="clase_sudebi_nombre" />
+                                             
+                        </group>    
+                    </page>
+                 </notebook>
+               </sheet>     
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_clase_sudebi_tree">
+        <field name="name">clase_sudebi.tree</field>
+        <field name="model">clase_sudebi</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="clase_sudebi">
+                <field name="clase_sudebi_codigo"/>
+                <field name="clase_sudebi_nombre" />
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_clase_sudebi">
+        <field name="name">Clase de Vehí­culos segun SUDEBIP</field>
+        <field name="res_model">clase_sudebi</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+  
+  
+  
+  
+         
+    <menuitem name="Catalogo de la SUDEBIP" id="menu_sude" web_icon="sudebip,static/description/sudebip.jpg" sequence="450"/>
+		
+        <menuitem name="Registro del Catalogo de la SUDEBIP" id="menu_registro" parent="menu_sude"/>
+        
+			  
+     	
+		<menuitem name=" Catalogo de la SUDEBIP" id="menu_cat_sud" parent="menu_sude"/>
+					<menuitem name="Catalogo General de Bienes segun (SUDEBIP)" id="menu_catalogo_sudebi" parent="menu_cat_sud" action="action_catalogo_sudebi"/>
+					<menuitem name="Catalogo Sub-General de Bienes segun (SUDEBIP)" id="menu_catalogo_sudebi_sub" parent="menu_cat_sud" action="action_catalogo_sudebi_sub"/>
+					<menuitem name="Catalogo Especifico de Bienes segun (SUDEBIP)" id="menu_catalogo_sudebi_esp" parent="menu_cat_sud" action="action_catalogo_sudebi_esp"/>
+                    <menuitem name="Color de Bienes segun (SUDEBIP)" id="menu_color_sudebi" parent="menu_cat_sud" action="action_color_sudebi"/>
+
+        <menuitem name="Registro del Catalogo para Vehículos de la SUDEBIP" id="menu_registro_vehiculos" parent="menu_sude"/>
+					<menuitem name="Clase de Vehículos (SUDEBIP)" id="menu_clase_sudebi" parent="menu_registro_vehiculos" action="action_clase_sudebi"/>
+</data>
+</odoo>
